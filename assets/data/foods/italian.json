@@ -1,0 +1,2464 @@
+{
+  "cuisineId": "italian",
+  "foods": [
+    {
+      "id": "it_pizza_margherita",
+      "cuisineId": "italian",
+      "emoji": "🍕",
+      "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=800&q=80",
+      "color": "FFE84545",
+      "prepTime": 30,
+      "cookTime": 12,
+      "difficulty": "medium",
+      "calories": 270,
+      "servings": 4,
+      "isPremium": false,
+      "tags": [
+        "baked",
+        "vegetarian",
+        "classic"
+      ],
+      "name": {
+        "en": "Pizza Margherita",
+        "tr": "Pizza Margherita",
+        "es": "Pizza Margherita",
+        "de": "Pizza Margherita"
+      },
+      "description": {
+        "en": "The classic Neapolitan pizza with San Marzano tomatoes, fresh mozzarella, and basil.",
+        "tr": "San Marzano domates, taze mozzarella ve fesleğen ile klasik Napoliten pizza.",
+        "es": "La clásica pizza napolitana con tomates San Marzano, mozzarella fresca y albahaca.",
+        "de": "Die klassische neapolitanische Pizza mit San-Marzano-Tomaten, frischem Mozzarella und Basilikum."
+      },
+      "ingredients": [
+        {
+          "en": "Pizza dough (flour, water, yeast, salt)",
+          "tr": "Pizza hamuru (un, su, maya, tuz)",
+          "es": "Masa de pizza (harina, agua, levadura, sal)",
+          "de": "Pizzateig (Mehl, Wasser, Hefe, Salz)"
+        },
+        {
+          "en": "200g San Marzano tomatoes",
+          "tr": "200g San Marzano domates",
+          "es": "200g tomates San Marzano",
+          "de": "200g San-Marzano-Tomaten"
+        },
+        {
+          "en": "200g fresh mozzarella",
+          "tr": "200g taze mozzarella",
+          "es": "200g mozzarella fresca",
+          "de": "200g frischer Mozzarella"
+        },
+        {
+          "en": "Fresh basil leaves",
+          "tr": "Taze fesleğen yaprakları",
+          "es": "Hojas frescas de albahaca",
+          "de": "Frische Basilikumblätter"
+        },
+        {
+          "en": "Extra virgin olive oil",
+          "tr": "Sızma zeytinyağı",
+          "es": "Aceite de oliva virgen extra",
+          "de": "Natives Olivenöl extra"
+        }
+      ],
+      "steps": [
+        {
+          "en": "Stretch dough into a thin circle on a floured surface.",
+          "tr": "Hamuru unlanmış yüzeyde ince bir daire şeklinde açın.",
+          "es": "Estirar la masa en un círculo delgado sobre superficie enharinada.",
+          "de": "Teig auf bemehlter Fläche zu einem dünnen Kreis ausziehen."
+        },
+        {
+          "en": "Spread crushed tomatoes, leaving a border for the crust.",
+          "tr": "Ezilmiş domatesleri kenar boşluğu bırakarak yayın.",
+          "es": "Extender tomates triturados, dejando un borde para la corteza.",
+          "de": "Zerdrückte Tomaten verteilen, einen Rand für die Kruste lassen."
+        },
+        {
+          "en": "Tear mozzarella into pieces and distribute evenly.",
+          "tr": "Mozzarellayı parçalara ayırıp eşit dağıtın.",
+          "es": "Desgarrar la mozzarella en trozos y distribuir uniformemente.",
+          "de": "Mozzarella in Stücke reißen und gleichmäßig verteilen."
+        },
+        {
+          "en": "Bake at highest oven temperature (250-300°C) for 8-12 minutes.",
+          "tr": "En yüksek fırın sıcaklığında (250-300°C) 8-12 dakika pişirin.",
+          "es": "Hornear a la temperatura más alta del horno (250-300°C) durante 8-12 minutos.",
+          "de": "Bei höchster Ofentemperatur (250-300°C) 8-12 Minuten backen."
+        },
+        {
+          "en": "Top with fresh basil and a drizzle of olive oil.",
+          "tr": "Taze fesleğen ve zeytinyağı ile süsleyin.",
+          "es": "Cubrir con albahaca fresca y un chorrito de aceite de oliva.",
+          "de": "Mit frischem Basilikum und einem Schuss Olivenöl garnieren."
+        }
+      ]
+    },
+    {
+      "id": "it_carbonara",
+      "cuisineId": "italian",
+      "emoji": "🍝",
+      "image": "https://images.unsplash.com/photo-1612874742237-6526221588e3?auto=format&fit=crop&w=800&q=80",
+      "color": "FFF1C40F",
+      "prepTime": 10,
+      "cookTime": 15,
+      "difficulty": "medium",
+      "calories": 480,
+      "servings": 4,
+      "isPremium": false,
+      "tags": [
+        "pasta",
+        "meat",
+        "classic"
+      ],
+      "name": {
+        "en": "Pasta Carbonara",
+        "tr": "Makarna Carbonara",
+        "es": "Pasta Carbonara",
+        "de": "Pasta Carbonara"
+      },
+      "description": {
+        "en": "Silky egg-and-cheese sauce coating spaghetti with crispy guanciale — Rome's iconic pasta.",
+        "tr": "Çıtır guanciale ile ipeksi yumurta-peynir sosu kaplayan spagetti — Roma'nın ikonik makarnası.",
+        "es": "Salsa sedosa de huevo y queso cubriendo espaguetis con guanciale crujiente — la pasta icónica de Roma.",
+        "de": "Seidige Ei-Käse-Sauce, die Spaghetti mit knusprigem Guanciale umhüllt — Roms ikonische Pasta."
+      },
+      "ingredients": [
+        {
+          "en": "400g spaghetti",
+          "tr": "400g spagetti",
+          "es": "400g espaguetis",
+          "de": "400g Spaghetti"
+        },
+        {
+          "en": "200g guanciale or pancetta",
+          "tr": "200g guanciale veya pancetta",
+          "es": "200g guanciale o panceta",
+          "de": "200g Guanciale oder Pancetta"
+        },
+        {
+          "en": "4 egg yolks + 2 whole eggs",
+          "tr": "4 yumurta sarısı + 2 bütün yumurta",
+          "es": "4 yemas + 2 huevos enteros",
+          "de": "4 Eigelb + 2 ganze Eier"
+        },
+        {
+          "en": "100g Pecorino Romano, grated",
+          "tr": "100g Pecorino Romano, rendelenmiş",
+          "es": "100g Pecorino Romano, rallado",
+          "de": "100g Pecorino Romano, gerieben"
+        },
+        {
+          "en": "Black pepper",
+          "tr": "Karabiber",
+          "es": "Pimienta negra",
+          "de": "Schwarzer Pfeffer"
+        }
+      ],
+      "steps": [
+        {
+          "en": "Cook spaghetti in salted water until al dente.",
+          "tr": "Spagetti tuzlu suda al dente pişirin.",
+          "es": "Cocinar espaguetis en agua con sal hasta al dente.",
+          "de": "Spaghetti in Salzwasser al dente kochen."
+        },
+        {
+          "en": "Crisp guanciale in a pan without oil until golden.",
+          "tr": "Guanciale'yi yağsız tavada altın rengi olana kadar çıtırlaştırın.",
+          "es": "Dorar el guanciale en sartén sin aceite hasta quedar crujiente.",
+          "de": "Guanciale ohne Öl in einer Pfanne knusprig braten."
+        },
+        {
+          "en": "Whisk eggs, yolks, and grated Pecorino in a bowl.",
+          "tr": "Yumurtaları ve rendelenmiş Pecorino'yu bir kasede çırpın.",
+          "es": "Batir huevos, yemas y Pecorino rallado en un bol.",
+          "de": "Eier, Eigelb und geriebenen Pecorino in einer Schüssel verquirlen."
+        },
+        {
+          "en": "Toss hot pasta with guanciale OFF the heat, then add egg mixture.",
+          "tr": "Sıcak makarnayı ocaktan aldıktan sonra guanciale ile karıştırın, yumurta karışımını ekleyin.",
+          "es": "Mezclar la pasta caliente con guanciale FUERA del fuego, luego agregar la mezcla de huevo.",
+          "de": "Heiße Pasta mit Guanciale VOM Herd nehmen, dann Eimischung hinzufügen."
+        },
+        {
+          "en": "Stir vigorously to create creamy sauce. Add pasta water if needed.",
+          "tr": "Kremamsı sos oluşturmak için kuvvetlice karıştırın. Gerekirse makarna suyu ekleyin.",
+          "es": "Revolver vigorosamente para crear salsa cremosa. Agregar agua de pasta si es necesario.",
+          "de": "Kräftig rühren für eine cremige Sauce. Bei Bedarf Nudelwasser hinzufügen."
+        }
+      ]
+    },
+    {
+      "id": "it_lasagna",
+      "cuisineId": "italian",
+      "emoji": "🫕",
+      "image": "https://images.unsplash.com/photo-1574894709920-11b28e7367e3?auto=format&fit=crop&w=800&q=80",
+      "color": "FFE84545",
+      "prepTime": 40,
+      "cookTime": 45,
+      "difficulty": "hard",
+      "calories": 520,
+      "servings": 8,
+      "isPremium": false,
+      "tags": [
+        "pasta",
+        "meat",
+        "baked"
+      ],
+      "name": {
+        "en": "Lasagna",
+        "tr": "Lazanya",
+        "es": "Lasaña",
+        "de": "Lasagne"
+      },
+      "description": {
+        "en": "Layers of pasta, rich Bolognese ragù, creamy béchamel, and melted cheese.",
+        "tr": "Makarna, zengin Bolonez ragù, kremamsı beşamel ve erimiş peynir katmanları.",
+        "es": "Capas de pasta, ragú boloñés rico, bechamel cremosa y queso derretido.",
+        "de": "Schichten aus Pasta, reichhaltiger Bolognese-Ragù, cremiger Béchamel und geschmolzenem Käse."
+      },
+      "ingredients": [
+        {
+          "en": "Lasagna sheets",
+          "tr": "Lazanya yaprakları",
+          "es": "Láminas de lasaña",
+          "de": "Lasagneplatten"
+        },
+        {
+          "en": "500g Bolognese sauce",
+          "tr": "500g Bolonez sos",
+          "es": "500g salsa boloñesa",
+          "de": "500g Bolognese-Sauce"
+        },
+        {
+          "en": "Béchamel: butter, flour, milk",
+          "tr": "Beşamel: tereyağı, un, süt",
+          "es": "Bechamel: mantequilla, harina, leche",
+          "de": "Béchamel: Butter, Mehl, Milch"
+        },
+        {
+          "en": "200g Parmigiano-Reggiano",
+          "tr": "200g Parmesan",
+          "es": "200g Parmigiano-Reggiano",
+          "de": "200g Parmigiano-Reggiano"
+        }
+      ],
+      "steps": [
+        {
+          "en": "Prepare Bolognese ragù with ground meat, tomatoes and herbs.",
+          "tr": "Kıyma, domates ve otlarla Bolonez ragù hazırlayın.",
+          "es": "Preparar ragú boloñés con carne molida, tomates y hierbas.",
+          "de": "Bolognese-Ragù mit Hackfleisch, Tomaten und Kräutern zubereiten."
+        },
+        {
+          "en": "Make béchamel sauce with butter, flour, and milk.",
+          "tr": "Tereyağı, un ve süt ile beşamel sos yapın.",
+          "es": "Hacer salsa bechamel con mantequilla, harina y leche.",
+          "de": "Béchamelsauce aus Butter, Mehl und Milch herstellen."
+        },
+        {
+          "en": "Layer pasta, ragù, béchamel and cheese in a baking dish.",
+          "tr": "Fırın kabında makarna, ragù, beşamel ve peynir katmanlayın.",
+          "es": "Colocar capas de pasta, ragú, bechamel y queso en un molde.",
+          "de": "Pasta, Ragù, Béchamel und Käse in einer Auflaufform schichten."
+        },
+        {
+          "en": "Bake at 180°C for 40-45 minutes until golden and bubbling.",
+          "tr": "180°C fırında 40-45 dakika altın rengi ve fokurdayana kadar pişirin.",
+          "es": "Hornear a 180°C durante 40-45 minutos hasta dorar y burbujear.",
+          "de": "Bei 180°C 40-45 Minuten backen, bis goldbraun und blubbernd."
+        },
+        {
+          "en": "Rest for 15 minutes before cutting.",
+          "tr": "Kesmeden önce 15 dakika dinlendirin.",
+          "es": "Dejar reposar 15 minutos antes de cortar.",
+          "de": "15 Minuten ruhen lassen vor dem Anschneiden."
+        }
+      ]
+    },
+    {
+      "id": "it_risotto",
+      "cuisineId": "italian",
+      "emoji": "🍚",
+      "image": "https://images.unsplash.com/photo-1633964913295-ceb43826e7c9?auto=format&fit=crop&w=800&q=80",
+      "color": "FFF1C40F",
+      "prepTime": 10,
+      "cookTime": 25,
+      "difficulty": "medium",
+      "calories": 380,
+      "servings": 4,
+      "isPremium": false,
+      "tags": [
+        "rice",
+        "vegetarian"
+      ],
+      "name": {
+        "en": "Risotto alla Milanese",
+        "tr": "Risotto alla Milanese",
+        "es": "Risotto a la Milanesa",
+        "de": "Risotto alla Milanese"
+      },
+      "description": {
+        "en": "Creamy saffron-infused risotto — Milan's golden masterpiece.",
+        "tr": "Safranla aromatize edilmiş kremamsı risotto — Milano'nun altın başyapıtı.",
+        "es": "Risotto cremoso infusionado con azafrán — la obra maestra dorada de Milán.",
+        "de": "Cremiges Safran-Risotto — Mailands goldenes Meisterwerk."
+      },
+      "ingredients": [
+        {
+          "en": "350g Arborio rice",
+          "tr": "350g Arborio pirinci",
+          "es": "350g arroz Arborio",
+          "de": "350g Arborio-Reis"
+        },
+        {
+          "en": "Saffron threads",
+          "tr": "Safran iplikleri",
+          "es": "Hebras de azafrán",
+          "de": "Safranfäden"
+        },
+        {
+          "en": "1L warm broth",
+          "tr": "1L sıcak et suyu",
+          "es": "1L caldo caliente",
+          "de": "1L warme Brühe"
+        },
+        {
+          "en": "1 onion, white wine, butter, Parmigiano",
+          "tr": "1 soğan, beyaz şarap, tereyağı, Parmesan",
+          "es": "1 cebolla, vino blanco, mantequilla, Parmigiano",
+          "de": "1 Zwiebel, Weißwein, Butter, Parmigiano"
+        }
+      ],
+      "steps": [
+        {
+          "en": "Sauté finely diced onion in butter until translucent.",
+          "tr": "İnce doğranmış soğanı tereyağında saydam olana kadar kavurun.",
+          "es": "Saltear cebolla finamente picada en mantequilla hasta transparentar.",
+          "de": "Fein gewürfelte Zwiebel in Butter glasig dünsten."
+        },
+        {
+          "en": "Add rice, stir to toast for 2 minutes. Add white wine.",
+          "tr": "Pirinci ekleyin, 2 dakika kavurun. Beyaz şarap ekleyin.",
+          "es": "Agregar arroz, revolver para tostar 2 minutos. Agregar vino blanco.",
+          "de": "Reis hinzufügen, 2 Minuten rösten. Weißwein hinzugießen."
+        },
+        {
+          "en": "Add warm broth one ladle at a time, stirring constantly.",
+          "tr": "Sıcak et suyunu birer kepçe ekleyin, sürekli karıştırın.",
+          "es": "Agregar caldo caliente un cucharón a la vez, revolviendo constantemente.",
+          "de": "Warme Brühe kellenweise hinzufügen, ständig rühren."
+        },
+        {
+          "en": "Add saffron dissolved in broth halfway through cooking.",
+          "tr": "Pişirmenin yarısında et suyunda çözülmüş safranı ekleyin.",
+          "es": "Agregar azafrán disuelto en caldo a mitad de cocción.",
+          "de": "Zur Hälfte der Kochzeit in Brühe aufgelösten Safran hinzufügen."
+        },
+        {
+          "en": "Finish with cold butter and Parmigiano, stir vigorously (mantecatura).",
+          "tr": "Soğuk tereyağı ve Parmesan ile bitirin, kuvvetlice karıştırın (mantecatura).",
+          "es": "Terminar con mantequilla fría y Parmigiano, revolver vigorosamente (mantecatura).",
+          "de": "Mit kalter Butter und Parmigiano abschließen, kräftig rühren (Mantecatura)."
+        }
+      ]
+    },
+    {
+      "id": "it_tiramisu",
+      "cuisineId": "italian",
+      "emoji": "🍰",
+      "image": "https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?auto=format&fit=crop&w=800&q=80",
+      "color": "FF8B4513",
+      "prepTime": 30,
+      "cookTime": 0,
+      "difficulty": "medium",
+      "calories": 350,
+      "servings": 8,
+      "isPremium": false,
+      "tags": [
+        "dessert",
+        "no_cook",
+        "coffee"
+      ],
+      "name": {
+        "en": "Tiramisù",
+        "tr": "Tiramisù",
+        "es": "Tiramisú",
+        "de": "Tiramisù"
+      },
+      "description": {
+        "en": "Coffee-soaked ladyfingers layered with mascarpone cream, dusted with cocoa.",
+        "tr": "Kahveye batırılmış kedi dili bisküviler ve mascarpone krema katmanları, kakao serpilmiş.",
+        "es": "Bizcochos empapados en café con capas de crema de mascarpone, espolvoreados con cacao.",
+        "de": "In Kaffee getränkte Löffelbiskuits mit Mascarponecreme geschichtet, mit Kakao bestäubt."
+      },
+      "ingredients": [
+        {
+          "en": "500g mascarpone",
+          "tr": "500g mascarpone",
+          "es": "500g mascarpone",
+          "de": "500g Mascarpone"
+        },
+        {
+          "en": "6 eggs, separated",
+          "tr": "6 yumurta, ayrılmış",
+          "es": "6 huevos, separados",
+          "de": "6 Eier, getrennt"
+        },
+        {
+          "en": "100g sugar",
+          "tr": "100g şeker",
+          "es": "100g azúcar",
+          "de": "100g Zucker"
+        },
+        {
+          "en": "300g ladyfinger biscuits",
+          "tr": "300g kedi dili bisküvi",
+          "es": "300g bizcochos de soletilla",
+          "de": "300g Löffelbiskuits"
+        },
+        {
+          "en": "300ml strong espresso, cooled",
+          "tr": "300ml güçlü espresso, soğutulmuş",
+          "es": "300ml espresso fuerte, enfriado",
+          "de": "300ml starker Espresso, abgekühlt"
+        },
+        {
+          "en": "Cocoa powder",
+          "tr": "Kakao tozu",
+          "es": "Cacao en polvo",
+          "de": "Kakaopulver"
+        }
+      ],
+      "steps": [
+        {
+          "en": "Beat egg yolks with sugar until pale and fluffy, fold in mascarpone.",
+          "tr": "Yumurta sarılarını şekerle solgun ve kabarık olana kadar çırpın, mascarpone'yu katın.",
+          "es": "Batir yemas con azúcar hasta que estén pálidas y esponjosas, incorporar mascarpone.",
+          "de": "Eigelb mit Zucker hellgelb und schaumig schlagen, Mascarpone unterheben."
+        },
+        {
+          "en": "Whip egg whites to stiff peaks, gently fold into mascarpone mixture.",
+          "tr": "Yumurta aklarını sert köpük olana kadar çırpın, mascarpone karışımına nazikçe katın.",
+          "es": "Batir claras a punto de nieve, incorporar suavemente a la mezcla de mascarpone.",
+          "de": "Eiweiß steif schlagen, vorsichtig unter die Mascarponemischung heben."
+        },
+        {
+          "en": "Quickly dip ladyfingers in espresso (don't soak!), layer in a dish.",
+          "tr": "Kedi dillerini espressoya hızlıca batırın (ıslatmayın!), kabın içine dizin.",
+          "es": "Sumergir rápidamente los bizcochos en espresso (¡no empapar!), colocar en capas en un molde.",
+          "de": "Löffelbiskuits kurz in Espresso tauchen (nicht einweichen!), in einer Form schichten."
+        },
+        {
+          "en": "Alternate layers of cream and soaked ladyfingers.",
+          "tr": "Krema ve ıslatılmış bisküvi katmanlarını sırayla dizin.",
+          "es": "Alternar capas de crema y bizcochos empapados.",
+          "de": "Abwechselnd Creme und getränkte Löffelbiskuits schichten."
+        },
+        {
+          "en": "Refrigerate at least 6 hours. Dust with cocoa before serving.",
+          "tr": "En az 6 saat buzdolabında bekletin. Servis öncesi kakao serpin.",
+          "es": "Refrigerar al menos 6 horas. Espolvorear con cacao antes de servir.",
+          "de": "Mindestens 6 Stunden kühlen. Vor dem Servieren mit Kakao bestäuben."
+        }
+      ]
+    },
+    {
+      "id": "it_bruschetta",
+      "cuisineId": "italian",
+      "emoji": "🥖",
+      "image": "https://images.unsplash.com/photo-1572695157366-5e585ab2b69f?auto=format&fit=crop&w=800&q=80",
+      "color": "FFE74C3C",
+      "prepTime": 10,
+      "cookTime": 5,
+      "difficulty": "easy",
+      "calories": 180,
+      "servings": 4,
+      "isPremium": false,
+      "tags": [
+        "appetizer",
+        "vegetarian",
+        "quick"
+      ],
+      "name": {
+        "en": "Bruschetta",
+        "tr": "Bruschetta",
+        "es": "Bruschetta",
+        "de": "Bruschetta"
+      },
+      "description": {
+        "en": "Toasted bread rubbed with garlic, topped with ripe tomatoes, basil and olive oil.",
+        "tr": "Sarımsakla ovulmuş kızarmış ekmek, üzerinde olgun domates, fesleğen ve zeytinyağı.",
+        "es": "Pan tostado frotado con ajo, cubierto con tomates maduros, albahaca y aceite de oliva.",
+        "de": "Geröstetes Brot mit Knoblauch eingerieben, belegt mit reifen Tomaten, Basilikum und Olivenöl."
+      },
+      "ingredients": [
+        {
+          "en": "Crusty Italian bread",
+          "tr": "Çıtır İtalyan ekmeği",
+          "es": "Pan italiano crujiente",
+          "de": "Knuspriges italienisches Brot"
+        },
+        {
+          "en": "4 ripe tomatoes",
+          "tr": "4 olgun domates",
+          "es": "4 tomates maduros",
+          "de": "4 reife Tomaten"
+        },
+        {
+          "en": "Fresh basil, garlic",
+          "tr": "Taze fesleğen, sarımsak",
+          "es": "Albahaca fresca, ajo",
+          "de": "Frisches Basilikum, Knoblauch"
+        },
+        {
+          "en": "Extra virgin olive oil, salt",
+          "tr": "Sızma zeytinyağı, tuz",
+          "es": "Aceite de oliva virgen extra, sal",
+          "de": "Natives Olivenöl extra, Salz"
+        }
+      ],
+      "steps": [
+        {
+          "en": "Dice tomatoes, mix with torn basil, olive oil, salt.",
+          "tr": "Domatesleri doğrayın, koparılmış fesleğen, zeytinyağı ve tuzla karıştırın.",
+          "es": "Cortar tomates en cubos, mezclar con albahaca desgarrada, aceite de oliva, sal.",
+          "de": "Tomaten würfeln, mit gerissenem Basilikum, Olivenöl und Salz mischen."
+        },
+        {
+          "en": "Toast bread slices until golden.",
+          "tr": "Ekmek dilimlerini altın rengi olana kadar kızartın.",
+          "es": "Tostar rebanadas de pan hasta dorar.",
+          "de": "Brotscheiben goldbraun toasten."
+        },
+        {
+          "en": "Rub hot toast with a cut garlic clove.",
+          "tr": "Sıcak kızarmış ekmeği kesilmiş sarımsak ile ovun.",
+          "es": "Frotar tostada caliente con un diente de ajo cortado.",
+          "de": "Heißen Toast mit einer aufgeschnittenen Knoblauchzehe einreiben."
+        },
+        {
+          "en": "Top with tomato mixture and serve immediately.",
+          "tr": "Domates karışımını üzerine koyun ve hemen servis edin.",
+          "es": "Cubrir con mezcla de tomate y servir inmediatamente.",
+          "de": "Mit Tomatenmischung belegen und sofort servieren."
+        }
+      ]
+    },
+    {
+      "id": "it_panna_cotta",
+      "cuisineId": "italian",
+      "emoji": "🍮",
+      "image": "https://images.unsplash.com/photo-1488477181946-6428a0291777?auto=format&fit=crop&w=800&q=80",
+      "color": "FFFFF5E1",
+      "prepTime": 15,
+      "cookTime": 5,
+      "difficulty": "easy",
+      "calories": 280,
+      "servings": 6,
+      "isPremium": false,
+      "tags": [
+        "dessert",
+        "creamy"
+      ],
+      "name": {
+        "en": "Panna Cotta",
+        "tr": "Panna Cotta",
+        "es": "Panna Cotta",
+        "de": "Panna Cotta"
+      },
+      "description": {
+        "en": "Silky vanilla cream dessert set with gelatin, served with berry sauce.",
+        "tr": "Jelatin ile donan ipeksi vanilyalı krema tatlısı, meyve sosu ile servis edilir.",
+        "es": "Postre de crema de vainilla sedosa cuajado con gelatina, servido con salsa de frutas.",
+        "de": "Seidiges Vanillecreme-Dessert mit Gelatine gestockt, mit Beerensauce serviert."
+      },
+      "ingredients": [
+        {
+          "en": "500ml heavy cream",
+          "tr": "500ml krema",
+          "es": "500ml nata para montar",
+          "de": "500ml Sahne"
+        },
+        {
+          "en": "80g sugar",
+          "tr": "80g şeker",
+          "es": "80g azúcar",
+          "de": "80g Zucker"
+        },
+        {
+          "en": "1 vanilla bean or extract",
+          "tr": "1 vanilya çubuğu veya özütü",
+          "es": "1 vaina de vainilla o extracto",
+          "de": "1 Vanilleschote oder Extrakt"
+        },
+        {
+          "en": "2 sheets gelatin",
+          "tr": "2 yaprak jelatin",
+          "es": "2 hojas de gelatina",
+          "de": "2 Blatt Gelatine"
+        },
+        {
+          "en": "Mixed berries for sauce",
+          "tr": "Sos için karışık meyveler",
+          "es": "Frutas mixtas para salsa",
+          "de": "Gemischte Beeren für die Sauce"
+        }
+      ],
+      "steps": [
+        {
+          "en": "Soak gelatin in cold water.",
+          "tr": "Jelatini soğuk suda bekletin.",
+          "es": "Remojar gelatina en agua fría.",
+          "de": "Gelatine in kaltem Wasser einweichen."
+        },
+        {
+          "en": "Heat cream with sugar and vanilla until just simmering.",
+          "tr": "Kremayı şeker ve vanilya ile hafif kaynayana kadar ısıtın.",
+          "es": "Calentar nata con azúcar y vainilla hasta que apenas hierva.",
+          "de": "Sahne mit Zucker und Vanille erhitzen, bis sie leicht köchelt."
+        },
+        {
+          "en": "Dissolve gelatin in the warm cream, stir well.",
+          "tr": "Jelatini sıcak kremada eritin, iyice karıştırın.",
+          "es": "Disolver gelatina en la crema caliente, mezclar bien.",
+          "de": "Gelatine in der warmen Sahne auflösen, gut umrühren."
+        },
+        {
+          "en": "Pour into molds, refrigerate for at least 4 hours.",
+          "tr": "Kalıplara dökün, en az 4 saat buzdolabında bekletin.",
+          "es": "Verter en moldes, refrigerar al menos 4 horas.",
+          "de": "In Förmchen gießen, mindestens 4 Stunden kühlen."
+        },
+        {
+          "en": "Serve with fresh berry sauce.",
+          "tr": "Taze meyve sosu ile servis edin.",
+          "es": "Servir con salsa de frutas frescas.",
+          "de": "Mit frischer Beerensauce servieren."
+        }
+      ]
+    },
+    {
+      "id": "it_gnocchi",
+      "cuisineId": "italian",
+      "emoji": "🥔",
+      "image": "https://images.unsplash.com/photo-1551183053-bf91a1d81141?auto=format&fit=crop&w=800&q=80",
+      "color": "FFF39C12",
+      "prepTime": 40,
+      "cookTime": 15,
+      "difficulty": "medium",
+      "calories": 320,
+      "servings": 4,
+      "isPremium": false,
+      "tags": [
+        "pasta",
+        "potato",
+        "vegetarian"
+      ],
+      "name": {
+        "en": "Gnocchi",
+        "tr": "Gnocchi",
+        "es": "Ñoquis",
+        "de": "Gnocchi"
+      },
+      "description": {
+        "en": "Pillowy soft potato dumplings served with sage brown butter.",
+        "tr": "Adaçayı kahverengi tereyağı ile servis edilen yumuşacık patates köfteleri.",
+        "es": "Bolas suaves de patata servidas con mantequilla marrón de salvia.",
+        "de": "Weiche Kartoffelklöße mit brauner Salbeibutter serviert."
+      },
+      "ingredients": [
+        {
+          "en": "1kg potatoes",
+          "tr": "1kg patates",
+          "es": "1kg patatas",
+          "de": "1kg Kartoffeln"
+        },
+        {
+          "en": "250g flour",
+          "tr": "250g un",
+          "es": "250g harina",
+          "de": "250g Mehl"
+        },
+        {
+          "en": "1 egg",
+          "tr": "1 yumurta",
+          "es": "1 huevo",
+          "de": "1 Ei"
+        },
+        {
+          "en": "Butter, sage leaves, Parmigiano",
+          "tr": "Tereyağı, adaçayı, Parmesan",
+          "es": "Mantequilla, hojas de salvia, Parmigiano",
+          "de": "Butter, Salbeiblätter, Parmigiano"
+        }
+      ],
+      "steps": [
+        {
+          "en": "Boil potatoes, peel and rice while still hot.",
+          "tr": "Patatesleri haşlayın, sıcakken soyup ezin.",
+          "es": "Hervir patatas, pelar y prensar mientras aún están calientes.",
+          "de": "Kartoffeln kochen, noch heiß schälen und durch die Presse drücken."
+        },
+        {
+          "en": "Mix with flour, egg, and salt — don't overwork.",
+          "tr": "Un, yumurta ve tuzla karıştırın — çok yoğurmayın.",
+          "es": "Mezclar con harina, huevo y sal — no trabajar demasiado.",
+          "de": "Mit Mehl, Ei und Salz mischen — nicht überkneten."
+        },
+        {
+          "en": "Roll into ropes, cut pieces, and mark with a fork.",
+          "tr": "Çubuklar halinde yuvarlayın, parçalar kesin, çatalla şekil verin.",
+          "es": "Enrollar en tiras, cortar piezas y marcar con un tenedor.",
+          "de": "Zu Rollen formen, Stücke schneiden und mit einer Gabel markieren."
+        },
+        {
+          "en": "Boil until they float, about 2 minutes.",
+          "tr": "Yüzene kadar kaynatın, yaklaşık 2 dakika.",
+          "es": "Hervir hasta que floten, unos 2 minutos.",
+          "de": "Kochen, bis sie schwimmen, ca. 2 Minuten."
+        },
+        {
+          "en": "Toss in browned butter with crispy sage leaves.",
+          "tr": "Kızarmış adaçayı yapraklı kahverengi tereyağıyla karıştırın.",
+          "es": "Mezclar en mantequilla dorada con hojas de salvia crujientes.",
+          "de": "In brauner Butter mit knusprigen Salbeiblättern schwenken."
+        }
+      ]
+    },
+    {
+      "id": "it_ravioli",
+      "cuisineId": "italian",
+      "emoji": "🥟",
+      "image": "https://images.unsplash.com/photo-1587740908075-9e245070dfaa?auto=format&fit=crop&w=800&q=80",
+      "color": "FF2ECC71",
+      "prepTime": 60,
+      "cookTime": 5,
+      "difficulty": "hard",
+      "calories": 380,
+      "servings": 4,
+      "isPremium": false,
+      "tags": [
+        "pasta",
+        "stuffed",
+        "traditional"
+      ],
+      "name": {
+        "en": "Ravioli",
+        "tr": "Ravioli",
+        "es": "Ravioli",
+        "de": "Ravioli"
+      },
+      "description": {
+        "en": "Fresh pasta pockets filled with ricotta and spinach in sage butter.",
+        "tr": "Ricotta ve ıspanak dolgulu taze makarna cepleri, adaçaylı tereyağında.",
+        "es": "Bolsillos de pasta fresca rellenos de ricotta y espinacas en mantequilla de salvia.",
+        "de": "Frische Teigpäckchen gefüllt mit Ricotta und Spinat in Salbeibutter."
+      },
+      "ingredients": [
+        {
+          "en": "Fresh pasta dough",
+          "tr": "Taze makarna hamuru",
+          "es": "Masa de pasta fresca",
+          "de": "Frischer Nudelteig"
+        },
+        {
+          "en": "250g ricotta",
+          "tr": "250g ricotta",
+          "es": "250g ricotta",
+          "de": "250g Ricotta"
+        },
+        {
+          "en": "200g spinach",
+          "tr": "200g ıspanak",
+          "es": "200g espinacas",
+          "de": "200g Spinat"
+        },
+        {
+          "en": "Nutmeg, Parmigiano, sage, butter",
+          "tr": "Muskat, Parmesan, adaçayı, tereyağı",
+          "es": "Nuez moscada, Parmigiano, salvia, mantequilla",
+          "de": "Muskatnuss, Parmigiano, Salbei, Butter"
+        }
+      ],
+      "steps": [
+        {
+          "en": "Make fresh pasta dough, rest for 30 minutes.",
+          "tr": "Taze makarna hamuru yapın, 30 dakika dinlendirin.",
+          "es": "Hacer masa de pasta fresca, reposar 30 minutos.",
+          "de": "Frischen Nudelteig herstellen, 30 Minuten ruhen lassen."
+        },
+        {
+          "en": "Mix ricotta with cooked spinach, nutmeg and Parmigiano.",
+          "tr": "Ricotta'yı pişmiş ıspanak, muskat ve Parmesan ile karıştırın.",
+          "es": "Mezclar ricotta con espinacas cocidas, nuez moscada y Parmigiano.",
+          "de": "Ricotta mit gekochtem Spinat, Muskatnuss und Parmigiano mischen."
+        },
+        {
+          "en": "Roll pasta thin, place filling, seal into pockets.",
+          "tr": "Hamuru ince açın, harcı koyun, cepler halinde kapatın.",
+          "es": "Estirar pasta fina, colocar relleno, sellar en bolsillos.",
+          "de": "Teig dünn ausrollen, Füllung platzieren, zu Päckchen verschließen."
+        },
+        {
+          "en": "Boil in salted water for 3-4 minutes.",
+          "tr": "Tuzlu suda 3-4 dakika haşlayın.",
+          "es": "Hervir en agua con sal durante 3-4 minutos.",
+          "de": "In Salzwasser 3-4 Minuten kochen."
+        },
+        {
+          "en": "Serve with sage brown butter and grated Parmigiano.",
+          "tr": "Adaçaylı kahverengi tereyağı ve rendelenmiş Parmesan ile servis edin.",
+          "es": "Servir con mantequilla marrón de salvia y Parmigiano rallado.",
+          "de": "Mit brauner Salbeibutter und geriebenem Parmigiano servieren."
+        }
+      ]
+    },
+    {
+      "id": "it_minestrone",
+      "cuisineId": "italian",
+      "emoji": "🥣",
+      "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&w=800&q=80",
+      "color": "FF2ECC71",
+      "prepTime": 15,
+      "cookTime": 40,
+      "difficulty": "easy",
+      "calories": 190,
+      "servings": 6,
+      "isPremium": false,
+      "tags": [
+        "soup",
+        "vegetarian",
+        "healthy"
+      ],
+      "name": {
+        "en": "Minestrone",
+        "tr": "Minestrone",
+        "es": "Minestrone",
+        "de": "Minestrone"
+      },
+      "description": {
+        "en": "Hearty Italian vegetable soup with beans and pasta.",
+        "tr": "Fasulye ve makarna ile doyurucu İtalyan sebze çorbası.",
+        "es": "Sopa italiana abundante de verduras con frijoles y pasta.",
+        "de": "Herzhafte italienische Gemüsesuppe mit Bohnen und Nudeln."
+      },
+      "ingredients": [
+        {
+          "en": "Mixed vegetables (carrots, celery, zucchini, potatoes)",
+          "tr": "Karışık sebzeler (havuç, kereviz, kabak, patates)",
+          "es": "Verduras mixtas (zanahorias, apio, calabacín, patatas)",
+          "de": "Gemischtes Gemüse (Karotten, Sellerie, Zucchini, Kartoffeln)"
+        },
+        {
+          "en": "Cannellini beans",
+          "tr": "Cannellini fasulyesi",
+          "es": "Frijoles cannellini",
+          "de": "Cannellini-Bohnen"
+        },
+        {
+          "en": "Small pasta",
+          "tr": "Küçük makarna",
+          "es": "Pasta pequeña",
+          "de": "Kleine Nudeln"
+        },
+        {
+          "en": "Tomatoes, broth, Parmigiano rind",
+          "tr": "Domates, et suyu, Parmesan kabuğu",
+          "es": "Tomates, caldo, corteza de Parmigiano",
+          "de": "Tomaten, Brühe, Parmigiano-Rinde"
+        }
+      ],
+      "steps": [
+        {
+          "en": "Sauté diced vegetables in olive oil.",
+          "tr": "Doğranmış sebzeleri zeytinyağında kavurun.",
+          "es": "Saltear verduras en cubos en aceite de oliva.",
+          "de": "Gewürfeltes Gemüse in Olivenöl anbraten."
+        },
+        {
+          "en": "Add tomatoes, broth, and Parmigiano rind.",
+          "tr": "Domates, et suyu ve Parmesan kabuğunu ekleyin.",
+          "es": "Agregar tomates, caldo y corteza de Parmigiano.",
+          "de": "Tomaten, Brühe und Parmigiano-Rinde hinzufügen."
+        },
+        {
+          "en": "Simmer 25 minutes, add beans and pasta.",
+          "tr": "25 dakika pişirin, fasulye ve makarnayı ekleyin.",
+          "es": "Cocinar a fuego lento 25 minutos, agregar frijoles y pasta.",
+          "de": "25 Minuten köcheln, Bohnen und Nudeln hinzufügen."
+        },
+        {
+          "en": "Cook until pasta is done. Serve with Parmigiano.",
+          "tr": "Makarna pişene kadar pişirin. Parmesan ile servis edin.",
+          "es": "Cocinar hasta que la pasta esté lista. Servir con Parmigiano.",
+          "de": "Kochen bis die Nudeln gar sind. Mit Parmigiano servieren."
+        }
+      ]
+    },
+    {
+      "id": "it_osso_buco",
+      "cuisineId": "italian",
+      "emoji": "🍖",
+      "image": "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=800&q=80",
+      "color": "FF8B4513",
+      "prepTime": 20,
+      "cookTime": 120,
+      "difficulty": "hard",
+      "calories": 480,
+      "servings": 4,
+      "isPremium": false,
+      "tags": [
+        "meat",
+        "slow_cook",
+        "classic"
+      ],
+      "name": {
+        "en": "Osso Buco",
+        "tr": "Osso Buco",
+        "es": "Osso Buco",
+        "de": "Osso Buco"
+      },
+      "description": {
+        "en": "Braised veal shanks in white wine and vegetables, topped with gremolata.",
+        "tr": "Beyaz şarap ve sebzelerde pişirilen dana inciği, üzerine gremolata.",
+        "es": "Jarrete de ternera estofado en vino blanco y verduras, cubierto con gremolata.",
+        "de": "Geschmorte Kalbshaxe in Weißwein und Gemüse, mit Gremolata serviert."
+      },
+      "ingredients": [
+        {
+          "en": "4 veal shank slices",
+          "tr": "4 dana incik dilimi",
+          "es": "4 rodajas de jarrete de ternera",
+          "de": "4 Kalbshaxenscheiben"
+        },
+        {
+          "en": "White wine, broth",
+          "tr": "Beyaz şarap, et suyu",
+          "es": "Vino blanco, caldo",
+          "de": "Weißwein, Brühe"
+        },
+        {
+          "en": "Carrots, celery, onion, tomatoes",
+          "tr": "Havuç, kereviz, soğan, domates",
+          "es": "Zanahorias, apio, cebolla, tomates",
+          "de": "Karotten, Sellerie, Zwiebel, Tomaten"
+        },
+        {
+          "en": "Gremolata: lemon zest, garlic, parsley",
+          "tr": "Gremolata: limon kabuğu, sarımsak, maydanoz",
+          "es": "Gremolata: ralladura de limón, ajo, perejil",
+          "de": "Gremolata: Zitronenschale, Knoblauch, Petersilie"
+        }
+      ],
+      "steps": [
+        {
+          "en": "Season and brown veal shanks in olive oil.",
+          "tr": "Dana incikleri baharatlayıp zeytinyağında kızartın.",
+          "es": "Sazonar y dorar jarretes en aceite de oliva.",
+          "de": "Kalbshaxen würzen und in Olivenöl anbraten."
+        },
+        {
+          "en": "Add mirepoix vegetables, cook until soft.",
+          "tr": "Sebzeleri ekleyin, yumuşayana kadar pişirin.",
+          "es": "Agregar verduras, cocinar hasta que estén blandas.",
+          "de": "Gemüse hinzufügen, weich kochen."
+        },
+        {
+          "en": "Deglaze with white wine, add tomatoes and broth.",
+          "tr": "Beyaz şarapla kazıyın, domates ve et suyunu ekleyin.",
+          "es": "Desglasar con vino blanco, agregar tomates y caldo.",
+          "de": "Mit Weißwein ablöschen, Tomaten und Brühe hinzufügen."
+        },
+        {
+          "en": "Braise covered at 160°C for 2 hours until tender.",
+          "tr": "Kapalı olarak 160°C'de 2 saat yumuşayana kadar pişirin.",
+          "es": "Estofar tapado a 160°C durante 2 horas hasta que esté tierno.",
+          "de": "Zugedeckt bei 160°C 2 Stunden schmoren, bis zart."
+        },
+        {
+          "en": "Serve with gremolata and risotto.",
+          "tr": "Gremolata ve risotto ile servis edin.",
+          "es": "Servir con gremolata y risotto.",
+          "de": "Mit Gremolata und Risotto servieren."
+        }
+      ]
+    },
+    {
+      "id": "it_focaccia",
+      "cuisineId": "italian",
+      "emoji": "🫓",
+      "image": "https://images.unsplash.com/photo-1589367920969-ab8e050bbb04?auto=format&fit=crop&w=800&q=80",
+      "color": "FFF1C40F",
+      "prepTime": 90,
+      "cookTime": 25,
+      "difficulty": "medium",
+      "calories": 260,
+      "servings": 8,
+      "isPremium": false,
+      "tags": [
+        "bread",
+        "vegetarian"
+      ],
+      "name": {
+        "en": "Focaccia",
+        "tr": "Focaccia",
+        "es": "Focaccia",
+        "de": "Focaccia"
+      },
+      "description": {
+        "en": "Olive oil-drenched dimpled Italian flatbread with sea salt and rosemary.",
+        "tr": "Zeytinyağına batırılmış, deniz tuzu ve biberiye ile İtalyan yassı ekmeği.",
+        "es": "Pan plano italiano empapado en aceite de oliva con sal marina y romero.",
+        "de": "In Olivenöl getränktes italienisches Fladenbrot mit Meersalz und Rosmarin."
+      },
+      "ingredients": [
+        {
+          "en": "500g flour, yeast, warm water",
+          "tr": "500g un, maya, ılık su",
+          "es": "500g harina, levadura, agua tibia",
+          "de": "500g Mehl, Hefe, warmes Wasser"
+        },
+        {
+          "en": "Generous olive oil",
+          "tr": "Bol zeytinyağı",
+          "es": "Aceite de oliva generoso",
+          "de": "Großzügig Olivenöl"
+        },
+        {
+          "en": "Flaky sea salt",
+          "tr": "Pul deniz tuzu",
+          "es": "Sal marina en escamas",
+          "de": "Flockiges Meersalz"
+        },
+        {
+          "en": "Fresh rosemary",
+          "tr": "Taze biberiye",
+          "es": "Romero fresco",
+          "de": "Frischer Rosmarin"
+        }
+      ],
+      "steps": [
+        {
+          "en": "Mix dough, let rise 1 hour until doubled.",
+          "tr": "Hamuru karıştırın, 1 saat iki katına çıkana kadar mayalandırın.",
+          "es": "Mezclar masa, dejar leudar 1 hora hasta duplicar.",
+          "de": "Teig mischen, 1 Stunde gehen lassen bis verdoppelt."
+        },
+        {
+          "en": "Stretch into an oiled baking pan.",
+          "tr": "Yağlanmış fırın tepsisine yayın.",
+          "es": "Estirar en un molde engrasado.",
+          "de": "In eine geölte Backform ausziehen."
+        },
+        {
+          "en": "Dimple with fingers, drizzle generously with olive oil.",
+          "tr": "Parmaklarla çukurlar açın, bol zeytinyağı gezdirin.",
+          "es": "Hacer hoyuelos con los dedos, rociar generosamente con aceite de oliva.",
+          "de": "Mit den Fingern Grübchen drücken, großzügig mit Olivenöl beträufeln."
+        },
+        {
+          "en": "Top with rosemary and sea salt, let rise 30 minutes.",
+          "tr": "Biberiye ve deniz tuzu serpin, 30 dakika daha mayalandırın.",
+          "es": "Cubrir con romero y sal marina, dejar leudar 30 minutos.",
+          "de": "Mit Rosmarin und Meersalz bestreuen, 30 Minuten gehen lassen."
+        },
+        {
+          "en": "Bake at 220°C for 20-25 minutes until golden.",
+          "tr": "220°C fırında 20-25 dakika altın rengi olana kadar pişirin.",
+          "es": "Hornear a 220°C durante 20-25 minutos hasta dorar.",
+          "de": "Bei 220°C 20-25 Minuten goldbraun backen."
+        }
+      ]
+    },
+    {
+      "id": "it_caprese",
+      "cuisineId": "italian",
+      "emoji": "🍅",
+      "image": "https://images.unsplash.com/photo-1592417817098-8f3d6eb2251a?auto=format&fit=crop&w=800&q=80",
+      "color": "FFE84545",
+      "prepTime": 10,
+      "cookTime": 0,
+      "difficulty": "easy",
+      "calories": 220,
+      "servings": 4,
+      "isPremium": false,
+      "tags": [
+        "salad",
+        "vegetarian",
+        "no_cook"
+      ],
+      "name": {
+        "en": "Caprese Salad",
+        "tr": "Caprese Salatası",
+        "es": "Ensalada Caprese",
+        "de": "Caprese-Salat"
+      },
+      "description": {
+        "en": "Simple perfection — ripe tomatoes, fresh mozzarella, and basil with olive oil.",
+        "tr": "Basit mükemmellik — olgun domates, taze mozzarella ve fesleğen, zeytinyağı ile.",
+        "es": "Perfección simple — tomates maduros, mozzarella fresca y albahaca con aceite de oliva.",
+        "de": "Einfache Perfektion — reife Tomaten, frischer Mozzarella und Basilikum mit Olivenöl."
+      },
+      "ingredients": [
+        {
+          "en": "3 large ripe tomatoes",
+          "tr": "3 büyük olgun domates",
+          "es": "3 tomates grandes maduros",
+          "de": "3 große reife Tomaten"
+        },
+        {
+          "en": "250g fresh buffalo mozzarella",
+          "tr": "250g taze bufalo mozzarella",
+          "es": "250g mozzarella fresca de búfala",
+          "de": "250g frischer Büffelmozzarella"
+        },
+        {
+          "en": "Fresh basil leaves",
+          "tr": "Taze fesleğen yaprakları",
+          "es": "Hojas frescas de albahaca",
+          "de": "Frische Basilikumblätter"
+        },
+        {
+          "en": "Extra virgin olive oil, balsamic glaze",
+          "tr": "Sızma zeytinyağı, balzamik glaze",
+          "es": "Aceite de oliva virgen extra, glaseado balsámico",
+          "de": "Natives Olivenöl extra, Balsamico-Glasur"
+        }
+      ],
+      "steps": [
+        {
+          "en": "Slice tomatoes and mozzarella into thick rounds.",
+          "tr": "Domates ve mozzarellayı kalın dilimler halinde kesin.",
+          "es": "Cortar tomates y mozzarella en rodajas gruesas.",
+          "de": "Tomaten und Mozzarella in dicke Scheiben schneiden."
+        },
+        {
+          "en": "Alternate slices on a plate with basil leaves between.",
+          "tr": "Dilimleri tabakta sırayla dizin, aralarına fesleğen yerleştirin.",
+          "es": "Alternar rodajas en un plato con hojas de albahaca entre ellas.",
+          "de": "Scheiben abwechselnd auf einem Teller anrichten, dazwischen Basilikumblätter."
+        },
+        {
+          "en": "Drizzle with olive oil and balsamic glaze.",
+          "tr": "Zeytinyağı ve balzamik glaze gezdirin.",
+          "es": "Rociar con aceite de oliva y glaseado balsámico.",
+          "de": "Mit Olivenöl und Balsamico-Glasur beträufeln."
+        },
+        {
+          "en": "Season with flaky salt and cracked pepper.",
+          "tr": "Pul tuz ve kırık biberle tatlandırın.",
+          "es": "Sazonar con sal en escamas y pimienta molida.",
+          "de": "Mit Flockensalz und gemahlenem Pfeffer würzen."
+        }
+      ]
+    },
+    {
+      "id": "it_pesto_pasta",
+      "cuisineId": "italian",
+      "emoji": "🍝",
+      "image": "https://images.unsplash.com/photo-1556761223-4c4282c73f77?auto=format&fit=crop&w=800&q=80",
+      "color": "FF2ECC71",
+      "prepTime": 10,
+      "cookTime": 12,
+      "difficulty": "easy",
+      "calories": 420,
+      "servings": 4,
+      "isPremium": false,
+      "tags": [
+        "pasta",
+        "vegetarian",
+        "quick"
+      ],
+      "name": {
+        "en": "Pesto Pasta",
+        "tr": "Pesto Makarna",
+        "es": "Pasta al Pesto",
+        "de": "Pesto-Pasta"
+      },
+      "description": {
+        "en": "Pasta tossed with fresh Genovese basil pesto — simple and irresistible.",
+        "tr": "Taze Cenova fesleğen pestosu ile karıştırılmış makarna — basit ve dayanılmaz.",
+        "es": "Pasta mezclada con pesto fresco de albahaca genovesa — simple e irresistible.",
+        "de": "Pasta mit frischem Genueser Basilikum-Pesto — einfach und unwiderstehlich."
+      },
+      "ingredients": [
+        {
+          "en": "400g trofie or linguine",
+          "tr": "400g trofie veya linguine",
+          "es": "400g trofie o linguine",
+          "de": "400g Trofie oder Linguine"
+        },
+        {
+          "en": "Fresh basil, pine nuts, garlic",
+          "tr": "Taze fesleğen, çam fıstığı, sarımsak",
+          "es": "Albahaca fresca, piñones, ajo",
+          "de": "Frisches Basilikum, Pinienkerne, Knoblauch"
+        },
+        {
+          "en": "Parmigiano, Pecorino",
+          "tr": "Parmesan, Pecorino",
+          "es": "Parmigiano, Pecorino",
+          "de": "Parmigiano, Pecorino"
+        },
+        {
+          "en": "Extra virgin olive oil",
+          "tr": "Sızma zeytinyağı",
+          "es": "Aceite de oliva virgen extra",
+          "de": "Natives Olivenöl extra"
+        }
+      ],
+      "steps": [
+        {
+          "en": "Blend basil, pine nuts, garlic, cheese and olive oil into smooth pesto.",
+          "tr": "Fesleğen, çam fıstığı, sarımsak, peynir ve zeytinyağını pürüzsüz pesto haline getirin.",
+          "es": "Licuar albahaca, piñones, ajo, queso y aceite de oliva en pesto suave.",
+          "de": "Basilikum, Pinienkerne, Knoblauch, Käse und Olivenöl zu glattem Pesto mixen."
+        },
+        {
+          "en": "Cook pasta al dente, reserve pasta water.",
+          "tr": "Makarnayı al dente pişirin, makarna suyunu saklayın.",
+          "es": "Cocinar pasta al dente, reservar agua de pasta.",
+          "de": "Pasta al dente kochen, Nudelwasser aufheben."
+        },
+        {
+          "en": "Toss hot pasta with pesto, adding pasta water to loosen.",
+          "tr": "Sıcak makarnayı pesto ile karıştırın, makarna suyu ekleyerek gevşetin.",
+          "es": "Mezclar pasta caliente con pesto, agregar agua de pasta para aflojar.",
+          "de": "Heiße Pasta mit Pesto schwenken, Nudelwasser zum Verdünnen hinzufügen."
+        },
+        {
+          "en": "Serve with extra cheese and a drizzle of olive oil.",
+          "tr": "Ekstra peynir ve zeytinyağı ile servis edin.",
+          "es": "Servir con queso extra y un chorrito de aceite de oliva.",
+          "de": "Mit extra Käse und einem Schuss Olivenöl servieren."
+        }
+      ]
+    },
+    {
+      "id": "it_arancini",
+      "cuisineId": "italian",
+      "emoji": "🧆",
+      "image": "https://images.unsplash.com/photo-1541832676-9b763b0239ab?auto=format&fit=crop&w=800&q=80",
+      "color": "FFF39C12",
+      "prepTime": 30,
+      "cookTime": 10,
+      "difficulty": "medium",
+      "calories": 280,
+      "servings": 8,
+      "isPremium": false,
+      "tags": [
+        "fried",
+        "rice",
+        "street_food"
+      ],
+      "name": {
+        "en": "Arancini",
+        "tr": "Arancini",
+        "es": "Arancini",
+        "de": "Arancini"
+      },
+      "description": {
+        "en": "Crispy deep-fried risotto balls stuffed with mozzarella — Sicilian street food.",
+        "tr": "İçi mozzarella dolgulu çıtır kızartılmış risotto topları — Sicilya sokak lezzeti.",
+        "es": "Bolas de risotto fritas crujientes rellenas de mozzarella — comida callejera siciliana.",
+        "de": "Knusprig frittierte Risottobällchen gefüllt mit Mozzarella — sizilianisches Streetfood."
+      },
+      "ingredients": [
+        {
+          "en": "Leftover risotto",
+          "tr": "Artakalan risotto",
+          "es": "Risotto sobrante",
+          "de": "Übrig gebliebenes Risotto"
+        },
+        {
+          "en": "Mozzarella cubes",
+          "tr": "Mozzarella küpleri",
+          "es": "Cubos de mozzarella",
+          "de": "Mozzarellawürfel"
+        },
+        {
+          "en": "Flour, eggs, breadcrumbs",
+          "tr": "Un, yumurta, galeta unu",
+          "es": "Harina, huevos, pan rallado",
+          "de": "Mehl, Eier, Semmelbrösel"
+        },
+        {
+          "en": "Oil for frying",
+          "tr": "Kızartma yağı",
+          "es": "Aceite para freír",
+          "de": "Öl zum Frittieren"
+        }
+      ],
+      "steps": [
+        {
+          "en": "Take cold risotto, form into balls with mozzarella center.",
+          "tr": "Soğuk risottoyu alın, ortasına mozzarella koyarak top şekli verin.",
+          "es": "Tomar risotto frío, formar bolas con centro de mozzarella.",
+          "de": "Kaltes Risotto nehmen, zu Kugeln mit Mozzarella-Kern formen."
+        },
+        {
+          "en": "Coat in flour, then beaten egg, then breadcrumbs.",
+          "tr": "Una, sonra çırpılmış yumurtaya, sonra galeta ununa bulayın.",
+          "es": "Rebozar en harina, luego huevo batido, luego pan rallado.",
+          "de": "In Mehl, dann verquirltem Ei, dann Semmelbröseln wälzen."
+        },
+        {
+          "en": "Deep fry at 180°C until deep golden, about 4 minutes.",
+          "tr": "180°C yağda koyu altın rengi olana kadar kızartın, yaklaşık 4 dakika.",
+          "es": "Freír a 180°C hasta dorar intensamente, unos 4 minutos.",
+          "de": "Bei 180°C frittieren bis tiefgolden, ca. 4 Minuten."
+        },
+        {
+          "en": "Drain and serve with marinara sauce.",
+          "tr": "Süzün ve marinara sos ile servis edin.",
+          "es": "Escurrir y servir con salsa marinara.",
+          "de": "Abtropfen lassen und mit Marinara-Sauce servieren."
+        }
+      ]
+    },
+    {
+      "id": "it_cannoli",
+      "cuisineId": "italian",
+      "emoji": "🥐",
+      "image": "https://images.unsplash.com/photo-1551024709-8f23befc6f87?auto=format&fit=crop&w=800&q=80",
+      "color": "FFF5DEB3",
+      "prepTime": 45,
+      "cookTime": 5,
+      "difficulty": "hard",
+      "calories": 310,
+      "servings": 12,
+      "isPremium": false,
+      "tags": [
+        "dessert",
+        "fried",
+        "sicilian"
+      ],
+      "name": {
+        "en": "Cannoli",
+        "tr": "Cannoli",
+        "es": "Cannoli",
+        "de": "Cannoli"
+      },
+      "description": {
+        "en": "Crispy fried pastry tubes filled with sweet ricotta cream and chocolate chips.",
+        "tr": "Tatlı ricotta krema ve çikolata parçaları ile doldurulmuş çıtır kızarmış hamur boruları.",
+        "es": "Tubos de masa frita crujientes rellenos de crema dulce de ricotta y chispas de chocolate.",
+        "de": "Knusprige frittierte Teigröhren gefüllt mit süßer Ricottacreme und Schokoladenstückchen."
+      },
+      "ingredients": [
+        {
+          "en": "Cannoli shells (flour, wine, cocoa, butter)",
+          "tr": "Cannoli kabukları (un, şarap, kakao, tereyağı)",
+          "es": "Conchas de cannoli (harina, vino, cacao, mantequilla)",
+          "de": "Cannoli-Hüllen (Mehl, Wein, Kakao, Butter)"
+        },
+        {
+          "en": "500g ricotta, drained",
+          "tr": "500g ricotta, süzülmüş",
+          "es": "500g ricotta, escurrida",
+          "de": "500g Ricotta, abgetropft"
+        },
+        {
+          "en": "150g powdered sugar",
+          "tr": "150g pudra şekeri",
+          "es": "150g azúcar glas",
+          "de": "150g Puderzucker"
+        },
+        {
+          "en": "Chocolate chips, pistachios",
+          "tr": "Çikolata parçaları, fıstık",
+          "es": "Chispas de chocolate, pistachos",
+          "de": "Schokoladenstückchen, Pistazien"
+        }
+      ],
+      "steps": [
+        {
+          "en": "Make dough, roll thin, wrap around metal tubes.",
+          "tr": "Hamur yapın, ince açın, metal boruların etrafına sarın.",
+          "es": "Hacer masa, estirar fina, enrollar alrededor de tubos metálicos.",
+          "de": "Teig herstellen, dünn ausrollen, um Metallröhren wickeln."
+        },
+        {
+          "en": "Deep fry until golden and bubbly, remove tubes when cool.",
+          "tr": "Altın rengi olana kadar kızartın, soğuyunca boruları çıkarın.",
+          "es": "Freír hasta dorar, retirar tubos al enfriar.",
+          "de": "Goldbraun frittieren, Röhren nach dem Abkühlen entfernen."
+        },
+        {
+          "en": "Mix drained ricotta with powdered sugar and chocolate chips.",
+          "tr": "Süzülmüş ricottayı pudra şekeri ve çikolata parçaları ile karıştırın.",
+          "es": "Mezclar ricotta escurrida con azúcar glas y chispas de chocolate.",
+          "de": "Abgetropften Ricotta mit Puderzucker und Schokoladenstückchen mischen."
+        },
+        {
+          "en": "Pipe filling into shells just before serving. Dip ends in pistachios.",
+          "tr": "Servis öncesi harcı kabuklara doldurun. Uçlarını fıstığa batırın.",
+          "es": "Rellenar las conchas justo antes de servir. Sumergir extremos en pistachos.",
+          "de": "Füllung kurz vor dem Servieren in die Hüllen spritzen. Enden in Pistazien tauchen."
+        }
+      ]
+    },
+    {
+      "id": "it_frittata",
+      "cuisineId": "italian",
+      "emoji": "🍳",
+      "image": "https://images.unsplash.com/photo-1510693206972-df098062cb71?auto=format&fit=crop&w=800&q=80",
+      "color": "FFF1C40F",
+      "prepTime": 10,
+      "cookTime": 15,
+      "difficulty": "easy",
+      "calories": 250,
+      "servings": 4,
+      "isPremium": false,
+      "tags": [
+        "eggs",
+        "vegetarian",
+        "quick"
+      ],
+      "name": {
+        "en": "Frittata",
+        "tr": "Frittata",
+        "es": "Frittata",
+        "de": "Frittata"
+      },
+      "description": {
+        "en": "Italian open-faced omelette baked with vegetables and cheese.",
+        "tr": "Sebze ve peynir ile fırınlanmış İtalyan açık omlet.",
+        "es": "Tortilla italiana abierta horneada con verduras y queso.",
+        "de": "Italienisches offenes Omelett mit Gemüse und Käse gebacken."
+      },
+      "ingredients": [
+        {
+          "en": "8 eggs",
+          "tr": "8 yumurta",
+          "es": "8 huevos",
+          "de": "8 Eier"
+        },
+        {
+          "en": "Mixed vegetables (zucchini, peppers, onions)",
+          "tr": "Karışık sebzeler (kabak, biber, soğan)",
+          "es": "Verduras mixtas (calabacín, pimientos, cebollas)",
+          "de": "Gemischtes Gemüse (Zucchini, Paprika, Zwiebeln)"
+        },
+        {
+          "en": "100g Parmigiano",
+          "tr": "100g Parmesan",
+          "es": "100g Parmigiano",
+          "de": "100g Parmigiano"
+        },
+        {
+          "en": "Olive oil, fresh herbs",
+          "tr": "Zeytinyağı, taze otlar",
+          "es": "Aceite de oliva, hierbas frescas",
+          "de": "Olivenöl, frische Kräuter"
+        }
+      ],
+      "steps": [
+        {
+          "en": "Sauté vegetables in an oven-safe pan.",
+          "tr": "Sebzeleri fırına girebilen tavada kavurun.",
+          "es": "Saltear verduras en sartén apta para horno.",
+          "de": "Gemüse in einer ofenfesten Pfanne anbraten."
+        },
+        {
+          "en": "Beat eggs with cheese and herbs, pour over vegetables.",
+          "tr": "Yumurtaları peynir ve otlarla çırpın, sebzelerin üzerine dökün.",
+          "es": "Batir huevos con queso y hierbas, verter sobre verduras.",
+          "de": "Eier mit Käse und Kräutern verquirlen, über das Gemüse gießen."
+        },
+        {
+          "en": "Cook on stovetop until edges set, about 5 minutes.",
+          "tr": "Kenarları tutana kadar ocakta pişirin, yaklaşık 5 dakika.",
+          "es": "Cocinar en la estufa hasta que los bordes cuajen, unos 5 minutos.",
+          "de": "Auf dem Herd kochen bis die Ränder stocken, ca. 5 Minuten."
+        },
+        {
+          "en": "Finish under the broiler until golden on top.",
+          "tr": "Üstü altın rengi olana kadar grill altında pişirin.",
+          "es": "Terminar bajo el gratinador hasta dorar por encima.",
+          "de": "Unter dem Grill fertig backen bis die Oberfläche golden ist."
+        }
+      ]
+    },
+    {
+      "id": "it_carpaccio",
+      "cuisineId": "italian",
+      "emoji": "🥩",
+      "image": "https://images.unsplash.com/photo-1514933651103-005eec06c04b?auto=format&fit=crop&w=800&q=80",
+      "color": "FFE84545",
+      "prepTime": 15,
+      "cookTime": 0,
+      "difficulty": "medium",
+      "calories": 180,
+      "servings": 4,
+      "isPremium": false,
+      "tags": [
+        "appetizer",
+        "raw",
+        "elegant"
+      ],
+      "name": {
+        "en": "Beef Carpaccio",
+        "tr": "Dana Carpaccio",
+        "es": "Carpaccio de Res",
+        "de": "Rindercarpaccio"
+      },
+      "description": {
+        "en": "Paper-thin raw beef slices with arugula, Parmigiano shavings, and lemon.",
+        "tr": "Roka, Parmesan talaşları ve limon ile kağıt gibi ince çiğ dana dilimleri.",
+        "es": "Láminas finísimas de res cruda con rúcula, virutas de Parmigiano y limón.",
+        "de": "Hauchdünne rohe Rindfleischscheiben mit Rucola, Parmigiano-Spänen und Zitrone."
+      },
+      "ingredients": [
+        {
+          "en": "300g beef tenderloin",
+          "tr": "300g dana bonfile",
+          "es": "300g solomillo de res",
+          "de": "300g Rinderfilet"
+        },
+        {
+          "en": "Arugula",
+          "tr": "Roka",
+          "es": "Rúcula",
+          "de": "Rucola"
+        },
+        {
+          "en": "Parmigiano shavings",
+          "tr": "Parmesan talaşları",
+          "es": "Virutas de Parmigiano",
+          "de": "Parmigiano-Späne"
+        },
+        {
+          "en": "Lemon, olive oil, capers",
+          "tr": "Limon, zeytinyağı, kapari",
+          "es": "Limón, aceite de oliva, alcaparras",
+          "de": "Zitrone, Olivenöl, Kapern"
+        }
+      ],
+      "steps": [
+        {
+          "en": "Freeze beef for 30 minutes for easier slicing.",
+          "tr": "Kolay dilimleme için eti 30 dakika dondurucuya koyun.",
+          "es": "Congelar la carne 30 minutos para facilitar el corte.",
+          "de": "Rindfleisch 30 Minuten einfrieren für leichteres Schneiden."
+        },
+        {
+          "en": "Slice paper-thin with a sharp knife.",
+          "tr": "Keskin bıçakla kağıt gibi ince dilimleyin.",
+          "es": "Cortar en láminas finísimas con un cuchillo afilado.",
+          "de": "Mit einem scharfen Messer hauchdünn aufschneiden."
+        },
+        {
+          "en": "Arrange on cold plates, top with arugula and Parmigiano.",
+          "tr": "Soğuk tabaklara dizin, roka ve Parmesan ile süsleyin.",
+          "es": "Colocar en platos fríos, cubrir con rúcula y Parmigiano.",
+          "de": "Auf kalten Tellern anrichten, mit Rucola und Parmigiano garnieren."
+        },
+        {
+          "en": "Drizzle with lemon juice and olive oil. Add capers.",
+          "tr": "Limon suyu ve zeytinyağı gezdirin. Kapari ekleyin.",
+          "es": "Rociar con jugo de limón y aceite de oliva. Agregar alcaparras.",
+          "de": "Mit Zitronensaft und Olivenöl beträufeln. Kapern hinzufügen."
+        }
+      ]
+    },
+    {
+      "id": "it_affogato",
+      "cuisineId": "italian",
+      "emoji": "☕",
+      "image": "https://images.unsplash.com/photo-1517256064527-09c73fc73e38?auto=format&fit=crop&w=800&q=80",
+      "color": "FF8B4513",
+      "prepTime": 5,
+      "cookTime": 0,
+      "difficulty": "easy",
+      "calories": 200,
+      "servings": 2,
+      "isPremium": false,
+      "tags": [
+        "dessert",
+        "coffee",
+        "quick"
+      ],
+      "name": {
+        "en": "Affogato",
+        "tr": "Affogato",
+        "es": "Affogato",
+        "de": "Affogato"
+      },
+      "description": {
+        "en": "Vanilla gelato 'drowned' in a shot of hot espresso — Italy's simplest dessert.",
+        "tr": "Sıcak espresso ile 'boğulmuş' vanilyalı dondurma — İtalya'nın en basit tatlısı.",
+        "es": "Helado de vainilla 'ahogado' en un chorro de espresso caliente — el postre más simple de Italia.",
+        "de": "Vanillegelato 'ertränkt' in heißem Espresso — Italiens einfachstes Dessert."
+      },
+      "ingredients": [
+        {
+          "en": "2 scoops vanilla gelato",
+          "tr": "2 top vanilyalı dondurma",
+          "es": "2 bolas de helado de vainilla",
+          "de": "2 Kugeln Vanillegelato"
+        },
+        {
+          "en": "2 shots hot espresso",
+          "tr": "2 shot sıcak espresso",
+          "es": "2 chorritos de espresso caliente",
+          "de": "2 Shots heißer Espresso"
+        },
+        {
+          "en": "Amaretti biscuit (optional)",
+          "tr": "Amaretti bisküvisi (isteğe bağlı)",
+          "es": "Galleta amaretti (opcional)",
+          "de": "Amaretti-Keks (optional)"
+        }
+      ],
+      "steps": [
+        {
+          "en": "Place a scoop of gelato in each cup.",
+          "tr": "Her fincana bir top dondurma koyun.",
+          "es": "Colocar una bola de helado en cada taza.",
+          "de": "Eine Kugel Gelato in jede Tasse geben."
+        },
+        {
+          "en": "Pour a shot of freshly made hot espresso over the gelato.",
+          "tr": "Taze yapılmış sıcak espressoyu dondurmanın üzerine dökün.",
+          "es": "Verter un chorro de espresso caliente recién hecho sobre el helado.",
+          "de": "Einen Schuss frisch zubereiteten heißen Espresso über das Gelato gießen."
+        },
+        {
+          "en": "Serve immediately with an amaretti on the side.",
+          "tr": "Yanında amaretti ile hemen servis edin.",
+          "es": "Servir inmediatamente con un amaretti al lado.",
+          "de": "Sofort mit einem Amaretti dazu servieren."
+        }
+      ]
+    },
+    {
+      "id": "it_tortellini",
+      "cuisineId": "italian",
+      "emoji": "🥟",
+      "image": "https://images.unsplash.com/photo-1621996346565-e3d5d6281699?auto=format&fit=crop&w=800&q=80",
+      "color": "FFF1C40F",
+      "prepTime": 60,
+      "cookTime": 5,
+      "difficulty": "hard",
+      "calories": 350,
+      "servings": 4,
+      "isPremium": false,
+      "tags": [
+        "pasta",
+        "stuffed",
+        "traditional"
+      ],
+      "name": {
+        "en": "Tortellini in Brodo",
+        "tr": "Tortellini in Brodo",
+        "es": "Tortellini en Caldo",
+        "de": "Tortellini in Brodo"
+      },
+      "description": {
+        "en": "Ring-shaped stuffed pasta served in rich capon broth — Bologna's holiday tradition.",
+        "tr": "Zengin hindi suyunda servis edilen halka şeklinde dolgulu makarna — Bolonya'nın bayram geleneği.",
+        "es": "Pasta rellena en forma de anillo servida en rico caldo de capón — tradición festiva de Bolonia.",
+        "de": "Ringförmige gefüllte Pasta in reichhaltiger Kapaun-Brühe — Bolognas Festtagstradition."
+      },
+      "ingredients": [
+        {
+          "en": "Fresh egg pasta dough",
+          "tr": "Taze yumurtalı makarna hamuru",
+          "es": "Masa de pasta fresca al huevo",
+          "de": "Frischer Eier-Nudelteig"
+        },
+        {
+          "en": "Filling: pork, prosciutto, mortadella, Parmigiano",
+          "tr": "Harç: domuz eti, prosciutto, mortadella, Parmesan",
+          "es": "Relleno: cerdo, prosciutto, mortadella, Parmigiano",
+          "de": "Füllung: Schweinefleisch, Prosciutto, Mortadella, Parmigiano"
+        },
+        {
+          "en": "Rich meat broth",
+          "tr": "Zengin et suyu",
+          "es": "Caldo rico de carne",
+          "de": "Reichhaltige Fleischbrühe"
+        }
+      ],
+      "steps": [
+        {
+          "en": "Make filling by grinding pork, prosciutto, and mortadella. Mix with egg and Parmigiano.",
+          "tr": "Domuz eti, prosciutto ve mortadellayı çekerek harç yapın. Yumurta ve Parmesan ile karıştırın.",
+          "es": "Hacer relleno moliendo cerdo, prosciutto y mortadella. Mezclar con huevo y Parmigiano.",
+          "de": "Füllung aus gemahlenem Schweinefleisch, Prosciutto und Mortadella herstellen. Mit Ei und Parmigiano mischen."
+        },
+        {
+          "en": "Roll pasta very thin, cut small squares.",
+          "tr": "Hamuru çok ince açın, küçük kareler kesin.",
+          "es": "Estirar pasta muy fina, cortar cuadrados pequeños.",
+          "de": "Teig sehr dünn ausrollen, kleine Quadrate schneiden."
+        },
+        {
+          "en": "Place filling, fold diagonally, wrap around finger to form ring.",
+          "tr": "Harcı koyun, çapraz katlayın, parmağınıza sararak halka şekli verin.",
+          "es": "Colocar relleno, doblar en diagonal, envolver alrededor del dedo para formar anillo.",
+          "de": "Füllung platzieren, diagonal falten, um den Finger wickeln zum Ring."
+        },
+        {
+          "en": "Cook in simmering broth for 3-4 minutes.",
+          "tr": "Hafif kaynayan et suyunda 3-4 dakika pişirin.",
+          "es": "Cocinar en caldo a fuego lento durante 3-4 minutos.",
+          "de": "In köchelnder Brühe 3-4 Minuten garen."
+        },
+        {
+          "en": "Serve in the broth with grated Parmigiano.",
+          "tr": "Et suyunda rendelenmiş Parmesan ile servis edin.",
+          "es": "Servir en el caldo con Parmigiano rallado.",
+          "de": "In der Brühe mit geriebenem Parmigiano servieren."
+        }
+      ]
+    },
+    {
+      "id": "it_saltimbocca",
+      "cuisineId": "italian",
+      "emoji": "🥩",
+      "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=800&q=80",
+      "color": "FFE67E22",
+      "prepTime": 10,
+      "cookTime": 10,
+      "difficulty": "easy",
+      "calories": 320,
+      "servings": 4,
+      "isPremium": false,
+      "tags": [
+        "meat",
+        "quick",
+        "classic"
+      ],
+      "name": {
+        "en": "Saltimbocca alla Romana",
+        "tr": "Saltimbocca",
+        "es": "Saltimbocca a la Romana",
+        "de": "Saltimbocca alla Romana"
+      },
+      "description": {
+        "en": "Veal scallops with prosciutto and sage, pan-fried in butter and white wine.",
+        "tr": "Prosciutto ve adaçayı ile tavada tereyağı ve beyaz şarapta pişirilen dana eskalopu.",
+        "es": "Escalopes de ternera con prosciutto y salvia, fritos en mantequilla y vino blanco.",
+        "de": "Kalbsschnitzel mit Prosciutto und Salbei, in Butter und Weißwein gebraten."
+      },
+      "ingredients": [
+        {
+          "en": "4 veal scallopini",
+          "tr": "4 dana eskalopu",
+          "es": "4 escalopes de ternera",
+          "de": "4 Kalbsschnitzel"
+        },
+        {
+          "en": "4 slices prosciutto",
+          "tr": "4 dilim prosciutto",
+          "es": "4 lonchas de prosciutto",
+          "de": "4 Scheiben Prosciutto"
+        },
+        {
+          "en": "Sage leaves",
+          "tr": "Adaçayı yaprakları",
+          "es": "Hojas de salvia",
+          "de": "Salbeiblätter"
+        },
+        {
+          "en": "Butter, white wine, flour",
+          "tr": "Tereyağı, beyaz şarap, un",
+          "es": "Mantequilla, vino blanco, harina",
+          "de": "Butter, Weißwein, Mehl"
+        }
+      ],
+      "steps": [
+        {
+          "en": "Place sage leaf and prosciutto on each veal piece, secure with toothpick.",
+          "tr": "Her dana parçasının üzerine adaçayı ve prosciutto koyun, kürdan ile sabitleyin.",
+          "es": "Colocar hoja de salvia y prosciutto en cada pieza de ternera, asegurar con palillo.",
+          "de": "Salbeiblatt und Prosciutto auf jedes Kalbsstück legen, mit Zahnstocher befestigen."
+        },
+        {
+          "en": "Dust lightly with flour.",
+          "tr": "Hafifçe unlayın.",
+          "es": "Enharinar ligeramente.",
+          "de": "Leicht mit Mehl bestäuben."
+        },
+        {
+          "en": "Pan-fry in butter, prosciutto side down first, 2 minutes per side.",
+          "tr": "Tereyağında prosciutto tarafı alttan önce 2 dakika her tarafı kızartın.",
+          "es": "Freír en mantequilla, lado del prosciutto primero, 2 minutos por lado.",
+          "de": "In Butter braten, Prosciutto-Seite zuerst, 2 Minuten pro Seite."
+        },
+        {
+          "en": "Remove meat, deglaze with white wine, pour sauce over.",
+          "tr": "Eti çıkarın, beyaz şarapla kazıyın, sosu üzerine dökün.",
+          "es": "Retirar carne, desglasar con vino blanco, verter salsa encima.",
+          "de": "Fleisch herausnehmen, mit Weißwein ablöschen, Sauce darüber gießen."
+        }
+      ]
+    },
+    {
+      "id": "it_cacio_e_pepe",
+      "cuisineId": "italian",
+      "emoji": "🍝",
+      "image": "https://images.unsplash.com/photo-1608897013039-887f21d8c804?auto=format&fit=crop&w=800&q=80",
+      "color": "FFF5DEB3",
+      "prepTime": 5,
+      "cookTime": 12,
+      "difficulty": "medium",
+      "calories": 450,
+      "servings": 4,
+      "isPremium": false,
+      "tags": [
+        "pasta",
+        "vegetarian",
+        "classic"
+      ],
+      "name": {
+        "en": "Cacio e Pepe",
+        "tr": "Cacio e Pepe",
+        "es": "Cacio e Pepe",
+        "de": "Cacio e Pepe"
+      },
+      "description": {
+        "en": "Rome's three-ingredient masterpiece — pasta, Pecorino Romano, and black pepper.",
+        "tr": "Roma'nın üç malzemeli başyapıtı — makarna, Pecorino Romano ve karabiber.",
+        "es": "La obra maestra de tres ingredientes de Roma — pasta, Pecorino Romano y pimienta negra.",
+        "de": "Roms Meisterwerk aus drei Zutaten — Pasta, Pecorino Romano und schwarzer Pfeffer."
+      },
+      "ingredients": [
+        {
+          "en": "400g tonnarelli or spaghetti",
+          "tr": "400g tonnarelli veya spagetti",
+          "es": "400g tonnarelli o espaguetis",
+          "de": "400g Tonnarelli oder Spaghetti"
+        },
+        {
+          "en": "200g Pecorino Romano, finely grated",
+          "tr": "200g Pecorino Romano, ince rendelenmiş",
+          "es": "200g Pecorino Romano, finamente rallado",
+          "de": "200g Pecorino Romano, fein gerieben"
+        },
+        {
+          "en": "2 tbsp whole black peppercorns",
+          "tr": "2 yemek kaşığı bütün karabiber",
+          "es": "2 cucharadas de granos de pimienta negra",
+          "de": "2 EL ganze schwarze Pfefferkörner"
+        }
+      ],
+      "steps": [
+        {
+          "en": "Toast and crack peppercorns in a dry pan.",
+          "tr": "Karabiberleri kuru tavada kavurup kırın.",
+          "es": "Tostar y triturar granos de pimienta en sartén seca.",
+          "de": "Pfefferkörner in einer trockenen Pfanne rösten und zerdrücken."
+        },
+        {
+          "en": "Cook pasta in lightly salted water, reserve lots of pasta water.",
+          "tr": "Makarnayı az tuzlu suda pişirin, bol makarna suyu saklayın.",
+          "es": "Cocinar pasta en agua ligeramente salada, reservar mucha agua de pasta.",
+          "de": "Pasta in leicht gesalzenem Wasser kochen, viel Nudelwasser aufheben."
+        },
+        {
+          "en": "Mix grated Pecorino with some pasta water to make a cream.",
+          "tr": "Rendelenmiş Pecorino'yu biraz makarna suyu ile krema haline getirin.",
+          "es": "Mezclar Pecorino rallado con algo de agua de pasta para hacer crema.",
+          "de": "Geriebenen Pecorino mit etwas Nudelwasser zu einer Creme mischen."
+        },
+        {
+          "en": "Toss pasta with pepper, then add cheese cream off heat, stirring vigorously.",
+          "tr": "Makarnayı biberle karıştırın, sonra ocaktan alıp peynir kremasını ekleyin.",
+          "es": "Mezclar pasta con pimienta, luego agregar crema de queso fuera del fuego.",
+          "de": "Pasta mit Pfeffer schwenken, dann vom Herd die Käsecreme unterrühren."
+        }
+      ]
+    },
+    {
+      "id": "it_ribollita",
+      "cuisineId": "italian",
+      "emoji": "🥣",
+      "image": "https://images.unsplash.com/photo-1512058564366-18510be2db19?auto=format&fit=crop&w=800&q=80",
+      "color": "FF2ECC71",
+      "prepTime": 15,
+      "cookTime": 45,
+      "difficulty": "easy",
+      "calories": 220,
+      "servings": 6,
+      "isPremium": false,
+      "tags": [
+        "soup",
+        "vegetarian",
+        "tuscan"
+      ],
+      "name": {
+        "en": "Ribollita",
+        "tr": "Ribollita",
+        "es": "Ribollita",
+        "de": "Ribollita"
+      },
+      "description": {
+        "en": "Thick Tuscan bread soup with cannellini beans, kale, and vegetables.",
+        "tr": "Cannellini fasulyesi, kara lahana ve sebzelerle yapılan koyu Toskana ekmek çorbası.",
+        "es": "Sopa espesa de pan toscana con frijoles cannellini, col rizada y verduras.",
+        "de": "Dicke toskanische Brotsuppe mit Cannellini-Bohnen, Grünkohl und Gemüse."
+      },
+      "ingredients": [
+        {
+          "en": "Stale Tuscan bread",
+          "tr": "Bayat Toskana ekmeği",
+          "es": "Pan toscano duro",
+          "de": "Altbackenes toskanisches Brot"
+        },
+        {
+          "en": "Cannellini beans",
+          "tr": "Cannellini fasulyesi",
+          "es": "Frijoles cannellini",
+          "de": "Cannellini-Bohnen"
+        },
+        {
+          "en": "Cavolo nero (Tuscan kale)",
+          "tr": "Kara lahana",
+          "es": "Col rizada toscana",
+          "de": "Schwarzkohl"
+        },
+        {
+          "en": "Carrots, celery, onion, tomatoes",
+          "tr": "Havuç, kereviz, soğan, domates",
+          "es": "Zanahorias, apio, cebolla, tomates",
+          "de": "Karotten, Sellerie, Zwiebel, Tomaten"
+        }
+      ],
+      "steps": [
+        {
+          "en": "Sauté vegetables in olive oil, add tomatoes and broth.",
+          "tr": "Sebzeleri zeytinyağında kavurun, domates ve et suyu ekleyin.",
+          "es": "Saltear verduras en aceite de oliva, agregar tomates y caldo.",
+          "de": "Gemüse in Olivenöl anbraten, Tomaten und Brühe hinzufügen."
+        },
+        {
+          "en": "Add beans and kale, simmer 30 minutes.",
+          "tr": "Fasulye ve kara lahanayı ekleyin, 30 dakika pişirin.",
+          "es": "Agregar frijoles y col rizada, cocinar a fuego lento 30 minutos.",
+          "de": "Bohnen und Grünkohl hinzufügen, 30 Minuten köcheln."
+        },
+        {
+          "en": "Tear in stale bread, stir until thick.",
+          "tr": "Bayat ekmeği parçalayarak ekleyin, koyu kıvam alana kadar karıştırın.",
+          "es": "Desgarrar pan duro, revolver hasta espesar.",
+          "de": "Altbackenes Brot hineinreißen, rühren bis es dick wird."
+        },
+        {
+          "en": "Rest overnight, reheat next day — it's even better 'reboiled'.",
+          "tr": "Bir gece dinlendirin, ertesi gün ısıtın — 'tekrar kaynatılmış' hali daha lezzetli.",
+          "es": "Reposar toda la noche, recalentar al día siguiente — es mejor 'rehervida'.",
+          "de": "Über Nacht ruhen lassen, am nächsten Tag aufwärmen — 'wiedergekocht' schmeckt noch besser."
+        }
+      ]
+    },
+    {
+      "id": "it_vitello_tonnato",
+      "cuisineId": "italian",
+      "emoji": "🥩",
+      "image": "https://images.unsplash.com/photo-1529042410759-befb1204b468?auto=format&fit=crop&w=800&q=80",
+      "color": "FFDEB887",
+      "prepTime": 30,
+      "cookTime": 60,
+      "difficulty": "medium",
+      "calories": 300,
+      "servings": 6,
+      "isPremium": false,
+      "tags": [
+        "meat",
+        "cold",
+        "elegant"
+      ],
+      "name": {
+        "en": "Vitello Tonnato",
+        "tr": "Vitello Tonnato",
+        "es": "Vitello Tonnato",
+        "de": "Vitello Tonnato"
+      },
+      "description": {
+        "en": "Cold sliced veal with creamy tuna-caper sauce — a Piedmontese summer classic.",
+        "tr": "Kremalı ton balığı-kapari sosu ile soğuk dilimlenmiş dana — bir Piemonte yaz klasiği.",
+        "es": "Ternera fría en lonchas con salsa cremosa de atún y alcaparras — un clásico veraniego piamontés.",
+        "de": "Kaltes Kalbfleisch in Scheiben mit cremiger Thunfisch-Kapern-Sauce — ein piemontesischer Sommerklassiker."
+      },
+      "ingredients": [
+        {
+          "en": "800g veal eye round",
+          "tr": "800g dana but",
+          "es": "800g redondo de ternera",
+          "de": "800g Kalbsnuss"
+        },
+        {
+          "en": "150g canned tuna",
+          "tr": "150g konserve ton balığı",
+          "es": "150g atún en conserva",
+          "de": "150g Thunfisch aus der Dose"
+        },
+        {
+          "en": "Capers, anchovies, egg yolks",
+          "tr": "Kapari, ançüez, yumurta sarıları",
+          "es": "Alcaparras, anchoas, yemas de huevo",
+          "de": "Kapern, Sardellen, Eigelb"
+        },
+        {
+          "en": "Lemon juice, olive oil",
+          "tr": "Limon suyu, zeytinyağı",
+          "es": "Jugo de limón, aceite de oliva",
+          "de": "Zitronensaft, Olivenöl"
+        }
+      ],
+      "steps": [
+        {
+          "en": "Poach veal gently in aromatic broth until cooked through.",
+          "tr": "Etli suyu aromatik suyla hafifçe pişirin.",
+          "es": "Escalfar ternera suavemente en caldo aromático hasta cocinar.",
+          "de": "Kalbfleisch sanft in aromatischer Brühe garziehen."
+        },
+        {
+          "en": "Cool completely, slice very thin.",
+          "tr": "Tamamen soğutun, çok ince dilimleyin.",
+          "es": "Enfriar completamente, cortar muy fino.",
+          "de": "Vollständig abkühlen lassen, sehr dünn aufschneiden."
+        },
+        {
+          "en": "Blend tuna, capers, anchovies, egg yolks and oil into smooth sauce.",
+          "tr": "Ton balığı, kapari, ançüez, yumurta sarıları ve yağı pürüzsüz sos haline getirin.",
+          "es": "Licuar atún, alcaparras, anchoas, yemas y aceite en salsa suave.",
+          "de": "Thunfisch, Kapern, Sardellen, Eigelb und Öl zu glatter Sauce mixen."
+        },
+        {
+          "en": "Layer veal slices with tuna sauce, refrigerate before serving.",
+          "tr": "Dana dilimlerini ton sosla katmanlayın, servis öncesi soğutun.",
+          "es": "Colocar capas de ternera con salsa de atún, refrigerar antes de servir.",
+          "de": "Kalbfleischscheiben mit Thunfischsauce schichten, vor dem Servieren kühlen."
+        }
+      ]
+    },
+    {
+      "id": "it_panettone",
+      "cuisineId": "italian",
+      "emoji": "🍞",
+      "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=800&q=80",
+      "color": "FFF39C12",
+      "prepTime": 120,
+      "cookTime": 50,
+      "difficulty": "hard",
+      "calories": 340,
+      "servings": 12,
+      "isPremium": false,
+      "tags": [
+        "bread",
+        "dessert",
+        "christmas"
+      ],
+      "name": {
+        "en": "Panettone",
+        "tr": "Panettone",
+        "es": "Panettone",
+        "de": "Panettone"
+      },
+      "description": {
+        "en": "Tall, dome-shaped Italian Christmas bread studded with candied fruit and raisins.",
+        "tr": "Şekerlenmiş meyve ve kuru üzümlerle dolu, kubbemsi İtalyan Noel ekmeği.",
+        "es": "Pan de Navidad italiano alto en forma de cúpula con frutas confitadas y pasas.",
+        "de": "Hoher, kuppelförmiger italienischer Weihnachtskuchen mit kandierten Früchten und Rosinen."
+      },
+      "ingredients": [
+        {
+          "en": "500g flour, butter, eggs, sugar",
+          "tr": "500g un, tereyağı, yumurta, şeker",
+          "es": "500g harina, mantequilla, huevos, azúcar",
+          "de": "500g Mehl, Butter, Eier, Zucker"
+        },
+        {
+          "en": "Natural yeast/sourdough starter",
+          "tr": "Doğal maya/ekşi hamur mayası",
+          "es": "Levadura natural/masa madre",
+          "de": "Natürliche Hefe/Sauerteig"
+        },
+        {
+          "en": "Candied orange, citron, raisins",
+          "tr": "Şekerlenmiş portakal, ağaç kavunu, kuru üzüm",
+          "es": "Naranja confitada, cidra, pasas",
+          "de": "Kandierte Orange, Zitronat, Rosinen"
+        },
+        {
+          "en": "Vanilla, orange zest",
+          "tr": "Vanilya, portakal kabuğu rendesi",
+          "es": "Vainilla, ralladura de naranja",
+          "de": "Vanille, Orangenschale"
+        }
+      ],
+      "steps": [
+        {
+          "en": "Make a rich dough with butter, eggs, sugar and yeast. Rise multiple times over 12+ hours.",
+          "tr": "Tereyağı, yumurta, şeker ve maya ile zengin hamur yapın. 12+ saat boyunca birçok kez mayalandırın.",
+          "es": "Hacer una masa rica con mantequilla, huevos, azúcar y levadura. Dejar leudar varias veces durante más de 12 horas.",
+          "de": "Einen reichhaltigen Teig aus Butter, Eiern, Zucker und Hefe herstellen. Über 12+ Stunden mehrmals gehen lassen."
+        },
+        {
+          "en": "Fold in candied fruits and raisins.",
+          "tr": "Şekerlenmiş meyveleri ve kuru üzümü katın.",
+          "es": "Incorporar frutas confitadas y pasas.",
+          "de": "Kandierte Früchte und Rosinen unterheben."
+        },
+        {
+          "en": "Place in panettone mold, final rise until dough reaches the top.",
+          "tr": "Panettone kalıbına koyun, hamur üste gelene kadar son mayalandırmayı yapın.",
+          "es": "Colocar en molde de panettone, última fermentación hasta que la masa llegue arriba.",
+          "de": "In Panettone-Form setzen, letzte Gare bis der Teig den oberen Rand erreicht."
+        },
+        {
+          "en": "Score a cross on top, bake at 170°C for 45-50 minutes.",
+          "tr": "Üstüne haç şeklinde çizin, 170°C'de 45-50 dakika pişirin.",
+          "es": "Hacer un corte en cruz en la parte superior, hornear a 170°C durante 45-50 minutos.",
+          "de": "Ein Kreuz auf der Oberseite einritzen, bei 170°C 45-50 Minuten backen."
+        },
+        {
+          "en": "Cool upside down to maintain dome shape.",
+          "tr": "Kubbe şeklini korumak için ters çevirerek soğutun.",
+          "es": "Enfriar boca abajo para mantener la forma de cúpula.",
+          "de": "Zum Abkühlen auf den Kopf stellen, um die Kuppelform zu bewahren."
+        }
+      ]
+    },
+    {
+      "id": "it_supplì",
+      "cuisineId": "italian",
+      "emoji": "🧆",
+      "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?auto=format&fit=crop&w=800&q=80",
+      "color": "FFE67E22",
+      "prepTime": 30,
+      "cookTime": 8,
+      "difficulty": "medium",
+      "calories": 250,
+      "servings": 8,
+      "isPremium": false,
+      "tags": [
+        "fried",
+        "rice",
+        "street_food"
+      ],
+      "name": {
+        "en": "Supplì",
+        "tr": "Supplì",
+        "es": "Supplì",
+        "de": "Supplì"
+      },
+      "description": {
+        "en": "Rome's fried rice croquettes with a melted mozzarella heart — 'supplì al telefono'.",
+        "tr": "Erimiş mozzarella kalpli Roma'nın kızarmış pirinç kroketi — 'supplì al telefono'.",
+        "es": "Croquetas de arroz fritas romanas con corazón de mozzarella derretida — 'supplì al telefono'.",
+        "de": "Roms frittierte Reiskroketten mit geschmolzenem Mozzarella-Herz — 'Supplì al telefono'."
+      },
+      "ingredients": [
+        {
+          "en": "Leftover tomato risotto",
+          "tr": "Artakalan domatesli risotto",
+          "es": "Risotto de tomate sobrante",
+          "de": "Übrig gebliebenes Tomaten-Risotto"
+        },
+        {
+          "en": "Mozzarella sticks",
+          "tr": "Mozzarella çubukları",
+          "es": "Palitos de mozzarella",
+          "de": "Mozzarella-Stäbchen"
+        },
+        {
+          "en": "Eggs, breadcrumbs, flour",
+          "tr": "Yumurta, galeta unu, un",
+          "es": "Huevos, pan rallado, harina",
+          "de": "Eier, Semmelbrösel, Mehl"
+        },
+        {
+          "en": "Oil for frying",
+          "tr": "Kızartma yağı",
+          "es": "Aceite para freír",
+          "de": "Öl zum Frittieren"
+        }
+      ],
+      "steps": [
+        {
+          "en": "Take cold risotto, form into egg shapes with mozzarella in the center.",
+          "tr": "Soğuk risottoyu alın, ortasına mozzarella koyarak yumurta şekli verin.",
+          "es": "Tomar risotto frío, formar huevos con mozzarella en el centro.",
+          "de": "Kaltes Risotto nehmen, mit Mozzarella in der Mitte eiförmig formen."
+        },
+        {
+          "en": "Coat: flour → egg → breadcrumbs.",
+          "tr": "Kaplama: un → yumurta → galeta unu.",
+          "es": "Rebozar: harina → huevo → pan rallado.",
+          "de": "Panieren: Mehl → Ei → Semmelbrösel."
+        },
+        {
+          "en": "Deep fry at 180°C for 4-5 minutes until golden.",
+          "tr": "180°C yağda 4-5 dakika altın rengi olana kadar kızartın.",
+          "es": "Freír a 180°C durante 4-5 minutos hasta dorar.",
+          "de": "Bei 180°C 4-5 Minuten goldbraun frittieren."
+        },
+        {
+          "en": "Break open to reveal the 'telephone wire' cheese pull!",
+          "tr": "Peynir uzamasını ('telefon kablosu') görmek için kırın!",
+          "es": "¡Romper para revelar el queso elástico como 'cable telefónico'!",
+          "de": "Aufbrechen um den 'Telefonkabel'-Käsezug zu enthüllen!"
+        }
+      ]
+    },
+    {
+      "id": "it_caponata",
+      "cuisineId": "italian",
+      "emoji": "🍆",
+      "image": "https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=800&q=80",
+      "color": "FF9B59B6",
+      "prepTime": 20,
+      "cookTime": 30,
+      "difficulty": "medium",
+      "calories": 180,
+      "servings": 6,
+      "isPremium": false,
+      "tags": [
+        "vegetarian",
+        "sicilian",
+        "cold"
+      ],
+      "name": {
+        "en": "Caponata",
+        "tr": "Caponata",
+        "es": "Caponata",
+        "de": "Caponata"
+      },
+      "description": {
+        "en": "Sweet and sour Sicilian eggplant stew with capers, olives, and pine nuts.",
+        "tr": "Kapari, zeytin ve çam fıstığı ile ekşi tatlı Sicilya patlıcan yahnisi.",
+        "es": "Estofado siciliano agridulce de berenjena con alcaparras, aceitunas y piñones.",
+        "de": "Süß-saurer sizilianischer Aubergineneintopf mit Kapern, Oliven und Pinienkernen."
+      },
+      "ingredients": [
+        {
+          "en": "3 eggplants, cubed",
+          "tr": "3 patlıcan, küp doğranmış",
+          "es": "3 berenjenas, en cubos",
+          "de": "3 Auberginen, gewürfelt"
+        },
+        {
+          "en": "Celery, onion, tomatoes",
+          "tr": "Kereviz, soğan, domates",
+          "es": "Apio, cebolla, tomates",
+          "de": "Sellerie, Zwiebel, Tomaten"
+        },
+        {
+          "en": "Capers, green olives, pine nuts",
+          "tr": "Kapari, yeşil zeytin, çam fıstığı",
+          "es": "Alcaparras, aceitunas verdes, piñones",
+          "de": "Kapern, grüne Oliven, Pinienkerne"
+        },
+        {
+          "en": "Red wine vinegar, sugar",
+          "tr": "Kırmızı şarap sirkesi, şeker",
+          "es": "Vinagre de vino tinto, azúcar",
+          "de": "Rotweinessig, Zucker"
+        }
+      ],
+      "steps": [
+        {
+          "en": "Fry eggplant cubes until golden, drain.",
+          "tr": "Patlıcan küplerini altın rengi olana kadar kızartın, süzün.",
+          "es": "Freír cubos de berenjena hasta dorar, escurrir.",
+          "de": "Auberginenwürfel goldbraun braten, abtropfen lassen."
+        },
+        {
+          "en": "Sauté celery and onion, add tomatoes.",
+          "tr": "Kereviz ve soğanı kavurun, domatesleri ekleyin.",
+          "es": "Saltear apio y cebolla, agregar tomates.",
+          "de": "Sellerie und Zwiebel anbraten, Tomaten hinzufügen."
+        },
+        {
+          "en": "Add vinegar, sugar for agrodolce balance.",
+          "tr": "Ekşi-tatlı denge için sirke ve şeker ekleyin.",
+          "es": "Agregar vinagre y azúcar para balance agridulce.",
+          "de": "Essig und Zucker für Agrodolce-Balance hinzufügen."
+        },
+        {
+          "en": "Combine with eggplant, capers, olives and pine nuts. Serve at room temperature.",
+          "tr": "Patlıcan, kapari, zeytin ve çam fıstığı ile birleştirin. Oda sıcaklığında servis edin.",
+          "es": "Combinar con berenjena, alcaparras, aceitunas y piñones. Servir a temperatura ambiente.",
+          "de": "Mit Aubergine, Kapern, Oliven und Pinienkernen mischen. Bei Raumtemperatur servieren."
+        }
+      ]
+    },
+    {
+      "id": "it_amatriciana",
+      "cuisineId": "italian",
+      "emoji": "🍝",
+      "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&w=800&q=80",
+      "color": "FFE84545",
+      "prepTime": 10,
+      "cookTime": 25,
+      "difficulty": "medium",
+      "calories": 460,
+      "servings": 4,
+      "isPremium": false,
+      "tags": [
+        "pasta",
+        "meat",
+        "classic"
+      ],
+      "name": {
+        "en": "Pasta all'Amatriciana",
+        "tr": "Amatriciana Makarna",
+        "es": "Pasta a la Amatriciana",
+        "de": "Pasta all'Amatriciana"
+      },
+      "description": {
+        "en": "Bucatini with guanciale, tomato, pecorino and chili — Amatrice's gift to the world.",
+        "tr": "Guanciale, domates, pecorino ve acı biber ile bucatini — Amatrice'nin dünyaya armağanı.",
+        "es": "Bucatini con guanciale, tomate, pecorino y chile — el regalo de Amatrice al mundo.",
+        "de": "Bucatini mit Guanciale, Tomate, Pecorino und Chili — Amatrices Geschenk an die Welt."
+      },
+      "ingredients": [
+        {
+          "en": "400g bucatini",
+          "tr": "400g bucatini",
+          "es": "400g bucatini",
+          "de": "400g Bucatini"
+        },
+        {
+          "en": "200g guanciale",
+          "tr": "200g guanciale",
+          "es": "200g guanciale",
+          "de": "200g Guanciale"
+        },
+        {
+          "en": "400g San Marzano tomatoes",
+          "tr": "400g San Marzano domates",
+          "es": "400g tomates San Marzano",
+          "de": "400g San-Marzano-Tomaten"
+        },
+        {
+          "en": "Pecorino Romano, dried chili",
+          "tr": "Pecorino Romano, kuru acı biber",
+          "es": "Pecorino Romano, chile seco",
+          "de": "Pecorino Romano, getrocknete Chili"
+        }
+      ],
+      "steps": [
+        {
+          "en": "Crisp guanciale strips in a pan until golden.",
+          "tr": "Guanciale şeritlerini altın rengi olana kadar çıtırlaştırın.",
+          "es": "Dorar tiras de guanciale en sartén hasta quedar crujientes.",
+          "de": "Guanciale-Streifen in der Pfanne knusprig braten."
+        },
+        {
+          "en": "Add chili, then crushed tomatoes. Simmer 15 minutes.",
+          "tr": "Acı biberi, sonra ezilmiş domatesleri ekleyin. 15 dakika pişirin.",
+          "es": "Agregar chile, luego tomates triturados. Cocinar a fuego lento 15 minutos.",
+          "de": "Chili hinzufügen, dann zerdrückte Tomaten. 15 Minuten köcheln."
+        },
+        {
+          "en": "Cook bucatini al dente.",
+          "tr": "Bucatini'yi al dente pişirin.",
+          "es": "Cocinar bucatini al dente.",
+          "de": "Bucatini al dente kochen."
+        },
+        {
+          "en": "Toss pasta in sauce, finish with generous Pecorino.",
+          "tr": "Makarnayı sosla karıştırın, bol Pecorino ile bitirin.",
+          "es": "Mezclar pasta en salsa, terminar con abundante Pecorino.",
+          "de": "Pasta in der Sauce schwenken, mit großzügig Pecorino abschließen."
+        }
+      ]
+    },
+    {
+      "id": "it_gelato",
+      "cuisineId": "italian",
+      "emoji": "🍨",
+      "image": "https://images.unsplash.com/photo-1560008581-09826d1de69e?auto=format&fit=crop&w=800&q=80",
+      "color": "FFFFB6C1",
+      "prepTime": 20,
+      "cookTime": 0,
+      "difficulty": "medium",
+      "calories": 200,
+      "servings": 6,
+      "isPremium": false,
+      "tags": [
+        "dessert",
+        "frozen",
+        "classic"
+      ],
+      "name": {
+        "en": "Gelato",
+        "tr": "Gelato",
+        "es": "Gelato",
+        "de": "Gelato"
+      },
+      "description": {
+        "en": "Authentic Italian ice cream — denser, silkier, and more flavorful than regular ice cream.",
+        "tr": "Otantik İtalyan dondurması — normal dondurmadan daha yoğun, ipeksi ve lezzetli.",
+        "es": "Helado italiano auténtico — más denso, sedoso y sabroso que el helado normal.",
+        "de": "Authentisches italienisches Eis — dichter, seidiger und aromatischer als normales Eis."
+      },
+      "ingredients": [
+        {
+          "en": "500ml whole milk",
+          "tr": "500ml tam yağlı süt",
+          "es": "500ml leche entera",
+          "de": "500ml Vollmilch"
+        },
+        {
+          "en": "150g sugar",
+          "tr": "150g şeker",
+          "es": "150g azúcar",
+          "de": "150g Zucker"
+        },
+        {
+          "en": "4 egg yolks",
+          "tr": "4 yumurta sarısı",
+          "es": "4 yemas de huevo",
+          "de": "4 Eigelb"
+        },
+        {
+          "en": "Flavor: vanilla, pistachio, or chocolate",
+          "tr": "Aroma: vanilya, fıstık veya çikolata",
+          "es": "Sabor: vainilla, pistacho o chocolate",
+          "de": "Geschmack: Vanille, Pistazie oder Schokolade"
+        }
+      ],
+      "steps": [
+        {
+          "en": "Heat milk with half the sugar until steaming.",
+          "tr": "Sütü şekerin yarısıyla buharlaşana kadar ısıtın.",
+          "es": "Calentar leche con la mitad del azúcar hasta que eche vapor.",
+          "de": "Milch mit der Hälfte des Zuckers erhitzen, bis sie dampft."
+        },
+        {
+          "en": "Whisk egg yolks with remaining sugar until pale.",
+          "tr": "Yumurta sarılarını kalan şekerle solgun olana kadar çırpın.",
+          "es": "Batir yemas con azúcar restante hasta que estén pálidas.",
+          "de": "Eigelb mit restlichem Zucker hellgelb schlagen."
+        },
+        {
+          "en": "Temper eggs with hot milk, cook to 82°C (custard consistency).",
+          "tr": "Yumurtaları sıcak sütle temperlayın, 82°C'ye (muhallebi kıvamına) pişirin.",
+          "es": "Temperar huevos con leche caliente, cocinar a 82°C (consistencia de natillas).",
+          "de": "Eier mit heißer Milch temperieren, auf 82°C kochen (Pudding-Konsistenz)."
+        },
+        {
+          "en": "Cool completely, add flavoring, churn in ice cream maker.",
+          "tr": "Tamamen soğutun, aroma ekleyin, dondurma makinesinde çevirin.",
+          "es": "Enfriar completamente, agregar saborizante, batir en máquina de helados.",
+          "de": "Vollständig abkühlen, Aroma hinzufügen, in Eismaschine rühren."
+        },
+        {
+          "en": "Freeze for 2 hours, serve slightly softer than ice cream.",
+          "tr": "2 saat dondurun, normal dondurmadan biraz daha yumuşak servis edin.",
+          "es": "Congelar 2 horas, servir ligeramente más blando que el helado.",
+          "de": "2 Stunden einfrieren, etwas weicher als Eis servieren."
+        }
+      ]
+    }
+  ]
+}

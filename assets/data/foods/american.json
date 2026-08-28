@@ -1,0 +1,2287 @@
+{
+  "cuisineId": "american",
+  "foods": [
+    {
+      "id": "us_burger",
+      "cuisineId": "american",
+      "emoji": "🍔",
+      "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=800&q=80",
+      "color": "FFF39C12",
+      "prepTime": 15,
+      "cookTime": 10,
+      "difficulty": "easy",
+      "calories": 550,
+      "servings": 4,
+      "isPremium": false,
+      "tags": [
+        "meat",
+        "grilled",
+        "classic"
+      ],
+      "name": {
+        "en": "Classic Cheeseburger",
+        "tr": "Klasik Cheeseburger",
+        "es": "Hamburguesa Clásica con Queso",
+        "de": "Klassischer Cheeseburger"
+      },
+      "description": {
+        "en": "Juicy beef patty with melted American cheese, lettuce, tomato, and special sauce.",
+        "tr": "Erimiş Amerikan peyniri, marul, domates ve özel sos ile sulu dana köfte.",
+        "es": "Hamburguesa de res jugosa con queso americano derretido, lechuga, tomate y salsa especial.",
+        "de": "Saftiges Rindfleisch-Patty mit geschmolzenem amerikanischem Käse, Salat, Tomate und Spezialsauce."
+      },
+      "ingredients": [
+        {
+          "en": "500g ground beef (80/20)",
+          "tr": "500g kıyma (%80 yağsız)",
+          "es": "500g carne molida de res (80/20)",
+          "de": "500g Rinderhackfleisch (80/20)"
+        },
+        {
+          "en": "4 burger buns",
+          "tr": "4 hamburger ekmeği",
+          "es": "4 panes de hamburguesa",
+          "de": "4 Burgerbrötchen"
+        },
+        {
+          "en": "4 slices American cheese",
+          "tr": "4 dilim Amerikan peyniri",
+          "es": "4 rebanadas de queso americano",
+          "de": "4 Scheiben amerikanischer Käse"
+        },
+        {
+          "en": "Lettuce, tomato, onion, pickles",
+          "tr": "Marul, domates, soğan, turşu",
+          "es": "Lechuga, tomate, cebolla, pepinillos",
+          "de": "Salat, Tomate, Zwiebel, Gurken"
+        },
+        {
+          "en": "Ketchup, mustard, mayo",
+          "tr": "Ketçap, hardal, mayonez",
+          "es": "Kétchup, mostaza, mayonesa",
+          "de": "Ketchup, Senf, Mayo"
+        }
+      ],
+      "steps": [
+        {
+          "en": "Form beef into 4 patties, season generously with salt and pepper.",
+          "tr": "Eti 4 köfte haline getirin, bol tuz ve biberle tatlandırın.",
+          "es": "Formar 4 hamburguesas, sazonar generosamente con sal y pimienta.",
+          "de": "Fleisch zu 4 Patties formen, großzügig mit Salz und Pfeffer würzen."
+        },
+        {
+          "en": "Cook on a hot grill or cast iron, 3-4 min per side for medium.",
+          "tr": "Kızgın ızgarada veya döküm tavada her tarafı 3-4 dakika pişirin.",
+          "es": "Cocinar en parrilla caliente o hierro fundido, 3-4 min por lado para término medio.",
+          "de": "Auf heißem Grill oder Gusseisen 3-4 Min. pro Seite braten."
+        },
+        {
+          "en": "Add cheese in last minute, cover to melt.",
+          "tr": "Son dakikada peyniri ekleyin, erimesi için kapatın.",
+          "es": "Agregar queso en el último minuto, tapar para derretir.",
+          "de": "In der letzten Minute Käse auflegen, zudecken zum Schmelzen."
+        },
+        {
+          "en": "Toast buns, assemble with toppings and sauce.",
+          "tr": "Ekmekleri kızartın, malzemeler ve sos ile birleştirin.",
+          "es": "Tostar panes, armar con ingredientes y salsa.",
+          "de": "Brötchen toasten, mit Belag und Sauce zusammenbauen."
+        }
+      ]
+    },
+    {
+      "id": "us_hot_dog",
+      "cuisineId": "american",
+      "emoji": "🌭",
+      "image": "https://images.unsplash.com/photo-1619740455993-9e612b1af08a?auto=format&fit=crop&w=800&q=80",
+      "color": "FFE84545",
+      "prepTime": 5,
+      "cookTime": 10,
+      "difficulty": "easy",
+      "calories": 350,
+      "servings": 4,
+      "isPremium": false,
+      "tags": [
+        "meat",
+        "street_food",
+        "quick"
+      ],
+      "name": {
+        "en": "Hot Dog",
+        "tr": "Sosisli Sandviç",
+        "es": "Hot Dog",
+        "de": "Hot Dog"
+      },
+      "description": {
+        "en": "Grilled all-beef frank in a soft bun with mustard, relish, and onions.",
+        "tr": "Yumuşak ekmekte hardal, relish ve soğan ile ızgara sosis.",
+        "es": "Salchicha de res a la parrilla en un pan suave con mostaza, relish y cebollas.",
+        "de": "Gegrilltes Rinderwürstchen im weichen Brötchen mit Senf, Relish und Zwiebeln."
+      },
+      "ingredients": [
+        {
+          "en": "4 beef frankfurters",
+          "tr": "4 dana sosis",
+          "es": "4 salchichas de res",
+          "de": "4 Rinderwürstchen"
+        },
+        {
+          "en": "4 hot dog buns",
+          "tr": "4 sosisli ekmeği",
+          "es": "4 panes de hot dog",
+          "de": "4 Hot-Dog-Brötchen"
+        },
+        {
+          "en": "Yellow mustard, ketchup",
+          "tr": "Sarı hardal, ketçap",
+          "es": "Mostaza amarilla, kétchup",
+          "de": "Gelber Senf, Ketchup"
+        },
+        {
+          "en": "Relish, diced onion, sauerkraut",
+          "tr": "Relish, doğranmış soğan, lahana turşusu",
+          "es": "Relish, cebolla picada, chucrut",
+          "de": "Relish, gewürfelte Zwiebel, Sauerkraut"
+        }
+      ],
+      "steps": [
+        {
+          "en": "Grill or boil franks until heated through.",
+          "tr": "Sosisleri ızgarada veya kaynatarak pişirin.",
+          "es": "Asar o hervir las salchichas hasta calentar.",
+          "de": "Würstchen grillen oder kochen bis durcherhitzt."
+        },
+        {
+          "en": "Steam or toast the buns.",
+          "tr": "Ekmekleri buharlayın veya kızartın.",
+          "es": "Vaporizar o tostar los panes.",
+          "de": "Brötchen dämpfen oder toasten."
+        },
+        {
+          "en": "Place frank in bun, add your preferred toppings.",
+          "tr": "Sosisi ekmeğe koyun, tercih ettiğiniz malzemeleri ekleyin.",
+          "es": "Colocar salchicha en pan, agregar ingredientes preferidos.",
+          "de": "Würstchen ins Brötchen legen, bevorzugte Beläge hinzufügen."
+        }
+      ]
+    },
+    {
+      "id": "us_mac_cheese",
+      "cuisineId": "american",
+      "emoji": "🧀",
+      "image": "https://images.unsplash.com/photo-1543339308-43e59d6b73a6?auto=format&fit=crop&w=800&q=80",
+      "color": "FFF39C12",
+      "prepTime": 10,
+      "cookTime": 30,
+      "difficulty": "easy",
+      "calories": 480,
+      "servings": 6,
+      "isPremium": false,
+      "tags": [
+        "pasta",
+        "cheese",
+        "comfort"
+      ],
+      "name": {
+        "en": "Mac & Cheese",
+        "tr": "Peynirli Makarna",
+        "es": "Macarrones con Queso",
+        "de": "Makkaroni und Käse"
+      },
+      "description": {
+        "en": "Creamy baked macaroni smothered in a three-cheese sauce with a breadcrumb crust.",
+        "tr": "Üç peynirli sosla kaplı, galeta unu kabuğuyla fırınlanmış kremamsı makarna.",
+        "es": "Macarrones cremosos horneados cubiertos con salsa de tres quesos y corteza de pan rallado.",
+        "de": "Cremige gebackene Makkaroni in Dreikäse-Sauce mit Semmelbröseln."
+      },
+      "ingredients": [
+        {
+          "en": "400g elbow macaroni",
+          "tr": "400g dirsek makarna",
+          "es": "400g macarrones de codo",
+          "de": "400g Hörnchennudeln"
+        },
+        {
+          "en": "Cheddar, Gruyère, cream cheese",
+          "tr": "Cheddar, Gruyère, krem peynir",
+          "es": "Cheddar, Gruyère, queso crema",
+          "de": "Cheddar, Gruyère, Frischkäse"
+        },
+        {
+          "en": "Butter, flour, milk",
+          "tr": "Tereyağı, un, süt",
+          "es": "Mantequilla, harina, leche",
+          "de": "Butter, Mehl, Milch"
+        },
+        {
+          "en": "Panko breadcrumbs",
+          "tr": "Panko galeta unu",
+          "es": "Pan rallado panko",
+          "de": "Panko-Semmelbrösel"
+        }
+      ],
+      "steps": [
+        {
+          "en": "Cook macaroni al dente, drain.",
+          "tr": "Makarnayı al dente pişirin, süzün.",
+          "es": "Cocinar macarrones al dente, escurrir.",
+          "de": "Makkaroni al dente kochen, abgießen."
+        },
+        {
+          "en": "Make cheese sauce: melt butter, add flour, whisk in milk, melt cheeses.",
+          "tr": "Peynir sosu yapın: tereyağını eritin, un ekleyin, sütü çırpın, peynirleri eritin.",
+          "es": "Hacer salsa de queso: derretir mantequilla, agregar harina, batir leche, derretir quesos.",
+          "de": "Käsesauce machen: Butter schmelzen, Mehl einrühren, Milch einrühren, Käse schmelzen."
+        },
+        {
+          "en": "Combine pasta and sauce, pour into baking dish.",
+          "tr": "Makarna ve sosu birleştirin, fırın kabına dökün.",
+          "es": "Combinar pasta y salsa, verter en molde.",
+          "de": "Pasta und Sauce vermengen, in Auflaufform geben."
+        },
+        {
+          "en": "Top with breadcrumbs and butter, bake at 190°C for 25 min until golden.",
+          "tr": "Üzerine galeta unu ve tereyağı koyun, 190°C'de 25 dakika pişirin.",
+          "es": "Cubrir con pan rallado y mantequilla, hornear a 190°C por 25 min.",
+          "de": "Mit Semmelbröseln und Butter bestreuen, bei 190°C 25 Min. backen."
+        }
+      ]
+    },
+    {
+      "id": "us_bbq_ribs",
+      "cuisineId": "american",
+      "emoji": "🍖",
+      "image": "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=800&q=80",
+      "color": "FF8B4513",
+      "prepTime": 20,
+      "cookTime": 180,
+      "difficulty": "medium",
+      "calories": 620,
+      "servings": 4,
+      "isPremium": false,
+      "tags": [
+        "meat",
+        "bbq",
+        "slow_cook"
+      ],
+      "name": {
+        "en": "BBQ Ribs",
+        "tr": "Barbekü Kaburga",
+        "es": "Costillas BBQ",
+        "de": "BBQ-Rippchen"
+      },
+      "description": {
+        "en": "Fall-off-the-bone tender pork ribs glazed with smoky-sweet BBQ sauce.",
+        "tr": "Füme-tatlı BBQ sosuyla parlayan kemikten düşen domuz kaburgası.",
+        "es": "Costillas de cerdo tiernas que se deshacen, glaseadas con salsa BBQ ahumada y dulce.",
+        "de": "Zarte Schweinerippchen mit rauchig-süßer BBQ-Glasur, die vom Knochen fallen."
+      },
+      "ingredients": [
+        {
+          "en": "2 racks pork spare ribs",
+          "tr": "2 adet domuz kaburga",
+          "es": "2 costillares de cerdo",
+          "de": "2 Schweinerippengestelle"
+        },
+        {
+          "en": "BBQ dry rub (paprika, brown sugar, garlic, cumin)",
+          "tr": "BBQ baharatı (paprika, esmer şeker, sarımsak, kimyon)",
+          "es": "Mezcla seca BBQ (pimentón, azúcar moreno, ajo, comino)",
+          "de": "BBQ-Gewürzmischung (Paprika, brauner Zucker, Knoblauch, Kreuzkümmel)"
+        },
+        {
+          "en": "BBQ sauce",
+          "tr": "BBQ sosu",
+          "es": "Salsa BBQ",
+          "de": "BBQ-Sauce"
+        },
+        {
+          "en": "Apple cider vinegar",
+          "tr": "Elma sirkesi",
+          "es": "Vinagre de sidra de manzana",
+          "de": "Apfelessig"
+        }
+      ],
+      "steps": [
+        {
+          "en": "Remove membrane from back of ribs, apply dry rub generously.",
+          "tr": "Kaburgaların arkasındaki zarı çıkarın, bol baharatla ovun.",
+          "es": "Retirar la membrana del reverso, aplicar generosamente la mezcla seca.",
+          "de": "Membran von der Rückseite entfernen, Gewürzmischung großzügig auftragen."
+        },
+        {
+          "en": "Wrap tightly in foil, bake at 135°C for 3 hours.",
+          "tr": "Folyoya sıkıca sarın, 135°C'de 3 saat pişirin.",
+          "es": "Envolver bien en aluminio, hornear a 135°C por 3 horas.",
+          "de": "Fest in Folie wickeln, bei 135°C 3 Stunden backen."
+        },
+        {
+          "en": "Unwrap, brush with BBQ sauce.",
+          "tr": "Folyoyu açın, BBQ sosu sürün.",
+          "es": "Desenvolver, pintar con salsa BBQ.",
+          "de": "Auspacken, mit BBQ-Sauce bestreichen."
+        },
+        {
+          "en": "Grill or broil 5 minutes to caramelize sauce. Rest 10 minutes.",
+          "tr": "Sosu karamelize etmek için 5 dakika ızgara yapın. 10 dakika dinlendirin.",
+          "es": "Asar 5 minutos para caramelizar salsa. Reposar 10 minutos.",
+          "de": "5 Minuten grillen zum Karamellisieren. 10 Minuten ruhen lassen."
+        }
+      ]
+    },
+    {
+      "id": "us_fried_chicken",
+      "cuisineId": "american",
+      "emoji": "🍗",
+      "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=800&q=80",
+      "color": "FFF39C12",
+      "prepTime": 30,
+      "cookTime": 15,
+      "difficulty": "medium",
+      "calories": 450,
+      "servings": 6,
+      "isPremium": false,
+      "tags": [
+        "meat",
+        "fried",
+        "southern"
+      ],
+      "name": {
+        "en": "Southern Fried Chicken",
+        "tr": "Güney Usulü Kızarmış Tavuk",
+        "es": "Pollo Frito del Sur",
+        "de": "Südstaaten Brathähnchen"
+      },
+      "description": {
+        "en": "Crispy buttermilk-marinated chicken with a perfectly seasoned crunchy coating.",
+        "tr": "Mükemmel baharatlı çıtır kaplamalı, ayran marine edilmiş tavuk.",
+        "es": "Pollo marinado en buttermilk crujiente con un revestimiento perfectamente sazonado.",
+        "de": "Knuspriges Buttermilch-mariniertes Hähnchen mit perfekt gewürzter Kruste."
+      },
+      "ingredients": [
+        {
+          "en": "8 chicken pieces",
+          "tr": "8 tavuk parçası",
+          "es": "8 piezas de pollo",
+          "de": "8 Hähnchenteile"
+        },
+        {
+          "en": "2 cups buttermilk",
+          "tr": "2 bardak ayran",
+          "es": "2 tazas de buttermilk",
+          "de": "2 Tassen Buttermilch"
+        },
+        {
+          "en": "2 cups flour, spices (paprika, garlic, cayenne)",
+          "tr": "2 bardak un, baharatlar (paprika, sarımsak, acı biber)",
+          "es": "2 tazas de harina, especias (pimentón, ajo, cayena)",
+          "de": "2 Tassen Mehl, Gewürze (Paprika, Knoblauch, Cayenne)"
+        },
+        {
+          "en": "Oil for deep frying",
+          "tr": "Kızartma yağı",
+          "es": "Aceite para freír",
+          "de": "Öl zum Frittieren"
+        }
+      ],
+      "steps": [
+        {
+          "en": "Marinate chicken in buttermilk overnight.",
+          "tr": "Tavuğu bir gece ayranda marine edin.",
+          "es": "Marinar pollo en buttermilk durante la noche.",
+          "de": "Hähnchen über Nacht in Buttermilch marinieren."
+        },
+        {
+          "en": "Mix flour with all spices for coating.",
+          "tr": "Kaplama için unu tüm baharatlarla karıştırın.",
+          "es": "Mezclar harina con todas las especias para rebozar.",
+          "de": "Mehl mit allen Gewürzen für die Panade mischen."
+        },
+        {
+          "en": "Dredge chicken in seasoned flour, pressing firmly.",
+          "tr": "Tavuğu baharatlı una bastırarak bulayın.",
+          "es": "Rebozar pollo en harina sazonada, presionando firmemente.",
+          "de": "Hähnchen in gewürztem Mehl wälzen, fest andrücken."
+        },
+        {
+          "en": "Deep fry at 170°C for 12-15 minutes until golden and cooked through.",
+          "tr": "170°C yağda 12-15 dakika altın rengi olana kadar kızartın.",
+          "es": "Freír a 170°C por 12-15 minutos hasta dorar.",
+          "de": "Bei 170°C 12-15 Minuten goldbraun frittieren."
+        },
+        {
+          "en": "Drain on wire rack, rest 5 minutes.",
+          "tr": "Telden süzün, 5 dakika dinlendirin.",
+          "es": "Escurrir en rejilla, reposar 5 minutos.",
+          "de": "Auf Gitter abtropfen, 5 Minuten ruhen."
+        }
+      ]
+    },
+    {
+      "id": "us_apple_pie",
+      "cuisineId": "american",
+      "emoji": "🥧",
+      "image": "https://images.unsplash.com/photo-1535920527002-b35e96722eb9?auto=format&fit=crop&w=800&q=80",
+      "color": "FFE67E22",
+      "prepTime": 40,
+      "cookTime": 50,
+      "difficulty": "medium",
+      "calories": 380,
+      "servings": 8,
+      "isPremium": false,
+      "tags": [
+        "dessert",
+        "baked",
+        "classic"
+      ],
+      "name": {
+        "en": "Apple Pie",
+        "tr": "Elmalı Turta",
+        "es": "Pastel de Manzana",
+        "de": "Apfelkuchen"
+      },
+      "description": {
+        "en": "As American as it gets — buttery flaky crust filled with cinnamon-spiced apples.",
+        "tr": "Tarçınlı elma dolgulu tereyağlı çıtır kabuklu turta — Amerika'nın simgesi.",
+        "es": "Tan americano como se puede — corteza escamosa con mantequilla rellena de manzanas con canela.",
+        "de": "So amerikanisch wie es nur geht — buttrige, blättrige Kruste gefüllt mit zimtgewürzten Äpfeln."
+      },
+      "ingredients": [
+        {
+          "en": "Pie crust dough (flour, butter, water)",
+          "tr": "Turta hamuru (un, tereyağı, su)",
+          "es": "Masa para pastel (harina, mantequilla, agua)",
+          "de": "Mürbeteig (Mehl, Butter, Wasser)"
+        },
+        {
+          "en": "6 apples, sliced",
+          "tr": "6 elma, dilimlenmiş",
+          "es": "6 manzanas, en rodajas",
+          "de": "6 Äpfel, in Scheiben"
+        },
+        {
+          "en": "Cinnamon, nutmeg, lemon juice",
+          "tr": "Tarçın, muskat, limon suyu",
+          "es": "Canela, nuez moscada, jugo de limón",
+          "de": "Zimt, Muskatnuss, Zitronensaft"
+        },
+        {
+          "en": "Sugar, butter, egg wash",
+          "tr": "Şeker, tereyağı, yumurta yıkama",
+          "es": "Azúcar, mantequilla, huevo batido",
+          "de": "Zucker, Butter, Eigelb-Glasur"
+        }
+      ],
+      "steps": [
+        {
+          "en": "Roll out bottom crust, place in pie dish.",
+          "tr": "Alt kabuğu açın, turta kabına yerleştirin.",
+          "es": "Estirar la corteza inferior, colocar en el molde.",
+          "de": "Untere Kruste ausrollen, in Kuchenform legen."
+        },
+        {
+          "en": "Toss sliced apples with sugar, cinnamon, and lemon juice.",
+          "tr": "Dilimlenmiş elmaları şeker, tarçın ve limon suyu ile karıştırın.",
+          "es": "Mezclar manzanas en rodajas con azúcar, canela y jugo de limón.",
+          "de": "Apfelscheiben mit Zucker, Zimt und Zitronensaft vermengen."
+        },
+        {
+          "en": "Fill pie, dot with butter, cover with top crust.",
+          "tr": "Turtayı doldurun, tereyağı parçaları koyun, üst kabuğu kapatın.",
+          "es": "Rellenar pastel, poner trozos de mantequilla, cubrir con corteza superior.",
+          "de": "Kuchen füllen, Butterstückchen verteilen, mit oberer Kruste bedecken."
+        },
+        {
+          "en": "Cut vents, brush with egg wash, sprinkle sugar.",
+          "tr": "Buhar delikleri açın, yumurta sürün, şeker serpin.",
+          "es": "Hacer cortes de ventilación, pintar con huevo, espolvorear azúcar.",
+          "de": "Schlitze einschneiden, mit Eigelb bestreichen, Zucker bestreuen."
+        },
+        {
+          "en": "Bake at 200°C for 45-50 minutes. Cool before slicing.",
+          "tr": "200°C'de 45-50 dakika pişirin. Kesmeden önce soğutun.",
+          "es": "Hornear a 200°C por 45-50 minutos. Enfriar antes de cortar.",
+          "de": "Bei 200°C 45-50 Minuten backen. Vor dem Anschneiden abkühlen."
+        }
+      ]
+    },
+    {
+      "id": "us_pancakes",
+      "cuisineId": "american",
+      "emoji": "🥞",
+      "image": "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?auto=format&fit=crop&w=800&q=80",
+      "color": "FFF1C40F",
+      "prepTime": 10,
+      "cookTime": 15,
+      "difficulty": "easy",
+      "calories": 350,
+      "servings": 4,
+      "isPremium": false,
+      "tags": [
+        "breakfast",
+        "sweet"
+      ],
+      "name": {
+        "en": "Fluffy Pancakes",
+        "tr": "Kabarık Pankek",
+        "es": "Pancakes Esponjosos",
+        "de": "Fluffige Pfannkuchen"
+      },
+      "description": {
+        "en": "Stack of fluffy buttermilk pancakes with maple syrup and butter.",
+        "tr": "Akçaağaç şurubu ve tereyağı ile kabarık ayran pankek yığını.",
+        "es": "Pila de pancakes esponjosos de buttermilk con jarabe de arce y mantequilla.",
+        "de": "Stapel fluffiger Buttermilch-Pfannkuchen mit Ahornsirup und Butter."
+      },
+      "ingredients": [
+        {
+          "en": "2 cups flour, 2 eggs",
+          "tr": "2 bardak un, 2 yumurta",
+          "es": "2 tazas de harina, 2 huevos",
+          "de": "2 Tassen Mehl, 2 Eier"
+        },
+        {
+          "en": "1.5 cups buttermilk",
+          "tr": "1.5 bardak ayran",
+          "es": "1.5 tazas de buttermilk",
+          "de": "1,5 Tassen Buttermilch"
+        },
+        {
+          "en": "Baking powder, sugar, salt, butter",
+          "tr": "Kabartma tozu, şeker, tuz, tereyağı",
+          "es": "Polvo de hornear, azúcar, sal, mantequilla",
+          "de": "Backpulver, Zucker, Salz, Butter"
+        },
+        {
+          "en": "Maple syrup, fresh berries",
+          "tr": "Akçaağaç şurubu, taze meyveler",
+          "es": "Jarabe de arce, frutas frescas",
+          "de": "Ahornsirup, frische Beeren"
+        }
+      ],
+      "steps": [
+        {
+          "en": "Mix dry ingredients. Whisk wet ingredients separately.",
+          "tr": "Kuru malzemeleri karıştırın. Islak malzemeleri ayrı çırpın.",
+          "es": "Mezclar ingredientes secos. Batir ingredientes húmedos por separado.",
+          "de": "Trockene Zutaten mischen. Nasse Zutaten separat verquirlen."
+        },
+        {
+          "en": "Combine gently — lumps are fine!",
+          "tr": "Nazikçe birleştirin — topaklar olabilir!",
+          "es": "Combinar suavemente — ¡los grumos están bien!",
+          "de": "Vorsichtig vermengen — Klümpchen sind ok!"
+        },
+        {
+          "en": "Pour 1/4 cup batter on buttered griddle, cook until bubbles form.",
+          "tr": "Tereyağlı tavaya 1/4 bardak hamur dökün, baloncuklar oluşana kadar pişirin.",
+          "es": "Verter 1/4 taza de masa en plancha con mantequilla, cocinar hasta que se formen burbujas.",
+          "de": "1/4 Tasse Teig auf gebutterte Grillplatte gießen, backen bis Blasen entstehen."
+        },
+        {
+          "en": "Flip and cook 1-2 more minutes. Stack and serve with syrup.",
+          "tr": "Çevirip 1-2 dakika daha pişirin. Üst üste koyup şuruple servis edin.",
+          "es": "Voltear y cocinar 1-2 minutos más. Apilar y servir con jarabe.",
+          "de": "Wenden und 1-2 Minuten weiterbacken. Stapeln und mit Sirup servieren."
+        }
+      ]
+    },
+    {
+      "id": "us_clam_chowder",
+      "cuisineId": "american",
+      "emoji": "🥣",
+      "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&w=800&q=80",
+      "color": "FFFFF5E1",
+      "prepTime": 15,
+      "cookTime": 30,
+      "difficulty": "medium",
+      "calories": 320,
+      "servings": 6,
+      "isPremium": false,
+      "tags": [
+        "soup",
+        "seafood",
+        "new_england"
+      ],
+      "name": {
+        "en": "New England Clam Chowder",
+        "tr": "New England İstiridye Çorbası",
+        "es": "Sopa de Almejas de Nueva Inglaterra",
+        "de": "New England Muschelsuppe"
+      },
+      "description": {
+        "en": "Thick, creamy chowder with tender clams, potatoes, and bacon.",
+        "tr": "Yumuşak istiridye, patates ve baconlu koyu kremamsı çorba.",
+        "es": "Sopa espesa y cremosa con almejas tiernas, patatas y tocino.",
+        "de": "Dicke, cremige Suppe mit zarten Muscheln, Kartoffeln und Speck."
+      },
+      "ingredients": [
+        {
+          "en": "500g clams",
+          "tr": "500g istiridye",
+          "es": "500g almejas",
+          "de": "500g Muscheln"
+        },
+        {
+          "en": "4 slices bacon",
+          "tr": "4 dilim bacon",
+          "es": "4 rebanadas de tocino",
+          "de": "4 Scheiben Speck"
+        },
+        {
+          "en": "3 potatoes, diced",
+          "tr": "3 patates, küp doğranmış",
+          "es": "3 patatas, en cubos",
+          "de": "3 Kartoffeln, gewürfelt"
+        },
+        {
+          "en": "Heavy cream, onion, celery, thyme",
+          "tr": "Krema, soğan, kereviz, kekik",
+          "es": "Nata para montar, cebolla, apio, tomillo",
+          "de": "Sahne, Zwiebel, Sellerie, Thymian"
+        }
+      ],
+      "steps": [
+        {
+          "en": "Cook bacon until crisp, crumble and set aside.",
+          "tr": "Bacon'ı çıtır olana kadar pişirin, ufalayıp ayırın.",
+          "es": "Cocinar tocino hasta crujiente, desmenuzar y reservar.",
+          "de": "Speck knusprig braten, zerbröseln und beiseite stellen."
+        },
+        {
+          "en": "Sauté onion and celery in bacon fat.",
+          "tr": "Soğan ve kerevizi bacon yağında kavurun.",
+          "es": "Saltear cebolla y apio en grasa de tocino.",
+          "de": "Zwiebel und Sellerie im Speckfett anbraten."
+        },
+        {
+          "en": "Add potatoes and clam juice, simmer until potatoes are tender.",
+          "tr": "Patates ve istiridye suyunu ekleyin, patatesler yumuşayana kadar pişirin.",
+          "es": "Agregar patatas y jugo de almejas, cocinar hasta que las patatas estén tiernas.",
+          "de": "Kartoffeln und Muschelsaft hinzufügen, köcheln bis Kartoffeln weich sind."
+        },
+        {
+          "en": "Add cream, clams, and thyme. Heat through without boiling.",
+          "tr": "Krema, istiridye ve kekik ekleyin. Kaynatmadan ısıtın.",
+          "es": "Agregar nata, almejas y tomillo. Calentar sin hervir.",
+          "de": "Sahne, Muscheln und Thymian hinzufügen. Erhitzen ohne zu kochen."
+        },
+        {
+          "en": "Serve topped with crumbled bacon and oyster crackers.",
+          "tr": "Ufalanmış bacon ve kraker ile servis edin.",
+          "es": "Servir con tocino desmenuzado y galletas.",
+          "de": "Mit zerbröseltem Speck und Crackern servieren."
+        }
+      ]
+    },
+    {
+      "id": "us_buffalo_wings",
+      "cuisineId": "american",
+      "emoji": "🍗",
+      "image": "https://images.unsplash.com/photo-1527477321055-436158a2573d?auto=format&fit=crop&w=800&q=80",
+      "color": "FFE84545",
+      "prepTime": 15,
+      "cookTime": 25,
+      "difficulty": "easy",
+      "calories": 380,
+      "servings": 4,
+      "isPremium": false,
+      "tags": [
+        "meat",
+        "fried",
+        "spicy"
+      ],
+      "name": {
+        "en": "Buffalo Wings",
+        "tr": "Buffalo Kanat",
+        "es": "Alitas Buffalo",
+        "de": "Buffalo Wings"
+      },
+      "description": {
+        "en": "Crispy fried chicken wings tossed in tangy, spicy buffalo sauce with blue cheese dip.",
+        "tr": "Ekşi ve acı buffalo sosuna bulanmış çıtır kızarmış tavuk kanatları, mavi peynir dip ile.",
+        "es": "Alitas de pollo fritas crujientes bañadas en salsa buffalo picante con dip de queso azul.",
+        "de": "Knusprig frittierte Hähnchenflügel in würziger Buffalo-Sauce mit Blauschimmelkäse-Dip."
+      },
+      "ingredients": [
+        {
+          "en": "1kg chicken wings",
+          "tr": "1kg tavuk kanat",
+          "es": "1kg alitas de pollo",
+          "de": "1kg Hähnchenflügel"
+        },
+        {
+          "en": "Hot sauce, butter",
+          "tr": "Acı sos, tereyağı",
+          "es": "Salsa picante, mantequilla",
+          "de": "Scharfe Sauce, Butter"
+        },
+        {
+          "en": "Blue cheese dressing",
+          "tr": "Mavi peynir sos",
+          "es": "Aderezo de queso azul",
+          "de": "Blauschimmelkäse-Dressing"
+        },
+        {
+          "en": "Celery and carrot sticks",
+          "tr": "Kereviz ve havuç çubukları",
+          "es": "Palitos de apio y zanahoria",
+          "de": "Sellerie- und Karottensticks"
+        }
+      ],
+      "steps": [
+        {
+          "en": "Pat wings dry, season with salt and pepper.",
+          "tr": "Kanatları kurulayın, tuz ve biberle tatlandırın.",
+          "es": "Secar las alitas, sazonar con sal y pimienta.",
+          "de": "Flügel trocken tupfen, mit Salz und Pfeffer würzen."
+        },
+        {
+          "en": "Bake at 220°C for 25 minutes until crispy, or deep fry.",
+          "tr": "220°C fırında 25 dakika çıtır olana kadar pişirin veya kızartın.",
+          "es": "Hornear a 220°C por 25 minutos hasta crujir, o freír.",
+          "de": "Bei 220°C 25 Minuten knusprig backen oder frittieren."
+        },
+        {
+          "en": "Melt butter with hot sauce for buffalo sauce.",
+          "tr": "Buffalo sos için tereyağını acı sos ile eritin.",
+          "es": "Derretir mantequilla con salsa picante para salsa buffalo.",
+          "de": "Butter mit scharfer Sauce für Buffalo-Sauce schmelzen."
+        },
+        {
+          "en": "Toss wings in sauce, serve with blue cheese dip and celery.",
+          "tr": "Kanatları sosa bulayın, mavi peynir dip ve kereviz ile servis edin.",
+          "es": "Mezclar alitas en salsa, servir con dip de queso azul y apio.",
+          "de": "Flügel in Sauce schwenken, mit Blauschimmelkäse-Dip und Sellerie servieren."
+        }
+      ]
+    },
+    {
+      "id": "us_pulled_pork",
+      "cuisineId": "american",
+      "emoji": "🥩",
+      "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&w=800&q=80",
+      "color": "FF8B4513",
+      "prepTime": 15,
+      "cookTime": 480,
+      "difficulty": "medium",
+      "calories": 420,
+      "servings": 8,
+      "isPremium": false,
+      "tags": [
+        "meat",
+        "bbq",
+        "slow_cook"
+      ],
+      "name": {
+        "en": "Pulled Pork",
+        "tr": "Çekilmiş Domuz Eti",
+        "es": "Cerdo Deshebrado",
+        "de": "Pulled Pork"
+      },
+      "description": {
+        "en": "Slow-smoked pork shoulder shredded and tossed in tangy BBQ sauce.",
+        "tr": "Yavaş füme edilmiş domuz omuzu parçalanıp ekşi BBQ sosuna bulanır.",
+        "es": "Paleta de cerdo ahumada lentamente, desmenuzada y mezclada en salsa BBQ.",
+        "de": "Langsam geräucherte Schweineschulter, zerrupft und in würziger BBQ-Sauce geschwenkt."
+      },
+      "ingredients": [
+        {
+          "en": "2kg pork shoulder",
+          "tr": "2kg domuz omuzu",
+          "es": "2kg paleta de cerdo",
+          "de": "2kg Schweineschulter"
+        },
+        {
+          "en": "BBQ dry rub",
+          "tr": "BBQ baharatı",
+          "es": "Mezcla seca BBQ",
+          "de": "BBQ-Gewürzmischung"
+        },
+        {
+          "en": "BBQ sauce, apple cider vinegar",
+          "tr": "BBQ sosu, elma sirkesi",
+          "es": "Salsa BBQ, vinagre de sidra",
+          "de": "BBQ-Sauce, Apfelessig"
+        },
+        {
+          "en": "Brioche buns, coleslaw",
+          "tr": "Brioche ekmek, coleslaw",
+          "es": "Panes brioche, ensalada coleslaw",
+          "de": "Brioche-Brötchen, Krautsalat"
+        }
+      ],
+      "steps": [
+        {
+          "en": "Coat pork in dry rub, let sit overnight.",
+          "tr": "Domuz etini baharatla kaplayın, bir gece bekletin.",
+          "es": "Cubrir cerdo con mezcla seca, dejar reposar toda la noche.",
+          "de": "Schweinefleisch mit Gewürzmischung einreiben, über Nacht ziehen lassen."
+        },
+        {
+          "en": "Slow cook at 110°C for 8+ hours until fork-tender.",
+          "tr": "110°C'de 8+ saat çatalla parçalanana kadar yavaş pişirin.",
+          "es": "Cocinar lento a 110°C por más de 8 horas hasta que esté tierno.",
+          "de": "Bei 110°C 8+ Stunden langsam garen bis butterweich."
+        },
+        {
+          "en": "Shred with two forks, toss in BBQ sauce.",
+          "tr": "İki çatal ile parçalayın, BBQ sosuna bulayın.",
+          "es": "Desmenuzar con dos tenedores, mezclar en salsa BBQ.",
+          "de": "Mit zwei Gabeln zerrupfen, in BBQ-Sauce schwenken."
+        },
+        {
+          "en": "Pile onto brioche buns with coleslaw.",
+          "tr": "Brioche ekmeklere coleslaw ile yığın.",
+          "es": "Apilar en panes brioche con ensalada coleslaw.",
+          "de": "Auf Brioche-Brötchen mit Krautsalat häufen."
+        }
+      ]
+    },
+    {
+      "id": "us_caesar_salad",
+      "cuisineId": "american",
+      "emoji": "🥗",
+      "image": "https://images.unsplash.com/photo-1550304943-4f24f54ddde9?auto=format&fit=crop&w=800&q=80",
+      "color": "FF2ECC71",
+      "prepTime": 15,
+      "cookTime": 5,
+      "difficulty": "easy",
+      "calories": 280,
+      "servings": 4,
+      "isPremium": false,
+      "tags": [
+        "salad",
+        "classic"
+      ],
+      "name": {
+        "en": "Caesar Salad",
+        "tr": "Sezar Salata",
+        "es": "Ensalada César",
+        "de": "Caesar-Salat"
+      },
+      "description": {
+        "en": "Crisp romaine with creamy Caesar dressing, garlic croutons, and shaved Parmesan.",
+        "tr": "Kremamsı Sezar sosu, sarımsaklı kruton ve rendelenmiş Parmesan ile çıtır marul.",
+        "es": "Lechuga romana crujiente con aderezo César cremoso, crutones de ajo y Parmesano.",
+        "de": "Knackiger Romanasalat mit cremigem Caesar-Dressing, Knoblauch-Croutons und Parmesan."
+      },
+      "ingredients": [
+        {
+          "en": "2 heads romaine lettuce",
+          "tr": "2 baş marul",
+          "es": "2 lechugas romanas",
+          "de": "2 Romanasalatherzen"
+        },
+        {
+          "en": "Caesar dressing (egg yolk, anchovy, garlic, lemon, olive oil)",
+          "tr": "Sezar sosu (yumurta sarısı, ançüez, sarımsak, limon, zeytinyağı)",
+          "es": "Aderezo César (yema, anchoa, ajo, limón, aceite de oliva)",
+          "de": "Caesar-Dressing (Eigelb, Sardelle, Knoblauch, Zitrone, Olivenöl)"
+        },
+        {
+          "en": "Bread cubes for croutons",
+          "tr": "Kruton için ekmek küpleri",
+          "es": "Cubos de pan para crutones",
+          "de": "Brotwürfel für Croutons"
+        },
+        {
+          "en": "Parmigiano-Reggiano",
+          "tr": "Parmesan",
+          "es": "Parmigiano-Reggiano",
+          "de": "Parmigiano-Reggiano"
+        }
+      ],
+      "steps": [
+        {
+          "en": "Make dressing: blend egg yolk, anchovy, garlic, lemon juice; drizzle in olive oil.",
+          "tr": "Sos yapın: yumurta sarısı, ançüez, sarımsak, limon suyunu karıştırın; zeytinyağını yavaşça ekleyin.",
+          "es": "Hacer aderezo: licuar yema, anchoa, ajo, jugo de limón; añadir aceite de oliva.",
+          "de": "Dressing machen: Eigelb, Sardelle, Knoblauch, Zitronensaft mixen; Olivenöl einträufeln."
+        },
+        {
+          "en": "Toast bread cubes with garlic and olive oil until golden.",
+          "tr": "Ekmek küplerini sarımsak ve zeytinyağı ile kızartın.",
+          "es": "Tostar cubos de pan con ajo y aceite de oliva hasta dorar.",
+          "de": "Brotwürfel mit Knoblauch und Olivenöl goldbraun rösten."
+        },
+        {
+          "en": "Toss torn romaine with dressing.",
+          "tr": "Parçalanmış marulu sosla karıştırın.",
+          "es": "Mezclar lechuga desgarrada con aderezo.",
+          "de": "Zerrissenen Romanasalat mit Dressing vermengen."
+        },
+        {
+          "en": "Top with croutons and shaved Parmesan.",
+          "tr": "Üzerine kruton ve rendelenmiş Parmesan koyun.",
+          "es": "Cubrir con crutones y Parmesano.",
+          "de": "Mit Croutons und gehobeltem Parmesan garnieren."
+        }
+      ]
+    },
+    {
+      "id": "us_philly_cheesesteak",
+      "cuisineId": "american",
+      "emoji": "🥖",
+      "image": "https://images.unsplash.com/photo-1528735602780-2552fd46c7af?auto=format&fit=crop&w=800&q=80",
+      "color": "FFF39C12",
+      "prepTime": 10,
+      "cookTime": 10,
+      "difficulty": "easy",
+      "calories": 520,
+      "servings": 4,
+      "isPremium": false,
+      "tags": [
+        "meat",
+        "sandwich",
+        "regional"
+      ],
+      "name": {
+        "en": "Philly Cheesesteak",
+        "tr": "Philly Cheesesteak",
+        "es": "Philly Cheesesteak",
+        "de": "Philly Cheesesteak"
+      },
+      "description": {
+        "en": "Thinly sliced beef with melted provolone on a hoagie roll — Philadelphia's pride.",
+        "tr": "Hoagie ekmeğinde erimiş provolone ile ince dilimlenmiş et — Philadelphia'nın gururu.",
+        "es": "Res en rodajas finas con provolone derretido en pan hoagie — orgullo de Filadelfia.",
+        "de": "Dünn geschnittenes Rindfleisch mit geschmolzenem Provolone auf einem Hoagie-Brötchen — Philadelphias Stolz."
+      },
+      "ingredients": [
+        {
+          "en": "500g ribeye, very thinly sliced",
+          "tr": "500g antrikot, çok ince dilimlenmiş",
+          "es": "500g ojo de bife, en rodajas muy finas",
+          "de": "500g Ribeye, sehr dünn geschnitten"
+        },
+        {
+          "en": "4 hoagie rolls",
+          "tr": "4 hoagie ekmeği",
+          "es": "4 panes hoagie",
+          "de": "4 Hoagie-Brötchen"
+        },
+        {
+          "en": "Provolone cheese",
+          "tr": "Provolone peyniri",
+          "es": "Queso provolone",
+          "de": "Provolone-Käse"
+        },
+        {
+          "en": "Onions, peppers (optional)",
+          "tr": "Soğan, biber (isteğe bağlı)",
+          "es": "Cebollas, pimientos (opcional)",
+          "de": "Zwiebeln, Paprika (optional)"
+        }
+      ],
+      "steps": [
+        {
+          "en": "Sauté sliced onions and peppers until soft.",
+          "tr": "Dilimlenmiş soğan ve biberleri yumuşayana kadar kavurun.",
+          "es": "Saltear cebollas y pimientos en rodajas hasta ablandar.",
+          "de": "Geschnittene Zwiebeln und Paprika weich dünsten."
+        },
+        {
+          "en": "Cook thin beef slices on a hot griddle, breaking apart.",
+          "tr": "İnce et dilimlerini kızgın sacda parçalayarak pişirin.",
+          "es": "Cocinar rodajas finas de res en plancha caliente, separando.",
+          "de": "Dünne Rindfleischstreifen auf heißer Grillplatte braten, dabei zerteilen."
+        },
+        {
+          "en": "Lay cheese over meat, let melt.",
+          "tr": "Peyniri etin üzerine koyun, erimesini bekleyin.",
+          "es": "Colocar queso sobre la carne, dejar derretir.",
+          "de": "Käse auf das Fleisch legen, schmelzen lassen."
+        },
+        {
+          "en": "Scoop into split hoagie rolls. Eat immediately!",
+          "tr": "Yarılmış hoagie ekmeklerine koyun. Hemen yiyin!",
+          "es": "Colocar en panes hoagie abiertos. ¡Comer inmediatamente!",
+          "de": "In aufgeschnittene Hoagie-Brötchen füllen. Sofort essen!"
+        }
+      ]
+    },
+    {
+      "id": "us_lobster_roll",
+      "cuisineId": "american",
+      "emoji": "🦞",
+      "image": "https://images.unsplash.com/photo-1534422298391-e4f8c172dddb?auto=format&fit=crop&w=800&q=80",
+      "color": "FFE84545",
+      "prepTime": 15,
+      "cookTime": 10,
+      "difficulty": "easy",
+      "calories": 380,
+      "servings": 4,
+      "isPremium": false,
+      "tags": [
+        "seafood",
+        "sandwich",
+        "new_england"
+      ],
+      "name": {
+        "en": "Lobster Roll",
+        "tr": "Istakoz Sandviç",
+        "es": "Rollo de Langosta",
+        "de": "Hummerbrötchen"
+      },
+      "description": {
+        "en": "Chunks of sweet lobster meat in a buttered, toasted split-top roll.",
+        "tr": "Tereyağlı kızarmış ekmekte tatlı ıstakoz parçaları.",
+        "es": "Trozos de carne de langosta dulce en un rollo tostado con mantequilla.",
+        "de": "Stücke von süßem Hummerfleisch in einem gebutterten, gerösteten Brötchen."
+      },
+      "ingredients": [
+        {
+          "en": "500g cooked lobster meat",
+          "tr": "500g pişmiş ıstakoz eti",
+          "es": "500g carne de langosta cocida",
+          "de": "500g gekochtes Hummerfleisch"
+        },
+        {
+          "en": "Butter, lemon juice",
+          "tr": "Tereyağı, limon suyu",
+          "es": "Mantequilla, jugo de limón",
+          "de": "Butter, Zitronensaft"
+        },
+        {
+          "en": "Mayo (optional), celery",
+          "tr": "Mayonez (isteğe bağlı), kereviz",
+          "es": "Mayonesa (opcional), apio",
+          "de": "Mayo (optional), Sellerie"
+        },
+        {
+          "en": "Split-top hot dog buns",
+          "tr": "Üstten yarık ekmekler",
+          "es": "Panes de hot dog con abertura superior",
+          "de": "Oben geschlitzte Hot-Dog-Brötchen"
+        }
+      ],
+      "steps": [
+        {
+          "en": "Chop lobster into chunks, toss with melted butter and lemon.",
+          "tr": "Istakozu parçalara ayırın, eritilmiş tereyağı ve limonla karıştırın.",
+          "es": "Picar langosta en trozos, mezclar con mantequilla derretida y limón.",
+          "de": "Hummer in Stücke schneiden, mit geschmolzener Butter und Zitrone vermengen."
+        },
+        {
+          "en": "Toast buns in butter until golden.",
+          "tr": "Ekmekleri tereyağında altın rengi olana kadar kızartın.",
+          "es": "Tostar panes en mantequilla hasta dorar.",
+          "de": "Brötchen in Butter goldbraun toasten."
+        },
+        {
+          "en": "Pile lobster into toasted buns.",
+          "tr": "Istakozu kızarmış ekmeklere yığın.",
+          "es": "Apilar langosta en panes tostados.",
+          "de": "Hummer auf geröstete Brötchen häufen."
+        },
+        {
+          "en": "Serve with extra lemon and a sprinkle of chives.",
+          "tr": "Ekstra limon ve frenk soğanı ile servis edin.",
+          "es": "Servir con limón extra y cebollino.",
+          "de": "Mit extra Zitrone und Schnittlauch servieren."
+        }
+      ]
+    },
+    {
+      "id": "us_key_lime_pie",
+      "cuisineId": "american",
+      "emoji": "🥧",
+      "image": "https://images.unsplash.com/photo-1565958011703-44f9829ba187?auto=format&fit=crop&w=800&q=80",
+      "color": "FF2ECC71",
+      "prepTime": 15,
+      "cookTime": 15,
+      "difficulty": "easy",
+      "calories": 350,
+      "servings": 8,
+      "isPremium": false,
+      "tags": [
+        "dessert",
+        "citrus",
+        "florida"
+      ],
+      "name": {
+        "en": "Key Lime Pie",
+        "tr": "Yeşil Limonlu Turta",
+        "es": "Pastel de Lima",
+        "de": "Key-Limetten-Kuchen"
+      },
+      "description": {
+        "en": "Tangy, creamy key lime filling in a graham cracker crust with whipped cream.",
+        "tr": "Kraker kabuğunda ekşi kremamsı yeşil limon dolgusu, kırbaçlanmış krema ile.",
+        "es": "Relleno cremoso y ácido de lima en corteza de galletas graham con crema batida.",
+        "de": "Würzig-cremige Key-Limetten-Füllung in Graham-Cracker-Kruste mit Schlagsahne."
+      },
+      "ingredients": [
+        {
+          "en": "Graham cracker crust",
+          "tr": "Kraker kabuğu",
+          "es": "Corteza de galletas graham",
+          "de": "Graham-Cracker-Kruste"
+        },
+        {
+          "en": "4 egg yolks",
+          "tr": "4 yumurta sarısı",
+          "es": "4 yemas de huevo",
+          "de": "4 Eigelb"
+        },
+        {
+          "en": "1 can sweetened condensed milk",
+          "tr": "1 kutu yoğunlaştırılmış süt",
+          "es": "1 lata de leche condensada",
+          "de": "1 Dose gezuckerte Kondensmilch"
+        },
+        {
+          "en": "1/2 cup key lime juice",
+          "tr": "1/2 bardak limon suyu",
+          "es": "1/2 taza de jugo de lima",
+          "de": "1/2 Tasse Limettensaft"
+        },
+        {
+          "en": "Whipped cream",
+          "tr": "Kırbaçlanmış krema",
+          "es": "Crema batida",
+          "de": "Schlagsahne"
+        }
+      ],
+      "steps": [
+        {
+          "en": "Press graham cracker mixture into pie dish, bake 10 min at 175°C.",
+          "tr": "Kraker karışımını turta kabına bastırın, 175°C'de 10 dakika pişirin.",
+          "es": "Presionar mezcla de galletas en molde, hornear 10 min a 175°C.",
+          "de": "Cracker-Mischung in Kuchenform drücken, 10 Min. bei 175°C backen."
+        },
+        {
+          "en": "Whisk egg yolks, condensed milk, and lime juice until thick.",
+          "tr": "Yumurta sarıları, yoğunlaştırılmış süt ve limon suyunu koyu olana kadar çırpın.",
+          "es": "Batir yemas, leche condensada y jugo de lima hasta espesar.",
+          "de": "Eigelb, Kondensmilch und Limettensaft dickflüssig schlagen."
+        },
+        {
+          "en": "Pour into crust, bake 15 minutes.",
+          "tr": "Kabuğa dökün, 15 dakika pişirin.",
+          "es": "Verter en la corteza, hornear 15 minutos.",
+          "de": "In die Kruste gießen, 15 Minuten backen."
+        },
+        {
+          "en": "Chill at least 4 hours, serve with whipped cream.",
+          "tr": "En az 4 saat soğutun, kırbaçlanmış krema ile servis edin.",
+          "es": "Enfriar al menos 4 horas, servir con crema batida.",
+          "de": "Mindestens 4 Stunden kühlen, mit Schlagsahne servieren."
+        }
+      ]
+    },
+    {
+      "id": "us_gumbo",
+      "cuisineId": "american",
+      "emoji": "🍲",
+      "image": "https://images.unsplash.com/photo-1548943487-a2e4e43b4853?auto=format&fit=crop&w=800&q=80",
+      "color": "FF8B4513",
+      "prepTime": 20,
+      "cookTime": 60,
+      "difficulty": "hard",
+      "calories": 400,
+      "servings": 8,
+      "isPremium": false,
+      "tags": [
+        "soup",
+        "cajun",
+        "seafood"
+      ],
+      "name": {
+        "en": "Gumbo",
+        "tr": "Gumbo",
+        "es": "Gumbo",
+        "de": "Gumbo"
+      },
+      "description": {
+        "en": "Rich Louisiana stew with sausage, shrimp, okra, and dark roux over rice.",
+        "tr": "Sosis, karides, bamya ve koyu roux ile zengin Louisiana yahnisi, pilav üzerinde.",
+        "es": "Guiso rico de Louisiana con salchicha, camarones, okra y roux oscuro sobre arroz.",
+        "de": "Reichhaltiger Louisiana-Eintopf mit Wurst, Garnelen, Okra und dunkler Mehlschwitze auf Reis."
+      },
+      "ingredients": [
+        {
+          "en": "Andouille sausage, shrimp",
+          "tr": "Andouille sosisi, karides",
+          "es": "Salchicha andouille, camarones",
+          "de": "Andouille-Wurst, Garnelen"
+        },
+        {
+          "en": "Okra, onion, celery, bell pepper (holy trinity)",
+          "tr": "Bamya, soğan, kereviz, biber (kutsal üçlü)",
+          "es": "Okra, cebolla, apio, pimiento (trinidad santa)",
+          "de": "Okra, Zwiebel, Sellerie, Paprika (heilige Dreifaltigkeit)"
+        },
+        {
+          "en": "Flour, butter for roux",
+          "tr": "Roux için un, tereyağı",
+          "es": "Harina, mantequilla para roux",
+          "de": "Mehl, Butter für Mehlschwitze"
+        },
+        {
+          "en": "Filé powder, cayenne, rice",
+          "tr": "Filé tozu, acı biber, pirinç",
+          "es": "Polvo filé, cayena, arroz",
+          "de": "Filé-Pulver, Cayenne, Reis"
+        }
+      ],
+      "steps": [
+        {
+          "en": "Make a dark chocolate-colored roux (flour + butter), stirring 30+ minutes.",
+          "tr": "Koyu çikolata renkli roux (un + tereyağı) yapın, 30+ dakika karıştırın.",
+          "es": "Hacer roux color chocolate oscuro (harina + mantequilla), revolviendo 30+ minutos.",
+          "de": "Eine dunkelschokoladenfarbige Mehlschwitze (Mehl + Butter) herstellen, 30+ Min. rühren."
+        },
+        {
+          "en": "Add holy trinity vegetables, cook until soft.",
+          "tr": "Kutsal üçlü sebzeleri ekleyin, yumuşayana kadar pişirin.",
+          "es": "Agregar verduras de la trinidad santa, cocinar hasta ablandar.",
+          "de": "Gemüse der heiligen Dreifaltigkeit hinzufügen, weich kochen."
+        },
+        {
+          "en": "Add broth, sausage, and okra. Simmer 45 minutes.",
+          "tr": "Et suyu, sosis ve bamyayı ekleyin. 45 dakika pişirin.",
+          "es": "Agregar caldo, salchicha y okra. Cocinar a fuego lento 45 minutos.",
+          "de": "Brühe, Wurst und Okra hinzufügen. 45 Minuten köcheln."
+        },
+        {
+          "en": "Add shrimp in last 5 minutes. Serve over rice.",
+          "tr": "Son 5 dakikada karidesleri ekleyin. Pilav üzerinde servis edin.",
+          "es": "Agregar camarones en los últimos 5 minutos. Servir sobre arroz.",
+          "de": "Garnelen in den letzten 5 Minuten hinzufügen. Auf Reis servieren."
+        }
+      ]
+    },
+    {
+      "id": "us_jambalaya",
+      "cuisineId": "american",
+      "emoji": "🍚",
+      "image": "https://images.unsplash.com/photo-1512058564366-18510be2db19?auto=format&fit=crop&w=800&q=80",
+      "color": "FFE67E22",
+      "prepTime": 15,
+      "cookTime": 40,
+      "difficulty": "medium",
+      "calories": 420,
+      "servings": 6,
+      "isPremium": false,
+      "tags": [
+        "rice",
+        "cajun",
+        "one_pot"
+      ],
+      "name": {
+        "en": "Jambalaya",
+        "tr": "Jambalaya",
+        "es": "Jambalaya",
+        "de": "Jambalaya"
+      },
+      "description": {
+        "en": "Cajun one-pot rice dish with sausage, chicken, shrimp, and bold spices.",
+        "tr": "Sosis, tavuk, karides ve cesur baharatlarla tek tencere Cajun pirinç yemeği.",
+        "es": "Plato de arroz cajún en una olla con salchicha, pollo, camarones y especias audaces.",
+        "de": "Cajun-Reisgericht aus einem Topf mit Wurst, Hähnchen, Garnelen und kräftigen Gewürzen."
+      },
+      "ingredients": [
+        {
+          "en": "Chicken thighs, andouille sausage, shrimp",
+          "tr": "Tavuk but, andouille sosisi, karides",
+          "es": "Muslos de pollo, salchicha andouille, camarones",
+          "de": "Hähnchenschenkel, Andouille-Wurst, Garnelen"
+        },
+        {
+          "en": "2 cups rice",
+          "tr": "2 bardak pirinç",
+          "es": "2 tazas de arroz",
+          "de": "2 Tassen Reis"
+        },
+        {
+          "en": "Holy trinity: onion, celery, bell pepper",
+          "tr": "Kutsal üçlü: soğan, kereviz, biber",
+          "es": "Trinidad santa: cebolla, apio, pimiento",
+          "de": "Heilige Dreifaltigkeit: Zwiebel, Sellerie, Paprika"
+        },
+        {
+          "en": "Cajun seasoning, tomatoes, broth",
+          "tr": "Cajun baharatı, domates, et suyu",
+          "es": "Condimento cajún, tomates, caldo",
+          "de": "Cajun-Gewürz, Tomaten, Brühe"
+        }
+      ],
+      "steps": [
+        {
+          "en": "Brown chicken and sausage, remove.",
+          "tr": "Tavuk ve sosisi kızartın, çıkarın.",
+          "es": "Dorar pollo y salchicha, retirar.",
+          "de": "Hähnchen und Wurst anbraten, herausnehmen."
+        },
+        {
+          "en": "Sauté vegetables with Cajun seasoning.",
+          "tr": "Sebzeleri Cajun baharatı ile kavurun.",
+          "es": "Saltear verduras con condimento cajún.",
+          "de": "Gemüse mit Cajun-Gewürz anbraten."
+        },
+        {
+          "en": "Add rice, tomatoes, broth, and meats. Bring to boil.",
+          "tr": "Pirinç, domates, et suyu ve etleri ekleyin. Kaynatın.",
+          "es": "Agregar arroz, tomates, caldo y carnes. Llevar a ebullición.",
+          "de": "Reis, Tomaten, Brühe und Fleisch hinzufügen. Aufkochen."
+        },
+        {
+          "en": "Cover, cook on low 25 minutes. Add shrimp last 5 minutes.",
+          "tr": "Kapatın, kısık ateşte 25 dakika pişirin. Son 5 dakika karidesleri ekleyin.",
+          "es": "Tapar, cocinar a fuego lento 25 minutos. Agregar camarones últimos 5 minutos.",
+          "de": "Zudecken, 25 Min. auf niedriger Hitze kochen. Garnelen in letzten 5 Min. hinzufügen."
+        }
+      ]
+    },
+    {
+      "id": "us_chili",
+      "cuisineId": "american",
+      "emoji": "🌶️",
+      "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=800&q=80",
+      "color": "FFE84545",
+      "prepTime": 15,
+      "cookTime": 90,
+      "difficulty": "easy",
+      "calories": 380,
+      "servings": 8,
+      "isPremium": false,
+      "tags": [
+        "meat",
+        "beans",
+        "comfort"
+      ],
+      "name": {
+        "en": "Chili Con Carne",
+        "tr": "Chili Con Carne",
+        "es": "Chile Con Carne",
+        "de": "Chili Con Carne"
+      },
+      "description": {
+        "en": "Hearty ground beef chili with beans, tomatoes, and warming spices.",
+        "tr": "Fasulye, domates ve ısıtıcı baharatlarla doyurucu kıymalı chili.",
+        "es": "Chile abundante de carne molida con frijoles, tomates y especias cálidas.",
+        "de": "Herzhaftes Hackfleisch-Chili mit Bohnen, Tomaten und wärmenden Gewürzen."
+      },
+      "ingredients": [
+        {
+          "en": "500g ground beef",
+          "tr": "500g kıyma",
+          "es": "500g carne molida",
+          "de": "500g Rinderhackfleisch"
+        },
+        {
+          "en": "Kidney beans, black beans",
+          "tr": "Kırmızı fasulye, siyah fasulye",
+          "es": "Frijoles rojos, frijoles negros",
+          "de": "Kidneybohnen, schwarze Bohnen"
+        },
+        {
+          "en": "Crushed tomatoes, tomato paste",
+          "tr": "Ezilmiş domates, salça",
+          "es": "Tomates triturados, pasta de tomate",
+          "de": "Zerdrückte Tomaten, Tomatenmark"
+        },
+        {
+          "en": "Chili powder, cumin, garlic, onion",
+          "tr": "Chili tozu, kimyon, sarımsak, soğan",
+          "es": "Chile en polvo, comino, ajo, cebolla",
+          "de": "Chilipulver, Kreuzkümmel, Knoblauch, Zwiebel"
+        }
+      ],
+      "steps": [
+        {
+          "en": "Brown ground beef with diced onion.",
+          "tr": "Kıymayı doğranmış soğanla kızartın.",
+          "es": "Dorar carne molida con cebolla picada.",
+          "de": "Hackfleisch mit gewürfelter Zwiebel anbraten."
+        },
+        {
+          "en": "Add garlic, chili powder, cumin and tomato paste.",
+          "tr": "Sarımsak, chili tozu, kimyon ve salçayı ekleyin.",
+          "es": "Agregar ajo, chile en polvo, comino y pasta de tomate.",
+          "de": "Knoblauch, Chilipulver, Kreuzkümmel und Tomatenmark hinzufügen."
+        },
+        {
+          "en": "Add tomatoes, beans, and broth. Simmer 1-2 hours.",
+          "tr": "Domates, fasulye ve et suyu ekleyin. 1-2 saat pişirin.",
+          "es": "Agregar tomates, frijoles y caldo. Cocinar a fuego lento 1-2 horas.",
+          "de": "Tomaten, Bohnen und Brühe hinzufügen. 1-2 Stunden köcheln."
+        },
+        {
+          "en": "Serve with sour cream, cheese, and cornbread.",
+          "tr": "Ekşi krema, peynir ve mısır ekmeği ile servis edin.",
+          "es": "Servir con crema agria, queso y pan de maíz.",
+          "de": "Mit Sauerrahm, Käse und Maisbrot servieren."
+        }
+      ]
+    },
+    {
+      "id": "us_grilled_cheese",
+      "cuisineId": "american",
+      "emoji": "🧀",
+      "image": "https://images.unsplash.com/photo-1525351484163-7529414344d8?auto=format&fit=crop&w=800&q=80",
+      "color": "FFF1C40F",
+      "prepTime": 5,
+      "cookTime": 6,
+      "difficulty": "easy",
+      "calories": 380,
+      "servings": 2,
+      "isPremium": false,
+      "tags": [
+        "sandwich",
+        "cheese",
+        "quick",
+        "comfort"
+      ],
+      "name": {
+        "en": "Grilled Cheese Sandwich",
+        "tr": "Izgara Peynirli Sandviç",
+        "es": "Sándwich de Queso a la Plancha",
+        "de": "Gegrilltes Käsesandwich"
+      },
+      "description": {
+        "en": "Crispy buttered bread with perfectly melted cheese — ultimate comfort food.",
+        "tr": "Mükemmel erimiş peynirli çıtır tereyağlı ekmek — en iyi rahatlatıcı yiyecek.",
+        "es": "Pan crujiente con mantequilla y queso perfectamente derretido — la comida reconfortante definitiva.",
+        "de": "Knuspriges Butterbrot mit perfekt geschmolzenem Käse — das ultimative Wohlfühlessen."
+      },
+      "ingredients": [
+        {
+          "en": "4 slices bread",
+          "tr": "4 dilim ekmek",
+          "es": "4 rebanadas de pan",
+          "de": "4 Scheiben Brot"
+        },
+        {
+          "en": "Butter",
+          "tr": "Tereyağı",
+          "es": "Mantequilla",
+          "de": "Butter"
+        },
+        {
+          "en": "Cheddar, Gruyère, or American cheese",
+          "tr": "Cheddar, Gruyère veya Amerikan peyniri",
+          "es": "Cheddar, Gruyère o queso americano",
+          "de": "Cheddar, Gruyère oder amerikanischer Käse"
+        }
+      ],
+      "steps": [
+        {
+          "en": "Butter outsides of bread slices.",
+          "tr": "Ekmek dilimlerinin dışını tereyağlayın.",
+          "es": "Untar con mantequilla el exterior de las rebanadas.",
+          "de": "Die Außenseiten der Brotscheiben buttern."
+        },
+        {
+          "en": "Place cheese between bread, butter side out.",
+          "tr": "Peyniri ekmeklerin arasına koyun, tereyağlı taraf dışta.",
+          "es": "Colocar queso entre el pan, lado con mantequilla hacia fuera.",
+          "de": "Käse zwischen Brot legen, Butterseite nach außen."
+        },
+        {
+          "en": "Cook on medium-low heat until golden on each side and cheese melts.",
+          "tr": "Orta-kısık ateşte her tarafı altın rengi olana kadar peynir eriyene kadar pişirin.",
+          "es": "Cocinar a fuego medio-bajo hasta dorar por cada lado y el queso se derrita.",
+          "de": "Bei mittlerer Hitze braten bis golden und Käse schmilzt."
+        }
+      ]
+    },
+    {
+      "id": "us_brownie",
+      "cuisineId": "american",
+      "emoji": "🍫",
+      "image": "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?auto=format&fit=crop&w=800&q=80",
+      "color": "FF4A2C2A",
+      "prepTime": 15,
+      "cookTime": 25,
+      "difficulty": "easy",
+      "calories": 320,
+      "servings": 12,
+      "isPremium": false,
+      "tags": [
+        "dessert",
+        "chocolate",
+        "baked"
+      ],
+      "name": {
+        "en": "Fudgy Brownies",
+        "tr": "Fudgy Brownie",
+        "es": "Brownies Fudgy",
+        "de": "Fudgy Brownies"
+      },
+      "description": {
+        "en": "Rich, dense, fudgy chocolate brownies with a crackly top.",
+        "tr": "Çatlak üst kabuğu ile zengin, yoğun çikolatalı brownie.",
+        "es": "Brownies de chocolate ricos, densos y cremosos con superficie crujiente.",
+        "de": "Reichhaltige, dichte, fudgy Schokoladenbrownies mit knuspriger Oberfläche."
+      },
+      "ingredients": [
+        {
+          "en": "200g dark chocolate",
+          "tr": "200g bitter çikolata",
+          "es": "200g chocolate oscuro",
+          "de": "200g Zartbitterschokolade"
+        },
+        {
+          "en": "150g butter",
+          "tr": "150g tereyağı",
+          "es": "150g mantequilla",
+          "de": "150g Butter"
+        },
+        {
+          "en": "200g sugar, 3 eggs",
+          "tr": "200g şeker, 3 yumurta",
+          "es": "200g azúcar, 3 huevos",
+          "de": "200g Zucker, 3 Eier"
+        },
+        {
+          "en": "80g flour, pinch salt, vanilla",
+          "tr": "80g un, bir tutam tuz, vanilya",
+          "es": "80g harina, pizca de sal, vainilla",
+          "de": "80g Mehl, Prise Salz, Vanille"
+        }
+      ],
+      "steps": [
+        {
+          "en": "Melt chocolate and butter together.",
+          "tr": "Çikolata ve tereyağını birlikte eritin.",
+          "es": "Derretir chocolate y mantequilla juntos.",
+          "de": "Schokolade und Butter zusammen schmelzen."
+        },
+        {
+          "en": "Whisk in sugar, then eggs one at a time, then vanilla.",
+          "tr": "Şekeri çırpın, sonra yumurtaları teker teker, sonra vanilyayı ekleyin.",
+          "es": "Batir azúcar, luego huevos uno a la vez, luego vainilla.",
+          "de": "Zucker einrühren, dann Eier einzeln, dann Vanille."
+        },
+        {
+          "en": "Fold in flour and salt gently — don't overmix.",
+          "tr": "Un ve tuzu nazikçe katın — çok karıştırmayın.",
+          "es": "Incorporar harina y sal suavemente — no mezclar demasiado.",
+          "de": "Mehl und Salz vorsichtig unterheben — nicht überrühren."
+        },
+        {
+          "en": "Pour into lined pan, bake at 180°C for 22-25 minutes.",
+          "tr": "Kağıtlı tepsiye dökün, 180°C'de 22-25 dakika pişirin.",
+          "es": "Verter en molde forrado, hornear a 180°C por 22-25 minutos.",
+          "de": "In ausgelegte Form gießen, bei 180°C 22-25 Minuten backen."
+        },
+        {
+          "en": "Cool completely before cutting into squares.",
+          "tr": "Kesmeden önce tamamen soğutun.",
+          "es": "Enfriar completamente antes de cortar en cuadrados.",
+          "de": "Vollständig abkühlen lassen vor dem Schneiden."
+        }
+      ]
+    },
+    {
+      "id": "us_cheesecake",
+      "cuisineId": "american",
+      "emoji": "🍰",
+      "image": "https://images.unsplash.com/photo-1533134242443-d4fd215305ad?auto=format&fit=crop&w=800&q=80",
+      "color": "FFFFF5E1",
+      "prepTime": 20,
+      "cookTime": 60,
+      "difficulty": "medium",
+      "calories": 400,
+      "servings": 12,
+      "isPremium": false,
+      "tags": [
+        "dessert",
+        "baked",
+        "classic"
+      ],
+      "name": {
+        "en": "New York Cheesecake",
+        "tr": "New York Cheesecake",
+        "es": "Tarta de Queso de Nueva York",
+        "de": "New York Käsekuchen"
+      },
+      "description": {
+        "en": "Dense, creamy cheesecake on a graham cracker base — New York's sweetest icon.",
+        "tr": "Kraker tabanında yoğun, kremamsı cheesecake — New York'un en tatlı ikonu.",
+        "es": "Tarta de queso densa y cremosa sobre base de galletas graham — el ícono más dulce de Nueva York.",
+        "de": "Dichter, cremiger Käsekuchen auf Graham-Cracker-Boden — New Yorks süßeste Ikone."
+      },
+      "ingredients": [
+        {
+          "en": "900g cream cheese",
+          "tr": "900g krem peynir",
+          "es": "900g queso crema",
+          "de": "900g Frischkäse"
+        },
+        {
+          "en": "200g sugar, 5 eggs",
+          "tr": "200g şeker, 5 yumurta",
+          "es": "200g azúcar, 5 huevos",
+          "de": "200g Zucker, 5 Eier"
+        },
+        {
+          "en": "300ml sour cream",
+          "tr": "300ml ekşi krema",
+          "es": "300ml crema agria",
+          "de": "300ml Sauerrahm"
+        },
+        {
+          "en": "Graham cracker crust",
+          "tr": "Kraker tabanı",
+          "es": "Base de galletas graham",
+          "de": "Graham-Cracker-Boden"
+        },
+        {
+          "en": "Vanilla, lemon zest",
+          "tr": "Vanilya, limon kabuğu rendesi",
+          "es": "Vainilla, ralladura de limón",
+          "de": "Vanille, Zitronenschale"
+        }
+      ],
+      "steps": [
+        {
+          "en": "Press cracker crust into springform pan, bake 10 min.",
+          "tr": "Kraker tabanını kelepçeli kalıba bastırın, 10 dakika pişirin.",
+          "es": "Presionar corteza en molde desmontable, hornear 10 min.",
+          "de": "Cracker-Boden in Springform drücken, 10 Min. backen."
+        },
+        {
+          "en": "Beat cream cheese until smooth, add sugar, then eggs one at a time.",
+          "tr": "Krem peyniri pürüzsüz olana kadar çırpın, şekeri, sonra yumurtaları teker teker ekleyin.",
+          "es": "Batir queso crema hasta suavizar, agregar azúcar, luego huevos uno a la vez.",
+          "de": "Frischkäse glatt rühren, Zucker und Eier einzeln einrühren."
+        },
+        {
+          "en": "Add sour cream, vanilla, and lemon zest.",
+          "tr": "Ekşi krema, vanilya ve limon kabuğu rendesini ekleyin.",
+          "es": "Agregar crema agria, vainilla y ralladura de limón.",
+          "de": "Sauerrahm, Vanille und Zitronenschale hinzufügen."
+        },
+        {
+          "en": "Bake at 160°C in water bath for 60 min. Turn off oven, crack door, let cool inside 1 hour.",
+          "tr": "Su banyosunda 160°C'de 60 dakika pişirin. Fırını kapatın, kapıyı aralayın, 1 saat fırında soğutun.",
+          "es": "Hornear a 160°C en baño maría por 60 min. Apagar horno, abrir puerta, dejar enfriar dentro 1 hora.",
+          "de": "Bei 160°C im Wasserbad 60 Min. backen. Ofen aus, Tür öffnen, 1 Stunde drin abkühlen."
+        },
+        {
+          "en": "Refrigerate overnight before serving.",
+          "tr": "Servis öncesi bir gece buzdolabında bekletin.",
+          "es": "Refrigerar toda la noche antes de servir.",
+          "de": "Über Nacht im Kühlschrank kühlen."
+        }
+      ]
+    },
+    {
+      "id": "us_cornbread",
+      "cuisineId": "american",
+      "emoji": "🌽",
+      "image": "https://images.unsplash.com/photo-1589367920969-ab8e050bbb04?auto=format&fit=crop&w=800&q=80",
+      "color": "FFF1C40F",
+      "prepTime": 10,
+      "cookTime": 25,
+      "difficulty": "easy",
+      "calories": 220,
+      "servings": 8,
+      "isPremium": false,
+      "tags": [
+        "bread",
+        "side_dish",
+        "southern"
+      ],
+      "name": {
+        "en": "Cornbread",
+        "tr": "Mısır Ekmeği",
+        "es": "Pan de Maíz",
+        "de": "Maisbrot"
+      },
+      "description": {
+        "en": "Golden, slightly sweet cornbread baked in a cast iron skillet.",
+        "tr": "Döküm tavada pişirilmiş altın renkli, hafif tatlı mısır ekmeği.",
+        "es": "Pan de maíz dorado, ligeramente dulce, horneado en sartén de hierro fundido.",
+        "de": "Goldenes, leicht süßes Maisbrot in einer Gusseisenpfanne gebacken."
+      },
+      "ingredients": [
+        {
+          "en": "1.5 cups cornmeal, 0.5 cup flour",
+          "tr": "1.5 bardak mısır unu, 0.5 bardak un",
+          "es": "1.5 tazas de harina de maíz, 0.5 taza de harina",
+          "de": "1,5 Tassen Maismehl, 0,5 Tasse Mehl"
+        },
+        {
+          "en": "1 cup buttermilk, 2 eggs",
+          "tr": "1 bardak ayran, 2 yumurta",
+          "es": "1 taza de buttermilk, 2 huevos",
+          "de": "1 Tasse Buttermilch, 2 Eier"
+        },
+        {
+          "en": "Butter, baking powder, salt, sugar",
+          "tr": "Tereyağı, kabartma tozu, tuz, şeker",
+          "es": "Mantequilla, polvo de hornear, sal, azúcar",
+          "de": "Butter, Backpulver, Salz, Zucker"
+        }
+      ],
+      "steps": [
+        {
+          "en": "Preheat cast iron skillet with butter in oven at 220°C.",
+          "tr": "Döküm tavayı tereyağı ile fırında 220°C'de önceden ısıtın.",
+          "es": "Precalentar sartén de hierro con mantequilla en horno a 220°C.",
+          "de": "Gusseisenpfanne mit Butter im Ofen bei 220°C vorheizen."
+        },
+        {
+          "en": "Mix dry ingredients, whisk wet ingredients, combine.",
+          "tr": "Kuru malzemeleri karıştırın, ıslak malzemeleri çırpın, birleştirin.",
+          "es": "Mezclar ingredientes secos, batir húmedos, combinar.",
+          "de": "Trockene Zutaten mischen, nasse verquirlen, kombinieren."
+        },
+        {
+          "en": "Pour batter into sizzling hot skillet.",
+          "tr": "Hamuru cızırdayan sıcak tavaya dökün.",
+          "es": "Verter masa en sartén chisporroteante.",
+          "de": "Teig in die brutzelnde heiße Pfanne gießen."
+        },
+        {
+          "en": "Bake 20-25 minutes until golden. Serve with butter and honey.",
+          "tr": "20-25 dakika altın rengi olana kadar pişirin. Tereyağı ve bal ile servis edin.",
+          "es": "Hornear 20-25 minutos hasta dorar. Servir con mantequilla y miel.",
+          "de": "20-25 Minuten goldbraun backen. Mit Butter und Honig servieren."
+        }
+      ]
+    },
+    {
+      "id": "us_meatloaf",
+      "cuisineId": "american",
+      "emoji": "🍖",
+      "image": "https://images.unsplash.com/photo-1551218808-94e220e084d2?auto=format&fit=crop&w=800&q=80",
+      "color": "FF8B4513",
+      "prepTime": 15,
+      "cookTime": 60,
+      "difficulty": "easy",
+      "calories": 400,
+      "servings": 6,
+      "isPremium": false,
+      "tags": [
+        "meat",
+        "comfort",
+        "classic"
+      ],
+      "name": {
+        "en": "Meatloaf",
+        "tr": "Et Somunu",
+        "es": "Pastel de Carne",
+        "de": "Hackbraten"
+      },
+      "description": {
+        "en": "Classic American meatloaf with a tangy ketchup glaze.",
+        "tr": "Ekşi ketçap sosu ile klasik Amerikan et somunu.",
+        "es": "Pastel de carne americano clásico con glaseado de kétchup.",
+        "de": "Klassischer amerikanischer Hackbraten mit Ketchup-Glasur."
+      },
+      "ingredients": [
+        {
+          "en": "750g ground beef",
+          "tr": "750g kıyma",
+          "es": "750g carne molida",
+          "de": "750g Rinderhackfleisch"
+        },
+        {
+          "en": "1 onion, 2 eggs, breadcrumbs",
+          "tr": "1 soğan, 2 yumurta, galeta unu",
+          "es": "1 cebolla, 2 huevos, pan rallado",
+          "de": "1 Zwiebel, 2 Eier, Semmelbrösel"
+        },
+        {
+          "en": "Ketchup, Worcestershire, mustard",
+          "tr": "Ketçap, Worcestershire, hardal",
+          "es": "Kétchup, Worcestershire, mostaza",
+          "de": "Ketchup, Worcestershire, Senf"
+        },
+        {
+          "en": "Milk, herbs",
+          "tr": "Süt, otlar",
+          "es": "Leche, hierbas",
+          "de": "Milch, Kräuter"
+        }
+      ],
+      "steps": [
+        {
+          "en": "Mix ground beef with onion, eggs, breadcrumbs soaked in milk, and seasonings.",
+          "tr": "Kıymayı soğan, yumurta, sütte ıslatılmış galeta unu ve baharatlarla karıştırın.",
+          "es": "Mezclar carne molida con cebolla, huevos, pan rallado remojado en leche y condimentos.",
+          "de": "Hackfleisch mit Zwiebel, Eiern, in Milch eingeweichten Semmelbröseln und Gewürzen mischen."
+        },
+        {
+          "en": "Shape into a loaf on a baking sheet.",
+          "tr": "Fırın tepsisinde somun şekli verin.",
+          "es": "Dar forma de pan en una bandeja de horno.",
+          "de": "Auf einem Backblech zu einem Laib formen."
+        },
+        {
+          "en": "Mix glaze: ketchup, brown sugar, mustard. Spread on top.",
+          "tr": "Glaze karıştırın: ketçap, esmer şeker, hardal. Üzerine sürün.",
+          "es": "Mezclar glaseado: kétchup, azúcar moreno, mostaza. Untar encima.",
+          "de": "Glasur mischen: Ketchup, brauner Zucker, Senf. Oben verteilen."
+        },
+        {
+          "en": "Bake at 180°C for 55-60 minutes. Rest 10 minutes before slicing.",
+          "tr": "180°C'de 55-60 dakika pişirin. Kesmeden 10 dakika dinlendirin.",
+          "es": "Hornear a 180°C por 55-60 minutos. Reposar 10 minutos antes de cortar.",
+          "de": "Bei 180°C 55-60 Minuten backen. 10 Minuten ruhen vor dem Anschneiden."
+        }
+      ]
+    },
+    {
+      "id": "us_biscuits_gravy",
+      "cuisineId": "american",
+      "emoji": "🫓",
+      "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=800&q=80",
+      "color": "FFFFF5E1",
+      "prepTime": 15,
+      "cookTime": 20,
+      "difficulty": "easy",
+      "calories": 450,
+      "servings": 6,
+      "isPremium": false,
+      "tags": [
+        "breakfast",
+        "southern",
+        "comfort"
+      ],
+      "name": {
+        "en": "Biscuits & Gravy",
+        "tr": "Bisküvi ve Sos",
+        "es": "Galletas con Salsa",
+        "de": "Biscuits und Soße"
+      },
+      "description": {
+        "en": "Fluffy buttermilk biscuits smothered in peppery sausage gravy.",
+        "tr": "Biberli sosis sosuna bulanmış kabarık ayran bisküvileri.",
+        "es": "Galletas esponjosas de buttermilk cubiertas con salsa de salchicha con pimienta.",
+        "de": "Fluffige Buttermilch-Biscuits in pfeffriger Wurstsoße."
+      },
+      "ingredients": [
+        {
+          "en": "Biscuit dough (flour, buttermilk, butter, baking powder)",
+          "tr": "Bisküvi hamuru (un, ayran, tereyağı, kabartma tozu)",
+          "es": "Masa de galletas (harina, buttermilk, mantequilla, polvo de hornear)",
+          "de": "Biscuit-Teig (Mehl, Buttermilch, Butter, Backpulver)"
+        },
+        {
+          "en": "Pork sausage",
+          "tr": "Domuz sosis",
+          "es": "Salchicha de cerdo",
+          "de": "Schweinewurst"
+        },
+        {
+          "en": "Flour, milk, salt, pepper",
+          "tr": "Un, süt, tuz, biber",
+          "es": "Harina, leche, sal, pimienta",
+          "de": "Mehl, Milch, Salz, Pfeffer"
+        }
+      ],
+      "steps": [
+        {
+          "en": "Cut cold butter into flour, add buttermilk for biscuit dough.",
+          "tr": "Soğuk tereyağını una doğrayın, bisküvi hamuru için ayran ekleyin.",
+          "es": "Cortar mantequilla fría en harina, agregar buttermilk para masa.",
+          "de": "Kalte Butter in Mehl schneiden, Buttermilch für Teig hinzufügen."
+        },
+        {
+          "en": "Cut biscuits, bake at 220°C for 12-15 min until golden.",
+          "tr": "Bisküvileri kesin, 220°C'de 12-15 dakika altın rengi olana kadar pişirin.",
+          "es": "Cortar galletas, hornear a 220°C por 12-15 min hasta dorar.",
+          "de": "Biscuits ausstechen, bei 220°C 12-15 Min. goldbraun backen."
+        },
+        {
+          "en": "Brown sausage, add flour, stir in milk for gravy.",
+          "tr": "Sosisi kızartın, un ekleyin, sos için sütü karıştırın.",
+          "es": "Dorar salchicha, agregar harina, mezclar leche para salsa.",
+          "de": "Wurst anbraten, Mehl einrühren, Milch für Soße einrühren."
+        },
+        {
+          "en": "Split biscuits, smother with sausage gravy.",
+          "tr": "Bisküvileri yarın, sosis sosuyla kaplayın.",
+          "es": "Partir galletas, cubrir con salsa de salchicha.",
+          "de": "Biscuits aufschneiden, mit Wurstsoße übergießen."
+        }
+      ]
+    },
+    {
+      "id": "us_cobb_salad",
+      "cuisineId": "american",
+      "emoji": "🥗",
+      "image": "https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=800&q=80",
+      "color": "FF2ECC71",
+      "prepTime": 20,
+      "cookTime": 10,
+      "difficulty": "easy",
+      "calories": 450,
+      "servings": 4,
+      "isPremium": false,
+      "tags": [
+        "salad",
+        "protein",
+        "classic"
+      ],
+      "name": {
+        "en": "Cobb Salad",
+        "tr": "Cobb Salata",
+        "es": "Ensalada Cobb",
+        "de": "Cobb-Salat"
+      },
+      "description": {
+        "en": "Rows of chicken, bacon, egg, avocado, tomato, and blue cheese on greens.",
+        "tr": "Yeşillikler üzerinde sıralanmış tavuk, bacon, yumurta, avokado, domates ve mavi peynir.",
+        "es": "Filas de pollo, tocino, huevo, aguacate, tomate y queso azul sobre verdes.",
+        "de": "Reihen von Hähnchen, Speck, Ei, Avocado, Tomate und Blauschimmelkäse auf Salat."
+      },
+      "ingredients": [
+        {
+          "en": "Grilled chicken breast",
+          "tr": "Izgara tavuk göğsü",
+          "es": "Pechuga de pollo a la parrilla",
+          "de": "Gegrillte Hähnchenbrust"
+        },
+        {
+          "en": "Bacon, hard-boiled eggs, avocado",
+          "tr": "Bacon, haşlanmış yumurta, avokado",
+          "es": "Tocino, huevos duros, aguacate",
+          "de": "Speck, hart gekochte Eier, Avocado"
+        },
+        {
+          "en": "Tomatoes, blue cheese, mixed greens",
+          "tr": "Domates, mavi peynir, karışık yeşillik",
+          "es": "Tomates, queso azul, verdes mixtas",
+          "de": "Tomaten, Blauschimmelkäse, gemischter Salat"
+        },
+        {
+          "en": "Red wine vinaigrette",
+          "tr": "Kırmızı şarap vinegret",
+          "es": "Vinagreta de vino tinto",
+          "de": "Rotwein-Vinaigrette"
+        }
+      ],
+      "steps": [
+        {
+          "en": "Arrange greens on a large platter.",
+          "tr": "Yeşillikleri büyük bir tabağa dizin.",
+          "es": "Colocar verdes en una fuente grande.",
+          "de": "Salat auf einer großen Platte anrichten."
+        },
+        {
+          "en": "Arrange toppings in neat rows: chicken, bacon, egg, avocado, tomato, cheese.",
+          "tr": "Malzemeleri düzgün sıralar halinde dizin: tavuk, bacon, yumurta, avokado, domates, peynir.",
+          "es": "Colocar ingredientes en filas ordenadas: pollo, tocino, huevo, aguacate, tomate, queso.",
+          "de": "Zutaten in ordentlichen Reihen anrichten: Hähnchen, Speck, Ei, Avocado, Tomate, Käse."
+        },
+        {
+          "en": "Drizzle with red wine vinaigrette.",
+          "tr": "Kırmızı şarap vinegret gezdirin.",
+          "es": "Rociar con vinagreta de vino tinto.",
+          "de": "Mit Rotwein-Vinaigrette beträufeln."
+        }
+      ]
+    },
+    {
+      "id": "us_waffle",
+      "cuisineId": "american",
+      "emoji": "🧇",
+      "image": "https://images.unsplash.com/photo-1562376552-0d160a2f238d?auto=format&fit=crop&w=800&q=80",
+      "color": "FFF39C12",
+      "prepTime": 10,
+      "cookTime": 5,
+      "difficulty": "easy",
+      "calories": 320,
+      "servings": 4,
+      "isPremium": false,
+      "tags": [
+        "breakfast",
+        "sweet"
+      ],
+      "name": {
+        "en": "Belgian Waffles",
+        "tr": "Belçika Waffle",
+        "es": "Waffles Belgas",
+        "de": "Belgische Waffeln"
+      },
+      "description": {
+        "en": "Light, crispy waffles with deep pockets for syrup, berries, and whipped cream.",
+        "tr": "Şurup, meyve ve kırbaçlanmış krema için derin cepli hafif, çıtır waffle.",
+        "es": "Waffles ligeros y crujientes con bolsillos profundos para jarabe, frutas y crema batida.",
+        "de": "Leichte, knusprige Waffeln mit tiefen Taschen für Sirup, Beeren und Schlagsahne."
+      },
+      "ingredients": [
+        {
+          "en": "2 cups flour, 2 eggs",
+          "tr": "2 bardak un, 2 yumurta",
+          "es": "2 tazas de harina, 2 huevos",
+          "de": "2 Tassen Mehl, 2 Eier"
+        },
+        {
+          "en": "1.75 cups milk, 0.5 cup butter melted",
+          "tr": "1.75 bardak süt, 0.5 bardak eritilmiş tereyağı",
+          "es": "1.75 tazas de leche, 0.5 taza de mantequilla derretida",
+          "de": "1,75 Tassen Milch, 0,5 Tasse geschmolzene Butter"
+        },
+        {
+          "en": "Baking powder, sugar, vanilla",
+          "tr": "Kabartma tozu, şeker, vanilya",
+          "es": "Polvo de hornear, azúcar, vainilla",
+          "de": "Backpulver, Zucker, Vanille"
+        },
+        {
+          "en": "Maple syrup, berries, whipped cream",
+          "tr": "Akçaağaç şurubu, meyveler, kırbaçlanmış krema",
+          "es": "Jarabe de arce, frutas, crema batida",
+          "de": "Ahornsirup, Beeren, Schlagsahne"
+        }
+      ],
+      "steps": [
+        {
+          "en": "Mix dry ingredients. Whisk wet ingredients. Combine gently.",
+          "tr": "Kuru malzemeleri karıştırın. Islak malzemeleri çırpın. Nazikçe birleştirin.",
+          "es": "Mezclar ingredientes secos. Batir húmedos. Combinar suavemente.",
+          "de": "Trockene Zutaten mischen. Nasse verquirlen. Vorsichtig kombinieren."
+        },
+        {
+          "en": "Pour into preheated waffle iron, cook until golden and crisp.",
+          "tr": "Önceden ısıtılmış waffle makinesine dökün, altın rengi ve çıtır olana kadar pişirin.",
+          "es": "Verter en plancha de waffles precalentada, cocinar hasta dorar y quedar crujiente.",
+          "de": "In vorgeheiztes Waffeleisen gießen, goldbraun und knusprig backen."
+        },
+        {
+          "en": "Serve with butter, maple syrup, fresh berries, and whipped cream.",
+          "tr": "Tereyağı, akçaağaç şurubu, taze meyveler ve kırbaçlanmış krema ile servis edin.",
+          "es": "Servir con mantequilla, jarabe de arce, frutas frescas y crema batida.",
+          "de": "Mit Butter, Ahornsirup, frischen Beeren und Schlagsahne servieren."
+        }
+      ]
+    },
+    {
+      "id": "us_smores",
+      "cuisineId": "american",
+      "emoji": "🔥",
+      "image": "https://images.unsplash.com/photo-1582293041079-7814c2f12063?auto=format&fit=crop&w=800&q=80",
+      "color": "FF8B4513",
+      "prepTime": 5,
+      "cookTime": 5,
+      "difficulty": "easy",
+      "calories": 280,
+      "servings": 4,
+      "isPremium": false,
+      "tags": [
+        "dessert",
+        "chocolate",
+        "campfire"
+      ],
+      "name": {
+        "en": "S'mores",
+        "tr": "S'mores",
+        "es": "S'mores",
+        "de": "S'mores"
+      },
+      "description": {
+        "en": "Toasted marshmallow and chocolate sandwiched between graham crackers — campfire classic.",
+        "tr": "Graham krakerleri arasında kızarmış marshmallow ve çikolata — kamp ateşi klasiği.",
+        "es": "Malvavisco tostado y chocolate entre galletas graham — clásico de fogata.",
+        "de": "Gerösteter Marshmallow und Schokolade zwischen Graham-Crackern — Lagerfeuer-Klassiker."
+      },
+      "ingredients": [
+        {
+          "en": "Graham crackers",
+          "tr": "Graham krakerleri",
+          "es": "Galletas graham",
+          "de": "Graham-Cracker"
+        },
+        {
+          "en": "Large marshmallows",
+          "tr": "Büyük marshmallow",
+          "es": "Malvaviscos grandes",
+          "de": "Große Marshmallows"
+        },
+        {
+          "en": "Chocolate bars",
+          "tr": "Çikolata barları",
+          "es": "Barras de chocolate",
+          "de": "Schokoladentafeln"
+        }
+      ],
+      "steps": [
+        {
+          "en": "Toast marshmallow over fire until golden and gooey.",
+          "tr": "Marshmallow'u ateşte altın rengi ve yapışkan olana kadar kızartın.",
+          "es": "Tostar malvavisco sobre fuego hasta dorar y quedar pegajoso.",
+          "de": "Marshmallow über Feuer goldbraun und weich toasten."
+        },
+        {
+          "en": "Place chocolate on a graham cracker.",
+          "tr": "Çikolatayı bir graham krakerin üzerine koyun.",
+          "es": "Colocar chocolate en una galleta graham.",
+          "de": "Schokolade auf einen Graham-Cracker legen."
+        },
+        {
+          "en": "Add hot marshmallow, top with another cracker, squeeze together!",
+          "tr": "Sıcak marshmallow ekleyin, başka bir krakeri üstüne koyun, sıkıştırın!",
+          "es": "Agregar malvavisco caliente, cubrir con otra galleta, ¡apretar juntos!",
+          "de": "Heißen Marshmallow darauf, mit einem weiteren Cracker bedecken, zusammendrücken!"
+        }
+      ]
+    },
+    {
+      "id": "us_onion_rings",
+      "cuisineId": "american",
+      "emoji": "🧅",
+      "image": "https://images.unsplash.com/photo-1639024471287-032f6983cfb4?auto=format&fit=crop&w=800&q=80",
+      "color": "FFF39C12",
+      "prepTime": 15,
+      "cookTime": 5,
+      "difficulty": "easy",
+      "calories": 300,
+      "servings": 4,
+      "isPremium": false,
+      "tags": [
+        "fried",
+        "side_dish",
+        "vegetarian"
+      ],
+      "name": {
+        "en": "Onion Rings",
+        "tr": "Soğan Halkası",
+        "es": "Aros de Cebolla",
+        "de": "Zwiebelringe"
+      },
+      "description": {
+        "en": "Thick-cut onion rings in a crispy beer batter — the perfect side.",
+        "tr": "Çıtır bira hamurlu kalın kesim soğan halkaları — mükemmel garnitür.",
+        "es": "Aros de cebolla de corte grueso en masa crujiente de cerveza — el acompañamiento perfecto.",
+        "de": "Dick geschnittene Zwiebelringe in knusprigem Bierteig — die perfekte Beilage."
+      },
+      "ingredients": [
+        {
+          "en": "2 large onions, sliced into rings",
+          "tr": "2 büyük soğan, halka halinde dilimlenmiş",
+          "es": "2 cebollas grandes, cortadas en aros",
+          "de": "2 große Zwiebeln, in Ringe geschnitten"
+        },
+        {
+          "en": "Flour, beer, egg, baking powder",
+          "tr": "Un, bira, yumurta, kabartma tozu",
+          "es": "Harina, cerveza, huevo, polvo de hornear",
+          "de": "Mehl, Bier, Ei, Backpulver"
+        },
+        {
+          "en": "Oil for deep frying",
+          "tr": "Kızartma yağı",
+          "es": "Aceite para freír",
+          "de": "Öl zum Frittieren"
+        }
+      ],
+      "steps": [
+        {
+          "en": "Separate onion rings, dust with flour.",
+          "tr": "Soğan halkalarını ayırın, unla tozlandırın.",
+          "es": "Separar aros de cebolla, espolvorear con harina.",
+          "de": "Zwiebelringe trennen, mit Mehl bestäuben."
+        },
+        {
+          "en": "Make beer batter: whisk flour, beer, egg, and baking powder.",
+          "tr": "Bira hamuru yapın: un, bira, yumurta ve kabartma tozunu çırpın.",
+          "es": "Hacer masa de cerveza: batir harina, cerveza, huevo y polvo de hornear.",
+          "de": "Bierteig herstellen: Mehl, Bier, Ei und Backpulver verquirlen."
+        },
+        {
+          "en": "Dip rings in batter, deep fry at 180°C until golden.",
+          "tr": "Halkaları hamura batırın, 180°C yağda altın rengi olana kadar kızartın.",
+          "es": "Sumergir aros en masa, freír a 180°C hasta dorar.",
+          "de": "Ringe in Teig tauchen, bei 180°C goldbraun frittieren."
+        },
+        {
+          "en": "Drain and serve with ranch dipping sauce.",
+          "tr": "Süzün ve ranch dip sosu ile servis edin.",
+          "es": "Escurrir y servir con salsa ranch.",
+          "de": "Abtropfen und mit Ranch-Dip servieren."
+        }
+      ]
+    },
+    {
+      "id": "us_pecan_pie",
+      "cuisineId": "american",
+      "emoji": "🥧",
+      "image": "https://images.unsplash.com/photo-1519869325930-281384150729?auto=format&fit=crop&w=800&q=80",
+      "color": "FF8B4513",
+      "prepTime": 15,
+      "cookTime": 50,
+      "difficulty": "medium",
+      "calories": 500,
+      "servings": 8,
+      "isPremium": false,
+      "tags": [
+        "dessert",
+        "nuts",
+        "thanksgiving"
+      ],
+      "name": {
+        "en": "Pecan Pie",
+        "tr": "Pekan Cevizli Turta",
+        "es": "Pastel de Nueces Pecanas",
+        "de": "Pekannusskuchen"
+      },
+      "description": {
+        "en": "Sweet, buttery filling loaded with toasted pecans in a flaky pie crust.",
+        "tr": "Çıtır turta kabuğunda kızarmış pekan cevizli tatlı, tereyağlı dolgu.",
+        "es": "Relleno dulce y mantecoso cargado de nueces pecanas tostadas en corteza escamosa.",
+        "de": "Süße, buttrige Füllung voller gerösteter Pekannüsse in einer blättrigen Teigkruste."
+      },
+      "ingredients": [
+        {
+          "en": "Pie crust",
+          "tr": "Turta kabuğu",
+          "es": "Corteza de pastel",
+          "de": "Teigkruste"
+        },
+        {
+          "en": "2 cups pecan halves",
+          "tr": "2 bardak pekan cevizi",
+          "es": "2 tazas de nueces pecanas",
+          "de": "2 Tassen Pekannusshälften"
+        },
+        {
+          "en": "3 eggs, 1 cup corn syrup",
+          "tr": "3 yumurta, 1 bardak mısır şurubu",
+          "es": "3 huevos, 1 taza de jarabe de maíz",
+          "de": "3 Eier, 1 Tasse Maissirup"
+        },
+        {
+          "en": "Brown sugar, butter, vanilla",
+          "tr": "Esmer şeker, tereyağı, vanilya",
+          "es": "Azúcar moreno, mantequilla, vainilla",
+          "de": "Brauner Zucker, Butter, Vanille"
+        }
+      ],
+      "steps": [
+        {
+          "en": "Place pie crust in pan.",
+          "tr": "Turta kabuğunu tepsiye yerleştirin.",
+          "es": "Colocar corteza en molde.",
+          "de": "Teigkruste in Form legen."
+        },
+        {
+          "en": "Whisk eggs, corn syrup, brown sugar, melted butter, and vanilla.",
+          "tr": "Yumurta, mısır şurubu, esmer şeker, eritilmiş tereyağı ve vanilyayı çırpın.",
+          "es": "Batir huevos, jarabe de maíz, azúcar moreno, mantequilla derretida y vainilla.",
+          "de": "Eier, Maissirup, braunen Zucker, geschmolzene Butter und Vanille verquirlen."
+        },
+        {
+          "en": "Arrange pecans in crust, pour filling over.",
+          "tr": "Pekan cevizlerini kabuğa dizin, dolguyu üzerine dökün.",
+          "es": "Colocar nueces en corteza, verter relleno encima.",
+          "de": "Pekannüsse in der Kruste verteilen, Füllung darüber gießen."
+        },
+        {
+          "en": "Bake at 175°C for 50 minutes. Cool completely.",
+          "tr": "175°C'de 50 dakika pişirin. Tamamen soğutun.",
+          "es": "Hornear a 175°C por 50 minutos. Enfriar completamente.",
+          "de": "Bei 175°C 50 Minuten backen. Vollständig abkühlen lassen."
+        }
+      ]
+    }
+  ]
+}

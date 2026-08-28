@@ -1,0 +1,2335 @@
+{
+  "cuisineId": "mexican",
+  "foods": [
+    {
+      "id": "mx_taco",
+      "cuisineId": "mexican",
+      "emoji": "🌮",
+      "image": "https://images.unsplash.com/photo-1551504734-5ee1c4a1479b?auto=format&fit=crop&w=800&q=80",
+      "color": "FFE67E22",
+      "prepTime": 20,
+      "cookTime": 15,
+      "difficulty": "easy",
+      "calories": 280,
+      "servings": 4,
+      "isPremium": false,
+      "tags": [
+        "meat",
+        "street_food",
+        "classic"
+      ],
+      "name": {
+        "en": "Street Tacos",
+        "tr": "Sokak Takosu",
+        "es": "Tacos Callejeros",
+        "de": "Straßentacos"
+      },
+      "description": {
+        "en": "Soft corn tortillas filled with seasoned meat, onion, cilantro, and salsa verde.",
+        "tr": "Baharatlı et, soğan, kişniş ve salsa verde ile doldurulmuş yumuşak mısır tortilla.",
+        "es": "Tortillas de maíz suaves rellenas de carne sazonada, cebolla, cilantro y salsa verde.",
+        "de": "Weiche Maistortillas gefüllt mit gewürztem Fleisch, Zwiebel, Koriander und Salsa Verde."
+      },
+      "ingredients": [
+        {
+          "en": "500g carne asada or al pastor meat",
+          "tr": "500g ızgara veya al pastor eti",
+          "es": "500g carne asada o al pastor",
+          "de": "500g Carne Asada oder Al-Pastor-Fleisch"
+        },
+        {
+          "en": "Small corn tortillas",
+          "tr": "Küçük mısır tortilla",
+          "es": "Tortillas de maíz pequeñas",
+          "de": "Kleine Maistortillas"
+        },
+        {
+          "en": "White onion, fresh cilantro",
+          "tr": "Beyaz soğan, taze kişniş",
+          "es": "Cebolla blanca, cilantro fresco",
+          "de": "Weiße Zwiebel, frischer Koriander"
+        },
+        {
+          "en": "Salsa verde, lime wedges",
+          "tr": "Salsa verde, limon dilimleri",
+          "es": "Salsa verde, gajos de limón",
+          "de": "Salsa Verde, Limettenspalten"
+        }
+      ],
+      "steps": [
+        {
+          "en": "Season and grill or pan-fry meat until charred and juicy.",
+          "tr": "Eti baharatlayın ve kömürleşene kadar ızgara veya tavada pişirin.",
+          "es": "Sazonar y asar o freír la carne hasta que esté chamuscada y jugosa.",
+          "de": "Fleisch würzen und grillen oder braten bis verkohlt und saftig."
+        },
+        {
+          "en": "Chop meat into small pieces.",
+          "tr": "Eti küçük parçalara doğrayın.",
+          "es": "Picar la carne en trozos pequeños.",
+          "de": "Fleisch in kleine Stücke schneiden."
+        },
+        {
+          "en": "Warm double-stacked tortillas on a hot griddle.",
+          "tr": "Çift katlı tortillaları kızgın sacda ısıtın.",
+          "es": "Calentar tortillas dobles en plancha caliente.",
+          "de": "Doppelt gestapelte Tortillas auf heißer Grillplatte erwärmen."
+        },
+        {
+          "en": "Fill with meat, top with onion, cilantro, and salsa. Squeeze lime.",
+          "tr": "Etle doldurun, soğan, kişniş ve salsa koyun. Limon sıkın.",
+          "es": "Rellenar con carne, cubrir con cebolla, cilantro y salsa. Exprimir lima.",
+          "de": "Mit Fleisch füllen, Zwiebel, Koriander und Salsa darauf. Limette ausdrücken."
+        }
+      ]
+    },
+    {
+      "id": "mx_burrito",
+      "cuisineId": "mexican",
+      "emoji": "🌯",
+      "image": "https://images.unsplash.com/photo-1626777552726-4a6b54c97e46?auto=format&fit=crop&w=800&q=80",
+      "color": "FFF39C12",
+      "prepTime": 15,
+      "cookTime": 15,
+      "difficulty": "easy",
+      "calories": 550,
+      "servings": 4,
+      "isPremium": false,
+      "tags": [
+        "meat",
+        "rice",
+        "beans"
+      ],
+      "name": {
+        "en": "Burrito",
+        "tr": "Burrito",
+        "es": "Burrito",
+        "de": "Burrito"
+      },
+      "description": {
+        "en": "Large flour tortilla stuffed with rice, beans, meat, cheese, and salsa.",
+        "tr": "Pirinç, fasulye, et, peynir ve salsa ile doldurulmuş büyük un tortilla.",
+        "es": "Tortilla grande de harina rellena de arroz, frijoles, carne, queso y salsa.",
+        "de": "Große Mehl-Tortilla gefüllt mit Reis, Bohnen, Fleisch, Käse und Salsa."
+      },
+      "ingredients": [
+        {
+          "en": "Large flour tortillas",
+          "tr": "Büyük un tortilla",
+          "es": "Tortillas de harina grandes",
+          "de": "Große Mehl-Tortillas"
+        },
+        {
+          "en": "Mexican rice, refried beans",
+          "tr": "Meksika pilavı, ezme fasulye",
+          "es": "Arroz mexicano, frijoles refritos",
+          "de": "Mexikanischer Reis, Refried Beans"
+        },
+        {
+          "en": "Seasoned ground beef or chicken",
+          "tr": "Baharatlı kıyma veya tavuk",
+          "es": "Carne molida o pollo sazonado",
+          "de": "Gewürztes Hackfleisch oder Hähnchen"
+        },
+        {
+          "en": "Cheese, sour cream, guacamole, salsa",
+          "tr": "Peynir, ekşi krema, guacamole, salsa",
+          "es": "Queso, crema agria, guacamole, salsa",
+          "de": "Käse, Sauerrahm, Guacamole, Salsa"
+        }
+      ],
+      "steps": [
+        {
+          "en": "Warm tortilla until pliable.",
+          "tr": "Tortillayı esnek olana kadar ısıtın.",
+          "es": "Calentar tortilla hasta que esté flexible.",
+          "de": "Tortilla erwärmen bis biegsam."
+        },
+        {
+          "en": "Layer rice, beans, meat, cheese, and toppings in center.",
+          "tr": "Ortaya pirinç, fasulye, et, peynir ve malzemeleri katmanlayın.",
+          "es": "Colocar arroz, frijoles, carne, queso e ingredientes en el centro.",
+          "de": "Reis, Bohnen, Fleisch, Käse und Belag in der Mitte schichten."
+        },
+        {
+          "en": "Fold sides in, then roll tightly from bottom to top.",
+          "tr": "Yanları katlayın, sonra alttan üste sıkıca sarın.",
+          "es": "Doblar los lados, luego enrollar firmemente de abajo hacia arriba.",
+          "de": "Seiten einfalten, dann fest von unten nach oben aufrollen."
+        },
+        {
+          "en": "Optional: grill seam-side down for a crispy exterior.",
+          "tr": "İsteğe bağlı: çıtır dış için dikiş tarafını alta getirip ızgara yapın.",
+          "es": "Opcional: asar con la unión hacia abajo para exterior crujiente.",
+          "de": "Optional: mit Nahtseite nach unten grillen für knusprige Außenseite."
+        }
+      ]
+    },
+    {
+      "id": "mx_enchilada",
+      "cuisineId": "mexican",
+      "emoji": "🫔",
+      "image": "https://images.unsplash.com/photo-1534352956036-cd81e27dd615?auto=format&fit=crop&w=800&q=80",
+      "color": "FFE84545",
+      "prepTime": 20,
+      "cookTime": 20,
+      "difficulty": "medium",
+      "calories": 380,
+      "servings": 4,
+      "isPremium": false,
+      "tags": [
+        "meat",
+        "baked",
+        "sauce"
+      ],
+      "name": {
+        "en": "Enchiladas Rojas",
+        "tr": "Kırmızı Enchilada",
+        "es": "Enchiladas Rojas",
+        "de": "Rote Enchiladas"
+      },
+      "description": {
+        "en": "Rolled tortillas filled with chicken, smothered in red chili sauce and melted cheese.",
+        "tr": "Tavuk dolgulu rulo tortillalar, kırmızı acı sos ve erimiş peynirle kaplı.",
+        "es": "Tortillas enrolladas rellenas de pollo, cubiertas con salsa de chile rojo y queso derretido.",
+        "de": "Gerollte Tortillas gefüllt mit Hähnchen, in roter Chilisauce und geschmolzenem Käse."
+      },
+      "ingredients": [
+        {
+          "en": "Corn tortillas, shredded chicken",
+          "tr": "Mısır tortilla, parçalanmış tavuk",
+          "es": "Tortillas de maíz, pollo desmenuzado",
+          "de": "Maistortillas, zerzupftes Hähnchen"
+        },
+        {
+          "en": "Red enchilada sauce (dried chilies, tomatoes)",
+          "tr": "Kırmızı enchilada sosu (kurutulmuş biberler, domates)",
+          "es": "Salsa de enchilada roja (chiles secos, tomates)",
+          "de": "Rote Enchilada-Sauce (getrocknete Chilis, Tomaten)"
+        },
+        {
+          "en": "Cheese, sour cream, onion",
+          "tr": "Peynir, ekşi krema, soğan",
+          "es": "Queso, crema agria, cebolla",
+          "de": "Käse, Sauerrahm, Zwiebel"
+        }
+      ],
+      "steps": [
+        {
+          "en": "Make sauce by blending rehydrated dried chilies with tomatoes.",
+          "tr": "Suda yumuşatılmış kurutulmuş biberleri domatesle blenderdan geçirerek sos yapın.",
+          "es": "Hacer salsa licuando chiles secos rehidratados con tomates.",
+          "de": "Sauce herstellen durch Mixen von eingeweichten getrockneten Chilis mit Tomaten."
+        },
+        {
+          "en": "Dip tortillas in sauce, fill with chicken and cheese, roll up.",
+          "tr": "Tortillaları sosa batırın, tavuk ve peynirle doldurun, rulo yapın.",
+          "es": "Sumergir tortillas en salsa, rellenar con pollo y queso, enrollar.",
+          "de": "Tortillas in Sauce tauchen, mit Hähnchen und Käse füllen, aufrollen."
+        },
+        {
+          "en": "Place seam-down in baking dish, pour remaining sauce over.",
+          "tr": "Dikiş tarafı alta gelecek şekilde dizin, kalan sosu üzerine dökün.",
+          "es": "Colocar con la unión hacia abajo, verter salsa restante encima.",
+          "de": "Mit Naht nach unten in Auflaufform legen, restliche Sauce darüber gießen."
+        },
+        {
+          "en": "Top with cheese, bake at 190°C for 15-20 minutes.",
+          "tr": "Peynir serpin, 190°C'de 15-20 dakika pişirin.",
+          "es": "Cubrir con queso, hornear a 190°C por 15-20 minutos.",
+          "de": "Mit Käse bestreuen, bei 190°C 15-20 Minuten backen."
+        }
+      ]
+    },
+    {
+      "id": "mx_guacamole",
+      "cuisineId": "mexican",
+      "emoji": "🥑",
+      "image": "https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=800&q=80",
+      "color": "FF2ECC71",
+      "prepTime": 10,
+      "cookTime": 0,
+      "difficulty": "easy",
+      "calories": 150,
+      "servings": 6,
+      "isPremium": false,
+      "tags": [
+        "dip",
+        "vegetarian",
+        "no_cook"
+      ],
+      "name": {
+        "en": "Guacamole",
+        "tr": "Guacamole",
+        "es": "Guacamole",
+        "de": "Guacamole"
+      },
+      "description": {
+        "en": "Fresh avocado dip with lime, cilantro, onion, and jalapeño.",
+        "tr": "Limon, kişniş, soğan ve jalapeño ile taze avokado dip.",
+        "es": "Dip fresco de aguacate con lima, cilantro, cebolla y jalapeño.",
+        "de": "Frischer Avocado-Dip mit Limette, Koriander, Zwiebel und Jalapeño."
+      },
+      "ingredients": [
+        {
+          "en": "3 ripe avocados",
+          "tr": "3 olgun avokado",
+          "es": "3 aguacates maduros",
+          "de": "3 reife Avocados"
+        },
+        {
+          "en": "1 lime, juiced",
+          "tr": "1 limon suyu",
+          "es": "1 lima, exprimida",
+          "de": "1 Limette, ausgepresst"
+        },
+        {
+          "en": "White onion, jalapeño, cilantro",
+          "tr": "Beyaz soğan, jalapeño, kişniş",
+          "es": "Cebolla blanca, jalapeño, cilantro",
+          "de": "Weiße Zwiebel, Jalapeño, Koriander"
+        },
+        {
+          "en": "Tomato, salt",
+          "tr": "Domates, tuz",
+          "es": "Tomate, sal",
+          "de": "Tomate, Salz"
+        }
+      ],
+      "steps": [
+        {
+          "en": "Halve avocados, remove pit, scoop flesh into bowl.",
+          "tr": "Avokadoları ikiye bölün, çekirdeği çıkarın, içini kaseye sıyırın.",
+          "es": "Partir aguacates, quitar hueso, sacar pulpa al bol.",
+          "de": "Avocados halbieren, Kern entfernen, Fruchtfleisch in Schüssel löffeln."
+        },
+        {
+          "en": "Mash to desired chunkiness with a fork.",
+          "tr": "Çatalla istenen kıvama getirin.",
+          "es": "Aplastar con un tenedor hasta la textura deseada.",
+          "de": "Mit einer Gabel zur gewünschten Konsistenz zerdrücken."
+        },
+        {
+          "en": "Fold in diced onion, jalapeño, tomato, and cilantro.",
+          "tr": "Doğranmış soğan, jalapeño, domates ve kişnişi katın.",
+          "es": "Incorporar cebolla, jalapeño, tomate y cilantro picados.",
+          "de": "Gewürfelte Zwiebel, Jalapeño, Tomate und Koriander unterheben."
+        },
+        {
+          "en": "Add lime juice and salt to taste. Serve with tortilla chips.",
+          "tr": "Limon suyu ve tuz ekleyin. Tortilla cips ile servis edin.",
+          "es": "Agregar jugo de lima y sal al gusto. Servir con totopos.",
+          "de": "Limettensaft und Salz nach Geschmack. Mit Tortilla-Chips servieren."
+        }
+      ]
+    },
+    {
+      "id": "mx_quesadilla",
+      "cuisineId": "mexican",
+      "emoji": "🧀",
+      "image": "https://images.unsplash.com/photo-1618040996337-56904b7850b9?auto=format&fit=crop&w=800&q=80",
+      "color": "FFF1C40F",
+      "prepTime": 5,
+      "cookTime": 8,
+      "difficulty": "easy",
+      "calories": 350,
+      "servings": 2,
+      "isPremium": false,
+      "tags": [
+        "cheese",
+        "quick",
+        "vegetarian"
+      ],
+      "name": {
+        "en": "Quesadilla",
+        "tr": "Quesadilla",
+        "es": "Quesadilla",
+        "de": "Quesadilla"
+      },
+      "description": {
+        "en": "Crispy tortilla filled with melted cheese, served with salsa and sour cream.",
+        "tr": "Erimiş peynir dolgulu çıtır tortilla, salsa ve ekşi krema ile servis edilir.",
+        "es": "Tortilla crujiente rellena de queso derretido, servida con salsa y crema agria.",
+        "de": "Knusprige Tortilla gefüllt mit geschmolzenem Käse, mit Salsa und Sauerrahm serviert."
+      },
+      "ingredients": [
+        {
+          "en": "Flour tortillas",
+          "tr": "Un tortilla",
+          "es": "Tortillas de harina",
+          "de": "Mehl-Tortillas"
+        },
+        {
+          "en": "Oaxaca or Monterey Jack cheese",
+          "tr": "Oaxaca veya Monterey Jack peyniri",
+          "es": "Queso Oaxaca o Monterey Jack",
+          "de": "Oaxaca- oder Monterey-Jack-Käse"
+        },
+        {
+          "en": "Optional: chicken, peppers, mushrooms",
+          "tr": "İsteğe bağlı: tavuk, biber, mantar",
+          "es": "Opcional: pollo, pimientos, champiñones",
+          "de": "Optional: Hähnchen, Paprika, Pilze"
+        },
+        {
+          "en": "Salsa, sour cream, guacamole",
+          "tr": "Salsa, ekşi krema, guacamole",
+          "es": "Salsa, crema agria, guacamole",
+          "de": "Salsa, Sauerrahm, Guacamole"
+        }
+      ],
+      "steps": [
+        {
+          "en": "Sprinkle cheese on half of tortilla, add optional fillings.",
+          "tr": "Tortillanın yarısına peynir serpin, isteğe bağlı malzemeleri ekleyin.",
+          "es": "Esparcir queso en la mitad de la tortilla, agregar rellenos opcionales.",
+          "de": "Käse auf die Hälfte der Tortilla streuen, optionale Füllung hinzufügen."
+        },
+        {
+          "en": "Fold in half, cook on medium heat until golden on each side.",
+          "tr": "İkiye katlayın, orta ateşte her tarafı altın rengi olana kadar pişirin.",
+          "es": "Doblar por la mitad, cocinar a fuego medio hasta dorar por cada lado.",
+          "de": "Zusammenfalten, bei mittlerer Hitze von jeder Seite goldbraun braten."
+        },
+        {
+          "en": "Cut into wedges, serve with salsa and sour cream.",
+          "tr": "Dilimleyin, salsa ve ekşi krema ile servis edin.",
+          "es": "Cortar en triángulos, servir con salsa y crema agria.",
+          "de": "In Spalten schneiden, mit Salsa und Sauerrahm servieren."
+        }
+      ]
+    },
+    {
+      "id": "mx_churros",
+      "cuisineId": "mexican",
+      "emoji": "🍩",
+      "image": "https://images.unsplash.com/photo-1624300629298-e9de39c13be5?auto=format&fit=crop&w=800&q=80",
+      "color": "FFF39C12",
+      "prepTime": 15,
+      "cookTime": 10,
+      "difficulty": "medium",
+      "calories": 280,
+      "servings": 6,
+      "isPremium": false,
+      "tags": [
+        "dessert",
+        "fried",
+        "street_food"
+      ],
+      "name": {
+        "en": "Churros",
+        "tr": "Churros",
+        "es": "Churros",
+        "de": "Churros"
+      },
+      "description": {
+        "en": "Crispy fried dough sticks rolled in cinnamon sugar with chocolate dipping sauce.",
+        "tr": "Tarçınlı şekere bulanmış çıtır kızarmış hamur çubukları, çikolata dip sosu ile.",
+        "es": "Palitos de masa frita crujientes cubiertos en azúcar con canela con salsa de chocolate.",
+        "de": "Knusprig frittierte Teigstangen in Zimtzucker gewälzt mit Schokoladen-Dip."
+      },
+      "ingredients": [
+        {
+          "en": "1 cup water, 2 tbsp sugar, salt, butter",
+          "tr": "1 bardak su, 2 yemek kaşığı şeker, tuz, tereyağı",
+          "es": "1 taza de agua, 2 cucharadas de azúcar, sal, mantequilla",
+          "de": "1 Tasse Wasser, 2 EL Zucker, Salz, Butter"
+        },
+        {
+          "en": "1 cup flour",
+          "tr": "1 bardak un",
+          "es": "1 taza de harina",
+          "de": "1 Tasse Mehl"
+        },
+        {
+          "en": "Oil for frying",
+          "tr": "Kızartma yağı",
+          "es": "Aceite para freír",
+          "de": "Öl zum Frittieren"
+        },
+        {
+          "en": "Cinnamon sugar, chocolate sauce",
+          "tr": "Tarçınlı şeker, çikolata sosu",
+          "es": "Azúcar con canela, salsa de chocolate",
+          "de": "Zimtzucker, Schokoladensoße"
+        }
+      ],
+      "steps": [
+        {
+          "en": "Boil water with butter, sugar, and salt. Add flour, stir vigorously.",
+          "tr": "Suyu tereyağı, şeker ve tuzla kaynatın. Un ekleyin, kuvvetlice karıştırın.",
+          "es": "Hervir agua con mantequilla, azúcar y sal. Agregar harina, revolver vigorosamente.",
+          "de": "Wasser mit Butter, Zucker und Salz aufkochen. Mehl einrühren, kräftig rühren."
+        },
+        {
+          "en": "Pipe dough through a star tip into hot oil (180°C).",
+          "tr": "Hamuru yıldız uçlu sıkma torbası ile sıcak yağa (180°C) sıkın.",
+          "es": "Formar la masa con boquilla de estrella en aceite caliente (180°C).",
+          "de": "Teig durch eine Sterntülle in heißes Öl (180°C) spritzen."
+        },
+        {
+          "en": "Fry until golden brown, about 3-4 minutes.",
+          "tr": "Altın rengi olana kadar kızartın, yaklaşık 3-4 dakika.",
+          "es": "Freír hasta dorar, unos 3-4 minutos.",
+          "de": "Goldbraun frittieren, ca. 3-4 Minuten."
+        },
+        {
+          "en": "Roll in cinnamon sugar, serve with chocolate dipping sauce.",
+          "tr": "Tarçınlı şekere bulayın, çikolata dip sosu ile servis edin.",
+          "es": "Enrollar en azúcar con canela, servir con salsa de chocolate.",
+          "de": "In Zimtzucker wälzen, mit Schokoladen-Dip servieren."
+        }
+      ]
+    },
+    {
+      "id": "mx_pozole",
+      "cuisineId": "mexican",
+      "emoji": "🍲",
+      "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&w=800&q=80",
+      "color": "FFE84545",
+      "prepTime": 30,
+      "cookTime": 120,
+      "difficulty": "hard",
+      "calories": 350,
+      "servings": 8,
+      "isPremium": false,
+      "tags": [
+        "soup",
+        "meat",
+        "traditional"
+      ],
+      "name": {
+        "en": "Pozole Rojo",
+        "tr": "Pozole Rojo",
+        "es": "Pozole Rojo",
+        "de": "Pozole Rojo"
+      },
+      "description": {
+        "en": "Rich red chili broth with hominy corn and tender pork, topped with radish and cabbage.",
+        "tr": "Kırmızı acı biber suyunda mısır ve yumuşak domuz eti, turp ve lahana ile süslenmiş.",
+        "es": "Caldo rojo rico de chile con maíz pozolero y cerdo tierno, cubierto con rábano y col.",
+        "de": "Reichhaltige rote Chili-Brühe mit Mais und zartem Schweinefleisch, garniert mit Rettich und Kohl."
+      },
+      "ingredients": [
+        {
+          "en": "1kg pork shoulder",
+          "tr": "1kg domuz omuzu",
+          "es": "1kg paleta de cerdo",
+          "de": "1kg Schweineschulter"
+        },
+        {
+          "en": "Hominy corn (pozole corn)",
+          "tr": "Mısır (pozole mısırı)",
+          "es": "Maíz pozolero",
+          "de": "Mais (Pozole-Mais)"
+        },
+        {
+          "en": "Dried guajillo and ancho chilies",
+          "tr": "Kurutulmuş guajillo ve ancho biberleri",
+          "es": "Chiles guajillo y ancho secos",
+          "de": "Getrocknete Guajillo- und Ancho-Chilis"
+        },
+        {
+          "en": "Toppings: radish, cabbage, oregano, lime",
+          "tr": "Üst malzemeler: turp, lahana, kekik, limon",
+          "es": "Acompañamientos: rábano, col, orégano, lima",
+          "de": "Garnitur: Rettich, Kohl, Oregano, Limette"
+        }
+      ],
+      "steps": [
+        {
+          "en": "Simmer pork in water with garlic until very tender, about 2 hours.",
+          "tr": "Domuz etini sarımsaklı suda çok yumuşak olana kadar pişirin, yaklaşık 2 saat.",
+          "es": "Cocinar cerdo en agua con ajo hasta que esté muy tierno, unas 2 horas.",
+          "de": "Schweinefleisch in Wasser mit Knoblauch 2 Stunden weich köcheln."
+        },
+        {
+          "en": "Toast and rehydrate dried chilies, blend into smooth sauce.",
+          "tr": "Kurutulmuş biberleri kavurup ıslatın, pürüzsüz sos haline getirin.",
+          "es": "Tostar y rehidratar chiles secos, licuar en salsa suave.",
+          "de": "Getrocknete Chilis rösten und einweichen, zu glatter Sauce mixen."
+        },
+        {
+          "en": "Add chili sauce and hominy to the broth, simmer 30 more minutes.",
+          "tr": "Biber sosunu ve mısırı et suyuna ekleyin, 30 dakika daha pişirin.",
+          "es": "Agregar salsa de chile y maíz al caldo, cocinar 30 minutos más.",
+          "de": "Chilisauce und Mais zur Brühe geben, 30 Minuten weiterköcheln."
+        },
+        {
+          "en": "Shred pork and return to pot. Serve with radish, cabbage, oregano, lime.",
+          "tr": "Domuz etini parçalayıp tencereye geri koyun. Turp, lahana, kekik, limon ile servis edin.",
+          "es": "Desmenuzar cerdo y regresar a la olla. Servir con rábano, col, orégano, lima.",
+          "de": "Schweinefleisch zerrupfen und zurück in den Topf geben. Mit Rettich, Kohl, Oregano, Limette servieren."
+        }
+      ]
+    },
+    {
+      "id": "mx_tamales",
+      "cuisineId": "mexican",
+      "emoji": "🫔",
+      "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=800&q=80",
+      "color": "FF2ECC71",
+      "prepTime": 90,
+      "cookTime": 60,
+      "difficulty": "hard",
+      "calories": 300,
+      "servings": 12,
+      "isPremium": false,
+      "tags": [
+        "masa",
+        "steamed",
+        "traditional"
+      ],
+      "name": {
+        "en": "Tamales",
+        "tr": "Tamales",
+        "es": "Tamales",
+        "de": "Tamales"
+      },
+      "description": {
+        "en": "Masa dough filled with seasoned meat, wrapped in corn husks and steamed.",
+        "tr": "Baharatlı et dolgulu masa hamuru, mısır kabuğuna sarılıp buharda pişirilir.",
+        "es": "Masa rellena de carne sazonada, envuelta en hojas de maíz y cocida al vapor.",
+        "de": "Masa-Teig gefüllt mit gewürztem Fleisch, in Maisblättern eingewickelt und gedämpft."
+      },
+      "ingredients": [
+        {
+          "en": "Masa harina, lard, broth",
+          "tr": "Masa harina, domuz yağı, et suyu",
+          "es": "Harina de maíz, manteca, caldo",
+          "de": "Masa Harina, Schmalz, Brühe"
+        },
+        {
+          "en": "Shredded pork or chicken with salsa",
+          "tr": "Parçalanmış domuz veya tavuk ve salsa",
+          "es": "Cerdo o pollo desmenuzado con salsa",
+          "de": "Zerzupftes Schweinefleisch oder Hähnchen mit Salsa"
+        },
+        {
+          "en": "Dried corn husks",
+          "tr": "Kurutulmuş mısır kabuğu",
+          "es": "Hojas de maíz secas",
+          "de": "Getrocknete Maisblätter"
+        }
+      ],
+      "steps": [
+        {
+          "en": "Soak corn husks in warm water until pliable.",
+          "tr": "Mısır kabuklarını ılık suda esnek olana kadar bekletin.",
+          "es": "Remojar hojas de maíz en agua tibia hasta que estén flexibles.",
+          "de": "Maisblätter in warmem Wasser einweichen bis biegsam."
+        },
+        {
+          "en": "Beat masa with lard and broth until fluffy.",
+          "tr": "Masa'yı yağ ve et suyu ile kabarık olana kadar çırpın.",
+          "es": "Batir la masa con manteca y caldo hasta que esté esponjosa.",
+          "de": "Masa mit Schmalz und Brühe schaumig schlagen."
+        },
+        {
+          "en": "Spread masa on husks, add filling, fold and tie.",
+          "tr": "Masa'yı kabuklara yayın, harç ekleyin, katlayıp bağlayın.",
+          "es": "Extender masa en hojas, agregar relleno, doblar y atar.",
+          "de": "Masa auf Blätter streichen, Füllung hinzufügen, falten und binden."
+        },
+        {
+          "en": "Steam upright for 1-1.5 hours until masa pulls away from husk.",
+          "tr": "Dik olarak 1-1.5 saat buharda pişirin, masa kabuktan ayrılana kadar.",
+          "es": "Cocinar al vapor en posición vertical 1-1.5 horas hasta que la masa se despegue.",
+          "de": "Aufrecht 1-1,5 Stunden dämpfen, bis sich der Masa vom Blatt löst."
+        }
+      ]
+    },
+    {
+      "id": "mx_mole",
+      "cuisineId": "mexican",
+      "emoji": "🍫",
+      "image": "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=800&q=80",
+      "color": "FF4A2C2A",
+      "prepTime": 45,
+      "cookTime": 60,
+      "difficulty": "hard",
+      "calories": 420,
+      "servings": 6,
+      "isPremium": false,
+      "tags": [
+        "sauce",
+        "chicken",
+        "traditional"
+      ],
+      "name": {
+        "en": "Mole Poblano",
+        "tr": "Mole Poblano",
+        "es": "Mole Poblano",
+        "de": "Mole Poblano"
+      },
+      "description": {
+        "en": "Complex sauce of chilies, chocolate, nuts, and spices served over chicken — Mexico's proudest dish.",
+        "tr": "Biberler, çikolata, kuruyemiş ve baharatlardan oluşan karmaşık sos, tavuk üzerinde — Meksika'nın gurur yemeği.",
+        "es": "Salsa compleja de chiles, chocolate, frutos secos y especias servida sobre pollo — el plato más orgulloso de México.",
+        "de": "Komplexe Sauce aus Chilis, Schokolade, Nüssen und Gewürzen über Hähnchen — Mexikos stolzestes Gericht."
+      },
+      "ingredients": [
+        {
+          "en": "Multiple dried chilies (ancho, mulato, pasilla)",
+          "tr": "Çeşitli kurutulmuş biberler (ancho, mulato, pasilla)",
+          "es": "Varios chiles secos (ancho, mulato, pasilla)",
+          "de": "Verschiedene getrocknete Chilis (Ancho, Mulato, Pasilla)"
+        },
+        {
+          "en": "Mexican chocolate, almonds, sesame",
+          "tr": "Meksika çikolatası, badem, susam",
+          "es": "Chocolate mexicano, almendras, sésamo",
+          "de": "Mexikanische Schokolade, Mandeln, Sesam"
+        },
+        {
+          "en": "Spices: cinnamon, cloves, cumin",
+          "tr": "Baharatlar: tarçın, karanfil, kimyon",
+          "es": "Especias: canela, clavo, comino",
+          "de": "Gewürze: Zimt, Nelken, Kreuzkümmel"
+        },
+        {
+          "en": "Chicken pieces",
+          "tr": "Tavuk parçaları",
+          "es": "Piezas de pollo",
+          "de": "Hähnchenteile"
+        }
+      ],
+      "steps": [
+        {
+          "en": "Toast dried chilies, soak in hot water.",
+          "tr": "Kurutulmuş biberleri kavurun, sıcak suda bekletin.",
+          "es": "Tostar chiles secos, remojar en agua caliente.",
+          "de": "Getrocknete Chilis rösten, in heißem Wasser einweichen."
+        },
+        {
+          "en": "Toast nuts, seeds, and spices. Blend everything into smooth paste.",
+          "tr": "Kuruyemişleri, tohumları ve baharatları kavurun. Her şeyi pürüzsüz macun haline getirin.",
+          "es": "Tostar frutos secos, semillas y especias. Licuar todo en pasta suave.",
+          "de": "Nüsse, Samen und Gewürze rösten. Alles zu glatter Paste mixen."
+        },
+        {
+          "en": "Fry paste in oil, add broth and chocolate. Simmer 45 minutes.",
+          "tr": "Macunu yağda kavurun, et suyu ve çikolata ekleyin. 45 dakika pişirin.",
+          "es": "Freír pasta en aceite, agregar caldo y chocolate. Cocinar 45 minutos.",
+          "de": "Paste in Öl anbraten, Brühe und Schokolade hinzufügen. 45 Minuten köcheln."
+        },
+        {
+          "en": "Pour over poached or grilled chicken. Garnish with sesame seeds.",
+          "tr": "Haşlanmış veya ızgara tavuk üzerine dökün. Susamla süsleyin.",
+          "es": "Verter sobre pollo hervido o asado. Decorar con semillas de sésamo.",
+          "de": "Über pochiertes oder gegrilltes Hähnchen gießen. Mit Sesam garnieren."
+        }
+      ]
+    },
+    {
+      "id": "mx_elote",
+      "cuisineId": "mexican",
+      "emoji": "🌽",
+      "image": "https://images.unsplash.com/photo-1551782450-a2132b4ba21d?auto=format&fit=crop&w=800&q=80",
+      "color": "FFF1C40F",
+      "prepTime": 5,
+      "cookTime": 15,
+      "difficulty": "easy",
+      "calories": 220,
+      "servings": 4,
+      "isPremium": false,
+      "tags": [
+        "vegetarian",
+        "street_food",
+        "grilled"
+      ],
+      "name": {
+        "en": "Elote (Mexican Street Corn)",
+        "tr": "Elote (Meksika Sokak Mısırı)",
+        "es": "Elote",
+        "de": "Elote (Mexikanischer Straßenmais)"
+      },
+      "description": {
+        "en": "Grilled corn on the cob slathered with mayo, cotija cheese, chili, and lime.",
+        "tr": "Mayonez, cotija peyniri, acı biber ve limon sürülmüş ızgara koçan mısır.",
+        "es": "Mazorca de maíz asada untada con mayonesa, queso cotija, chile y lima.",
+        "de": "Gegrillter Maiskolben mit Mayo, Cotija-Käse, Chili und Limette bestrichen."
+      },
+      "ingredients": [
+        {
+          "en": "4 ears corn",
+          "tr": "4 koçan mısır",
+          "es": "4 mazorcas de maíz",
+          "de": "4 Maiskolben"
+        },
+        {
+          "en": "Mayonnaise, sour cream",
+          "tr": "Mayonez, ekşi krema",
+          "es": "Mayonesa, crema agria",
+          "de": "Mayonnaise, Sauerrahm"
+        },
+        {
+          "en": "Cotija cheese, crumbled",
+          "tr": "Cotija peyniri, ufalanmış",
+          "es": "Queso cotija, desmenuzado",
+          "de": "Cotija-Käse, zerbröckelt"
+        },
+        {
+          "en": "Chili powder, lime, cilantro",
+          "tr": "Acı biber tozu, limon, kişniş",
+          "es": "Chile en polvo, lima, cilantro",
+          "de": "Chilipulver, Limette, Koriander"
+        }
+      ],
+      "steps": [
+        {
+          "en": "Grill corn until charred in spots, about 10 minutes.",
+          "tr": "Mısırı yer yer kömürleşene kadar ızgara yapın, yaklaşık 10 dakika.",
+          "es": "Asar maíz hasta que esté chamuscado, unos 10 minutos.",
+          "de": "Mais grillen bis stellenweise verkohlt, ca. 10 Minuten."
+        },
+        {
+          "en": "Spread with mayo/cream mixture.",
+          "tr": "Mayonez/krema karışımı sürün.",
+          "es": "Untar con mezcla de mayonesa/crema.",
+          "de": "Mit Mayo/Sahne-Mischung bestreichen."
+        },
+        {
+          "en": "Roll in cotija cheese, sprinkle chili powder.",
+          "tr": "Cotija peynirinde gezdirin, acı biber tozu serpin.",
+          "es": "Cubrir con queso cotija, espolvorear chile en polvo.",
+          "de": "In Cotija-Käse wälzen, Chilipulver darüberstreuen."
+        },
+        {
+          "en": "Squeeze lime and add cilantro.",
+          "tr": "Limon sıkın ve kişniş ekleyin.",
+          "es": "Exprimir lima y agregar cilantro.",
+          "de": "Limette darüber pressen und Koriander hinzufügen."
+        }
+      ]
+    },
+    {
+      "id": "mx_chilaquiles",
+      "cuisineId": "mexican",
+      "emoji": "🍳",
+      "image": "https://images.unsplash.com/photo-1565299585323-38d6b0865b47?auto=format&fit=crop&w=800&q=80",
+      "color": "FF2ECC71",
+      "prepTime": 10,
+      "cookTime": 15,
+      "difficulty": "easy",
+      "calories": 380,
+      "servings": 4,
+      "isPremium": false,
+      "tags": [
+        "breakfast",
+        "tortilla"
+      ],
+      "name": {
+        "en": "Chilaquiles Verdes",
+        "tr": "Chilaquiles Verdes",
+        "es": "Chilaquiles Verdes",
+        "de": "Chilaquiles Verdes"
+      },
+      "description": {
+        "en": "Fried tortilla chips simmered in green salsa, topped with eggs, cream, and cheese.",
+        "tr": "Yeşil salsada pişirilen kızarmış tortilla cipsleri, üzerinde yumurta, krema ve peynir.",
+        "es": "Totopos fritos cocidos en salsa verde, cubiertos con huevos, crema y queso.",
+        "de": "Frittierte Tortilla-Chips in grüner Salsa geköchelt, mit Eiern, Sahne und Käse."
+      },
+      "ingredients": [
+        {
+          "en": "Tortilla chips (or cut and fry tortillas)",
+          "tr": "Tortilla cipsleri (veya tortillaları kesip kızartın)",
+          "es": "Totopos (o cortar y freír tortillas)",
+          "de": "Tortilla-Chips (oder Tortillas schneiden und frittieren)"
+        },
+        {
+          "en": "Salsa verde (tomatillos, jalapeños, garlic)",
+          "tr": "Salsa verde (tomatillo, jalapeño, sarımsak)",
+          "es": "Salsa verde (tomatillos, jalapeños, ajo)",
+          "de": "Salsa Verde (Tomatillos, Jalapeños, Knoblauch)"
+        },
+        {
+          "en": "Eggs, crema, queso fresco",
+          "tr": "Yumurta, krema, queso fresco",
+          "es": "Huevos, crema, queso fresco",
+          "de": "Eier, Crema, Queso Fresco"
+        },
+        {
+          "en": "Onion, avocado, cilantro",
+          "tr": "Soğan, avokado, kişniş",
+          "es": "Cebolla, aguacate, cilantro",
+          "de": "Zwiebel, Avocado, Koriander"
+        }
+      ],
+      "steps": [
+        {
+          "en": "Simmer salsa verde in a pan.",
+          "tr": "Salsa verde'yi tavada kaynatın.",
+          "es": "Cocinar salsa verde en sartén.",
+          "de": "Salsa Verde in einer Pfanne köcheln."
+        },
+        {
+          "en": "Add tortilla chips, toss to coat. Don't let them get too soggy!",
+          "tr": "Tortilla cipslerini ekleyin, sosa bulayın. Çok yumuşamasına izin vermeyin!",
+          "es": "Agregar totopos, mezclar para cubrir. ¡No dejar que se ablanden demasiado!",
+          "de": "Tortilla-Chips hinzufügen, schwenken. Nicht zu weich werden lassen!"
+        },
+        {
+          "en": "Top with fried eggs, crema, cheese, sliced onion and avocado.",
+          "tr": "Üzerine kızarmış yumurta, krema, peynir, soğan ve avokado koyun.",
+          "es": "Cubrir con huevos fritos, crema, queso, cebolla y aguacate.",
+          "de": "Mit Spiegeleiern, Crema, Käse, Zwiebelscheiben und Avocado garnieren."
+        }
+      ]
+    },
+    {
+      "id": "mx_carnitas",
+      "cuisineId": "mexican",
+      "emoji": "🐷",
+      "image": "https://images.unsplash.com/photo-1565299507177-b0ac66763828?auto=format&fit=crop&w=800&q=80",
+      "color": "FF8B4513",
+      "prepTime": 10,
+      "cookTime": 180,
+      "difficulty": "medium",
+      "calories": 380,
+      "servings": 8,
+      "isPremium": false,
+      "tags": [
+        "meat",
+        "slow_cook"
+      ],
+      "name": {
+        "en": "Carnitas",
+        "tr": "Carnitas",
+        "es": "Carnitas",
+        "de": "Carnitas"
+      },
+      "description": {
+        "en": "Slow-braised pork confited in its own fat until crispy and tender.",
+        "tr": "Kendi yağında kızarana ve yumuşayana kadar yavaş pişirilen domuz eti.",
+        "es": "Cerdo braseado lentamente confitado en su propia grasa hasta quedar crujiente y tierno.",
+        "de": "Langsam geschmortes Schweinefleisch, in eigenem Fett konfiert bis knusprig und zart."
+      },
+      "ingredients": [
+        {
+          "en": "2kg pork shoulder, cubed",
+          "tr": "2kg domuz omuzu, küp doğranmış",
+          "es": "2kg paleta de cerdo, en cubos",
+          "de": "2kg Schweineschulter, gewürfelt"
+        },
+        {
+          "en": "Orange juice, garlic, cumin",
+          "tr": "Portakal suyu, sarımsak, kimyon",
+          "es": "Jugo de naranja, ajo, comino",
+          "de": "Orangensaft, Knoblauch, Kreuzkümmel"
+        },
+        {
+          "en": "Lard or oil",
+          "tr": "Domuz yağı veya sıvı yağ",
+          "es": "Manteca o aceite",
+          "de": "Schmalz oder Öl"
+        },
+        {
+          "en": "Tortillas, salsa, cilantro, onion",
+          "tr": "Tortilla, salsa, kişniş, soğan",
+          "es": "Tortillas, salsa, cilantro, cebolla",
+          "de": "Tortillas, Salsa, Koriander, Zwiebel"
+        }
+      ],
+      "steps": [
+        {
+          "en": "Season pork with cumin, garlic, salt. Place in heavy pot.",
+          "tr": "Domuz etini kimyon, sarımsak, tuzla tatlandırın. Ağır tencereye koyun.",
+          "es": "Sazonar cerdo con comino, ajo, sal. Colocar en olla pesada.",
+          "de": "Schweinefleisch mit Kreuzkümmel, Knoblauch, Salz würzen. In schweren Topf geben."
+        },
+        {
+          "en": "Add orange juice and enough lard/oil to nearly cover.",
+          "tr": "Portakal suyu ve neredeyse kapatacak kadar yağ ekleyin.",
+          "es": "Agregar jugo de naranja y suficiente manteca para casi cubrir.",
+          "de": "Orangensaft und genug Schmalz/Öl hinzufügen, fast bedeckend."
+        },
+        {
+          "en": "Simmer very low for 3 hours until falling apart.",
+          "tr": "Çok kısık ateşte parçalanana kadar 3 saat pişirin.",
+          "es": "Cocinar a fuego muy lento 3 horas hasta que se deshaga.",
+          "de": "Auf sehr niedriger Hitze 3 Stunden köcheln bis es zerfällt."
+        },
+        {
+          "en": "Increase heat to crisp the meat. Shred and serve in tacos.",
+          "tr": "Eti çıtırlaştırmak için ateşi artırın. Parçalayıp taco içinde servis edin.",
+          "es": "Aumentar fuego para dorar la carne. Desmenuzar y servir en tacos.",
+          "de": "Hitze erhöhen zum Knusprigbraten. Zerrupfen und in Tacos servieren."
+        }
+      ]
+    },
+    {
+      "id": "mx_ceviche",
+      "cuisineId": "mexican",
+      "emoji": "🐟",
+      "image": "https://images.unsplash.com/photo-1534422298391-e4f8c172dddb?auto=format&fit=crop&w=800&q=80",
+      "color": "FF3498DB",
+      "prepTime": 20,
+      "cookTime": 0,
+      "difficulty": "medium",
+      "calories": 180,
+      "servings": 4,
+      "isPremium": false,
+      "tags": [
+        "seafood",
+        "no_cook",
+        "citrus"
+      ],
+      "name": {
+        "en": "Ceviche",
+        "tr": "Ceviche",
+        "es": "Ceviche",
+        "de": "Ceviche"
+      },
+      "description": {
+        "en": "Fresh raw fish 'cooked' in citrus juice with tomato, onion, cilantro, and avocado.",
+        "tr": "Narenciye suyunda 'pişirilmiş' taze çiğ balık, domates, soğan, kişniş ve avokado ile.",
+        "es": "Pescado fresco crudo 'cocido' en jugo de cítricos con tomate, cebolla, cilantro y aguacate.",
+        "de": "Frischer roher Fisch in Zitrussaft 'gegart' mit Tomate, Zwiebel, Koriander und Avocado."
+      },
+      "ingredients": [
+        {
+          "en": "500g firm white fish, diced",
+          "tr": "500g sert beyaz balık, küp doğranmış",
+          "es": "500g pescado blanco firme, en cubos",
+          "de": "500g fester weißer Fisch, gewürfelt"
+        },
+        {
+          "en": "6 limes, juiced",
+          "tr": "6 limon suyu",
+          "es": "6 limas, exprimidas",
+          "de": "6 Limetten, ausgepresst"
+        },
+        {
+          "en": "Tomato, red onion, jalapeño, cilantro",
+          "tr": "Domates, kırmızı soğan, jalapeño, kişniş",
+          "es": "Tomate, cebolla morada, jalapeño, cilantro",
+          "de": "Tomate, rote Zwiebel, Jalapeño, Koriander"
+        },
+        {
+          "en": "Avocado, tostadas",
+          "tr": "Avokado, tostada",
+          "es": "Aguacate, tostadas",
+          "de": "Avocado, Tostadas"
+        }
+      ],
+      "steps": [
+        {
+          "en": "Toss diced fish in lime juice, refrigerate 30-45 minutes.",
+          "tr": "Doğranmış balığı limon suyuna bulayın, 30-45 dakika buzdolabında bekletin.",
+          "es": "Mezclar pescado en cubos con jugo de lima, refrigerar 30-45 minutos.",
+          "de": "Gewürfelten Fisch in Limettensaft wenden, 30-45 Minuten kühlen."
+        },
+        {
+          "en": "Fish is ready when opaque throughout.",
+          "tr": "Balık tamamen opak olduğunda hazırdır.",
+          "es": "El pescado está listo cuando esté opaco.",
+          "de": "Fisch ist fertig wenn er durchgehend undurchsichtig ist."
+        },
+        {
+          "en": "Drain excess lime, fold in vegetables and seasonings.",
+          "tr": "Fazla limon suyunu süzün, sebzeler ve baharatları katın.",
+          "es": "Escurrir exceso de lima, incorporar verduras y condimentos.",
+          "de": "Überschüssigen Limettensaft abgießen, Gemüse und Gewürze unterheben."
+        },
+        {
+          "en": "Serve on tostadas or with tortilla chips.",
+          "tr": "Tostada üzerinde veya tortilla cips ile servis edin.",
+          "es": "Servir en tostadas o con totopos.",
+          "de": "Auf Tostadas oder mit Tortilla-Chips servieren."
+        }
+      ]
+    },
+    {
+      "id": "mx_fajita",
+      "cuisineId": "mexican",
+      "emoji": "🥩",
+      "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&w=800&q=80",
+      "color": "FFE67E22",
+      "prepTime": 15,
+      "cookTime": 10,
+      "difficulty": "easy",
+      "calories": 420,
+      "servings": 4,
+      "isPremium": false,
+      "tags": [
+        "meat",
+        "grilled",
+        "quick"
+      ],
+      "name": {
+        "en": "Fajitas",
+        "tr": "Fajita",
+        "es": "Fajitas",
+        "de": "Fajitas"
+      },
+      "description": {
+        "en": "Sizzling grilled strips of beef or chicken with peppers and onions on a hot skillet.",
+        "tr": "Kızgın tavada biber ve soğanla cızırdayan ızgara et veya tavuk şeritleri.",
+        "es": "Tiras chisporroteantes de res o pollo a la parrilla con pimientos y cebollas en sartén caliente.",
+        "de": "Brutzelnde gegrillte Rind- oder Hähnchenstreifen mit Paprika und Zwiebeln in der heißen Pfanne."
+      },
+      "ingredients": [
+        {
+          "en": "500g skirt steak or chicken breast",
+          "tr": "500g etek biftek veya tavuk göğsü",
+          "es": "500g falda de res o pechuga de pollo",
+          "de": "500g Flank Steak oder Hähnchenbrust"
+        },
+        {
+          "en": "Bell peppers (3 colors), onion",
+          "tr": "Biber (3 renk), soğan",
+          "es": "Pimientos (3 colores), cebolla",
+          "de": "Paprika (3 Farben), Zwiebel"
+        },
+        {
+          "en": "Fajita seasoning (cumin, chili, garlic, lime)",
+          "tr": "Fajita baharatı (kimyon, acı biber, sarımsak, limon)",
+          "es": "Condimento fajita (comino, chile, ajo, lima)",
+          "de": "Fajita-Gewürz (Kreuzkümmel, Chili, Knoblauch, Limette)"
+        },
+        {
+          "en": "Flour tortillas, sour cream, guacamole",
+          "tr": "Un tortilla, ekşi krema, guacamole",
+          "es": "Tortillas de harina, crema agria, guacamole",
+          "de": "Mehl-Tortillas, Sauerrahm, Guacamole"
+        }
+      ],
+      "steps": [
+        {
+          "en": "Marinate meat with fajita seasoning and lime juice.",
+          "tr": "Eti fajita baharatı ve limon suyu ile marine edin.",
+          "es": "Marinar carne con condimento fajita y jugo de lima.",
+          "de": "Fleisch mit Fajita-Gewürz und Limettensaft marinieren."
+        },
+        {
+          "en": "Grill meat on very high heat until charred, slice into strips.",
+          "tr": "Eti çok yüksek ateşte kömürleşene kadar ızgara yapın, şeritler halinde kesin.",
+          "es": "Asar carne a fuego muy alto hasta chamuscar, cortar en tiras.",
+          "de": "Fleisch bei sehr hoher Hitze grillen bis verkohlt, in Streifen schneiden."
+        },
+        {
+          "en": "Sauté peppers and onions until slightly charred.",
+          "tr": "Biber ve soğanları hafif kömürleşene kadar kavurun.",
+          "es": "Saltear pimientos y cebollas hasta que estén ligeramente chamuscados.",
+          "de": "Paprika und Zwiebeln leicht angebraten braten."
+        },
+        {
+          "en": "Serve sizzling on a hot plate with warm tortillas.",
+          "tr": "Sıcak tabakta cızırdayarak sıcak tortillalarla servis edin.",
+          "es": "Servir chisporroteante en plato caliente con tortillas tibias.",
+          "de": "Brutzulend auf heißem Teller mit warmen Tortillas servieren."
+        }
+      ]
+    },
+    {
+      "id": "mx_nachos",
+      "cuisineId": "mexican",
+      "emoji": "🧀",
+      "image": "https://images.unsplash.com/photo-1513456852971-30c0b8199d4d?auto=format&fit=crop&w=800&q=80",
+      "color": "FFF39C12",
+      "prepTime": 10,
+      "cookTime": 10,
+      "difficulty": "easy",
+      "calories": 480,
+      "servings": 4,
+      "isPremium": false,
+      "tags": [
+        "snack",
+        "cheese",
+        "shared"
+      ],
+      "name": {
+        "en": "Loaded Nachos",
+        "tr": "Dolu Nachos",
+        "es": "Nachos Cargados",
+        "de": "Beladene Nachos"
+      },
+      "description": {
+        "en": "Tortilla chips loaded with melted cheese, beans, jalapeños, and all the fixings.",
+        "tr": "Erimiş peynir, fasulye, jalapeño ve tüm garnitürlerle yüklü tortilla cipsleri.",
+        "es": "Totopos cargados con queso derretido, frijoles, jalapeños y todos los acompañamientos.",
+        "de": "Tortilla-Chips beladen mit geschmolzenem Käse, Bohnen, Jalapeños und allem Drum und Dran."
+      },
+      "ingredients": [
+        {
+          "en": "Tortilla chips",
+          "tr": "Tortilla cipsleri",
+          "es": "Totopos",
+          "de": "Tortilla-Chips"
+        },
+        {
+          "en": "Cheddar and Monterey Jack cheese",
+          "tr": "Cheddar ve Monterey Jack peyniri",
+          "es": "Queso cheddar y Monterey Jack",
+          "de": "Cheddar und Monterey Jack Käse"
+        },
+        {
+          "en": "Black beans, jalapeños",
+          "tr": "Siyah fasulye, jalapeño",
+          "es": "Frijoles negros, jalapeños",
+          "de": "Schwarze Bohnen, Jalapeños"
+        },
+        {
+          "en": "Guacamole, sour cream, pico de gallo",
+          "tr": "Guacamole, ekşi krema, pico de gallo",
+          "es": "Guacamole, crema agria, pico de gallo",
+          "de": "Guacamole, Sauerrahm, Pico de Gallo"
+        }
+      ],
+      "steps": [
+        {
+          "en": "Spread chips on an oven-safe platter.",
+          "tr": "Cipsleri fırına girebilen tabağa yayın.",
+          "es": "Extender totopos en fuente apta para horno.",
+          "de": "Chips auf einer ofenfesten Platte verteilen."
+        },
+        {
+          "en": "Layer with cheese, beans, and jalapeños.",
+          "tr": "Peynir, fasulye ve jalapeño ile katmanlayın.",
+          "es": "Cubrir con queso, frijoles y jalapeños.",
+          "de": "Mit Käse, Bohnen und Jalapeños belegen."
+        },
+        {
+          "en": "Bake at 200°C until cheese is melted and bubbly.",
+          "tr": "200°C'de peynir eriyip köpürene kadar pişirin.",
+          "es": "Hornear a 200°C hasta que el queso se derrita y burbujee.",
+          "de": "Bei 200°C backen bis Käse geschmolzen und blubbernd."
+        },
+        {
+          "en": "Top with guacamole, sour cream, and pico de gallo.",
+          "tr": "Üzerine guacamole, ekşi krema ve pico de gallo koyun.",
+          "es": "Cubrir con guacamole, crema agria y pico de gallo.",
+          "de": "Mit Guacamole, Sauerrahm und Pico de Gallo garnieren."
+        }
+      ]
+    },
+    {
+      "id": "mx_huevos_rancheros",
+      "cuisineId": "mexican",
+      "emoji": "🍳",
+      "image": "https://images.unsplash.com/photo-1525351484163-7529414344d8?auto=format&fit=crop&w=800&q=80",
+      "color": "FFE84545",
+      "prepTime": 10,
+      "cookTime": 15,
+      "difficulty": "easy",
+      "calories": 320,
+      "servings": 2,
+      "isPremium": false,
+      "tags": [
+        "breakfast",
+        "eggs",
+        "classic"
+      ],
+      "name": {
+        "en": "Huevos Rancheros",
+        "tr": "Huevos Rancheros",
+        "es": "Huevos Rancheros",
+        "de": "Huevos Rancheros"
+      },
+      "description": {
+        "en": "Fried eggs on corn tortillas with ranchero sauce, beans, and avocado.",
+        "tr": "Mısır tortilla üzerinde ranchero sosu, fasulye ve avokado ile kızarmış yumurta.",
+        "es": "Huevos fritos sobre tortillas de maíz con salsa ranchera, frijoles y aguacate.",
+        "de": "Spiegeleier auf Maistortillas mit Ranchero-Sauce, Bohnen und Avocado."
+      },
+      "ingredients": [
+        {
+          "en": "4 eggs",
+          "tr": "4 yumurta",
+          "es": "4 huevos",
+          "de": "4 Eier"
+        },
+        {
+          "en": "Corn tortillas",
+          "tr": "Mısır tortilla",
+          "es": "Tortillas de maíz",
+          "de": "Maistortillas"
+        },
+        {
+          "en": "Ranchero sauce (tomatoes, chilies, onion)",
+          "tr": "Ranchero sosu (domates, biberler, soğan)",
+          "es": "Salsa ranchera (tomates, chiles, cebolla)",
+          "de": "Ranchero-Sauce (Tomaten, Chilis, Zwiebel)"
+        },
+        {
+          "en": "Refried beans, avocado, queso fresco",
+          "tr": "Ezme fasulye, avokado, queso fresco",
+          "es": "Frijoles refritos, aguacate, queso fresco",
+          "de": "Refried Beans, Avocado, Queso Fresco"
+        }
+      ],
+      "steps": [
+        {
+          "en": "Fry tortillas until slightly crispy.",
+          "tr": "Tortillaları hafif çıtır olana kadar kızartın.",
+          "es": "Freír tortillas hasta que estén ligeramente crujientes.",
+          "de": "Tortillas leicht knusprig braten."
+        },
+        {
+          "en": "Fry eggs sunny-side up.",
+          "tr": "Yumurtaları sahanda kızartın.",
+          "es": "Freír huevos con la yema hacia arriba.",
+          "de": "Spiegeleier braten."
+        },
+        {
+          "en": "Place tortillas on plates, spread with beans, top with eggs.",
+          "tr": "Tortillaları tabaklara koyun, fasulye sürün, yumurtaları üzerine koyun.",
+          "es": "Colocar tortillas en platos, untar con frijoles, cubrir con huevos.",
+          "de": "Tortillas auf Teller legen, mit Bohnen bestreichen, Eier darauf."
+        },
+        {
+          "en": "Spoon warm ranchero sauce over, add avocado and cheese.",
+          "tr": "Üzerine sıcak ranchero sosu dökün, avokado ve peynir ekleyin.",
+          "es": "Verter salsa ranchera caliente encima, agregar aguacate y queso.",
+          "de": "Warme Ranchero-Sauce darüber löffeln, Avocado und Käse hinzufügen."
+        }
+      ]
+    },
+    {
+      "id": "mx_tres_leches",
+      "cuisineId": "mexican",
+      "emoji": "🍰",
+      "image": "https://images.unsplash.com/photo-1533134242443-d4fd215305ad?auto=format&fit=crop&w=800&q=80",
+      "color": "FFFFF5E1",
+      "prepTime": 20,
+      "cookTime": 30,
+      "difficulty": "medium",
+      "calories": 380,
+      "servings": 12,
+      "isPremium": false,
+      "tags": [
+        "dessert",
+        "cake"
+      ],
+      "name": {
+        "en": "Tres Leches Cake",
+        "tr": "Üç Sütlü Kek",
+        "es": "Pastel de Tres Leches",
+        "de": "Tres-Leches-Kuchen"
+      },
+      "description": {
+        "en": "Light sponge cake soaked in three types of milk, topped with whipped cream.",
+        "tr": "Üç farklı sütte ıslatılmış hafif sünger kek, kırbaçlanmış krema ile kaplanmış.",
+        "es": "Bizcocho ligero empapado en tres tipos de leche, cubierto con crema batida.",
+        "de": "Leichter Biskuitkuchen getränkt in drei Milchsorten, mit Schlagsahne bedeckt."
+      },
+      "ingredients": [
+        {
+          "en": "Sponge cake (eggs, sugar, flour)",
+          "tr": "Sünger kek (yumurta, şeker, un)",
+          "es": "Bizcocho (huevos, azúcar, harina)",
+          "de": "Biskuitboden (Eier, Zucker, Mehl)"
+        },
+        {
+          "en": "Evaporated milk, condensed milk, heavy cream",
+          "tr": "Buharlaştırılmış süt, yoğunlaştırılmış süt, krema",
+          "es": "Leche evaporada, leche condensada, crema",
+          "de": "Kondensmilch, gezuckerte Kondensmilch, Sahne"
+        },
+        {
+          "en": "Whipped cream for topping",
+          "tr": "Üst süsleme için kırbaçlanmış krema",
+          "es": "Crema batida para cubrir",
+          "de": "Schlagsahne zum Garnieren"
+        },
+        {
+          "en": "Cinnamon, strawberries",
+          "tr": "Tarçın, çilek",
+          "es": "Canela, fresas",
+          "de": "Zimt, Erdbeeren"
+        }
+      ],
+      "steps": [
+        {
+          "en": "Bake a light sponge cake, let cool.",
+          "tr": "Hafif sünger kek pişirin, soğumaya bırakın.",
+          "es": "Hornear un bizcocho ligero, dejar enfriar.",
+          "de": "Leichten Biskuitboden backen, abkühlen lassen."
+        },
+        {
+          "en": "Mix the three milks together.",
+          "tr": "Üç sütü birlikte karıştırın.",
+          "es": "Mezclar las tres leches juntas.",
+          "de": "Die drei Milchsorten zusammen mischen."
+        },
+        {
+          "en": "Poke holes in cake with fork, pour milk mixture over. Refrigerate 4+ hours.",
+          "tr": "Keke çatalla delikler açın, süt karışımını üzerine dökün. 4+ saat buzdolabında bekletin.",
+          "es": "Hacer agujeros en el bizcocho con tenedor, verter mezcla de leches. Refrigerar 4+ horas.",
+          "de": "Mit einer Gabel Löcher in den Kuchen stechen, Milchmischung darübergießen. 4+ Stunden kühlen."
+        },
+        {
+          "en": "Top with whipped cream, sprinkle cinnamon, add strawberries.",
+          "tr": "Kırbaçlanmış krema ile kaplayın, tarçın serpin, çilek ekleyin.",
+          "es": "Cubrir con crema batida, espolvorear canela, agregar fresas.",
+          "de": "Mit Schlagsahne bedecken, Zimt streuen, Erdbeeren dazugeben."
+        }
+      ]
+    },
+    {
+      "id": "mx_birria",
+      "cuisineId": "mexican",
+      "emoji": "🥘",
+      "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=800&q=80",
+      "color": "FFE84545",
+      "prepTime": 30,
+      "cookTime": 180,
+      "difficulty": "hard",
+      "calories": 450,
+      "servings": 8,
+      "isPremium": false,
+      "tags": [
+        "meat",
+        "stew",
+        "traditional"
+      ],
+      "name": {
+        "en": "Birria",
+        "tr": "Birria",
+        "es": "Birria",
+        "de": "Birria"
+      },
+      "description": {
+        "en": "Slow-stewed beef or goat in rich chili broth — served as tacos or consommé.",
+        "tr": "Zengin acı biber suyunda yavaş pişirilen dana veya keçi eti — taco veya konsome olarak servis edilir.",
+        "es": "Res o cabra estofada lentamente en caldo rico de chile — servida como tacos o consomé.",
+        "de": "Langsam geschmortes Rind oder Ziege in reichhaltiger Chili-Brühe — als Tacos oder Consommé serviert."
+      },
+      "ingredients": [
+        {
+          "en": "2kg beef chuck or goat",
+          "tr": "2kg dana bonfile veya keçi eti",
+          "es": "2kg espaldilla de res o cabra",
+          "de": "2kg Rinderschulter oder Ziege"
+        },
+        {
+          "en": "Dried guajillo, ancho, arbol chilies",
+          "tr": "Kurutulmuş guajillo, ancho, arbol biberleri",
+          "es": "Chiles guajillo, ancho, árbol secos",
+          "de": "Getrocknete Guajillo-, Ancho-, Arbol-Chilis"
+        },
+        {
+          "en": "Tomatoes, onion, garlic, vinegar",
+          "tr": "Domates, soğan, sarımsak, sirke",
+          "es": "Tomates, cebolla, ajo, vinagre",
+          "de": "Tomaten, Zwiebel, Knoblauch, Essig"
+        },
+        {
+          "en": "Corn tortillas, cilantro, onion, lime",
+          "tr": "Mısır tortilla, kişniş, soğan, limon",
+          "es": "Tortillas de maíz, cilantro, cebolla, lima",
+          "de": "Maistortillas, Koriander, Zwiebel, Limette"
+        }
+      ],
+      "steps": [
+        {
+          "en": "Toast and soak dried chilies, blend with tomatoes and spices.",
+          "tr": "Kurutulmuş biberleri kavurup ıslatın, domates ve baharatlarla blenderdan geçirin.",
+          "es": "Tostar y remojar chiles secos, licuar con tomates y especias.",
+          "de": "Getrocknete Chilis rösten und einweichen, mit Tomaten und Gewürzen mixen."
+        },
+        {
+          "en": "Cover meat with chili sauce in a pot, add broth.",
+          "tr": "Eti tencerede biber sosuyla kaplayın, et suyu ekleyin.",
+          "es": "Cubrir carne con salsa de chile en olla, agregar caldo.",
+          "de": "Fleisch im Topf mit Chilisauce bedecken, Brühe hinzufügen."
+        },
+        {
+          "en": "Slow cook at 160°C for 3+ hours until meat shreds easily.",
+          "tr": "160°C'de 3+ saat yavaş pişirin, et kolayca parçalanana kadar.",
+          "es": "Cocinar lento a 160°C por 3+ horas hasta que la carne se deshebra fácilmente.",
+          "de": "Bei 160°C 3+ Stunden langsam garen bis Fleisch leicht zerfällt."
+        },
+        {
+          "en": "Shred meat. Dip tortillas in broth, fill with meat for birria tacos.",
+          "tr": "Eti parçalayın. Tortillaları et suyuna batırın, birria taco için etle doldurun.",
+          "es": "Deshebrar carne. Sumergir tortillas en caldo, rellenar con carne para tacos de birria.",
+          "de": "Fleisch zerrupfen. Tortillas in Brühe tauchen, mit Fleisch für Birria-Tacos füllen."
+        }
+      ]
+    },
+    {
+      "id": "mx_chiles_rellenos",
+      "cuisineId": "mexican",
+      "emoji": "🌶️",
+      "image": "https://images.unsplash.com/photo-1572453800999-e8d2d1589b7c?auto=format&fit=crop&w=800&q=80",
+      "color": "FF2ECC71",
+      "prepTime": 30,
+      "cookTime": 20,
+      "difficulty": "hard",
+      "calories": 350,
+      "servings": 4,
+      "isPremium": false,
+      "tags": [
+        "vegetarian",
+        "fried",
+        "traditional"
+      ],
+      "name": {
+        "en": "Chiles Rellenos",
+        "tr": "Chiles Rellenos",
+        "es": "Chiles Rellenos",
+        "de": "Chiles Rellenos"
+      },
+      "description": {
+        "en": "Roasted poblano peppers stuffed with cheese, battered and fried, in tomato sauce.",
+        "tr": "Peynir dolgulu közlenmiş poblano biberleri, hamura bulanıp kızartılmış, domates sosu içinde.",
+        "es": "Chiles poblanos asados rellenos de queso, capeados y fritos, en salsa de tomate.",
+        "de": "Geröstete Poblano-Paprika gefüllt mit Käse, in Teig gehüllt und frittiert, in Tomatensoße."
+      },
+      "ingredients": [
+        {
+          "en": "4 large poblano peppers",
+          "tr": "4 büyük poblano biberi",
+          "es": "4 chiles poblanos grandes",
+          "de": "4 große Poblano-Paprika"
+        },
+        {
+          "en": "Oaxaca or Monterey Jack cheese",
+          "tr": "Oaxaca veya Monterey Jack peyniri",
+          "es": "Queso Oaxaca o Monterey Jack",
+          "de": "Oaxaca- oder Monterey-Jack-Käse"
+        },
+        {
+          "en": "Eggs (separated), flour",
+          "tr": "Yumurta (ayrılmış), un",
+          "es": "Huevos (separados), harina",
+          "de": "Eier (getrennt), Mehl"
+        },
+        {
+          "en": "Tomato sauce, oil for frying",
+          "tr": "Domates sosu, kızartma yağı",
+          "es": "Salsa de tomate, aceite para freír",
+          "de": "Tomatensoße, Öl zum Frittieren"
+        }
+      ],
+      "steps": [
+        {
+          "en": "Char poblanos over flame, steam in bag, peel skin.",
+          "tr": "Poblanoları alevde közleyin, poşette buğulayın, kabuğunu soyun.",
+          "es": "Asar poblanos sobre llama, vaporizar en bolsa, pelar.",
+          "de": "Poblanos über Flamme verkohlen, im Beutel dämpfen, häuten."
+        },
+        {
+          "en": "Stuff with cheese, secure with toothpick.",
+          "tr": "Peynirle doldurun, kürdan ile sabitleyin.",
+          "es": "Rellenar con queso, asegurar con palillo.",
+          "de": "Mit Käse füllen, mit Zahnstocher sichern."
+        },
+        {
+          "en": "Beat egg whites stiff, fold in yolks. Coat peppers in flour then batter.",
+          "tr": "Yumurta aklarını sert çırpın, sarıları katın. Biberleri una, sonra hamura bulayın.",
+          "es": "Batir claras a punto de nieve, incorporar yemas. Rebozar chiles en harina y luego capear.",
+          "de": "Eiweiß steif schlagen, Eigelb unterheben. Paprika erst in Mehl, dann in Teig wälzen."
+        },
+        {
+          "en": "Fry until golden, serve in warm tomato sauce.",
+          "tr": "Altın rengi olana kadar kızartın, sıcak domates sosunda servis edin.",
+          "es": "Freír hasta dorar, servir en salsa de tomate caliente.",
+          "de": "Goldbraun frittieren, in warmer Tomatensoße servieren."
+        }
+      ]
+    },
+    {
+      "id": "mx_pico_de_gallo",
+      "cuisineId": "mexican",
+      "emoji": "🍅",
+      "image": "https://images.unsplash.com/photo-1572695157366-5e585ab2b69f?auto=format&fit=crop&w=800&q=80",
+      "color": "FFE84545",
+      "prepTime": 10,
+      "cookTime": 0,
+      "difficulty": "easy",
+      "calories": 30,
+      "servings": 6,
+      "isPremium": false,
+      "tags": [
+        "salsa",
+        "vegetarian",
+        "no_cook"
+      ],
+      "name": {
+        "en": "Pico de Gallo",
+        "tr": "Pico de Gallo",
+        "es": "Pico de Gallo",
+        "de": "Pico de Gallo"
+      },
+      "description": {
+        "en": "Fresh tomato salsa with onion, jalapeño, cilantro, and lime.",
+        "tr": "Soğan, jalapeño, kişniş ve limon ile taze domates salsa.",
+        "es": "Salsa fresca de tomate con cebolla, jalapeño, cilantro y lima.",
+        "de": "Frische Tomatensalsa mit Zwiebel, Jalapeño, Koriander und Limette."
+      },
+      "ingredients": [
+        {
+          "en": "4 tomatoes, diced",
+          "tr": "4 domates, doğranmış",
+          "es": "4 tomates, en cubos",
+          "de": "4 Tomaten, gewürfelt"
+        },
+        {
+          "en": "1/2 white onion, finely diced",
+          "tr": "1/2 beyaz soğan, ince doğranmış",
+          "es": "1/2 cebolla blanca, finamente picada",
+          "de": "1/2 weiße Zwiebel, fein gewürfelt"
+        },
+        {
+          "en": "1 jalapeño, seeded and diced",
+          "tr": "1 jalapeño, tohumsuz ve doğranmış",
+          "es": "1 jalapeño, sin semillas y en cubos",
+          "de": "1 Jalapeño, entkernt und gewürfelt"
+        },
+        {
+          "en": "Fresh cilantro, lime juice, salt",
+          "tr": "Taze kişniş, limon suyu, tuz",
+          "es": "Cilantro fresco, jugo de lima, sal",
+          "de": "Frischer Koriander, Limettensaft, Salz"
+        }
+      ],
+      "steps": [
+        {
+          "en": "Dice all ingredients finely and uniformly.",
+          "tr": "Tüm malzemeleri ince ve eşit boyutta doğrayın.",
+          "es": "Picar todos los ingredientes finamente y uniformemente.",
+          "de": "Alle Zutaten fein und gleichmäßig würfeln."
+        },
+        {
+          "en": "Combine in a bowl with lime juice and salt.",
+          "tr": "Bir kasede limon suyu ve tuzla birleştirin.",
+          "es": "Combinar en un bol con jugo de lima y sal.",
+          "de": "In einer Schüssel mit Limettensaft und Salz vermengen."
+        },
+        {
+          "en": "Let rest 15 minutes for flavors to meld. Serve fresh.",
+          "tr": "Lezzetlerin karışması için 15 dakika dinlendirin. Taze servis edin.",
+          "es": "Dejar reposar 15 minutos para que se mezclen los sabores. Servir fresco.",
+          "de": "15 Minuten ruhen lassen damit sich die Aromen verbinden. Frisch servieren."
+        }
+      ]
+    },
+    {
+      "id": "mx_horchata",
+      "cuisineId": "mexican",
+      "emoji": "🥛",
+      "image": "https://images.unsplash.com/photo-1517256064527-09c73fc73e38?auto=format&fit=crop&w=800&q=80",
+      "color": "FFFFF5E1",
+      "prepTime": 10,
+      "cookTime": 0,
+      "difficulty": "easy",
+      "calories": 150,
+      "servings": 6,
+      "isPremium": false,
+      "tags": [
+        "drink",
+        "sweet",
+        "cold"
+      ],
+      "name": {
+        "en": "Horchata",
+        "tr": "Horchata",
+        "es": "Horchata",
+        "de": "Horchata"
+      },
+      "description": {
+        "en": "Sweet rice and cinnamon drink served ice-cold — Mexico's beloved agua fresca.",
+        "tr": "Buz gibi soğuk servis edilen tatlı pirinç ve tarçın içeceği — Meksika'nın sevilen agua fresca'sı.",
+        "es": "Bebida dulce de arroz y canela servida muy fría — la querida agua fresca de México.",
+        "de": "Süßes Reis-Zimt-Getränk eiskalt serviert — Mexikos beliebtes Agua Fresca."
+      },
+      "ingredients": [
+        {
+          "en": "1 cup white rice",
+          "tr": "1 bardak beyaz pirinç",
+          "es": "1 taza de arroz blanco",
+          "de": "1 Tasse weißer Reis"
+        },
+        {
+          "en": "1 cinnamon stick",
+          "tr": "1 tarçın çubuğu",
+          "es": "1 raja de canela",
+          "de": "1 Zimtstange"
+        },
+        {
+          "en": "Sugar, vanilla extract",
+          "tr": "Şeker, vanilya özütü",
+          "es": "Azúcar, extracto de vainilla",
+          "de": "Zucker, Vanilleextrakt"
+        },
+        {
+          "en": "4 cups water, ice",
+          "tr": "4 bardak su, buz",
+          "es": "4 tazas de agua, hielo",
+          "de": "4 Tassen Wasser, Eis"
+        }
+      ],
+      "steps": [
+        {
+          "en": "Soak rice and cinnamon in water overnight.",
+          "tr": "Pirinç ve tarçını bir gece suda bekletin.",
+          "es": "Remojar arroz y canela en agua toda la noche.",
+          "de": "Reis und Zimt über Nacht in Wasser einweichen."
+        },
+        {
+          "en": "Blend until very smooth, strain through cheesecloth.",
+          "tr": "Çok pürüzsüz olana kadar blenderdan geçirin, tülbentten süzün.",
+          "es": "Licuar hasta que quede muy suave, colar con manta.",
+          "de": "Sehr glatt mixen, durch Seihtuch abseihen."
+        },
+        {
+          "en": "Stir in sugar and vanilla to taste.",
+          "tr": "Şeker ve vanilyayı tatlandırarak karıştırın.",
+          "es": "Agregar azúcar y vainilla al gusto.",
+          "de": "Zucker und Vanille nach Geschmack einrühren."
+        },
+        {
+          "en": "Serve very cold over lots of ice.",
+          "tr": "Bol buz üzerinde çok soğuk servis edin.",
+          "es": "Servir muy frío con mucho hielo.",
+          "de": "Sehr kalt mit viel Eis servieren."
+        }
+      ]
+    },
+    {
+      "id": "mx_esquites",
+      "cuisineId": "mexican",
+      "emoji": "🌽",
+      "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=800&q=80",
+      "color": "FFF1C40F",
+      "prepTime": 5,
+      "cookTime": 10,
+      "difficulty": "easy",
+      "calories": 200,
+      "servings": 4,
+      "isPremium": false,
+      "tags": [
+        "street_food",
+        "vegetarian",
+        "corn"
+      ],
+      "name": {
+        "en": "Esquites",
+        "tr": "Esquites",
+        "es": "Esquites",
+        "de": "Esquites"
+      },
+      "description": {
+        "en": "Mexican cup corn — roasted corn kernels with mayo, cheese, chili, and lime.",
+        "tr": "Meksika bardak mısır — mayonez, peynir, acı biber ve limonlu kavrulmuş mısır taneleri.",
+        "es": "Maíz en vaso mexicano — granos de maíz asados con mayonesa, queso, chile y lima.",
+        "de": "Mexikanischer Becherrmais — geröstete Maiskörner mit Mayo, Käse, Chili und Limette."
+      },
+      "ingredients": [
+        {
+          "en": "4 cups corn kernels",
+          "tr": "4 bardak mısır tanesi",
+          "es": "4 tazas de granos de maíz",
+          "de": "4 Tassen Maiskörner"
+        },
+        {
+          "en": "Butter, epazote or cilantro",
+          "tr": "Tereyağı, epazote veya kişniş",
+          "es": "Mantequilla, epazote o cilantro",
+          "de": "Butter, Epazote oder Koriander"
+        },
+        {
+          "en": "Mayo, cotija cheese, chili powder",
+          "tr": "Mayonez, cotija peyniri, acı biber tozu",
+          "es": "Mayonesa, queso cotija, chile en polvo",
+          "de": "Mayo, Cotija-Käse, Chilipulver"
+        },
+        {
+          "en": "Lime juice",
+          "tr": "Limon suyu",
+          "es": "Jugo de lima",
+          "de": "Limettensaft"
+        }
+      ],
+      "steps": [
+        {
+          "en": "Sauté corn in butter with epazote until slightly charred.",
+          "tr": "Mısırı tereyağında epazote ile hafif kömürleşene kadar kavurun.",
+          "es": "Saltear maíz en mantequilla con epazote hasta ligeramente chamuscado.",
+          "de": "Mais in Butter mit Epazote leicht angeröstet braten."
+        },
+        {
+          "en": "Mix with mayo and lime juice.",
+          "tr": "Mayonez ve limon suyu ile karıştırın.",
+          "es": "Mezclar con mayonesa y jugo de lima.",
+          "de": "Mit Mayo und Limettensaft mischen."
+        },
+        {
+          "en": "Serve in cups, topped with cotija and chili powder.",
+          "tr": "Bardaklarda servis edin, üzerine cotija ve acı biber tozu koyun.",
+          "es": "Servir en vasos, cubiertos con cotija y chile en polvo.",
+          "de": "In Bechern servieren, mit Cotija und Chilipulver garnieren."
+        }
+      ]
+    },
+    {
+      "id": "mx_cochinita_pibil",
+      "cuisineId": "mexican",
+      "emoji": "🐷",
+      "image": "https://images.unsplash.com/photo-1529042410759-befb1204b468?auto=format&fit=crop&w=800&q=80",
+      "color": "FFE67E22",
+      "prepTime": 30,
+      "cookTime": 240,
+      "difficulty": "hard",
+      "calories": 400,
+      "servings": 8,
+      "isPremium": false,
+      "tags": [
+        "meat",
+        "slow_cook",
+        "yucatan"
+      ],
+      "name": {
+        "en": "Cochinita Pibil",
+        "tr": "Cochinita Pibil",
+        "es": "Cochinita Pibil",
+        "de": "Cochinita Pibil"
+      },
+      "description": {
+        "en": "Yucatán slow-roasted pork marinated in achiote and sour orange, wrapped in banana leaves.",
+        "tr": "Achiote ve ekşi portakal marinasyonunda muz yaprağına sarılmış Yucatan yavaş pişirme domuz eti.",
+        "es": "Cerdo asado lentamente de Yucatán marinado en achiote y naranja agria, envuelto en hojas de plátano.",
+        "de": "Yucatán langsam geröstetes Schweinefleisch mariniert in Achiote und Bitterorange, in Bananenblätter gewickelt."
+      },
+      "ingredients": [
+        {
+          "en": "2kg pork shoulder",
+          "tr": "2kg domuz omuzu",
+          "es": "2kg paleta de cerdo",
+          "de": "2kg Schweineschulter"
+        },
+        {
+          "en": "Achiote paste, sour orange juice",
+          "tr": "Achiote macunu, ekşi portakal suyu",
+          "es": "Pasta de achiote, jugo de naranja agria",
+          "de": "Achiote-Paste, Bitterorangen-Saft"
+        },
+        {
+          "en": "Banana leaves",
+          "tr": "Muz yaprakları",
+          "es": "Hojas de plátano",
+          "de": "Bananenblätter"
+        },
+        {
+          "en": "Pickled red onion, habanero",
+          "tr": "Turşu kırmızı soğan, habanero",
+          "es": "Cebolla morada encurtida, habanero",
+          "de": "Eingelegte rote Zwiebel, Habanero"
+        }
+      ],
+      "steps": [
+        {
+          "en": "Blend achiote paste with sour orange juice and spices.",
+          "tr": "Achiote macununu ekşi portakal suyu ve baharatlarla blenderdan geçirin.",
+          "es": "Licuar pasta de achiote con jugo de naranja agria y especias.",
+          "de": "Achiote-Paste mit Bitterorangen-Saft und Gewürzen mixen."
+        },
+        {
+          "en": "Marinate pork overnight in the achiote mixture.",
+          "tr": "Domuz etini achiote karışımında bir gece marine edin.",
+          "es": "Marinar cerdo toda la noche en la mezcla de achiote.",
+          "de": "Schweinefleisch über Nacht in der Achiote-Mischung marinieren."
+        },
+        {
+          "en": "Wrap in banana leaves, slow cook at 150°C for 4 hours.",
+          "tr": "Muz yapraklarına sarın, 150°C'de 4 saat yavaş pişirin.",
+          "es": "Envolver en hojas de plátano, cocinar lento a 150°C por 4 horas.",
+          "de": "In Bananenblätter wickeln, bei 150°C 4 Stunden langsam garen."
+        },
+        {
+          "en": "Shred and serve with pickled red onion and habanero.",
+          "tr": "Parçalayıp turşu kırmızı soğan ve habanero ile servis edin.",
+          "es": "Deshebrar y servir con cebolla morada encurtida y habanero.",
+          "de": "Zerrupfen und mit eingelegter roter Zwiebel und Habanero servieren."
+        }
+      ]
+    },
+    {
+      "id": "mx_sopes",
+      "cuisineId": "mexican",
+      "emoji": "🫓",
+      "image": "https://images.unsplash.com/photo-1589367920969-ab8e050bbb04?auto=format&fit=crop&w=800&q=80",
+      "color": "FFF39C12",
+      "prepTime": 20,
+      "cookTime": 10,
+      "difficulty": "medium",
+      "calories": 280,
+      "servings": 4,
+      "isPremium": false,
+      "tags": [
+        "masa",
+        "street_food"
+      ],
+      "name": {
+        "en": "Sopes",
+        "tr": "Sopes",
+        "es": "Sopes",
+        "de": "Sopes"
+      },
+      "description": {
+        "en": "Thick corn masa cups with pinched edges, topped with beans, meat, lettuce, and crema.",
+        "tr": "Kenarları kıvrılmış kalın mısır masa çanakları, üzerinde fasulye, et, marul ve krema.",
+        "es": "Discos gruesos de masa con bordes pellizcados, cubiertos con frijoles, carne, lechuga y crema.",
+        "de": "Dicke Mais-Masa-Schälchen mit hochgedrücktem Rand, belegt mit Bohnen, Fleisch, Salat und Crema."
+      },
+      "ingredients": [
+        {
+          "en": "Masa harina, water, salt",
+          "tr": "Masa harina, su, tuz",
+          "es": "Harina de maíz, agua, sal",
+          "de": "Masa Harina, Wasser, Salz"
+        },
+        {
+          "en": "Refried beans",
+          "tr": "Ezme fasulye",
+          "es": "Frijoles refritos",
+          "de": "Refried Beans"
+        },
+        {
+          "en": "Shredded chicken or beef",
+          "tr": "Parçalanmış tavuk veya et",
+          "es": "Pollo o res desmenuzada",
+          "de": "Zerzupftes Hähnchen oder Rindfleisch"
+        },
+        {
+          "en": "Lettuce, crema, cotija cheese, salsa",
+          "tr": "Marul, krema, cotija peyniri, salsa",
+          "es": "Lechuga, crema, queso cotija, salsa",
+          "de": "Salat, Crema, Cotija-Käse, Salsa"
+        }
+      ],
+      "steps": [
+        {
+          "en": "Form masa into thick discs, cook on griddle.",
+          "tr": "Masa'dan kalın diskler şekillendirin, sacda pişirin.",
+          "es": "Formar masa en discos gruesos, cocinar en comal.",
+          "de": "Masa zu dicken Scheiben formen, auf Grillplatte garen."
+        },
+        {
+          "en": "While still hot, pinch edges up to form a cup.",
+          "tr": "Sıcakken kenarları yukarı kıvırarak çanak şekli verin.",
+          "es": "Mientras aún están calientes, pellizcar bordes para formar copa.",
+          "de": "Solange noch heiß, Ränder hochdrücken um eine Schale zu formen."
+        },
+        {
+          "en": "Fry briefly for crispy base.",
+          "tr": "Çıtır taban için kısa süre kızartın.",
+          "es": "Freír brevemente para base crujiente.",
+          "de": "Kurz frittieren für knusprigen Boden."
+        },
+        {
+          "en": "Top with beans, meat, lettuce, crema, cheese, and salsa.",
+          "tr": "Fasulye, et, marul, krema, peynir ve salsa ile süsleyin.",
+          "es": "Cubrir con frijoles, carne, lechuga, crema, queso y salsa.",
+          "de": "Mit Bohnen, Fleisch, Salat, Crema, Käse und Salsa belegen."
+        }
+      ]
+    },
+    {
+      "id": "mx_barbacoa",
+      "cuisineId": "mexican",
+      "emoji": "🥩",
+      "image": "https://images.unsplash.com/photo-1551218808-94e220e084d2?auto=format&fit=crop&w=800&q=80",
+      "color": "FF8B4513",
+      "prepTime": 20,
+      "cookTime": 240,
+      "difficulty": "medium",
+      "calories": 420,
+      "servings": 8,
+      "isPremium": false,
+      "tags": [
+        "meat",
+        "slow_cook"
+      ],
+      "name": {
+        "en": "Barbacoa",
+        "tr": "Barbacoa",
+        "es": "Barbacoa",
+        "de": "Barbacoa"
+      },
+      "description": {
+        "en": "Melt-in-your-mouth slow-cooked beef cheeks with chipotles and spices.",
+        "tr": "Chipotle ve baharatlarla ağızda eriyen yavaş pişirilmiş dana yanak eti.",
+        "es": "Cachete de res cocido lentamente con chipotles y especias que se derrite en la boca.",
+        "de": "Zartschmelzendes langsam gegartes Rinderbackenfleisch mit Chipotles und Gewürzen."
+      },
+      "ingredients": [
+        {
+          "en": "2kg beef cheeks or chuck",
+          "tr": "2kg dana yanak veya bonfile",
+          "es": "2kg cachete o espaldilla de res",
+          "de": "2kg Rinderbacken oder -schulter"
+        },
+        {
+          "en": "Chipotles in adobo",
+          "tr": "Adobo'da chipotle",
+          "es": "Chipotles en adobo",
+          "de": "Chipotles in Adobo"
+        },
+        {
+          "en": "Cumin, cloves, oregano, garlic, lime",
+          "tr": "Kimyon, karanfil, kekik, sarımsak, limon",
+          "es": "Comino, clavo, orégano, ajo, lima",
+          "de": "Kreuzkümmel, Nelken, Oregano, Knoblauch, Limette"
+        },
+        {
+          "en": "Tortillas, onion, cilantro",
+          "tr": "Tortilla, soğan, kişniş",
+          "es": "Tortillas, cebolla, cilantro",
+          "de": "Tortillas, Zwiebel, Koriander"
+        }
+      ],
+      "steps": [
+        {
+          "en": "Blend chipotles with spices, garlic, and lime juice.",
+          "tr": "Chipotleleri baharatlar, sarımsak ve limon suyu ile blenderdan geçirin.",
+          "es": "Licuar chipotles con especias, ajo y jugo de lima.",
+          "de": "Chipotles mit Gewürzen, Knoblauch und Limettensaft mixen."
+        },
+        {
+          "en": "Coat beef in marinade, wrap tightly in foil.",
+          "tr": "Eti marinatta kaplayın, folyoya sıkıca sarın.",
+          "es": "Cubrir res con marinada, envolver bien en aluminio.",
+          "de": "Rindfleisch in Marinade wälzen, fest in Folie wickeln."
+        },
+        {
+          "en": "Slow cook at 150°C for 4 hours until fork-shredable.",
+          "tr": "150°C'de 4 saat çatalla parçalanana kadar yavaş pişirin.",
+          "es": "Cocinar lento a 150°C por 4 horas hasta que se deshebra con tenedor.",
+          "de": "Bei 150°C 4 Stunden langsam garen bis mit Gabel zerrupfbar."
+        },
+        {
+          "en": "Shred, serve in tacos with cilantro and onion.",
+          "tr": "Parçalayın, kişniş ve soğanla tacolarda servis edin.",
+          "es": "Deshebrar, servir en tacos con cilantro y cebolla.",
+          "de": "Zerrupfen, in Tacos mit Koriander und Zwiebel servieren."
+        }
+      ]
+    },
+    {
+      "id": "mx_flautas",
+      "cuisineId": "mexican",
+      "emoji": "🌯",
+      "image": "https://images.unsplash.com/photo-1528735602780-2552fd46c7af?auto=format&fit=crop&w=800&q=80",
+      "color": "FFF39C12",
+      "prepTime": 15,
+      "cookTime": 8,
+      "difficulty": "easy",
+      "calories": 320,
+      "servings": 4,
+      "isPremium": false,
+      "tags": [
+        "fried",
+        "chicken",
+        "crispy"
+      ],
+      "name": {
+        "en": "Flautas",
+        "tr": "Flautas",
+        "es": "Flautas",
+        "de": "Flautas"
+      },
+      "description": {
+        "en": "Crispy fried rolled tacos filled with shredded chicken, topped with crema and salsa.",
+        "tr": "Parçalanmış tavuk dolgulu çıtır kızarmış rulo takolar, krema ve salsa ile süslenmiş.",
+        "es": "Tacos enrollados fritos crujientes rellenos de pollo desmenuzado, cubiertos con crema y salsa.",
+        "de": "Knusprig frittierte gerollte Tacos gefüllt mit zerzupftem Hähnchen, mit Crema und Salsa."
+      },
+      "ingredients": [
+        {
+          "en": "Corn or flour tortillas",
+          "tr": "Mısır veya un tortilla",
+          "es": "Tortillas de maíz o harina",
+          "de": "Mais- oder Mehl-Tortillas"
+        },
+        {
+          "en": "Shredded chicken",
+          "tr": "Parçalanmış tavuk",
+          "es": "Pollo desmenuzado",
+          "de": "Zerzupftes Hähnchen"
+        },
+        {
+          "en": "Oil for frying",
+          "tr": "Kızartma yağı",
+          "es": "Aceite para freír",
+          "de": "Öl zum Frittieren"
+        },
+        {
+          "en": "Crema, salsa verde, lettuce, cotija",
+          "tr": "Krema, salsa verde, marul, cotija",
+          "es": "Crema, salsa verde, lechuga, cotija",
+          "de": "Crema, Salsa Verde, Salat, Cotija"
+        }
+      ],
+      "steps": [
+        {
+          "en": "Fill tortillas with shredded chicken, roll tightly, secure with toothpick.",
+          "tr": "Tortillaları parçalanmış tavukla doldurun, sıkıca sarın, kürdanla sabitleyin.",
+          "es": "Rellenar tortillas con pollo desmenuzado, enrollar firmemente, asegurar con palillo.",
+          "de": "Tortillas mit zerzupftem Hähnchen füllen, fest rollen, mit Zahnstocher sichern."
+        },
+        {
+          "en": "Fry in oil until golden and crispy on all sides.",
+          "tr": "Yağda her tarafı altın rengi ve çıtır olana kadar kızartın.",
+          "es": "Freír en aceite hasta dorar y quedar crujiente por todos lados.",
+          "de": "In Öl von allen Seiten goldbraun und knusprig frittieren."
+        },
+        {
+          "en": "Drain on paper towels.",
+          "tr": "Kağıt havluda süzün.",
+          "es": "Escurrir en papel absorbente.",
+          "de": "Auf Küchenpapier abtropfen."
+        },
+        {
+          "en": "Top with crema, salsa, lettuce, and cheese.",
+          "tr": "Krema, salsa, marul ve peynir ile süsleyin.",
+          "es": "Cubrir con crema, salsa, lechuga y queso.",
+          "de": "Mit Crema, Salsa, Salat und Käse garnieren."
+        }
+      ]
+    },
+    {
+      "id": "mx_tostada",
+      "cuisineId": "mexican",
+      "emoji": "🫓",
+      "image": "https://images.unsplash.com/photo-1619740455993-9e612b1af08a?auto=format&fit=crop&w=800&q=80",
+      "color": "FFE67E22",
+      "prepTime": 10,
+      "cookTime": 5,
+      "difficulty": "easy",
+      "calories": 280,
+      "servings": 4,
+      "isPremium": false,
+      "tags": [
+        "crispy",
+        "quick"
+      ],
+      "name": {
+        "en": "Tostadas",
+        "tr": "Tostada",
+        "es": "Tostadas",
+        "de": "Tostadas"
+      },
+      "description": {
+        "en": "Flat crispy fried tortilla piled high with beans, meat, lettuce, and toppings.",
+        "tr": "Fasulye, et, marul ve malzemelerle yüklü düz çıtır kızarmış tortilla.",
+        "es": "Tortilla frita crujiente plana cargada con frijoles, carne, lechuga y acompañamientos.",
+        "de": "Flache knusprig frittierte Tortilla beladen mit Bohnen, Fleisch, Salat und Belag."
+      },
+      "ingredients": [
+        {
+          "en": "Flat fried corn tortillas",
+          "tr": "Düz kızarmış mısır tortilla",
+          "es": "Tortillas de maíz fritas planas",
+          "de": "Flach frittierte Maistortillas"
+        },
+        {
+          "en": "Refried beans",
+          "tr": "Ezme fasulye",
+          "es": "Frijoles refritos",
+          "de": "Refried Beans"
+        },
+        {
+          "en": "Shredded chicken or beef, lettuce, tomato",
+          "tr": "Parçalanmış tavuk veya et, marul, domates",
+          "es": "Pollo o res desmenuzada, lechuga, tomate",
+          "de": "Zerzupftes Hähnchen oder Rindfleisch, Salat, Tomate"
+        },
+        {
+          "en": "Crema, cheese, hot sauce",
+          "tr": "Krema, peynir, acı sos",
+          "es": "Crema, queso, salsa picante",
+          "de": "Crema, Käse, scharfe Sauce"
+        }
+      ],
+      "steps": [
+        {
+          "en": "Fry tortillas flat until crispy, or buy ready-made.",
+          "tr": "Tortillaları düz olarak çıtır olana kadar kızartın veya hazır alın.",
+          "es": "Freír tortillas planas hasta que estén crujientes, o comprar hechas.",
+          "de": "Tortillas flach knusprig frittieren oder fertige kaufen."
+        },
+        {
+          "en": "Spread with refried beans.",
+          "tr": "Ezme fasulye sürün.",
+          "es": "Untar con frijoles refritos.",
+          "de": "Mit Refried Beans bestreichen."
+        },
+        {
+          "en": "Layer with meat, lettuce, tomato, crema and cheese.",
+          "tr": "Et, marul, domates, krema ve peynirle katmanlayın.",
+          "es": "Cubrir con carne, lechuga, tomate, crema y queso.",
+          "de": "Mit Fleisch, Salat, Tomate, Crema und Käse belegen."
+        },
+        {
+          "en": "Eat immediately — they won't stay crispy long!",
+          "tr": "Hemen yiyin — uzun süre çıtır kalmaz!",
+          "es": "¡Comer inmediatamente — no se mantendrán crujientes!",
+          "de": "Sofort essen — sie bleiben nicht lange knusprig!"
+        }
+      ]
+    },
+    {
+      "id": "mx_molletes",
+      "cuisineId": "mexican",
+      "emoji": "🥖",
+      "image": "https://images.unsplash.com/photo-1510693206972-df098062cb71?auto=format&fit=crop&w=800&q=80",
+      "color": "FFF39C12",
+      "prepTime": 5,
+      "cookTime": 10,
+      "difficulty": "easy",
+      "calories": 350,
+      "servings": 4,
+      "isPremium": false,
+      "tags": [
+        "breakfast",
+        "quick",
+        "cheese"
+      ],
+      "name": {
+        "en": "Molletes",
+        "tr": "Molletes",
+        "es": "Molletes",
+        "de": "Molletes"
+      },
+      "description": {
+        "en": "Open-faced bolillo bread with refried beans and melted cheese, topped with pico de gallo.",
+        "tr": "Ezme fasulye ve erimiş peynirli açık yüzlü bolillo ekmek, üzerinde pico de gallo.",
+        "es": "Pan bolillo abierto con frijoles refritos y queso derretido, cubierto con pico de gallo.",
+        "de": "Offenes Bolillo-Brot mit Refried Beans und geschmolzenem Käse, mit Pico de Gallo garniert."
+      },
+      "ingredients": [
+        {
+          "en": "2 bolillo or baguette, halved",
+          "tr": "2 bolillo veya baget, ikiye bölünmüş",
+          "es": "2 bolillos o baguette, partidos",
+          "de": "2 Bolillo oder Baguette, halbiert"
+        },
+        {
+          "en": "Refried beans",
+          "tr": "Ezme fasulye",
+          "es": "Frijoles refritos",
+          "de": "Refried Beans"
+        },
+        {
+          "en": "Oaxaca or Monterey Jack cheese",
+          "tr": "Oaxaca veya Monterey Jack peyniri",
+          "es": "Queso Oaxaca o Monterey Jack",
+          "de": "Oaxaca- oder Monterey-Jack-Käse"
+        },
+        {
+          "en": "Pico de gallo, jalapeños",
+          "tr": "Pico de gallo, jalapeño",
+          "es": "Pico de gallo, jalapeños",
+          "de": "Pico de Gallo, Jalapeños"
+        }
+      ],
+      "steps": [
+        {
+          "en": "Split bread and spread generously with refried beans.",
+          "tr": "Ekmeği yarın ve bol ezme fasulye sürün.",
+          "es": "Partir pan y untar generosamente con frijoles refritos.",
+          "de": "Brot aufschneiden und großzügig mit Refried Beans bestreichen."
+        },
+        {
+          "en": "Top with shredded cheese.",
+          "tr": "Rendelenmiş peynir serpin.",
+          "es": "Cubrir con queso rallado.",
+          "de": "Mit geriebenem Käse bestreuen."
+        },
+        {
+          "en": "Broil until cheese is melted and bubbly.",
+          "tr": "Peynir eriyip köpürene kadar grill altında pişirin.",
+          "es": "Gratinar hasta que el queso se derrita y burbujee.",
+          "de": "Unter dem Grill überbacken bis Käse geschmolzen und blubbernd."
+        },
+        {
+          "en": "Top with pico de gallo and serve immediately.",
+          "tr": "Pico de gallo koyun ve hemen servis edin.",
+          "es": "Cubrir con pico de gallo y servir inmediatamente.",
+          "de": "Mit Pico de Gallo garnieren und sofort servieren."
+        }
+      ]
+    },
+    {
+      "id": "mx_pan_de_muerto",
+      "cuisineId": "mexican",
+      "emoji": "💀",
+      "image": "https://images.unsplash.com/photo-1551024709-8f23befc6f87?auto=format&fit=crop&w=800&q=80",
+      "color": "FFE67E22",
+      "prepTime": 90,
+      "cookTime": 25,
+      "difficulty": "hard",
+      "calories": 320,
+      "servings": 8,
+      "isPremium": false,
+      "tags": [
+        "bread",
+        "dessert",
+        "traditional"
+      ],
+      "name": {
+        "en": "Pan de Muerto",
+        "tr": "Ölüler Ekmeği",
+        "es": "Pan de Muerto",
+        "de": "Totenbrot"
+      },
+      "description": {
+        "en": "Sweet, orange-scented bread decorated with 'bone' shapes — Day of the Dead tradition.",
+        "tr": "Portakal aromalı tatlı ekmek, 'kemik' şekilleriyle süslenmiş — Ölüler Günü geleneği.",
+        "es": "Pan dulce con aroma de naranja decorado con formas de 'hueso' — tradición del Día de Muertos.",
+        "de": "Süßes, orangenduftiges Brot mit 'Knochen'-Dekor — Tag der Toten-Tradition."
+      },
+      "ingredients": [
+        {
+          "en": "Flour, butter, eggs, sugar, yeast",
+          "tr": "Un, tereyağı, yumurta, şeker, maya",
+          "es": "Harina, mantequilla, huevos, azúcar, levadura",
+          "de": "Mehl, Butter, Eier, Zucker, Hefe"
+        },
+        {
+          "en": "Orange zest, orange blossom water",
+          "tr": "Portakal kabuğu rendesi, portakal çiçeği suyu",
+          "es": "Ralladura de naranja, agua de azahar",
+          "de": "Orangenschale, Orangenblütenwasser"
+        },
+        {
+          "en": "Butter and sugar for coating",
+          "tr": "Kaplama için tereyağı ve şeker",
+          "es": "Mantequilla y azúcar para cubrir",
+          "de": "Butter und Zucker zum Überziehen"
+        }
+      ],
+      "steps": [
+        {
+          "en": "Make sweet enriched dough with orange zest and blossom water.",
+          "tr": "Portakal kabuğu rendesi ve çiçek suyu ile zengin tatlı hamur yapın.",
+          "es": "Hacer masa dulce enriquecida con ralladura de naranja y agua de azahar.",
+          "de": "Süßen angereicherten Teig mit Orangenschale und Blütenwasser herstellen."
+        },
+        {
+          "en": "Shape into round loaves, add 'bone' decorations on top.",
+          "tr": "Yuvarlak somun şekli verin, üstüne 'kemik' süslemeleri ekleyin.",
+          "es": "Dar forma de panes redondos, agregar decoraciones de 'hueso' encima.",
+          "de": "Zu runden Laiben formen, 'Knochen'-Verzierungen oben anbringen."
+        },
+        {
+          "en": "Let rise until doubled, bake at 180°C for 20-25 minutes.",
+          "tr": "İki katına çıkana kadar mayalandırın, 180°C'de 20-25 dakika pişirin.",
+          "es": "Dejar leudar hasta duplicar, hornear a 180°C por 20-25 minutos.",
+          "de": "Bis zur Verdoppelung gehen lassen, bei 180°C 20-25 Minuten backen."
+        },
+        {
+          "en": "Brush warm bread with butter, sprinkle with sugar.",
+          "tr": "Sıcak ekmeğe tereyağı sürün, şeker serpin.",
+          "es": "Pintar pan tibio con mantequilla, espolvorear con azúcar.",
+          "de": "Warmes Brot mit Butter bestreichen, Zucker darüberstreuen."
+        }
+      ]
+    }
+  ]
+}

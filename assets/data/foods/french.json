@@ -1,0 +1,402 @@
+{
+  "cuisineId": "french",
+  "foods": [
+    {
+      "id": "fr_boeuf_bourguignon",
+      "cuisineId": "french",
+      "emoji": "🍲",
+      "image": "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=800&q=80",
+      "color": "FF8B4513",
+      "prepTime": 30,
+      "cookTime": 180,
+      "difficulty": "hard",
+      "calories": 540,
+      "servings": 6,
+      "isPremium": true,
+      "tags": [
+        "beef",
+        "wine",
+        "slow_cook",
+        "classic"
+      ],
+      "name": {
+        "en": "Boeuf Bourguignon",
+        "tr": "Boeuf Bourguignon",
+        "es": "Boeuf Bourguignon",
+        "de": "Boeuf Bourguignon"
+      },
+      "description": {
+        "en": "Classic Burgundian beef stew braised in rich red wine with pearl onions, lardons, and mushrooms.",
+        "tr": "Kırmızı şarap, arpacık soğan, mantar ve dana etiyle saatlerce ağır ateşte pişen klasik Fransız yahnisi.",
+        "es": "Guiso clásico de ternera de Borgoña estofado en vino tinto con cebollitas, panceta y champiñones.",
+        "de": "Klassischer burgundischer Rinderschmortopf in Rotwein mit Perlzwiebeln, Speck und Champignons."
+      },
+      "ingredients": [
+        {
+          "en": "1kg beef chuck, cut into cubes",
+          "tr": "1kg kuşbaşı dana kol eti",
+          "es": "1kg aguja de ternera en cubos",
+          "de": "1kg Rinderschulter in Würfeln"
+        },
+        {
+          "en": "1 bottle full-bodied Burgundy red wine",
+          "tr": "1 şişe kırmızı şarap (Burgonya usulü)",
+          "es": "1 botella de vino tinto de Borgoña",
+          "de": "1 Flasche kräftiger Rotwein"
+        },
+        {
+          "en": "150g smoked bacon lardons, pearl onions, button mushrooms",
+          "tr": "150g füme dana pastırma/et, arpacık soğan, mantar",
+          "es": "150g panceta ahumada, cebollitas, champiñones",
+          "de": "150g geräucherter Bauchspeck, Perlzwiebeln, Champignons"
+        },
+        {
+          "en": "Beef stock, tomato paste, garlic, fresh thyme and bay leaf",
+          "tr": "Et suyu, domates salçası, sarımsak, taze kekik ve defne yaprağı",
+          "es": "Caldo de ternera, concentrado de tomate, ajo, tomillo y laurel",
+          "de": "Rinderfond, Tomatenmark, Knoblauch, frischer Thymian und Lorbeerblatt"
+        }
+      ],
+      "steps": [
+        {
+          "en": "Sauté lardons in Dutch oven until crisp, remove, and brown beef cubes in the rendered fat.",
+          "tr": "Et parçalarını döküm tencerede yüksek ateşte nar gibi kızarana kadar mühürleyin.",
+          "es": "Dorar la panceta y luego sellar los cubos de carne en la misma grasa.",
+          "de": "Speckwürfel anbraten, herausnehmen und Rindfleisch in dem Fett scharf anbraten."
+        },
+        {
+          "en": "Add carrots and onions, sprinkle with flour, and cook for 2 minutes.",
+          "tr": "Havuç ve soğanları ekleyin, un serpip 2 dakika kavurun.",
+          "es": "Agregar zanahorias y cebollas, espolvorear harina y cocinar 2 minutos.",
+          "de": "Karotten und Zwiebeln zugeben, mit Mehl bestäuben und 2 Minuten anschwitzen."
+        },
+        {
+          "en": "Deglaze with red wine and beef stock; add tomato paste, garlic, and bouquet garni.",
+          "tr": "Kırmızı şarap ve et suyu ile tencerenin dibini kazıyın; salça, sarımsak ve ot demetini ekleyin.",
+          "es": "Desglasar con vino tinto y caldo; agregar concentrado de tomate, ajo y hierbas.",
+          "de": "Mit Rotwein und Rinderfond ablöschen; Tomatenmark, Knoblauch und Kräuterstrauß zugeben."
+        },
+        {
+          "en": "Cover and braise at 160°C for 2.5-3 hours; stir in butter-glazed mushrooms and pearl onions at the end.",
+          "tr": "Kapağını kapatıp 160°C fırında 2.5-3 saat pişirin; tereyağında sotelenmiş mantar ve arpacık soğanları ekleyip servis edin.",
+          "es": "Tapar y estofar a 160°C durante 2.5-3 horas; incorporar champiñones y cebollitas salteadas.",
+          "de": "Abgedeckt bei 160°C 2,5-3 Stunden schmoren; glasierte Pilze und Perlzwiebeln unterrühren."
+        }
+      ]
+    },
+    {
+      "id": "fr_croissant",
+      "cuisineId": "french",
+      "emoji": "🥐",
+      "image": "https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&w=800&q=80",
+      "color": "FFF39C12",
+      "prepTime": 120,
+      "cookTime": 18,
+      "difficulty": "hard",
+      "calories": 280,
+      "servings": 8,
+      "isPremium": true,
+      "tags": [
+        "bakery",
+        "butter",
+        "breakfast",
+        "pastry"
+      ],
+      "name": {
+        "en": "Butter Croissant",
+        "tr": "Tereyağlı Kruvasan",
+        "es": "Cruasán de Mantequilla",
+        "de": "Buttercroissant"
+      },
+      "description": {
+        "en": "Flaky, golden, crescent-shaped laminated French pastry with hundreds of buttery layers.",
+        "tr": "Yüzlerce tereyağlı katmandan oluşan, çıtır çıtır ve içi petek dokulu Fransız hilal çöreği.",
+        "es": "Hojaldre francés en forma de medialuna, dorado y crujiente con cientos de capas de mantequilla.",
+        "de": "Knuspriges, goldenes französisches Hefegebäck mit hunderten feinen Butterschichten."
+      },
+      "ingredients": [
+        {
+          "en": "500g strong bread flour, yeast, sugar, salt, milk",
+          "tr": "500g un, maya, şeker, tuz, süt",
+          "es": "500g harina de fuerza, levadura, azúcar, sal, leche",
+          "de": "500g Mehl, Hefe, Zucker, Salz, Milch"
+        },
+        {
+          "en": "280g cold high-fat European butter block (82%+)",
+          "tr": "280g soğuk yüksek yağlı kaliteli tereyağı bloku",
+          "es": "280g bloque de mantequilla fría de alta calidad",
+          "de": "280g kalter Butterblock (mind. 82% Fett)"
+        },
+        {
+          "en": "Egg yolk and splash of milk for egg wash",
+          "tr": "Yumurta sarısı ve az süt (üzeri için)",
+          "es": "Yema de huevo y un poco de leche para pincelar",
+          "de": "Eigelb und etwas Milch zum Bestreichen"
+        }
+      ],
+      "steps": [
+        {
+          "en": "Prepare yeast dough (détrempe) and chill overnight.",
+          "tr": "Mayalı hamuru yoğurun ve bir gece buzdolabında dinlendirin.",
+          "es": "Preparar la masa de levadura y enfriar toda la noche.",
+          "de": "Hefeteig zubereiten und über Nacht kaltstellen."
+        },
+        {
+          "en": "Encase cold butter block in dough and perform 3 sets of letter turns with resting periods in between.",
+          "tr": "Soğuk tereyağı bloğunu hamura sarın ve aralarda dinlendirerek 3 kez katlama (tur) yapın.",
+          "es": "Envolver la mantequilla en la masa y realizar 3 pliegues con reposos en frío.",
+          "de": "Butterblock in den Teig einschlagen und 3 Touren mit Kühlpausen durchführen."
+        },
+        {
+          "en": "Roll out to 4mm thickness, cut into long triangles, and roll tightly from base to tip.",
+          "tr": "Hamuru 4mm inceliğinde açın, uzun üçgenler kesin ve tabandan uca doğru sıkıca sarın.",
+          "es": "Estirar a 4mm, cortar triángulos largos y enrollar desde la base hacia la punta.",
+          "de": "Auf 4mm ausrollen, Dreiecke schneiden und von der Basis zur Spitze aufrollen."
+        },
+        {
+          "en": "Proof for 2 hours until jiggly, brush with egg wash, and bake at 200°C for 18 minutes until golden.",
+          "tr": "2 saat mayalandırın, yumurta sarısı sürüp 200°C fırında 18 dakika altın rengi olana kadar pişirin.",
+          "es": "Fermentar 2 horas, pincelar con huevo y hornear a 200°C por 18 minutos.",
+          "de": "2 Stunden gehen lassen, mit Eistreiche bepinseln und bei 200°C 18 Minuten backen."
+        }
+      ]
+    },
+    {
+      "id": "fr_ratatouille",
+      "cuisineId": "french",
+      "emoji": "🍆",
+      "image": "https://images.unsplash.com/photo-1572453800999-e8d2d1589b7c?auto=format&fit=crop&w=800&q=80",
+      "color": "FFE74C3C",
+      "prepTime": 30,
+      "cookTime": 45,
+      "difficulty": "medium",
+      "calories": 180,
+      "servings": 6,
+      "isPremium": true,
+      "tags": [
+        "vegan",
+        "provencal",
+        "vegetables",
+        "healthy"
+      ],
+      "name": {
+        "en": "Ratatouille",
+        "tr": "Ratatouille",
+        "es": "Ratatouille",
+        "de": "Ratatouille"
+      },
+      "description": {
+        "en": "Provençal vegetable medley of thinly sliced zucchini, eggplant, tomatoes, and peppers baked in herb-infused olive oil.",
+        "tr": "Zeytinyağı ve Provans otlarıyla fırınlanan ince dilim kabak, patlıcan, domates ve biber yemeği.",
+        "es": "Plato provenzal de finas rodajas de calabacín, berenjena, tomate y pimiento horneadas con aceite de oliva y hierbas.",
+        "de": "Provenzalischer Gemüseeintopf aus Zucchini, Auberginen, Tomaten und Paprika mit Kräuter-Olivenöl gebacken."
+      },
+      "ingredients": [
+        {
+          "en": "2 eggplants, 2 yellow squashes, 2 zucchinis, 4 Roma tomatoes",
+          "tr": "2 patlıcan, 2 sarı kabak, 2 yeşil kabak, 4 domates",
+          "es": "2 berenjenas, 2 calabacines amarillos, 2 verdes, 4 tomates",
+          "de": "2 Auberginen, 2 gelbe Zucchini, 2 grüne Zucchini, 4 Tomaten"
+        },
+        {
+          "en": "Piperade base: bell peppers, onions, crushed tomatoes, garlic",
+          "tr": "Piperade tabanı: kapya biber, soğan, domates sosu, sarımsak",
+          "es": "Base piperada: pimientos, cebollas, tomate triturado, ajo",
+          "de": "Piperade-Basis: Paprika, Zwiebeln, Tomatensauce, Knoblauch"
+        },
+        {
+          "en": "Herbes de Provence, extra virgin olive oil, sea salt",
+          "tr": "Provans otları, sızma zeytinyağı, deniz tuzu",
+          "es": "Hierbas provenzales, aceite de oliva virgen extra, sal",
+          "de": "Kräuter der Provence, natives Olivenöl extra, Meersalz"
+        }
+      ],
+      "steps": [
+        {
+          "en": "Prepare piperade sauce with cooked onions, bell peppers, garlic, and puréed tomatoes; spread in baking dish.",
+          "tr": "Biber, soğan ve domatesle taban sosunu hazırlayıp fırın kabının altına yayın.",
+          "es": "Preparar la salsa piperada y extenderla en el fondo de una fuente para horno.",
+          "de": "Piperade-Sauce aus Paprika, Zwiebeln und Tomaten vorbereiten und in einer Form verteilen."
+        },
+        {
+          "en": "Slice eggplants, squashes, and tomatoes into ultra-thin uniform rounds.",
+          "tr": "Patlıcan, kabak ve domatesleri incecik halkalar halinde eşit dilimleyin.",
+          "es": "Cortar las berenjenas, calabacines y tomates en rodajas muy finas y uniformes.",
+          "de": "Auberginen, Zucchini und Tomaten in gleichmäßige feine Scheiben schneiden."
+        },
+        {
+          "en": "Arrange the vegetable slices in an alternating, overlapping spiral pattern over the sauce.",
+          "tr": "Dilimlenmiş sebzeleri sosun üzerine spiral şekilde sırayla ve üst üste gelecek gibi dizin.",
+          "es": "Disponer las rodajas en una espiral alterna y superpuesta sobre la salsa.",
+          "de": "Gemüsescheiben abwechselnd fächerförmig in einer Spirale auf der Sauce anrichten."
+        },
+        {
+          "en": "Drizzle with olive oil and Herbes de Provence; cover with parchment and bake at 180°C for 45 minutes.",
+          "tr": "Zeytinyağı ve Provans otları gezdirip yağlı kağıtla kapatarak 180°C fırında 45 dakika pişirin.",
+          "es": "Rociar con aceite de oliva y hierbas; hornear a 180°C tapado durante 45 minutos.",
+          "de": "Mit Olivenöl und Kräutern beträufeln; mit Backpapier abdecken und 45 Min. bei 180°C backen."
+        }
+      ]
+    },
+    {
+      "id": "fr_onion_soup",
+      "cuisineId": "french",
+      "emoji": "🥣",
+      "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&w=800&q=80",
+      "color": "FFD35400",
+      "prepTime": 15,
+      "cookTime": 60,
+      "difficulty": "medium",
+      "calories": 340,
+      "servings": 4,
+      "isPremium": true,
+      "tags": [
+        "soup",
+        "cheese",
+        "comfort",
+        "classic"
+      ],
+      "name": {
+        "en": "French Onion Soup (Soupe à l'Oignon)",
+        "tr": "Fransız Soğan Çorbası",
+        "es": "Sopa de Cebolla Francesa",
+        "de": "Französische Zwiebelsuppe"
+      },
+      "description": {
+        "en": "Rich caramelized onion soup in beef broth, topped with toasted baguette and melted Gruyère cheese.",
+        "tr": "Karamelize edilmiş soğan ve et suyundan yapılan, üzeri kızarmış ekmek ve eritilmiş Gruyère peynirli çorba.",
+        "es": "Sopa rica de cebolla caramelizada en caldo de ternera con baguette tostada y queso Gruyère gratinado.",
+        "de": "Reichhaltige karamellisierte Zwiebelsuppe in Rinderbrühe mit geröstetem Baguette und überbackenem Gruyère."
+      },
+      "ingredients": [
+        {
+          "en": "1kg yellow onions, thinly sliced",
+          "tr": "1kg ince dilimlenmiş sarı soğan",
+          "es": "1kg cebollas amarillas en rodajas finas",
+          "de": "1kg Gemüsezwiebeln, fein gehobelt"
+        },
+        {
+          "en": "Butter, olive oil, flour, dry white wine",
+          "tr": "Tereyağı, zeytinyağı, un, sek beyaz şarap",
+          "es": "Mantequilla, aceite de oliva, harina, vino blanco seco",
+          "de": "Butter, Olivenöl, Mehl, trockener Weißwein"
+        },
+        {
+          "en": "1.2L rich beef stock, fresh thyme",
+          "tr": "1.2L zengin dana kemik suyu, taze kekik",
+          "es": "1.2L caldo de ternera rico, tomillo fresco",
+          "de": "1,2L Rinderbrühe, frischer Thymian"
+        },
+        {
+          "en": "Crusty baguette slices, grated Gruyère or Comté cheese",
+          "tr": "Dilimlenmiş baget ekmeği, rendelenmiş Gravyer peyniri",
+          "es": "Rebanadas de baguette, queso Gruyère o Comté rallado",
+          "de": "Baguettescheiben, geriebener Gruyère- oder Comté-Käse"
+        }
+      ],
+      "steps": [
+        {
+          "en": "Slowly cook sliced onions in butter and oil for 45 minutes until deeply caramelized and brown.",
+          "tr": "Soğanları tereyağı ve zeytinyağında 45 dakika boyunca kahverengileşip karamelize olana dek pişirin.",
+          "es": "Cocinar las cebollas en mantequilla a fuego lento durante 45 minutos hasta dorar.",
+          "de": "Zwiebeln in Butter und Öl 45 Minuten sanft karamellisieren bis tiefbraun."
+        },
+        {
+          "en": "Sprinkle flour, stir, and deglaze with white wine.",
+          "tr": "Un serpip karıştırın ve beyaz şarapla tencereyi deglaze edin.",
+          "es": "Espolvorear harina, remover y desglasar con vino blanco.",
+          "de": "Mehl einrühren und mit Weißwein ablöschen."
+        },
+        {
+          "en": "Add hot beef stock and thyme; simmer gently for 20 minutes.",
+          "tr": "Sıcak et suyu ve kekiği ekleyin; 20 dakika kısık ateşte kaynatın.",
+          "es": "Agregar caldo de ternera caliente y tomillo; cocinar a fuego lento 20 minutos.",
+          "de": "Heißen Rinderfond und Thymian zufügen; 20 Minuten sanft köcheln lassen."
+        },
+        {
+          "en": "Ladle into ovenproof bowls, top with toasted baguette and mounds of Gruyère; broil until bubbly and golden.",
+          "tr": "Fırına dayanıklı kaselere paylaştırın, kızarmış baget ve bol Gravyer koyup fırında kızartın.",
+          "es": "Servir en cuencos refractarios, coronar con baguette y queso; gratinar hasta dorar.",
+          "de": "In ofenfeste Schalen füllen, mit Baguette und Gruyère belegen; im Ofen goldbraun überbacken."
+        }
+      ]
+    },
+    {
+      "id": "fr_creme_brulee",
+      "cuisineId": "french",
+      "emoji": "🍮",
+      "image": "https://images.unsplash.com/photo-1470124182917-cc6e71b22ecc?auto=format&fit=crop&w=800&q=80",
+      "color": "FFF1C40F",
+      "prepTime": 15,
+      "cookTime": 40,
+      "difficulty": "medium",
+      "calories": 320,
+      "servings": 6,
+      "isPremium": true,
+      "tags": [
+        "dessert",
+        "vanilla",
+        "classic",
+        "baked"
+      ],
+      "name": {
+        "en": "Crème Brûlée",
+        "tr": "Krem Karamel / Crème Brûlée",
+        "es": "Crème Brûlée",
+        "de": "Crème Brûlée"
+      },
+      "description": {
+        "en": "Decadent vanilla custard base topped with a contrasting layer of crisp, brittle caramelized sugar.",
+        "tr": "Çatlatılan çıtır karamelize şeker kabuğunun altında ipeksi vanilyalı krema tatlısı.",
+        "es": "Delicada crema de vainilla cubierta con una capa crujiente de azúcar caramelizado.",
+        "de": "Zarte Vanille-Puddingcreme mit einer knackig-karamellisierten Zuckerkruste."
+      },
+      "ingredients": [
+        {
+          "en": "500ml heavy cream, 1 whole vanilla bean",
+          "tr": "500ml sıvı krema, 1 adet taze vanilya çubuğu",
+          "es": "500ml nata para montar, 1 vaina de vainilla",
+          "de": "500ml Schlagsahne, 1 Vanilleschote"
+        },
+        {
+          "en": "5 egg yolks, 80g white sugar",
+          "tr": "5 adet yumurta sarısı, 80g toz şeker",
+          "es": "5 yemas de huevo, 80g de azúcar blanco",
+          "de": "5 Eigelb, 80g weißer Zucker"
+        },
+        {
+          "en": "Extra granulated or turbinado sugar for torching",
+          "tr": "Yakmak için ekstra esmer şeker veya toz şeker",
+          "es": "Azúcar moreno extra para caramelizar",
+          "de": "Brauner Zucker zum Karamellisieren"
+        }
+      ],
+      "steps": [
+        {
+          "en": "Infuse heavy cream with split vanilla bean seeds by heating gently.",
+          "tr": "Kremayı ikiye yarılmış vanilya çubuğuyla hafifçe ısıtarak aromasını geçirin.",
+          "es": "Calentar suavemente la nata con las semillas de la vaina de vainilla.",
+          "de": "Sahne mit dem Mark der Vanilleschote erwärmen und ziehen lassen."
+        },
+        {
+          "en": "Whisk egg yolks and sugar together until pale, then slowly temper with warm cream.",
+          "tr": "Yumurta sarılarını şekerle çırpın, ardından ılık kremayı azar azar ekleyip ılıtın.",
+          "es": "Batir las yemas con azúcar hasta blanquear, luego templar con la nata tibia.",
+          "de": "Eigelb mit Zucker hellgelb schlagen, dann warme Sahne langsam einrühren."
+        },
+        {
+          "en": "Strain and pour into ramekins; bake in water bath at 150°C for 35-40 minutes until edges are set.",
+          "tr": "Süzüp güveç kaplarına dökün; benmari usulü fırında 150°C'de 35-40 dakika pişirin.",
+          "es": "Colar y verter en moldes; hornear al baño maría a 150°C durante 35-40 minutos.",
+          "de": "Abseihen, in Förmchen füllen und im Wasserbad bei 150°C 35-40 Minuten backen."
+        },
+        {
+          "en": "Chill for 4 hours; sprinkle with sugar and caramelize with a kitchen torch before serving.",
+          "tr": "4 saat soğutun; servis öncesi şeker serpip pürmüzle yakın.",
+          "es": "Enfriar 4 horas; espolvorear azúcar y caramelizar con soplete antes de servir.",
+          "de": "4 Stunden kühlen; mit Zucker bestreuen und mit dem Küchenbrenner karamellisieren."
+        }
+      ]
+    }
+  ]
+}

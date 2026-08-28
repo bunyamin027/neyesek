@@ -1,0 +1,432 @@
+{
+  "cuisineId": "thai",
+  "foods": [
+    {
+      "id": "th_pad_thai",
+      "cuisineId": "thai",
+      "emoji": "🍜",
+      "image": "https://images.unsplash.com/photo-1559847844-5315695dadae?auto=format&fit=crop&w=800&q=80",
+      "color": "FFF39C12",
+      "prepTime": 20,
+      "cookTime": 10,
+      "difficulty": "medium",
+      "calories": 420,
+      "servings": 4,
+      "isPremium": true,
+      "tags": [
+        "noodles",
+        "street_food",
+        "stir_fry",
+        "peanuts"
+      ],
+      "name": {
+        "en": "Pad Thai",
+        "tr": "Pad Thai",
+        "es": "Pad Thai",
+        "de": "Pad Thai"
+      },
+      "description": {
+        "en": "Classic Thai stir-fried rice noodles with shrimp, tofu, eggs, crushed peanuts, and tamarind sauce.",
+        "tr": "Karides, tofu, yumurta, kırılmış fıstık ve demirhindi soslu klasik Tayland usulü wok eriştesi.",
+        "es": "Fideos de arroz tailandeses salteados con camarones, tofu, huevos, cacahuetes y salsa de tamarindo.",
+        "de": "Klassische gebratene thailändische Reisnudeln mit Garnelen, Tofu, Eiern, Erdnüssen und Tamarindensauce."
+      },
+      "ingredients": [
+        {
+          "en": "250g flat rice noodles",
+          "tr": "250g yassı pirinç eriştesi",
+          "es": "250g fideos planos de arroz",
+          "de": "250g breite Reisbandnudeln"
+        },
+        {
+          "en": "200g shrimp, peeled and deveined",
+          "tr": "200g ayıklanmış karides",
+          "es": "200g camarones limpios",
+          "de": "200g geschälte Garnelen"
+        },
+        {
+          "en": "Tamarind paste, fish sauce, palm sugar",
+          "tr": "Demirhindi ezmesi, balık sosu, hurma şekeri",
+          "es": "Pasta de tamarindo, salsa de pescado, azúcar de palma",
+          "de": "Tamarindenpaste, Fischsauce, Palmzucker"
+        },
+        {
+          "en": "Firm tofu, bean sprouts, garlic chives, crushed peanuts, lime",
+          "tr": "Sert tofu, soya filizi, taze sarımsak otu, kırık fıstık, misket limonu",
+          "es": "Tofu firme, brotes de soja, cebollino chino, cacahuetes, lima",
+          "de": "Fester Tofu, Sojasprossen, Schnittknoblauch, Erdnüsse, Limette"
+        }
+      ],
+      "steps": [
+        {
+          "en": "Soak rice noodles in warm water until pliable but firm.",
+          "tr": "Pirinç eriştelerini yumuşayana kadar ılık suda bekletin.",
+          "es": "Remojar los fideos de arroz en agua tibia hasta que estén flexibles.",
+          "de": "Reisnudeln in warmem Wasser einweichen, bis sie biegsam sind."
+        },
+        {
+          "en": "Mix tamarind paste, fish sauce, and palm sugar for the Pad Thai sauce.",
+          "tr": "Demirhindi ezmesi, balık sosu ve hurma şekerini karıştırarak Pad Thai sosunu hazırlayın.",
+          "es": "Mezclar tamarindo, salsa de pescado y azúcar de palma para la salsa.",
+          "de": "Tamarindenpaste, Fischsauce und Palmzucker zur Sauce anrühren."
+        },
+        {
+          "en": "Heat wok on high, sear shrimp and tofu, push aside, and scramble eggs.",
+          "tr": "Wok tavayı kızdırın, karides ve tofuyu soteleyip kenara çekin, yumurtaları kırıp pişirin.",
+          "es": "Calentar el wok a fuego alto, dorar camarones y tofu, apartar y revolver huevos.",
+          "de": "Wok stark erhitzen, Garnelen und Tofu anbraten, beiseiteschieben und Eier verquirlen."
+        },
+        {
+          "en": "Add drained noodles and sauce; toss rapidly, fold in bean sprouts and peanuts.",
+          "tr": "Süzülmüş erişteyi ve sosu ekleyin; hızlıca çevirin, soya filizi ve fıstık ekleyip servis edin.",
+          "es": "Agregar fideos y salsa; saltear rápido, añadir brotes de soja y cacahuetes.",
+          "de": "Abgetropfte Nudeln und Sauce zufügen; kurz pfannenrühren, Sprossen und Erdnüsse unterheben."
+        }
+      ]
+    },
+    {
+      "id": "th_tom_yum",
+      "cuisineId": "thai",
+      "emoji": "🥣",
+      "image": "https://images.unsplash.com/photo-1548943487-a2e4e43b4853?auto=format&fit=crop&w=800&q=80",
+      "color": "FFE74C3C",
+      "prepTime": 15,
+      "cookTime": 15,
+      "difficulty": "easy",
+      "calories": 210,
+      "servings": 4,
+      "isPremium": true,
+      "tags": [
+        "soup",
+        "seafood",
+        "spicy",
+        "sour"
+      ],
+      "name": {
+        "en": "Tom Yum Goong",
+        "tr": "Tom Yum Karides Çorbası",
+        "es": "Sopa Tom Yum",
+        "de": "Tom Yum Goong"
+      },
+      "description": {
+        "en": "Hot and sour aromatic Thai soup with shrimp, lemongrass, galangal, lime leaves, and chili.",
+        "tr": "Limon otu, havlıcan, misket limonu yaprakları ve acı biberle kaynatılan ekşi ve acı efsane karides çorbası.",
+        "es": "Sopa tailandesa aromática picante y ácida con camarones, limoncillo, galanga y hojas de lima.",
+        "de": "Scharf-saure aromatische thailändische Suppe mit Garnelen, Zitronengras, Galgant und Kaffir-Limettenblättern."
+      },
+      "ingredients": [
+        {
+          "en": "400g fresh shrimp with heads on (for broth)",
+          "tr": "400g taze kafalı karides (suyu için)",
+          "es": "400g camarones enteros",
+          "de": "400g ganze Garnelen mit Kopf"
+        },
+        {
+          "en": "Lemongrass stalks, bruised",
+          "tr": "Ezilmiş limon otu sapları",
+          "es": "Tallos de limoncillo machacados",
+          "de": "Zitronengrasstängel, angedrückt"
+        },
+        {
+          "en": "Galangal slices, kaffir lime leaves",
+          "tr": "Havlıcan dilimleri, kaffir limon yaprakları",
+          "es": "Rodajas de galanga, hojas de lima kaffir",
+          "de": "Galgantscheiben, Kaffir-Limettenblätter"
+        },
+        {
+          "en": "Thai bird's eye chilies, oyster mushrooms",
+          "tr": "Tayland acı biberleri, istiridye mantarı",
+          "es": "Chiles tailandeses, setas de ostra",
+          "de": "Thai-Chilis, Austernpilze"
+        },
+        {
+          "en": "Fish sauce, lime juice, chili paste (nam prik pao)",
+          "tr": "Balık sosu, misket limonu suyu, acı sos",
+          "es": "Salsa de pescado, jugo de lima, pasta de chile",
+          "de": "Fischsauce, Limettensaft, Chilipaste"
+        }
+      ],
+      "steps": [
+        {
+          "en": "Simmer shrimp shells/heads in water to make a rich aromatic seafood stock.",
+          "tr": "Lezzetli bir karides suyu elde etmek için karides kafalarını suda kaynatın.",
+          "es": "Hervir cabezas y cáscaras de camarón para hacer caldo aromático.",
+          "de": "Garnelenschalen und -köpfe in Wasser auskochen für einen aromatischen Fond."
+        },
+        {
+          "en": "Add bruised lemongrass, galangal, and torn kaffir lime leaves to the stock.",
+          "tr": "Et suyuna ezilmiş limon otu, havlıcan ve yırtılmış misket limonu yapraklarını atın.",
+          "es": "Agregar limoncillo, galanga y hojas de lima kaffir al caldo.",
+          "de": "Zitronengras, Galgant und zerrissene Kaffirlimettenblätter zugeben."
+        },
+        {
+          "en": "Add mushrooms and shrimp; cook gently for 2-3 minutes until shrimp are pink.",
+          "tr": "Mantarları ve karidesleri ekleyin; karidesler pembeleşene dek 2-3 dakika pişirin.",
+          "es": "Añadir setas y camarones; cocinar 2-3 minutos hasta que los camarones estén rosados.",
+          "de": "Pilze und Garnelen zufügen; 2-3 Minuten sanft garen bis Garnelen rosa sind."
+        },
+        {
+          "en": "Turn off heat before seasoning with fish sauce, chili paste, and fresh lime juice.",
+          "tr": "Ocaktan aldıktan sonra balık sosu, acı biber salçası ve taze limon suyuyla tatlandırın.",
+          "es": "Apagar el fuego antes de sazonar con salsa de pescado, pasta de chile y lima.",
+          "de": "Vom Herd nehmen und mit Fischsauce, Chilipaste und Limettensaft abschmecken."
+        }
+      ]
+    },
+    {
+      "id": "th_green_curry",
+      "cuisineId": "thai",
+      "emoji": "🍛",
+      "image": "https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd?auto=format&fit=crop&w=800&q=80",
+      "color": "FF2ECC71",
+      "prepTime": 15,
+      "cookTime": 25,
+      "difficulty": "medium",
+      "calories": 460,
+      "servings": 4,
+      "isPremium": true,
+      "tags": [
+        "curry",
+        "coconut",
+        "chicken",
+        "spicy"
+      ],
+      "name": {
+        "en": "Thai Green Curry (Gaeng Keow Wan)",
+        "tr": "Yeşil Köri Tavuk (Gaeng Keow Wan)",
+        "es": "Curry Verde Tailandés",
+        "de": "Grünes Thai-Curry"
+      },
+      "description": {
+        "en": "Fragrant and spicy coconut curry made with green chili paste, chicken, Thai eggplants, and sweet basil.",
+        "tr": "Taze yeşil köri ezmesi, hindistan cevizi sütü, tavuk ve Tayland fesleğeniyle yapılan aromatik köri.",
+        "es": "Curry aromático y picante de leche de coco con pasta verde, pollo, berenjenas y albahaca.",
+        "de": "Würziges Kokos-Curry mit grüner Chilipaste, Hähnchen, Thai-Auberginen und Thai-Basilikum."
+      },
+      "ingredients": [
+        {
+          "en": "500g chicken breast or thigh strips",
+          "tr": "500g şerit doğranmış tavuk eti",
+          "es": "500g pollo en tiras",
+          "de": "500g Hähnchenstreifen"
+        },
+        {
+          "en": "3 tbsp green curry paste",
+          "tr": "3 yemek kaşığı yeşil köri ezmesi",
+          "es": "3 cucharadas de pasta de curry verde",
+          "de": "3 EL grüne Currypaste"
+        },
+        {
+          "en": "400ml rich coconut milk",
+          "tr": "400ml kıvamlı hindistan cevizi sütü",
+          "es": "400ml leche de coco espesa",
+          "de": "400ml Kokosmilch"
+        },
+        {
+          "en": "Thai eggplants, bamboo shoots, kaffir lime leaves",
+          "tr": "Tayland patlıcanı, bambu filizi, kaffir yaprağı",
+          "es": "Berenjenas tailandesas, brotes de bambú, hojas de lima",
+          "de": "Thai-Auberginen, Bambussprossen, Kaffirlimettenblätter"
+        },
+        {
+          "en": "Thai sweet basil leaves, fish sauce, palm sugar",
+          "tr": "Tayland tatlı fesleğeni, balık sosu, hurma şekeri",
+          "es": "Albahaca dulce tailandesa, salsa de pescado, azúcar",
+          "de": "Thai-Basilikum, Fischsauce, Palmzucker"
+        }
+      ],
+      "steps": [
+        {
+          "en": "Fry the thick part of coconut cream until oil separates, then fry green curry paste until fragrant.",
+          "tr": "Hindistan cevizi sütünün katı kaymağını yağı ayrışana kadar pişirin, köri ezmesini ekleyip kavurun.",
+          "es": "Freír la crema de coco hasta que se separe el aceite, luego freír la pasta de curry verde.",
+          "de": "Kokosrahm anbraten bis sich Öl absetzt, grüne Currypaste darin duftend anbraten."
+        },
+        {
+          "en": "Add chicken pieces and coat well in the aromatic green paste.",
+          "tr": "Tavuk parçalarını ekleyin ve yeşil köri sosuyla iyice harmanlayın.",
+          "es": "Agregar el pollo y mezclar bien con la pasta verde aromática.",
+          "de": "Hähnchenstücke zugeben und gut mit der Paste vermengen."
+        },
+        {
+          "en": "Pour in remaining coconut milk and broth; add Thai eggplants and bamboo shoots.",
+          "tr": "Kalan hindistan cevizi sütünü ve suyu ekleyin; Tayland patlıcanı ve bambu filizlerini katın.",
+          "es": "Verter el resto de leche de coco; agregar berenjenas y bambú.",
+          "de": "Restliche Kokosmilch und Brühe zugießen; Auberginen und Bambussprossen zufügen."
+        },
+        {
+          "en": "Season with fish sauce and palm sugar; finish with torn Thai basil.",
+          "tr": "Balık sosu ve hurma şekeriyle tatlandırın; taze Tayland fesleğeni yapraklarıyla bitirin.",
+          "es": "Sazonar con salsa de pescado y azúcar de palma; terminar con albahaca tailandesa.",
+          "de": "Mit Fischsauce und Palmzucker abschmecken; mit frischem Thai-Basilikum abrunden."
+        }
+      ]
+    },
+    {
+      "id": "th_mango_sticky_rice",
+      "cuisineId": "thai",
+      "emoji": "🥭",
+      "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?auto=format&fit=crop&w=800&q=80",
+      "color": "FFF1C40F",
+      "prepTime": 30,
+      "cookTime": 25,
+      "difficulty": "easy",
+      "calories": 380,
+      "servings": 4,
+      "isPremium": true,
+      "tags": [
+        "dessert",
+        "mango",
+        "sweet",
+        "street_food"
+      ],
+      "name": {
+        "en": "Mango Sticky Rice (Khao Niew Mamuang)",
+        "tr": "Mangolu Yapışkan Pirinç",
+        "es": "Arroz Pegajoso con Mango",
+        "de": "Mango Sticky Rice"
+      },
+      "description": {
+        "en": "Sweet glutinous rice infused with salted coconut milk, served with chilled, ripe sweet mango slices.",
+        "tr": "Hafif tuzlu hindistan cevizi kremasıyla demlenmiş yapışkan pirinç ve taze olgun mango dilimleri.",
+        "es": "Arroz glutinoso dulce con leche de coco, servido con rodajas de mango maduro.",
+        "de": "Süßer Klebreis getränkt in gesalzener Kokosmilch, serviert mit reifen Mangoscheiben."
+      },
+      "ingredients": [
+        {
+          "en": "1 cup glutinous (sticky) rice",
+          "tr": "1 su bardağı yapışkan pirinç",
+          "es": "1 taza de arroz glutinoso",
+          "de": "1 Tasse Klebreis"
+        },
+        {
+          "en": "200ml coconut milk, sugar, pinch of salt",
+          "tr": "200ml hindistan cevizi sütü, şeker, bir çimdik tuz",
+          "es": "200ml leche de coco, azúcar, pizca de sal",
+          "de": "200ml Kokosmilch, Zucker, Prise Salz"
+        },
+        {
+          "en": "2 ripe sweet Thai honey mangos",
+          "tr": "2 adet olgun tatlı mango",
+          "es": "2 mangos maduros dulces",
+          "de": "2 reife süße Mangos"
+        },
+        {
+          "en": "Toasted mung beans or sesame seeds for topping",
+          "tr": "Üzeri için kavrulmuş susam veya çıtır maş fasulyesi",
+          "es": "Semillas de sésamo o judías mung tostadas",
+          "de": "Gerösteter Sesam oder Mungbohnen zum Bestreuen"
+        }
+      ],
+      "steps": [
+        {
+          "en": "Soak glutinous rice in water for 4-6 hours, then steam for 20 minutes until translucent.",
+          "tr": "Yapışkan pirinci 4-6 saat suda bekletin, ardından buharda 20 dakika pişirin.",
+          "es": "Remojar el arroz glutinoso 4-6 horas, luego cocinar al vapor 20 minutos.",
+          "de": "Klebreis 4-6 Stunden einweichen, dann 20 Minuten im Dämpfer garen."
+        },
+        {
+          "en": "Warm coconut milk with sugar and salt until dissolved.",
+          "tr": "Hindistan cevizi sütünü şeker ve tuzla eriyene kadar ısıtın.",
+          "es": "Calentar la leche de coco con azúcar y sal hasta disolver.",
+          "de": "Kokosmilch mit Zucker und Salz erwärmen, bis sich alles aufgelöst hat."
+        },
+        {
+          "en": "Pour warm coconut mixture over hot steamed rice; cover and let absorb for 20 minutes.",
+          "tr": "Sıcak hindistan cevizi karışımını pirince dökün; üzerini kapatıp 20 dakika çekmesini bekleyin.",
+          "es": "Verter la mezcla sobre el arroz caliente; tapar y dejar absorber 20 minutos.",
+          "de": "Warme Kokosmischung über den heißen Reis gießen; 20 Minuten abgedeckt ziehen lassen."
+        },
+        {
+          "en": "Slice fresh mango, arrange alongside warm sticky rice, and drizzle with extra coconut cream.",
+          "tr": "Mangoyu dilimleyin, ılık pirincin yanına dizin ve üzerine biraz daha hindistan cevizi kreması gezdirin.",
+          "es": "Cortar el mango, colocar junto al arroz tibio y rociar con más crema de coco.",
+          "de": "Mango aufschneiden, neben dem warmen Reis anrichten und mit Kokoscreme beträufeln."
+        }
+      ]
+    },
+    {
+      "id": "th_som_tum",
+      "cuisineId": "thai",
+      "emoji": "🥗",
+      "image": "https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=800&q=80",
+      "color": "FF27AE60",
+      "prepTime": 15,
+      "cookTime": 0,
+      "difficulty": "easy",
+      "calories": 140,
+      "servings": 4,
+      "isPremium": true,
+      "tags": [
+        "salad",
+        "spicy",
+        "raw",
+        "fresh"
+      ],
+      "name": {
+        "en": "Green Papaya Salad (Som Tum)",
+        "tr": "Yeşil Papaya Salatası (Som Tum)",
+        "es": "Ensalada de Papaya Verde",
+        "de": "Grüner Papayasalat (Som Tum)"
+      },
+      "description": {
+        "en": "Crisp shredded green papaya pounded in a clay mortar with chilies, garlic, lime juice, peanuts, and fish sauce.",
+        "tr": "Havanda sarımsak, acı biber, balık sosu, limon suyu ve fıstıkla dövülen çıtır yeşil papaya salatası.",
+        "es": "Crujiente ensalada de papaya verde machacada con chiles, ajo, lima, cacahuetes y salsa de pescado.",
+        "de": "Knackiger grüner Papayasalat im Mörser mit Chilis, Knoblauch, Limette, Erdnüssen und Fischsauce gestampft."
+      },
+      "ingredients": [
+        {
+          "en": "300g green unripened papaya, shredded",
+          "tr": "300g ince jülyen doğranmış yeşil papaya",
+          "es": "300g papaya verde rallada",
+          "de": "300g geraspelte grüne Papaya"
+        },
+        {
+          "en": "Thai bird's eye chilies, garlic cloves",
+          "tr": "Tayland acı biberi, sarımsak dişleri",
+          "es": "Chiles tailandeses, dientes de ajo",
+          "de": "Thai-Chilis, Knoblauchzehen"
+        },
+        {
+          "en": "Cherry tomatoes, long beans, roasted peanuts",
+          "tr": "Çeri domates, taze börülce, kavrulmuş fıstık",
+          "es": "Tomates cherry, judías verdes, cacahuetes tostados",
+          "de": "Cherrytomaten, Schlangenbohnen, geröstete Erdnüsse"
+        },
+        {
+          "en": "Fish sauce, palm sugar, fresh lime juice",
+          "tr": "Balık sosu, hurma şekeri, taze misket limonu suyu",
+          "es": "Salsa de pescado, azúcar de palma, jugo de lima",
+          "de": "Fischsauce, Palmzucker, frischer Limettensaft"
+        }
+      ],
+      "steps": [
+        {
+          "en": "Pound garlic and chilies together in a large mortar and pestle.",
+          "tr": "Büyük bir havanda sarımsak ve acı biberleri ezin.",
+          "es": "Machacar el ajo y los chiles en un mortero grande.",
+          "de": "Knoblauch und Chilis in einem großen Mörser zerstoßen."
+        },
+        {
+          "en": "Add palm sugar, fish sauce, and lime juice; pestle until sugar dissolves.",
+          "tr": "Hurma şekeri, balık sosu ve limon suyunu ekleyip şeker eriyene kadar karıştırın.",
+          "es": "Agregar azúcar de palma, salsa de pescado y lima; mezclar hasta disolver.",
+          "de": "Palmzucker, Fischsauce und Limettensaft zugeben und rühren, bis sich der Zucker löst."
+        },
+        {
+          "en": "Add halved tomatoes, sliced beans, and shredded papaya; pound lightly while tossing.",
+          "tr": "Domatesleri, börülceyi ve rendelenmiş papayayı ekleyip sosla hafifçe döverek harmanlayın.",
+          "es": "Agregar tomates, judías y papaya; machacar ligeramente mientras se mezcla.",
+          "de": "Tomaten, Bohnen und Papayastreifen zufügen; leicht stampfen und vermengen."
+        },
+        {
+          "en": "Top with roasted peanuts and serve immediately with sticky rice.",
+          "tr": "Kavrulmuş fıstık serpip yapışkan pirinç eşliğinde servis edin.",
+          "es": "Espolvorear con cacahuetes tostados y servir con arroz pegajoso.",
+          "de": "Mit gerösteten Erdnüssen bestreuen und sofort mit Klebreis servieren."
+        }
+      ]
+    }
+  ]
+}

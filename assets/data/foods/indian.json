@@ -1,0 +1,827 @@
+{
+  "cuisineId": "indian",
+  "foods": [
+    {
+      "id": "in_butter_chicken",
+      "cuisineId": "indian",
+      "emoji": "🍗",
+      "image": "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?auto=format&fit=crop&w=800&q=80",
+      "color": "FFE67E22",
+      "prepTime": 30,
+      "cookTime": 30,
+      "difficulty": "medium",
+      "calories": 480,
+      "servings": 4,
+      "isPremium": true,
+      "tags": [
+        "curry",
+        "chicken",
+        "creamy",
+        "classic"
+      ],
+      "name": {
+        "en": "Butter Chicken (Murgh Makhani)",
+        "tr": "Tereyağlı Tavuk (Murgh Makhani)",
+        "es": "Pollo a la Mantequilla",
+        "de": "Butter Chicken"
+      },
+      "description": {
+        "en": "Tender marinated chicken pieces simmered in a velvety, spiced tomato and butter sauce.",
+        "tr": "Kadifemsi, baharatlı domates ve tereyağı sosunda pişirilmiş yumuşacık marine tavuk parçaları.",
+        "es": "Tiernos trozos de pollo marinado cocinados a fuego lento en una salsa aterciopelada de tomate y mantequilla.",
+        "de": "Zarte marinierte Hähnchenstücke in einer samtigen, gewürzten Tomaten-Butter-Sauce geschmort."
+      },
+      "ingredients": [
+        {
+          "en": "600g boneless chicken thighs",
+          "tr": "600g kemiksiz tavuk but",
+          "es": "600g contramuslos de pollo deshuesados",
+          "de": "600g Hähnchenschenkelfleisch"
+        },
+        {
+          "en": "1 cup plain yogurt",
+          "tr": "1 su bardağı yoğurt",
+          "es": "1 taza de yogur natural",
+          "de": "1 Tasse Naturjoghurt"
+        },
+        {
+          "en": "Garam masala, turmeric, chili powder",
+          "tr": "Garam masala, zerdeçal, pul biber",
+          "es": "Garam masala, cúrcuma, chile en polvo",
+          "de": "Garam Masala, Kurkuma, Chilipulver"
+        },
+        {
+          "en": "50g butter, 100ml heavy cream",
+          "tr": "50g tereyağı, 100ml sıvı krema",
+          "es": "50g mantequilla, 100ml nata espesa",
+          "de": "50g Butter, 100ml Sahne"
+        },
+        {
+          "en": "Tomato purée, ginger-garlic paste",
+          "tr": "Domates püresi, zencefil-sarımsak ezmesi",
+          "es": "Puré de tomate, pasta de jengibre y ajo",
+          "de": "Tomatenpüree, Ingwer-Knoblauch-Paste"
+        }
+      ],
+      "steps": [
+        {
+          "en": "Marinate chicken with yogurt, ginger-garlic paste, and spices for 2 hours.",
+          "tr": "Tavuğu yoğurt, zencefil-sarımsak ezmesi ve baharatlarla 2 saat marine edin.",
+          "es": "Marinar el pollo con yogur, pasta de jengibre y ajo, y especias durante 2 horas.",
+          "de": "Hähnchen mit Joghurt, Ingwer-Knoblauch-Paste und Gewürzen 2 Stunden marinieren."
+        },
+        {
+          "en": "Sear or bake the chicken until lightly charred.",
+          "tr": "Tavuğu hafif köz tadı alana kadar tavada veya fırında mühürleyin.",
+          "es": "Sellar u hornear el pollo hasta que esté ligeramente dorado.",
+          "de": "Hähnchen scharf anbraten oder backen, bis es leicht gebräunt ist."
+        },
+        {
+          "en": "Melt butter, sauté ginger-garlic and cook tomato purée with spices.",
+          "tr": "Tereyağını eritin, zencefil-sarımsağı soteleyin ve baharatlarla domates püresini pişirin.",
+          "es": "Derretir mantequilla, saltear jengibre y ajo, y cocinar el puré de tomate con especias.",
+          "de": "Butter schmelzen, Ingwer-Knoblauch anbraten und Tomatenpüree mit Gewürzen kochen."
+        },
+        {
+          "en": "Add cream and cooked chicken; simmer for 10 minutes. Garnish with kasuri methi.",
+          "tr": "Kremayı ve pişmiş tavukları ekleyin; 10 dakika kısık ateşte pişirin. Kuru çemen otu serpin.",
+          "es": "Agregar nata y pollo cocinado; cocinar a fuego lento 10 minutos. Decorar con kasuri methi.",
+          "de": "Sahne und gegartes Hähnchen zugeben; 10 Minuten köcheln lassen. Mit Kasuri Methi garnieren."
+        }
+      ]
+    },
+    {
+      "id": "in_tikka_masala",
+      "cuisineId": "indian",
+      "emoji": "🍛",
+      "image": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?auto=format&fit=crop&w=800&q=80",
+      "color": "FFE74C3C",
+      "prepTime": 25,
+      "cookTime": 35,
+      "difficulty": "medium",
+      "calories": 510,
+      "servings": 4,
+      "isPremium": true,
+      "tags": [
+        "curry",
+        "chicken",
+        "spicy"
+      ],
+      "name": {
+        "en": "Chicken Tikka Masala",
+        "tr": "Tavuk Tikka Masala",
+        "es": "Pollo Tikka Masala",
+        "de": "Chicken Tikka Masala"
+      },
+      "description": {
+        "en": "Roasted marinated chicken chunks in a rich, creamy, spiced curry sauce.",
+        "tr": "Yoğun, kremamsı ve baharatlı köri sosunda fırınlanmış marine tavuk lokmaları.",
+        "es": "Trozos de pollo marinado asado en una rica y cremosa salsa de curry especiada.",
+        "de": "Gebratene marinierte Hähnchenstücke in einer reichhaltigen, cremigen Currysauce."
+      },
+      "ingredients": [
+        {
+          "en": "600g chicken breast cubes",
+          "tr": "600g kuşbaşı tavuk göğsü",
+          "es": "600g pechuga de pollo en cubos",
+          "de": "600g Hähnchenbrustwürfel"
+        },
+        {
+          "en": "Onions, garlic, ginger",
+          "tr": "Soğan, sarımsak, zencefil",
+          "es": "Cebollas, ajo, jengibre",
+          "de": "Zwiebeln, Knoblauch, Ingwer"
+        },
+        {
+          "en": "Coriander, cumin, paprika, garam masala",
+          "tr": "Kişniş, kimyon, toz kırmızı biber, garam masala",
+          "es": "Cilantro, comino, pimentón, garam masala",
+          "de": "Koriander, Kreuzkümmel, Paprika, Garam Masala"
+        },
+        {
+          "en": "Crushed tomatoes and heavy cream",
+          "tr": "Doğranmış domates ve krema",
+          "es": "Tomates triturados y nata espesa",
+          "de": "Gehackte Tomaten und Sahne"
+        }
+      ],
+      "steps": [
+        {
+          "en": "Marinate chicken in yogurt and tandoori spices, then grill on skewers.",
+          "tr": "Tavuğu yoğurt ve tandır baharatlarıyla marine edip şişte ızgara yapın.",
+          "es": "Marinar el pollo en yogur y especias tandoori, luego asar en brochetas.",
+          "de": "Hähnchen in Joghurt und Tandoori-Gewürzen marinieren, auf Spießen grillen."
+        },
+        {
+          "en": "Cook diced onions until golden, add aromatics and ground spices.",
+          "tr": "Doğranmış soğanları pembeleştirin, taze aromaları ve toz baharatları ekleyin.",
+          "es": "Cocinar cebollas picadas hasta que estén doradas, agregar aromáticos y especias.",
+          "de": "Zwiebeln goldbraun anbraten, Aromen und gemahlene Gewürze hinzufügen."
+        },
+        {
+          "en": "Add tomatoes and simmer until oil separates, then blend smooth.",
+          "tr": "Domatesleri ekleyip yağı ayrışana kadar pişirin, ardından pürüzsüzce blenderdan geçirin.",
+          "es": "Agregar tomates y cocinar a fuego lento hasta que se separe el aceite, luego triturar.",
+          "de": "Tomaten zufügen und köcheln bis sich Öl absetzt, dann cremig pürieren."
+        },
+        {
+          "en": "Stir in cream and grilled chicken; simmer 8 minutes before serving.",
+          "tr": "Kremayı ve ızgara tavukları karıştırın; servis öncesi 8 dakika daha pişirin.",
+          "es": "Incorporar nata y pollo asado; cocinar a fuego lento 8 minutos antes de servir.",
+          "de": "Sahne und gegrilltes Hähnchen unterrühren; 8 Minuten vor dem Servieren köcheln."
+        }
+      ]
+    },
+    {
+      "id": "in_biryani",
+      "cuisineId": "indian",
+      "emoji": "🍚",
+      "image": "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?auto=format&fit=crop&w=800&q=80",
+      "color": "FFF39C12",
+      "prepTime": 40,
+      "cookTime": 50,
+      "difficulty": "hard",
+      "calories": 550,
+      "servings": 6,
+      "isPremium": true,
+      "tags": [
+        "rice",
+        "lamb",
+        "fragrant",
+        "traditional"
+      ],
+      "name": {
+        "en": "Hyderabadi Biryani",
+        "tr": "Haydarabad Biryani",
+        "es": "Biryani de Hyderabad",
+        "de": "Hyderabadi Biryani"
+      },
+      "description": {
+        "en": "A royal layered rice dish infused with saffron, fried onions, and spiced meat.",
+        "tr": "Safran, çıtır soğan ve baharatlı etle kat kat demlenen saray usulü pirinç yemeği.",
+        "es": "Un plato real de arroz en capas infusionado con azafrán, cebolla frita y carne especiada.",
+        "de": "Ein königliches geschichtetes Reisgericht mit Safran, Röstzwiebeln und gewürztem Fleisch."
+      },
+      "ingredients": [
+        {
+          "en": "500g Basmati rice (aged)",
+          "tr": "500g yıllanmış Basmati pirinci",
+          "es": "500g arroz Basmati",
+          "de": "500g Basmatireis"
+        },
+        {
+          "en": "600g mutton or chicken",
+          "tr": "600g kuzu eti veya tavuk",
+          "es": "600g cordero o pollo",
+          "de": "600g Lammfleisch oder Hähnchen"
+        },
+        {
+          "en": "Saffron milk, fried onions (birista)",
+          "tr": "Safranlı süt, çıtır kızarmış soğan",
+          "es": "Leche con azafrán, cebollas fritas",
+          "de": "Safranmilch, Röstzwiebeln"
+        },
+        {
+          "en": "Whole spices: cardamom, cloves, cinnamon, star anise",
+          "tr": "Bütün baharatlar: kakule, karanfil, tarçın, yıldız anason",
+          "es": "Especias enteras: cardamomo, clavo, canela, anís estrellado",
+          "de": "Ganze Gewürze: Kardamom, Nelken, Zimt, Sternanis"
+        },
+        {
+          "en": "Mint and fresh coriander",
+          "tr": "Taze nane ve kişniş",
+          "es": "Menta y cilantro fresco",
+          "de": "Minze und frischer Koriander"
+        }
+      ],
+      "steps": [
+        {
+          "en": "Marinate meat with yogurt, whole spices, herbs, and ginger-garlic.",
+          "tr": "Eti yoğurt, tane baharatlar, yeşillikler ve zencefil-sarımsakla marine edin.",
+          "es": "Marinar la carne con yogur, especias enteras, hierbas y jengibre-ajo.",
+          "de": "Fleisch mit Joghurt, ganzen Gewürzen, Kräutern und Ingwer-Knoblauch marinieren."
+        },
+        {
+          "en": "Parboil Basmati rice with whole spices until 70% cooked.",
+          "tr": "Basmati pirincini tane baharatlarla %70 oranında haşlayın.",
+          "es": "Hervir el arroz Basmati con especias enteras hasta que esté cocido al 70%.",
+          "de": "Basmatireis mit Gewürzen zu 70% vorkochen."
+        },
+        {
+          "en": "Layer marinated meat, rice, fried onions, mint, and saffron milk in a heavy pot.",
+          "tr": "Ağır bir tencereye marine et, pirinç, kızarmış soğan, nane ve safranlı sütü kat kat dizin.",
+          "es": "Colocar en capas la carne marinada, arroz, cebolla frita, menta y leche con azafrán en una olla gruesa.",
+          "de": "Mariniertes Fleisch, Reis, Röstzwiebeln, Minze und Safranmilch in einen schweren Topf schichten."
+        },
+        {
+          "en": "Seal pot with dough and cook on low heat ('Dum' method) for 35 minutes.",
+          "tr": "Tencere kapağını hamurla mühürleyin ve kısık ateşte ('Dum' usulü) 35 dakika pişirin.",
+          "es": "Sellar la olla con masa y cocinar a fuego lento (método 'Dum') durante 35 minutos.",
+          "de": "Topf mit Teig versiegeln und auf niedriger Hitze ('Dum'-Methode) 35 Minuten garen."
+        }
+      ]
+    },
+    {
+      "id": "in_palak_paneer",
+      "cuisineId": "indian",
+      "emoji": "🥬",
+      "image": "https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=800&q=80",
+      "color": "FF27AE60",
+      "prepTime": 15,
+      "cookTime": 25,
+      "difficulty": "easy",
+      "calories": 340,
+      "servings": 4,
+      "isPremium": true,
+      "tags": [
+        "vegetarian",
+        "spinach",
+        "paneer",
+        "healthy"
+      ],
+      "name": {
+        "en": "Palak Paneer",
+        "tr": "Ispanaklı Paneer",
+        "es": "Palak Paneer",
+        "de": "Palak Paneer"
+      },
+      "description": {
+        "en": "Fresh Indian cottage cheese cubes simmered in a spiced spinach gravy.",
+        "tr": "Baharatlı ıspanak püresi sosunda hafifçe pişirilmiş taze Hint peyniri (paneer) küpleri.",
+        "es": "Cubos de queso fresco indio en una salsa especiada de espinacas.",
+        "de": "Frische indische Frischkäsewürfel in einer gewürzten Spinatsauce geschmort."
+      },
+      "ingredients": [
+        {
+          "en": "300g paneer cheese, cubed",
+          "tr": "300g paneer peyniri, küp doğranmış",
+          "es": "300g queso paneer en cubos",
+          "de": "300g Paneer-Käse, gewürfelt"
+        },
+        {
+          "en": "500g fresh spinach",
+          "tr": "500g taze ıspanak",
+          "es": "500g espinacas frescas",
+          "de": "500g frischer Spinat"
+        },
+        {
+          "en": "Green chilies, garlic, ginger",
+          "tr": "Yeşil biber, sarımsak, zencefil",
+          "es": "Chiles verdes, ajo, jengibre",
+          "de": "Grüne Chilis, Knoblauch, Ingwer"
+        },
+        {
+          "en": "Garam masala, cumin seeds, cream",
+          "tr": "Garam masala, kimyon tohumu, krema",
+          "es": "Garam masala, semillas de comino, nata",
+          "de": "Garam Masala, Kreuzkümmelsamen, Sahne"
+        }
+      ],
+      "steps": [
+        {
+          "en": "Blanch spinach in boiling water for 2 minutes, then plunge into ice water and purée.",
+          "tr": "Ispanağı kaynar suda 2 dakika haşlayın, buzlu suya alıp püre yapın.",
+          "es": "Escaldar las espinacas en agua hirviendo 2 minutos, pasar por agua con hielo y triturar.",
+          "de": "Spinat 2 Minuten blanchieren, in Eiswasser abschrecken und pürieren."
+        },
+        {
+          "en": "Sauté cumin seeds, ginger, garlic, and chopped onions in ghee.",
+          "tr": "Kimyon tohumu, zencefil, sarımsak ve doğranmış soğanları sade yağda (ghee) kavurun.",
+          "es": "Saltear semillas de comino, jengibre, ajo y cebolla picada en ghee.",
+          "de": "Kreuzkümmelsamen, Ingwer, Knoblauch und Zwiebeln in Ghee anbraten."
+        },
+        {
+          "en": "Add spinach purée and spices; simmer gently for 5 minutes.",
+          "tr": "Ispanak püresini ve baharatları ekleyin; 5 dakika kısık ateşte pişirin.",
+          "es": "Agregar el puré de espinacas y especias; cocinar a fuego lento durante 5 minutos.",
+          "de": "Spinatpüree und Gewürze hinzufügen; 5 Minuten sanft köcheln lassen."
+        },
+        {
+          "en": "Add paneer cubes and a swirl of fresh cream before serving hot.",
+          "tr": "Paneer küplerini ve bir miktar taze kremayı ekleyip sıcak servis edin.",
+          "es": "Añadir los cubos de paneer y un chorrito de nata fresca antes de servir caliente.",
+          "de": "Paneer-Würfel und einen Schuss frische Sahne vor dem heißen Servieren unterrühren."
+        }
+      ]
+    },
+    {
+      "id": "in_chana_masala",
+      "cuisineId": "indian",
+      "emoji": "🍲",
+      "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=800&q=80",
+      "color": "FFE67E22",
+      "prepTime": 15,
+      "cookTime": 30,
+      "difficulty": "easy",
+      "calories": 310,
+      "servings": 4,
+      "isPremium": true,
+      "tags": [
+        "vegan",
+        "chickpeas",
+        "spicy",
+        "protein"
+      ],
+      "name": {
+        "en": "Chana Masala",
+        "tr": "Nohut Masala",
+        "es": "Chana Masala",
+        "de": "Chana Masala"
+      },
+      "description": {
+        "en": "Hearty chickpeas cooked in a tangy, aromatic tomato, onion, and pomegranate powder sauce.",
+        "tr": "Domates, soğan ve ekşimsi baharat sosunda pişirilmiş doyurucu nohut yemeği.",
+        "es": "Garbanzos sustanciosos cocinados en una salsa aromática y especiada de tomate y cebolla.",
+        "de": "Herzhafte Kichererbsen in einer würzigen, aromatischen Tomaten-Zwiebel-Sauce."
+      },
+      "ingredients": [
+        {
+          "en": "400g cooked chickpeas",
+          "tr": "400g haşlanmış nohut",
+          "es": "400g garbanzos cocidos",
+          "de": "400g gekochte Kichererbsen"
+        },
+        {
+          "en": "Finely chopped onions and tomatoes",
+          "tr": "İnce doğranmış soğan ve domates",
+          "es": "Cebollas y tomates finamente picados",
+          "de": "Fein gehackte Zwiebeln und Tomaten"
+        },
+        {
+          "en": "Amchur (mango powder) or pomegranate seeds",
+          "tr": "Amchur (mango tozu) veya nar taneleri",
+          "es": "Amchur (polvo de mango) o granada",
+          "de": "Amchur (Mangopulver) oder Granatapfelkerne"
+        },
+        {
+          "en": "Ginger, garlic, green chilies, coriander",
+          "tr": "Zencefil, sarımsak, yeşil biber, kişniş",
+          "es": "Jengibre, ajo, chiles verdes, cilantro",
+          "de": "Ingwer, Knoblauch, grüne Chilis, Koriander"
+        }
+      ],
+      "steps": [
+        {
+          "en": "Heat oil or ghee, add cumin seeds and brown the onions deeply.",
+          "tr": "Yağı ısıtın, kimyon tohumlarını ekleyin ve soğanları iyice karamelize edin.",
+          "es": "Calentar aceite o ghee, añadir comino y dorar bien las cebollas.",
+          "de": "Öl oder Ghee erhitzen, Kreuzkümmel zufügen und Zwiebeln dunkel anrösten."
+        },
+        {
+          "en": "Add ginger-garlic, tomatoes, and ground masala spices.",
+          "tr": "Zencefil-sarımsak, domates ve masala toz baharatlarını ekleyin.",
+          "es": "Agregar jengibre, ajo, tomates y especias masala en polvo.",
+          "de": "Ingwer-Knoblauch, Tomaten und gemahlene Masala-Gewürze zugeben."
+        },
+        {
+          "en": "Stir in chickpeas with cooking liquid; lightly mash some chickpeas for thickness.",
+          "tr": "Nohutları suyuyla ekleyin; kıvam alması için birkaçını çatalla ezin.",
+          "es": "Incorporar los garbanzos con su caldo; aplastar ligeramente algunos para espesar.",
+          "de": "Kichererbsen mit Kochwasser unterrühren; einige leicht zerdrücken für Bindung."
+        },
+        {
+          "en": "Simmer for 15 minutes, finish with fresh lemon juice and coriander.",
+          "tr": "15 dakika kaynatın, taze limon suyu ve kişnişle tamamlayın.",
+          "es": "Cocinar a fuego lento durante 15 minutos, terminar con jugo de limón y cilantro.",
+          "de": "15 Minuten köcheln lassen, mit Zitronensaft und Koriander verfeinern."
+        }
+      ]
+    },
+    {
+      "id": "in_samosa",
+      "cuisineId": "indian",
+      "emoji": "🥟",
+      "image": "https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=800&q=80",
+      "color": "FFF39C12",
+      "prepTime": 35,
+      "cookTime": 20,
+      "difficulty": "medium",
+      "calories": 260,
+      "servings": 6,
+      "isPremium": true,
+      "tags": [
+        "street_food",
+        "snack",
+        "fried",
+        "crispy"
+      ],
+      "name": {
+        "en": "Crispy Samosas",
+        "tr": "Çıtır Samosa",
+        "es": "Samosas Crujientes",
+        "de": "Knusprige Samosas"
+      },
+      "description": {
+        "en": "Golden, flaky pastry pockets stuffed with spiced potatoes, green peas, and herbs.",
+        "tr": "Baharatlı patates, bezelye ve taze otlarla doldurulmuş altın sarısı çıtır üçgen börek.",
+        "es": "Empanadillas triangulares doradas y crujientes rellenas de patatas especiadas y guisantes.",
+        "de": "Goldbraune, knusprige Teigtaschen gefüllt mit gewürzten Kartoffeln und Erbsen."
+      },
+      "ingredients": [
+        {
+          "en": "All-purpose flour, ajwain seeds, ghee",
+          "tr": "Un, ajwain tohumu, sade yağ",
+          "es": "Harina de trigo, semillas de ajwain, ghee",
+          "de": "Weizenmehl, Ajwain-Samen, Ghee"
+        },
+        {
+          "en": "Boiled potatoes, green peas",
+          "tr": "Haşlanmış patates, bezelye",
+          "es": "Patatas cocidas, guisantes verdes",
+          "de": "Gekochte Kartoffeln, grüne Erbsen"
+        },
+        {
+          "en": "Garam masala, cumin, amchur, green chili",
+          "tr": "Garam masala, kimyon, mango tozu, yeşil biber",
+          "es": "Garam masala, comino, amchur, chile verde",
+          "de": "Garam Masala, Kreuzkümmel, Amchur, grüne Chili"
+        },
+        {
+          "en": "Oil for deep frying, mint chutney",
+          "tr": "Kızartma yağı, naneli çutni",
+          "es": "Aceite para freír, chutney de menta",
+          "de": "Öl zum Frittieren, Minz-Chutney"
+        }
+      ],
+      "steps": [
+        {
+          "en": "Knead firm dough with flour, ajwain, salt, and ghee; rest 30 minutes.",
+          "tr": "Un, ajwain, tuz ve ghee ile sert bir hamur yoğurun; 30 dakika dinlendirin.",
+          "es": "Amasar una masa firme con harina, ajwain, sal y ghee; reposar 30 minutos.",
+          "de": "Festen Teig aus Mehl, Ajwain, Salz und Ghee kneten; 30 Minuten ruhen lassen."
+        },
+        {
+          "en": "Sauté spices, boiled mashed potatoes, and peas for the savory filling.",
+          "tr": "Baharatları, ezilmiş haşlanmış patatesi ve bezelyeyi soteleyerek harcı hazırlayın.",
+          "es": "Saltear especias, patatas cocidas machacadas y guisantes para el relleno.",
+          "de": "Gewürze, zerdrückte Kartoffeln und Erbsen für die Füllung anbraten."
+        },
+        {
+          "en": "Roll dough into cones, stuff with filling, and seal edges with water.",
+          "tr": "Hamurdan koniler yapın, harçla doldurun ve kenarlarını suyla yapıştırın.",
+          "es": "Formar conos de masa, rellenar y sellar los bordes con agua.",
+          "de": "Teigkegel formen, füllen und Ränder mit Wasser fest verschließen."
+        },
+        {
+          "en": "Deep-fry on low-medium heat until golden brown and crispy.",
+          "tr": "Kısık-orta ateşte altın sarısı ve çıtır olana kadar derin yağda kızartın.",
+          "es": "Freír a fuego medio-bajo hasta que estén doradas y crujientes.",
+          "de": "Bei mittlerer Hitze goldbraun und knusprig frittieren."
+        }
+      ]
+    },
+    {
+      "id": "in_naan_garlic",
+      "cuisineId": "indian",
+      "emoji": "🫓",
+      "image": "https://images.unsplash.com/photo-1565299585323-38d6b0865b47?auto=format&fit=crop&w=800&q=80",
+      "color": "FFF1C40F",
+      "prepTime": 60,
+      "cookTime": 10,
+      "difficulty": "medium",
+      "calories": 230,
+      "servings": 6,
+      "isPremium": true,
+      "tags": [
+        "bread",
+        "garlic",
+        "side_dish",
+        "tandoori"
+      ],
+      "name": {
+        "en": "Garlic Naan",
+        "tr": "Sarımsaklı Naan Ekmeği",
+        "es": "Naan de Ajo",
+        "de": "Knoblauch-Naan"
+      },
+      "description": {
+        "en": "Pillowy, charred flatbread brushed with garlic butter and fresh coriander.",
+        "tr": "Sarımsaklı tereyağı ve taze kişnişle fırçalanmış yumuşacık, puf puf Hint ekmeği.",
+        "es": "Pan plano esponjoso y ligeramente tostado untado con mantequilla de ajo y cilantro.",
+        "de": "Fluffiges Fladenbrot mit Knoblauchbutter und frischem Koriander bestrichen."
+      },
+      "ingredients": [
+        {
+          "en": "500g flour, yeast, warm milk, yogurt",
+          "tr": "500g un, maya, ılık süt, yoğurt",
+          "es": "500g harina, levadura, leche tibia, yogur",
+          "de": "500g Mehl, Hefe, warme Milch, Joghurt"
+        },
+        {
+          "en": "Minced garlic and fresh coriander",
+          "tr": "İnce kıyılmış sarımsak ve taze kişniş",
+          "es": "Ajo picado y cilantro fresco",
+          "de": "Gehackter Knoblauch und frischer Koriander"
+        },
+        {
+          "en": "Melted butter or ghee, nigella seeds",
+          "tr": "Eritilmiş tereyağı veya sade yağ, çörek otu",
+          "es": "Mantequilla derretida o ghee, semillas de nigella",
+          "de": "Geschmolzene Butter oder Ghee, Schwarzkümmel"
+        }
+      ],
+      "steps": [
+        {
+          "en": "Knead soft dough with flour, yeast, yogurt, and milk; proof until doubled.",
+          "tr": "Un, maya, yoğurt ve sütle yumuşak hamur yoğurun; iki katına çıkana kadar mayalandırın.",
+          "es": "Amasar una masa suave con harina, levadura, yogur y leche; fermentar hasta doblar.",
+          "de": "Weichen Teig aus Mehl, Hefe, Joghurt und Milch kneten; gehen lassen bis verdoppelt."
+        },
+        {
+          "en": "Roll into teardrop shapes and press garlic and coriander onto the surface.",
+          "tr": "Damla şeklinde açın ve yüzeyine sarımsak ile kişnişi bastırarak yerleştirin.",
+          "es": "Estirar en forma de lágrima y presionar ajo y cilantro sobre la superficie.",
+          "de": "Tropfenförmig ausrollen und Knoblauch sowie Koriander in die Oberfläche drücken."
+        },
+        {
+          "en": "Cook on a smoking-hot cast iron skillet until bubbles puff up, then char over open flame.",
+          "tr": "Çok sıcak döküm tavada kabarcıklar çıkana kadar pişirin, ardından alevde hafifçe yakın.",
+          "es": "Cocinar en sartén de hierro muy caliente hasta que salgan burbujas, luego tostar al fuego.",
+          "de": "In rauchend heißer Gusseisenpfanne backen bis Blasen werfen, über Flamme anrösten."
+        },
+        {
+          "en": "Brush liberally with melted butter and serve hot.",
+          "tr": "Bolca eritilmiş tereyağı sürüp sıcacık servis yapın.",
+          "es": "Pincelar generosamente con mantequilla derretida y servir caliente.",
+          "de": "Großzügig mit geschmolzener Butter bestreichen und heiß servieren."
+        }
+      ]
+    },
+    {
+      "id": "in_rogan_josh",
+      "cuisineId": "indian",
+      "emoji": "🍲",
+      "image": "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=800&q=80",
+      "color": "FFC0392B",
+      "prepTime": 20,
+      "cookTime": 90,
+      "difficulty": "hard",
+      "calories": 520,
+      "servings": 4,
+      "isPremium": true,
+      "tags": [
+        "lamb",
+        "curry",
+        "kashmiri",
+        "slow_cook"
+      ],
+      "name": {
+        "en": "Kashmiri Rogan Josh",
+        "tr": "Keşmir Usulü Rogan Josh",
+        "es": "Rogan Josh de Cachemira",
+        "de": "Kashmiri Rogan Josh"
+      },
+      "description": {
+        "en": "Aromatic Kashmiri lamb curry infused with fennel seeds, dried ginger, and vibrant Kashmiri chilies.",
+        "tr": "Rezene, kuru zencefil ve Keşmir biberiyle ağır ateşte pişen nefis kuzu yahnisi.",
+        "es": "Curry aromático de cordero de Cachemira con semillas de hinojo, jengibre y chiles rojos.",
+        "de": "Aromatisches Lammcurry aus Kaschmir mit Fenchelsamen, Ingwer und milden roten Chilis."
+      },
+      "ingredients": [
+        {
+          "en": "700g bone-in lamb pieces",
+          "tr": "700g kemikli kuzu eti parçaları",
+          "es": "700g cordero con hueso",
+          "de": "700g Lammfleisch mit Knochen"
+        },
+        {
+          "en": "Kashmiri chili powder (for vibrant red color)",
+          "tr": "Keşmir toz biberi (kırmızı renk için)",
+          "es": "Chile de Cachemira en polvo",
+          "de": "Kashmiri-Chilipulver"
+        },
+        {
+          "en": "Fennel seed powder, dried ginger powder (saunth)",
+          "tr": "Rezene tozu, kuru zencefil tozu",
+          "es": "Hinojo en polvo, jengibre seco en polvo",
+          "de": "Fenchelsamenpulver, Ingwerpulver"
+        },
+        {
+          "en": "Whisked yogurt, whole spices, mustard oil or ghee",
+          "tr": "Çırpılmış yoğurt, tane baharatlar, hardal yağı veya ghee",
+          "es": "Yogur batido, especias enteras, aceite de mostaza o ghee",
+          "de": "Verquirlter Joghurt, ganze Gewürze, Senföl oder Ghee"
+        }
+      ],
+      "steps": [
+        {
+          "en": "Brown lamb in hot oil with whole cardamoms, cloves, and cinnamon.",
+          "tr": "Kuzu etini kakule, karanfil ve tarçınla birlikte kızgın yağda mühürleyin.",
+          "es": "Dorar el cordero en aceite caliente con cardamomo, clavo y canela.",
+          "de": "Lammfleisch in heißem Öl mit Kardamom, Nelken und Zimt anbraten."
+        },
+        {
+          "en": "Lower heat, stir in whisked yogurt continuously to prevent curdling.",
+          "tr": "Ateşi kısın, yoğurdun kesilmemesi için sürekli karıştırarak ekleyin.",
+          "es": "Bajar el fuego, agregar yogur batido revolviendo continuamente.",
+          "de": "Hitze reduzieren, verquirlten Joghurt unter ständigem Rühren einarbeiten."
+        },
+        {
+          "en": "Add Kashmiri chili paste, fennel powder, and dried ginger powder.",
+          "tr": "Keşmir biber salçasını, rezene tozunu ve zencefil tozunu ilave edin.",
+          "es": "Agregar pasta de chile de Cachemira, hinojo y jengibre en polvo.",
+          "de": "Kashmiri-Chilipaste, Fenchel- und Ingwerpulver einrühren."
+        },
+        {
+          "en": "Cover and simmer on low for 75-90 minutes until meat is melt-in-the-mouth tender.",
+          "tr": "Kapağını kapatıp et lokum gibi yumuşayana kadar 75-90 dakika kısık ateşte pişirin.",
+          "es": "Tapar y cocinar a fuego lento durante 75-90 minutos hasta que la carne esté muy tierna.",
+          "de": "Zudecken und 75-90 Minuten sanft schmoren, bis das Fleisch butterweich ist."
+        }
+      ]
+    },
+    {
+      "id": "in_dal_makhani",
+      "cuisineId": "indian",
+      "emoji": "🍲",
+      "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&w=800&q=80",
+      "color": "FF795548",
+      "prepTime": 15,
+      "cookTime": 120,
+      "difficulty": "medium",
+      "calories": 390,
+      "servings": 6,
+      "isPremium": true,
+      "tags": [
+        "lentils",
+        "vegetarian",
+        "slow_cook",
+        "creamy"
+      ],
+      "name": {
+        "en": "Dal Makhani",
+        "tr": "Dal Makhani",
+        "es": "Dal Makhani",
+        "de": "Dal Makhani"
+      },
+      "description": {
+        "en": "Whole black lentils and kidney beans slow-cooked overnight with butter and cream.",
+        "tr": "Siyah mercimek ve barbunya fasulyesinin tereyağı ve kremayla ağır ağır pişirildiği efsane lezzet.",
+        "es": "Lentejas negras y frijoles rojos cocidos lentamente con mantequilla y nata.",
+        "de": "Schwarze Linsen und Kidneybohnen langsam geschmort mit reichlich Butter und Sahne."
+      },
+      "ingredients": [
+        {
+          "en": "200g whole black urad dal, 50g kidney beans (rajma)",
+          "tr": "200g siyah mercimek (urad dal), 50g kırmızı fasulye",
+          "es": "200g lentejas negras urad, 50g frijoles rojos",
+          "de": "200g schwarze Urad-Linsen, 50g Kidneybohnen"
+        },
+        {
+          "en": "Tomato purée, ginger-garlic paste",
+          "tr": "Domates püresi, zencefil-sarımsak ezmesi",
+          "es": "Puré de tomate, pasta de jengibre y ajo",
+          "de": "Tomatenpüree, Ingwer-Knoblauch-Paste"
+        },
+        {
+          "en": "Generous butter, heavy cream, kasuri methi",
+          "tr": "Bol tereyağı, sıvı krema, kurutulmuş çemen yaprağı",
+          "es": "Mantequilla abundante, nata espesa, kasuri methi",
+          "de": "Reichlich Butter, Sahne, Bockshornkleeblätter"
+        }
+      ],
+      "steps": [
+        {
+          "en": "Soak lentils and beans overnight, then pressure cook until soft.",
+          "tr": "Mercimek ve fasulyeleri geceden ıslatın, ardından yumuşayana kadar düdüklüde haşlayın.",
+          "es": "Remojar lentejas y frijoles toda la noche, luego cocinar a presión hasta que estén tiernos.",
+          "de": "Linsen und Bohnen über Nacht einweichen, im Schnellkochtopf weich kochen."
+        },
+        {
+          "en": "Cook ginger-garlic, chili, and tomato purée in butter.",
+          "tr": "Zencefil-sarımsak, pul biber ve domates püresini tereyağında soteleyin.",
+          "es": "Cocinar jengibre, ajo, chile y puré de tomate en mantequilla.",
+          "de": "Ingwer-Knoblauch, Chili und Tomatenpüree in Butter anbraten."
+        },
+        {
+          "en": "Add cooked dal, mash lightly with a ladle, and simmer on lowest heat for 1-2 hours.",
+          "tr": "Haşlanmış mercimekleri ekleyin, kepçeyle hafifçe ezin ve en kısık ateşte 1-2 saat kaynatın.",
+          "es": "Agregar el dal cocido, aplastar ligeramente y cocinar a fuego muy bajo 1-2 horas.",
+          "de": "Gekochtes Dal zugeben, leicht zerdrücken und bei kleinster Hitze 1-2 Stunden köcheln."
+        },
+        {
+          "en": "Finish with heaps of butter, cream, and crushed kasuri methi.",
+          "tr": "Bol tereyağı, krema ve ufalanmış çemen otu yapraklarıyla tamamlayın.",
+          "es": "Terminar con abundante mantequilla, nata y kasuri methi triturado.",
+          "de": "Mit reichlich Butter, Sahne und zerriebenen Bockshornkleeblättern abrunden."
+        }
+      ]
+    },
+    {
+      "id": "in_gulab_jamun",
+      "cuisineId": "indian",
+      "emoji": "🍯",
+      "image": "https://images.unsplash.com/photo-1582293041079-7814c2f12063?auto=format&fit=crop&w=800&q=80",
+      "color": "FFD35400",
+      "prepTime": 20,
+      "cookTime": 25,
+      "difficulty": "medium",
+      "calories": 300,
+      "servings": 8,
+      "isPremium": true,
+      "tags": [
+        "dessert",
+        "sweet",
+        "festive"
+      ],
+      "name": {
+        "en": "Gulab Jamun",
+        "tr": "Gulab Jamun",
+        "es": "Gulab Jamun",
+        "de": "Gulab Jamun"
+      },
+      "description": {
+        "en": "Soft milk-solid dumplings deep-fried to golden brown and soaked in rose-cardamom syrup.",
+        "tr": "Gül suyu ve kakule aromalı şerbete yatırılmış, altın sarısı kızarmış sütlü tatlı topları.",
+        "es": "Bolitas suaves de leche frita empapadas en almíbar de agua de rosas y cardamomo.",
+        "de": "Weiche frittierte Milchbällchen getränkt in Rosenwasser-Kardamom-Sirup."
+      },
+      "ingredients": [
+        {
+          "en": "Milk powder or khoya, all-purpose flour, pinch of baking soda",
+          "tr": "Süt tozu veya khoya, un, bir çimdik karbonat",
+          "es": "Leche en polvo o khoya, harina, pizca de bicarbonato",
+          "de": "Milchpulver oder Khoya, Mehl, Prise Natron"
+        },
+        {
+          "en": "Ghee or oil for deep frying",
+          "tr": "Kızartmak için sade yağ veya sıvı yağ",
+          "es": "Ghee o aceite para freír",
+          "de": "Ghee oder Öl zum Frittieren"
+        },
+        {
+          "en": "Sugar, water, rose water, cardamom pods, saffron",
+          "tr": "Şeker, su, gül suyu, kakule tohumları, safran",
+          "es": "Azúcar, agua, agua de rosas, cardamomo, azafrán",
+          "de": "Zucker, Wasser, Rosenwasser, Kardamomkapseln, Safran"
+        }
+      ],
+      "steps": [
+        {
+          "en": "Prepare a warm sugar syrup infused with crushed cardamom, saffron, and rose water.",
+          "tr": "Kakule, safran ve gül suyuyla tatlandırılmış ılık bir şeker şerbeti hazırlayın.",
+          "es": "Preparar un almíbar tibio infusionado con cardamomo, azafrán y agua de rosas.",
+          "de": "Einen warmen Zuckersirup mit Kardamom, Safran und Rosenwasser kochen."
+        },
+        {
+          "en": "Mix milk powder and flour into a soft, crack-free dough using milk.",
+          "tr": "Süt tozu ve unu az sütle pürüzsüz, çatlaksız yumuşak bir hamur haline getirin.",
+          "es": "Mezclar leche en polvo y harina con leche hasta obtener una masa suave.",
+          "de": "Milchpulver und Mehl mit Milch zu einem weichen, rissfreien Teig verkneten."
+        },
+        {
+          "en": "Roll into small smooth balls and fry on low heat until deep golden.",
+          "tr": "Küçük pürüzsüz toplar yapın ve kısık ateşte koyu altın sarısı olana kadar kızartın.",
+          "es": "Formar bolitas suaves y freír a fuego bajo hasta que estén bien doradas.",
+          "de": "Kleine glatte Kugeln rollen und bei niedriger Hitze dunkelgoldgelb frittieren."
+        },
+        {
+          "en": "Drain and immediately transfer to warm syrup; soak for at least 2 hours.",
+          "tr": "Yağını süzüp hemen ılık şerbete atın; en az 2 saat şerbeti çekmesini bekleyin.",
+          "es": "Escurrir y pasar de inmediato al almíbar tibio; dejar en remojo al menos 2 horas.",
+          "de": "Abtropfen lassen und sofort in den warmen Sirup geben; mindestens 2 Stunden ziehen lassen."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "identifier" : "E2B8838B",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+
+  ],
+  "settings" : {
+    "_failTransactionsEnabled" : false,
+    "_storeKitErrors" : [
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Load Products"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Purchase"
+      }
+    ]
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "21045678",
+      "localizations" : [
+
+      ],
+      "name" : "NeYesek Premium Group",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "2.99",
+          "familyShareable" : true,
+          "groupNumber" : 1,
+          "internalID" : "1001",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Aylık sınırsız tarif ve mutfak erişimi",
+              "displayName" : "Aylık Premium",
+              "locale" : "tr"
+            },
+            {
+              "description" : "Monthly unlimited cuisine and recipe access",
+              "displayName" : "Monthly Premium",
+              "locale" : "en"
+            }
+          ],
+          "productID" : "com.neyesek.app.premium.monthly",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "Monthly Premium",
+          "subscriptionGroupID" : "21045678",
+          "type" : "RecurringSubscription"
+        },
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "14.99",
+          "familyShareable" : true,
+          "groupNumber" : 2,
+          "internalID" : "1002",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Yıllık sınırsız tarif ve mutfak erişimi (%50 İndirimli)",
+              "displayName" : "Yıllık Premium",
+              "locale" : "tr"
+            },
+            {
+              "description" : "Yearly unlimited access (50% Off)",
+              "displayName" : "Yearly Premium",
+              "locale" : "en"
+            }
+          ],
+          "productID" : "com.neyesek.app.premium.yearly",
+          "recurringSubscriptionPeriod" : "P1Y",
+          "referenceName" : "Yearly Premium",
+          "subscriptionGroupID" : "21045678",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 3,
+    "minor" : 0
+  }
+}

@@ -1,0 +1,421 @@
+{
+  "cuisineId": "chinese",
+  "foods": [
+    {
+      "id": "cn_kung_pao_chicken",
+      "cuisineId": "chinese",
+      "emoji": "🍗",
+      "image": "https://images.unsplash.com/photo-1525755662778-989d0524087e?auto=format&fit=crop&w=800&q=80",
+      "color": "FFE74C3C",
+      "prepTime": 15,
+      "cookTime": 10,
+      "difficulty": "medium",
+      "calories": 420,
+      "servings": 4,
+      "isPremium": true,
+      "tags": [
+        "sichuan",
+        "chicken",
+        "spicy",
+        "peanuts",
+        "stir_fry"
+      ],
+      "name": {
+        "en": "Kung Pao Chicken (Gong Bao Ji Ding)",
+        "tr": "Kung Pao Tavuk",
+        "es": "Pollo Kung Pao",
+        "de": "Kung Pao Hähnchen"
+      },
+      "description": {
+        "en": "Sichuan stir-fried chicken cubes with tongue-numbing Sichuan peppercorns, dried red chilies, and crunchy peanuts.",
+        "tr": "Siçuan biberi, kurutulmuş acı biber ve çıtır yer fıstığıyla wok tavada harlı ateşte pişen efsane Çin tavuğu.",
+        "es": "Pollo salteado al estilo Sichuan con pimienta de Sichuan, chiles secos y cacahuetes crujientes.",
+        "de": "Sichuan-Wok-Hähnchen mit prickelndem Sichuanpfeffer, getrockneten roten Chilis und knackigen Erdnüssen."
+      },
+      "ingredients": [
+        {
+          "en": "500g chicken breast or thigh, diced into cubes",
+          "tr": "500g küp doğranmış tavuk eti",
+          "es": "500g pechuga o muslo de pollo en cubos",
+          "de": "500g Hähnchenbrust oder -schenkel, gewürfelt"
+        },
+        {
+          "en": "Sichuan peppercorns, dried red chilies, roasted peanuts",
+          "tr": "Siçuan biberi tohumları, kurutulmuş kırmızı biber, kavrulmuş fıstık",
+          "es": "Pimienta de Sichuan, chiles rojos secos, cacahuetes tostados",
+          "de": "Sichuanpfeffer, getrocknete rote Chilis, geröstete Erdnüsse"
+        },
+        {
+          "en": "Soy sauce, Shaoxing wine, Chinkiang black vinegar, sugar, cornstarch",
+          "tr": "Soya sosu, Shaoxing sirkesi, Çin siyah sirkesi, şeker, nişasta",
+          "es": "Salsa de soja, vino Shaoxing, vinagre negro Chinkiang, azúcar, maicena",
+          "de": "Sojasauce, Shaoxing-Reiswein, schwarzer Chinkiang-Essig, Zucker, Stärke"
+        },
+        {
+          "en": "Garlic, ginger, scallion whites and greens",
+          "tr": "Sarımsak, zencefil, taze soğan",
+          "es": "Ajo, jengibre, cebolletas",
+          "de": "Knoblauch, Ingwer, Frühlingszwiebeln"
+        }
+      ],
+      "steps": [
+        {
+          "en": "Marinate diced chicken with soy sauce, Shaoxing wine, and cornstarch for 15 minutes.",
+          "tr": "Tavukları soya sosu, pirinç sirkesi ve nişastayla 15 dakika marine edin.",
+          "es": "Marinar el pollo en dados con salsa de soja, vino y maicena durante 15 minutos.",
+          "de": "Hähnchenwürfel mit Sojasauce, Reiswein und Stärke 15 Minuten marinieren."
+        },
+        {
+          "en": "Mix black vinegar, soy sauce, sugar, stock, and cornstarch to make the Kung Pao sauce.",
+          "tr": "Siyah sirke, soya sosu, şeker ve nişastayı karıştırarak sosu hazırlayın.",
+          "es": "Mezclar vinagre negro, soja, azúcar, caldo y maicena para la salsa.",
+          "de": "Schwarzen Essig, Sojasauce, Zucker, Fond und Stärke zur Kung-Pao-Sauce verrühren."
+        },
+        {
+          "en": "Heat wok until smoking, fry Sichuan peppercorns and dried chilies until fragrant.",
+          "tr": "Wok tavayı tütene kadar ısıtın, Siçuan biberi ve kurutulmuş acı biberleri kokusu çıkana dek kavurun.",
+          "es": "Calentar el wok hasta que humee, freír la pimienta de Sichuan y chiles secos.",
+          "de": "Wok rauchend heiß erhitzen, Sichuanpfeffer und getrocknete Chilis duftend anbraten."
+        },
+        {
+          "en": "Add chicken, sear on high heat; toss in garlic, ginger, scallions, pour in sauce, and finish with roasted peanuts.",
+          "tr": "Tavukları ekleyip harlı ateşte mühürleyin; sarımsak, zencefil, taze soğan ve sosu döküp fıstıkla tamamlayın.",
+          "es": "Añadir pollo, saltear a fuego vivo, verter la salsa y terminar con cacahuetes.",
+          "de": "Hähnchen scharf anbraten; Knoblauch, Ingwer, Sauce zugeben und mit Erdnüssen vollenden."
+        }
+      ]
+    },
+    {
+      "id": "cn_dim_sum",
+      "cuisineId": "chinese",
+      "emoji": "🥟",
+      "image": "https://images.unsplash.com/photo-1496116218417-1a781b1c416c?auto=format&fit=crop&w=800&q=80",
+      "color": "FFF1C40F",
+      "prepTime": 40,
+      "cookTime": 8,
+      "difficulty": "hard",
+      "calories": 220,
+      "servings": 4,
+      "isPremium": true,
+      "tags": [
+        "dumplings",
+        "steamed",
+        "cantonese",
+        "shrimp"
+      ],
+      "name": {
+        "en": "Shumai / Siu Mai",
+        "tr": "Buharda Shumai Mantısı",
+        "es": "Siu Mai Dim Sum",
+        "de": "Siu Mai Dim Sum"
+      },
+      "description": {
+        "en": "Classic open-topped Cantonese steamed dumplings filled with juicy pork, succulent shrimp, and shiitake mushrooms.",
+        "tr": "İçi sulu dana/domuz kıyması, karides ve mantarla doldurulup bambu sepette buharda pişen açık Kanton mantısı.",
+        "es": "Empanadillas cantonesas al vapor abiertas rellenas de carne de cerdo jugosa, camarones y setas shiitake.",
+        "de": "Klassische offene kantonesische gedämpfte Teigtaschen mit saftigem Schweinefleisch, Garnelen und Shiitake-Pilzen."
+      },
+      "ingredients": [
+        {
+          "en": "Wonton wrappers, trimmed into circles",
+          "tr": "Yuvarlak kesilmiş wonton hamuru yaprakları",
+          "es": "Láminas de wonton recortadas en círculos",
+          "de": "Rund ausgestochene Wonton-Teigblätter"
+        },
+        {
+          "en": "300g ground pork, 150g chopped shrimp",
+          "tr": "300g kıyma, 150g doğranmış karides",
+          "es": "300g carne de cerdo picada, 150g camarones picados",
+          "de": "300g Schweinehackfleisch, 150g gehackte Garnelen"
+        },
+        {
+          "en": "Minced shiitake mushrooms, water chestnuts (for crunch)",
+          "tr": "Doğranmış shiitake mantarı, su kestanesi",
+          "es": "Setas shiitake picadas, castañas de agua",
+          "de": "Gehackte Shiitake-Pilze, Wasserkastanien"
+        },
+        {
+          "en": "Soy sauce, oyster sauce, sesame oil, white pepper, orange roe (tobiko) or carrot dot for garnish",
+          "tr": "Soya sosu, istiridye sosu, susam yağı, beyaz biber, havuç noktası (üzeri için)",
+          "es": "Salsa de soja, salsa de ostras, aceite de sésamo, pimienta blanca, huevas o zanahoria",
+          "de": "Sojasauce, Austernsauce, Sesamöl, weißer Pfeffer, Tobiko oder Karottenpunkt"
+        }
+      ],
+      "steps": [
+        {
+          "en": "Mix ground meat and shrimp vigorously in one direction until a springy paste forms.",
+          "tr": "Kıyma ve karidesleri tek yönde sakız gibi kıvam alana kadar kuvvetlice yoğurun.",
+          "es": "Mezclar la carne y los camarones en una sola dirección hasta obtener una pasta elástica.",
+          "de": "Fleisch und Garnelen kräftig in eine Richtung rühren, bis eine bindige Masse entsteht."
+        },
+        {
+          "en": "Add shiitake, water chestnuts, sesame oil, and oyster sauce; chill filling for 30 minutes.",
+          "tr": "Mantar, su kestanesi, susam yağı ve istiridye sosunu ekleyin; harcı 30 dakika buzdolabında dinlendirin.",
+          "es": "Agregar setas, castañas de agua y condimentos; enfriar el relleno 30 minutos.",
+          "de": "Pilze, Wasserkastanien und Gewürze unterrühren; Füllung 30 Minuten kühlen."
+        },
+        {
+          "en": "Cup wrapper in hand, spoon filling, and squeeze waist to form an open-topped cup.",
+          "tr": "Hamuru elinizde tutup harç koyun ve kenarlarını büzerek üstü açık sepet şekli verin.",
+          "es": "Sujetar la masa en la mano, rellenar y apretar los lados formando un cilindro abierto.",
+          "de": "Teigblatt in die Handmulde legen, füllen und den Rand nach oben zu einem offenen Becher raffen."
+        },
+        {
+          "en": "Steam in lined bamboo steamer over boiling water for 8 minutes; serve piping hot with chili oil.",
+          "tr": "Bambu buhar sepetinde 8 dakika buharda pişirin; acı yağ eşliğinde sıcacık servis yapın.",
+          "es": "Cocinar al vapor en vaporera de bambú durante 8 minutos; servir con aceite picante.",
+          "de": "Im Bambusdämpfer 8 Minuten dämpfen; heiß mit Chiliöl servieren."
+        }
+      ]
+    },
+    {
+      "id": "cn_mapo_tofu",
+      "cuisineId": "chinese",
+      "emoji": "🍲",
+      "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&w=800&q=80",
+      "color": "FFC0392B",
+      "prepTime": 15,
+      "cookTime": 15,
+      "difficulty": "medium",
+      "calories": 280,
+      "servings": 4,
+      "isPremium": true,
+      "tags": [
+        "sichuan",
+        "tofu",
+        "spicy",
+        "numbing"
+      ],
+      "name": {
+        "en": "Mapo Tofu",
+        "tr": "Mapo Tofu",
+        "es": "Mapo Tofu",
+        "de": "Mapo Tofu"
+      },
+      "description": {
+        "en": "Fiery Sichuan silken tofu cubes in a spicy and numbing chili-bean paste sauce with minced beef.",
+        "tr": "Acı fasulye ezmesi (Doubanjiang), kıyma ve Siçuan biberi sosunda pişen yumuşacık ipeksi tofu yemeği.",
+        "es": "Cubos de tofu sedoso en una salsa picante de pasta de frijol fermentado con ternera picada.",
+        "de": "Feurige Seidentofuwürfel in einer scharfen, betäubenden Chilibohnen-Sauce mit Rinderhackfleisch."
+      },
+      "ingredients": [
+        {
+          "en": "400g medium-firm or silken tofu, cubed",
+          "tr": "400g küp doğranmış ipeksi tofu",
+          "es": "400g tofu sedoso en cubos",
+          "de": "400g Seidentofu, gewürfelt"
+        },
+        {
+          "en": "100g minced beef",
+          "tr": "100g dana kıyma",
+          "es": "100g carne picada de ternera",
+          "de": "100g Rinderhackfleisch"
+        },
+        {
+          "en": "Pixian Doubanjiang (fermented broad bean chili paste)",
+          "tr": "Pixian Doubanjiang (fermente acı fasulye ezmesi)",
+          "es": "Pasta de chile y habas Pixian Doubanjiang",
+          "de": "Pixian Doubanjiang (fermentierte Chilibohnenpaste)"
+        },
+        {
+          "en": "Ground roasted Sichuan peppercorn, garlic, ginger, scallions, cornstarch slurry",
+          "tr": "Öğütülmüş kavruk Siçuan biberi, sarımsak, zencefil, taze soğan, nişasta suyu",
+          "es": "Pimienta de Sichuan tostada molida, ajo, jengibre, cebolletas",
+          "de": "Gemahlener gerösteter Sichuanpfeffer, Knoblauch, Ingwer, Frühlingszwiebeln"
+        }
+      ],
+      "steps": [
+        {
+          "en": "Simmer tofu cubes in salted water for 2 minutes to firm up and remove raw bean taste.",
+          "tr": "Tofu küplerini tuzlu suda 2 dakika haşlayıp süzün.",
+          "es": "Escaldar los cubos de tofu en agua con sal durante 2 minutos.",
+          "de": "Tofuwürfel 2 Minuten in Salzwasser sieden, um sie zu festigen."
+        },
+        {
+          "en": "Brown minced beef in oil until crisp, add Doubanjiang and chili powder until oil turns red.",
+          "tr": "Kıymayı çıtırlaşana kadar kavurun, Doubanjiang ezmesini ekleyip yağı kırmızı olana kadar pişirin.",
+          "es": "Dorar la ternera picada, agregar Doubanjiang hasta que el aceite tome color rojo.",
+          "de": "Hackfleisch knusprig anbraten, Doubanjiang zufügen bis das Öl rot glänzt."
+        },
+        {
+          "en": "Add stock and gently slide in drained tofu cubes; simmer for 5 minutes.",
+          "tr": "Et suyunu ekleyin ve tofu küplerini dağıtmadan nazikçe tencereye bırakıp 5 dakika kaynatın.",
+          "es": "Agregar caldo y deslizar suavemente el tofu; cocinar a fuego lento 5 minutos.",
+          "de": "Brühe zugießen und Tofuwürfel vorsichtig hineingeben; 5 Minuten köcheln."
+        },
+        {
+          "en": "Thicken with cornstarch slurry in three stages; dust with freshly ground Sichuan pepper powder.",
+          "tr": "Nişastalı suyla kıvam bağlayın; üzerine bol taze çekilmiş Siçuan biberi serpip sunun.",
+          "es": "Espesar con maicena disuelta y espolvorear pimienta de Sichuan recién molida.",
+          "de": "Mit Stärkewasser binden; mit frisch gemahlenem Sichuanpfeffer bestreut servieren."
+        }
+      ]
+    },
+    {
+      "id": "cn_peking_duck",
+      "cuisineId": "chinese",
+      "emoji": "🦆",
+      "image": "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=800&q=80",
+      "color": "FF8B4513",
+      "prepTime": 60,
+      "cookTime": 70,
+      "difficulty": "hard",
+      "calories": 520,
+      "servings": 6,
+      "isPremium": true,
+      "tags": [
+        "duck",
+        "crispy_skin",
+        "traditional",
+        "beijing"
+      ],
+      "name": {
+        "en": "Peking Duck (Beijing Kaoya)",
+        "tr": "Pekin Ördeği",
+        "es": "Pato Laqueado a la Pekinesa",
+        "de": "Pekingente"
+      },
+      "description": {
+        "en": "World-famous roasted duck with thin, ultra-crispy skin served with thin pancakes, scallions, and sweet bean sauce.",
+        "tr": "İncecik çıtır derisiyle ünlü, buharda krep, taze soğan, salatalık ve tatlı sosla sarılarak yenen Pekin ördeği.",
+        "es": "Famoso pato asado con piel fina y ultra crujiente servido con crepes finas, cebolleta y salsa hoisin.",
+        "de": "Weltberühmte gebratene Ente mit hauchdünner, superknuspriger Haut, serviert mit feinen Pfannkuchen und Hoisinsauce."
+      },
+      "ingredients": [
+        {
+          "en": "1 whole duck (cleaned and dried)",
+          "tr": "1 adet bütün ördek (yıkanıp kurulanmış)",
+          "es": "1 pato entero limpio y seco",
+          "de": "1 ganze Ente (sauber und trocken)"
+        },
+        {
+          "en": "Maltose syrup or honey, Chinese red vinegar, Shaoxing wine (for skin glaze)",
+          "tr": "Maltoz şurubu veya bal, kırmızı pirinç sirkesi, Shaoxing şarabı",
+          "es": "Melaza o miel, vinagre rojo chino, vino Shaoxing",
+          "de": "Maltose-Sirup oder Honig, chinesischer Essig, Shaoxing-Wein"
+        },
+        {
+          "en": "Thin Mandarin pancakes (steamed)",
+          "tr": "İnce Mandarin krepleri (buharda ısıtılmış)",
+          "es": "Crepes mandarinas finas al vapor",
+          "de": "Dünne Mandarin-Pfannkuchen (gedämpft)"
+        },
+        {
+          "en": "Sweet bean paste or hoisin sauce, julienned cucumber and scallions",
+          "tr": "Tatlı fasulye sosu veya hoisin sos, jülyen salatalık ve taze soğan",
+          "es": "Salsa dulce de judías o hoisin, pepino y cebolleta en juliana",
+          "de": "Süße Bohnenpaste oder Hoisinsauce, Gurken- und Frühlingszwiebelstreifen"
+        }
+      ],
+      "steps": [
+        {
+          "en": "Blanch duck in boiling water, then ladle warm maltose-vinegar glaze all over the skin.",
+          "tr": "Ördeğin derisini kaynar suyla haşlayıp üzerine sıcak ballı sirke sırını gezdirin.",
+          "es": "Escaldar el pato con agua hirviendo y bañar la piel con el glaseado de miel y vinagre.",
+          "de": "Ente kurz überbrühen und die Haut rundum mit Malzzucker-Essig-Glasur übergießen."
+        },
+        {
+          "en": "Hang in a cool, breezy place for 24-48 hours to dry the skin completely.",
+          "tr": "Derinin kağıt gibi kuruması için serin ve hava akımı olan yerde 24-48 saat kurutun.",
+          "es": "Colgar en un lugar fresco y aireado durante 24-48 horas para secar la piel.",
+          "de": "An einem kühlen, luftigen Ort 24-48 Stunden aufhängen, bis die Haut pergamentartig trocken ist."
+        },
+        {
+          "en": "Roast hanging vertically at 200°C for 60-70 minutes until mahogany and shatteringly crisp.",
+          "tr": "Fırında dik konumda 200°C'de 60-70 dakika deri koyu kehribar ve çıtır olana dek kızartın.",
+          "es": "Asar a 200°C durante 60-70 minutos hasta que la piel esté crujiente y caoba.",
+          "de": "Hängend bei 200°C 60-70 Minuten braten, bis die Haut mahagonifarben und splitterknusprig ist."
+        },
+        {
+          "en": "Carve crispy skin into delicate bite-sized pieces; wrap in steamed pancakes with hoisin sauce, cucumber, and scallions.",
+          "tr": "Çıtır deriyi ince dilimleyin; krep, hoisin sos, salatalık ve taze soğanla sarıp yiyin.",
+          "es": "Cortar la piel crujiente y servir envuelta en crepes con salsa hoisin, pepino y cebolleta.",
+          "de": "Knusprige Haut tranchieren; mit Hoisinsauce, Gurke und Lauch in gedämpfte Pfannkuchen rollen."
+        }
+      ]
+    },
+    {
+      "id": "cn_chow_mein",
+      "cuisineId": "chinese",
+      "emoji": "🍜",
+      "image": "https://images.unsplash.com/photo-1559847844-5315695dadae?auto=format&fit=crop&w=800&q=80",
+      "color": "FFF39C12",
+      "prepTime": 15,
+      "cookTime": 10,
+      "difficulty": "easy",
+      "calories": 390,
+      "servings": 4,
+      "isPremium": true,
+      "tags": [
+        "noodles",
+        "stir_fry",
+        "quick",
+        "classic"
+      ],
+      "name": {
+        "en": "Chicken Chow Mein",
+        "tr": "Tavuklu Chow Mein",
+        "es": "Chow Mein de Pollo",
+        "de": "Gebratene Nudeln (Chow Mein)"
+      },
+      "description": {
+        "en": "Classic Chinese egg noodles stir-fried in a scorching wok with chicken strips, crunchy cabbage, bean sprouts, and dark soy sauce.",
+        "tr": "Kızgın wok tavada tavuk şeritleri, çıtır lahana, soya filizi ve koyu soya sosuyla çevrilen yumurtalı erişte.",
+        "es": "Fideos chinos salteados al wok con pollo, repollo crujiente, brotes de soja y salsa de soja oscura.",
+        "de": "Gebratene Eiernudeln aus dem heißen Wok mit Hähnchenstreifen, Kohl, Sojasprossen und dunkler Sojasauce."
+      },
+      "ingredients": [
+        {
+          "en": "300g fresh egg noodles",
+          "tr": "300g taze yumurtalı erişte",
+          "es": "300g fideos chinos al huevo",
+          "de": "300g frische Eiernudeln"
+        },
+        {
+          "en": "200g chicken breast, thinly sliced",
+          "tr": "200g ince dilim tavuk göğsü",
+          "es": "200g pechuga de pollo en tiras",
+          "de": "200g Hähnchenbrust in Streifen"
+        },
+        {
+          "en": "Shredded cabbage, carrots, bean sprouts, scallions",
+          "tr": "İnce kıyılmış lahana, havuç, soya filizi, taze soğan",
+          "es": "Repollo en juliana, zanahoria, brotes de soja, cebolletas",
+          "de": "Geraspelter Kohl, Karotten, Sojasprossen, Frühlingszwiebeln"
+        },
+        {
+          "en": "Light soy sauce, dark soy sauce, oyster sauce, toasted sesame oil",
+          "tr": "Açık ve koyu soya sosu, istiridye sosu, kavrulmuş susam yağı",
+          "es": "Salsa de soja clara y oscura, salsa de ostras, aceite de sésamo",
+          "de": "Helle und dunkle Sojasauce, Austernsauce, Sesamöl"
+        }
+      ],
+      "steps": [
+        {
+          "en": "Parboil fresh noodles for 1 minute, drain, and toss with a drop of oil.",
+          "tr": "Erişteleri 1 dakika kaynar suda tutup süzün, yapışmaması için bir damla yağla karıştırın.",
+          "es": "Hervir los fideos 1 minuto, escurrir y mezclar con un poco de aceite.",
+          "de": "Nudeln 1 Minute vorkochen, abgießen und mit etwas Öl vermengen."
+        },
+        {
+          "en": "Sear chicken in a smoking wok until golden, remove.",
+          "tr": "Tavukları kızgın wokta rengi dönene kadar mühürleyip kenara alın.",
+          "es": "Saltear el pollo en el wok humeante hasta dorar; reservar.",
+          "de": "Hähnchen im rauchenden Wok scharf anbraten, herausnehmen."
+        },
+        {
+          "en": "Stir-fry shredded cabbage and carrots on high heat for 1 minute.",
+          "tr": "Lahanayı ve havuçları yüksek ateşte 1 dakika soteleyin.",
+          "es": "Saltear el repollo y las zanahorias a fuego vivo durante 1 minuto.",
+          "de": "Kohl und Karotten bei starker Hitze 1 Minute pfannenrühren."
+        },
+        {
+          "en": "Return chicken, add noodles, pour mixed soy-oyster sauce, and toss vigorously until evenly coated and fragrant.",
+          "tr": "Tavukları, erişteleri ve soya-istiridye sos karışımını ekleyip her şey karamelize olana kadar hızla çevirin.",
+          "es": "Regresar el pollo, añadir fideos y salsa; saltear enérgicamente hasta integrar.",
+          "de": "Hähnchen, Nudeln und Saucenmischung zugeben und kräftig durchschwenken."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "@@locale": "de",
+  "appName": "Was Essen Wir?",
+  "appTagline": "Entscheide mit einem Dreh am Glücksrad, was du heute isst!",
+  
+  "navWheel": "Glücksrad",
+  "navCuisines": "Küchen",
+  "navFavorites": "Favoriten",
+  "navHistory": "Verlauf",
+  "navSettings": "Einstellungen",
+
+  "wheelSpin": "RAD DREHEN",
+  "wheelSpinning": "Entscheidung läuft...",
+  "wheelResultTitle": "Heutiger Vorschlag!",
+  "wheelResultSubtitle": "Wir haben dieses köstliche Gericht für dich ausgewählt:",
+  "wheelSeeRecipe": "Rezept & Details ansehen",
+  "wheelSpinAgain": "Nochmal drehen",
+  "wheelFilterCuisine": "Nach Küche filtern",
+  "wheelAllCuisines": "Alle Küchen",
+
+  "cuisineTitle": "Weltküchen",
+  "cuisineSubtitle": "Entdecke köstliche Rezepte aus aller Welt",
+  "cuisineFoodsCount": "{count} Gerichte",
+  "@cuisineFoodsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "cuisinePremiumBadge": "PREMIUM",
+  "cuisineUnlock": "Küche freischalten",
+
+  "detailIngredients": "Zutaten",
+  "detailSteps": "Zubereitungsschritte",
+  "detailPrepTime": "Vorbereitung",
+  "detailCookTime": "Kochzeit",
+  "detailCalories": "Kalorien",
+  "detailServings": "Portionen",
+  "detailDifficulty": "Schwierigkeit",
+  "detailMinutes": "{min} Min.",
+  "@detailMinutes": {
+    "placeholders": {
+      "min": {
+        "type": "int"
+      }
+    }
+  },
+  "detailCalorieUnit": "{cal} kcal",
+  "@detailCalorieUnit": {
+    "placeholders": {
+      "cal": {
+        "type": "int"
+      }
+    }
+  },
+  "detailServingsCount": "{count} Personen",
+  "@detailServingsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "difficultyEasy": "Einfach",
+  "difficultyMedium": "Mittel",
+  "difficultyHard": "Schwer",
+
+  "favoritesTitle": "Meine Favoriten",
+  "favoritesEmptyTitle": "Noch keine Favoriten",
+  "favoritesEmptyDesc": "Tippe auf das Herzsymbol bei jedem Rezept, um es hier schnell griffbereit zu haben.",
+  "favoritesRemoved": "Aus Favoriten entfernt",
+  "favoritesAdded": "Zu Favoriten hinzugefügt",
+
+  "historyTitle": "Entscheidungsverlauf",
+  "historyEmptyTitle": "Noch kein Verlauf",
+  "historyEmptyDesc": "Deine Drehungen am Rad werden hier protokolliert.",
+  "historyClear": "Verlauf löschen",
+  "historyClearConfirm": "Möchtest du wirklich deinen gesamten Verlauf löschen?",
+  "historyCleared": "Verlauf gelöscht",
+
+  "settingsTitle": "Einstellungen",
+  "settingsLanguage": "Sprache",
+  "settingsTheme": "Design",
+  "settingsThemeDark": "Dunkelmodus",
+  "settingsSound": "Soundeffekte",
+  "settingsHaptic": "Haptisches Feedback",
+  "settingsPremium": "Premium-Mitgliedschaft",
+  "settingsRestore": "Käufe wiederherstellen",
+  "settingsAbout": "Über die App",
+  "settingsVersion": "Version {version}",
+  "@settingsVersion": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+
+  "premiumTitle": "Vollzugriff freischalten",
+  "premiumSubtitle": "Hol dir alle 10 Weltküchen, unbegrenzte Drehungen und ein werbefreies Erlebnis!",
+  "premiumFeature1": "Alle 6 Premium-Weltküchen freischalten",
+  "premiumFeature2": "Zugriff auf über 160 detaillierte Rezepte",
+  "premiumFeature3": "Eigene Filter- und Ausschlussregeln",
+  "premiumFeature4": "Vollständig werbefreies Erlebnis",
+  "premiumBuyButton": "Jetzt Premium sichern",
+  "premiumRestore": "Kauf wiederherstellen",
+  "premiumSuccess": "Willkommen bei Premium!",
+
+  "commonCancel": "Abbrechen",
+  "commonConfirm": "Bestätigen",
+  "commonSave": "Speichern",
+  "commonClose": "Schließen",
+  "commonShare": "Rezept Teilen",
+  "commonShareText": "Schau mal, was ich in der Was Essen App gefunden habe: {dishName}!",
+
+  "onboardingTitle1": "Keine Ahnung, was du essen sollst?",
+  "onboardingSubtitle1": "Mach Schluss mit der täglichen Unentschlossenheit beim Essen!",
+  "onboardingTitle2": "Dreh das Glücksrad!",
+  "onboardingSubtitle2": "Überlass die Entscheidung dem Zufall mit realistischen Klängen.",
+  "onboardingTitle3": "Entdecke Weltküchen",
+  "onboardingSubtitle3": "Über 160 detaillierte Rezepte aus 10 Weltküchen.",
+  "onboardingSkip": "Überspringen",
+  "onboardingNext": "Weiter",
+  "onboardingStart": "Jetzt Starten!"
+}

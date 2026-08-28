@@ -1,0 +1,126 @@
+{
+  "@@locale": "en",
+  "appName": "What to Eat?",
+  "appTagline": "Decide what to eat with a spin of the wheel!",
+  
+  "navWheel": "Wheel",
+  "navCuisines": "Cuisines",
+  "navFavorites": "Favorites",
+  "navHistory": "History",
+  "navSettings": "Settings",
+
+  "wheelSpin": "SPIN THE WHEEL",
+  "wheelSpinning": "Deciding for you...",
+  "wheelResultTitle": "Today's Suggestion!",
+  "wheelResultSubtitle": "We picked this delicious meal for you:",
+  "wheelSeeRecipe": "View Recipe & Details",
+  "wheelSpinAgain": "Spin Again",
+  "wheelFilterCuisine": "Filter by Cuisine",
+  "wheelAllCuisines": "All Cuisines",
+
+  "cuisineTitle": "World Cuisines",
+  "cuisineSubtitle": "Explore delicious recipes from around the globe",
+  "cuisineFoodsCount": "{count} dishes",
+  "@cuisineFoodsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "cuisinePremiumBadge": "PREMIUM",
+  "cuisineUnlock": "Unlock Cuisine",
+
+  "detailIngredients": "Ingredients",
+  "detailSteps": "Preparation Steps",
+  "detailPrepTime": "Prep Time",
+  "detailCookTime": "Cook Time",
+  "detailCalories": "Calories",
+  "detailServings": "Servings",
+  "detailDifficulty": "Difficulty",
+  "detailMinutes": "{min} min",
+  "@detailMinutes": {
+    "placeholders": {
+      "min": {
+        "type": "int"
+      }
+    }
+  },
+  "detailCalorieUnit": "{cal} kcal",
+  "@detailCalorieUnit": {
+    "placeholders": {
+      "cal": {
+        "type": "int"
+      }
+    }
+  },
+  "detailServingsCount": "{count} people",
+  "@detailServingsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "difficultyEasy": "Easy",
+  "difficultyMedium": "Medium",
+  "difficultyHard": "Hard",
+
+  "favoritesTitle": "My Favorites",
+  "favoritesEmptyTitle": "No Favorites Yet",
+  "favoritesEmptyDesc": "Tap the heart icon on any recipe to save it here for quick access.",
+  "favoritesRemoved": "Removed from favorites",
+  "favoritesAdded": "Added to favorites",
+
+  "historyTitle": "Decision History",
+  "historyEmptyTitle": "No History Yet",
+  "historyEmptyDesc": "Spins you make on the wheel will be logged here.",
+  "historyClear": "Clear History",
+  "historyClearConfirm": "Are you sure you want to clear your entire spin history?",
+  "historyCleared": "History cleared",
+
+  "settingsTitle": "Settings",
+  "settingsLanguage": "Language",
+  "settingsTheme": "Theme",
+  "settingsThemeDark": "Dark Mode",
+  "settingsSound": "Sound Effects",
+  "settingsHaptic": "Haptic Feedback",
+  "settingsPremium": "Premium Membership",
+  "settingsRestore": "Restore Purchases",
+  "settingsAbout": "About App",
+  "settingsVersion": "Version {version}",
+  "@settingsVersion": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+
+  "premiumTitle": "Unlock Full Access",
+  "premiumSubtitle": "Get all 10 world cuisines, unlimited spins, and ad-free experience!",
+  "premiumFeature1": "Unlock all 6 Premium World Cuisines",
+  "premiumFeature2": "Access over 160+ detailed recipes",
+  "premiumFeature3": "Custom filter & exclusion rules",
+  "premiumFeature4": "Completely ad-free experience",
+  "premiumBuyButton": "Get Premium Now",
+  "premiumRestore": "Restore Purchase",
+  "premiumSuccess": "Welcome to Premium!",
+
+  "commonCancel": "Cancel",
+  "commonConfirm": "Confirm",
+  "commonSave": "Save",
+  "commonClose": "Close",
+  "commonShare": "Share Recipe",
+  "commonShareText": "Look what I found on What to Eat app: {dishName}!",
+
+  "onboardingTitle1": "Can't Decide What to Eat?",
+  "onboardingSubtitle1": "Say goodbye to daily meal indecision with our fun decision wheel.",
+  "onboardingTitle2": "Spin the Wheel!",
+  "onboardingSubtitle2": "Let fate pick your next delicious meal with realistic sound and physics.",
+  "onboardingTitle3": "Discover World Cuisines",
+  "onboardingSubtitle3": "Over 160+ detailed recipes from 10 iconic world culinary traditions.",
+  "onboardingSkip": "Skip",
+  "onboardingNext": "Next",
+  "onboardingStart": "Let's Get Started!"
+}

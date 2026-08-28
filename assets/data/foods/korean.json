@@ -1,0 +1,414 @@
+{
+  "cuisineId": "korean",
+  "foods": [
+    {
+      "id": "kr_bibimbap",
+      "cuisineId": "korean",
+      "emoji": "🍚",
+      "image": "https://images.unsplash.com/photo-1590301157890-4810ed352733?auto=format&fit=crop&w=800&q=80",
+      "color": "FFE74C3C",
+      "prepTime": 25,
+      "cookTime": 15,
+      "difficulty": "medium",
+      "calories": 490,
+      "servings": 4,
+      "isPremium": true,
+      "tags": [
+        "rice_bowl",
+        "beef",
+        "vegetables",
+        "gochujang"
+      ],
+      "name": {
+        "en": "Bibimbap (Dolsot)",
+        "tr": "Dolsot Bibimbap",
+        "es": "Bibimbap",
+        "de": "Bibimbap"
+      },
+      "description": {
+        "en": "Sizzling stone bowl filled with warm rice, seasoned namul vegetables, marinated beef, fried egg, and spicy gochujang.",
+        "tr": "Sıcak taş kasede servis edilen pirinç, marine dana eti, sotelenmiş sebzeler, yumurta ve acı gochujang soslu karışım.",
+        "es": "Bol de piedra caliente con arroz, verduras namul salteadas, ternera marinada, huevo y gochujang.",
+        "de": "Heißer Steintopf mit Reis, mariniertem Rindfleisch, Namul-Gemüse, Spiegelei und Gochujang."
+      },
+      "ingredients": [
+        {
+          "en": "Cooked short-grain rice",
+          "tr": "Haşlanmış kısa taneli pirinç",
+          "es": "Arroz de grano corto cocido",
+          "de": "Gekochter Rundkornreis"
+        },
+        {
+          "en": "200g thinly sliced ribeye beef (bulgogi marinade)",
+          "tr": "200g ince dilim antrikot (bulgogi sosunda)",
+          "es": "200g ternera finamente cortada",
+          "de": "200g Rinderstreifen mariniert"
+        },
+        {
+          "en": "Spinach, bean sprouts, carrots, shiitake mushrooms, zucchini",
+          "tr": "Ispanak, soya filizi, havuç, shiitake mantarı, kabak",
+          "es": "Espinacas, brotes de soja, zanahorias, setas shiitake, calabacín",
+          "de": "Spinat, Sojasprossen, Karotten, Shiitake-Pilze, Zucchini"
+        },
+        {
+          "en": "Gochujang (Korean chili paste), sesame oil, eggs",
+          "tr": "Gochujang (Kore acı biber ezmesi), susam yağı, yumurta",
+          "es": "Gochujang, aceite de sésamo, huevos",
+          "de": "Gochujang, Sesamöl, Eier"
+        }
+      ],
+      "steps": [
+        {
+          "en": "Blanch and season spinach and bean sprouts with sesame oil and garlic.",
+          "tr": "Ispanak ve soya filizini haşlayıp sarımsak ve susam yağıyla tatlandırın.",
+          "es": "Escaldar espinacas y brotes de soja; aliñar con aceite de sésamo y ajo.",
+          "de": "Spinat und Sojasprossen blanchieren und mit Sesamöl und Knoblauch anmachen."
+        },
+        {
+          "en": "Sauté julienned carrots, zucchini, and sliced shiitake mushrooms individually.",
+          "tr": "Jülyen havuç, kabak ve mantarları ayrı ayrı tavada soteleyin.",
+          "es": "Saltear por separado zanahorias en juliana, calabacín y setas shiitake.",
+          "de": "Karotten, Zucchini und Shiitake-Pilze nacheinander kurz anbraten."
+        },
+        {
+          "en": "Sear marinated beef and fry eggs sunny-side up.",
+          "tr": "Marine dana etini soteleyin ve göz yumurta pişirin.",
+          "es": "Cocinar la ternera marinada y freír huevos con la yema tierna.",
+          "de": "Mariniertes Rindfleisch anbraten und Spiegeleier braten."
+        },
+        {
+          "en": "Oil a hot stone bowl, layer rice, arrange toppings radially, top with egg, and serve with gochujang sauce.",
+          "tr": "Sıcak kaseyi yağlayın, pirinci koyup malzemeleri renk sırasına göre dizin, yumurta ve gochujang ile servis edin.",
+          "es": "Aceitar el bol caliente, poner arroz, disponer los ingredientes, coronar con huevo y gochujang.",
+          "de": "Heißen Steintopf einölen, Reis einfüllen, Zutaten fächerförmig anrichten, Ei und Gochujang daraufgeben."
+        }
+      ]
+    },
+    {
+      "id": "kr_korean_fried_chicken",
+      "cuisineId": "korean",
+      "emoji": "🍗",
+      "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=800&q=80",
+      "color": "FFE67E22",
+      "prepTime": 20,
+      "cookTime": 20,
+      "difficulty": "medium",
+      "calories": 480,
+      "servings": 4,
+      "isPremium": true,
+      "tags": [
+        "fried",
+        "chicken",
+        "crispy",
+        "spicy_sweet"
+      ],
+      "name": {
+        "en": "Korean Fried Chicken (Yangnyeom)",
+        "tr": "Yangnyeom Çıtır Tavuk",
+        "es": "Pollo Frito Coreano Yangnyeom",
+        "de": "Korean Fried Chicken"
+      },
+      "description": {
+        "en": "Ultra-crispy double-fried chicken coated in a sticky, sweet, and spicy red chili glaze.",
+        "tr": "İki kez kızartılarak ultra çıtır yapılan, tatlı ve acı yapışkan sosla kaplanan Kore kızarmış tavuğu.",
+        "es": "Pollo ultra crujiente con doble fritura bañado en una salsa dulce y picante coreana.",
+        "de": "Ultra-knuspriges, doppelt frittiertes Hähnchen in einer klebrig-süß-scharfen roten Chiliglasur."
+      },
+      "ingredients": [
+        {
+          "en": "800g chicken wings or drumettes",
+          "tr": "800g tavuk kanadı veya baget",
+          "es": "800g alitas de pollo",
+          "de": "800g Hähnchenflügel"
+        },
+        {
+          "en": "Potato starch or cornstarch (for light crunchy crust)",
+          "tr": "Patates nişastası veya mısır nişastası",
+          "es": "Fécula de patata o maicena",
+          "de": "Kartoffelstärke oder Speisestärke"
+        },
+        {
+          "en": "Gochujang, ketchup, honey, brown sugar, garlic",
+          "tr": "Gochujang, ketçap, bal, esmer şeker, sarımsak",
+          "es": "Gochujang, kétchup, miel, azúcar moreno, ajo",
+          "de": "Gochujang, Ketchup, Honig, brauner Zucker, Knoblauch"
+        },
+        {
+          "en": "Toasted sesame seeds and crushed peanuts",
+          "tr": "Kavrulmuş susam ve kırık yer fıstığı",
+          "es": "Semillas de sésamo y cacahuetes picados",
+          "de": "Gerösteter Sesam und gehackte Erdnüsse"
+        }
+      ],
+      "steps": [
+        {
+          "en": "Season chicken with ginger, salt, and pepper, then dredge thoroughly in potato starch.",
+          "tr": "Tavukları zencefil ve tuzla baharatlayıp patates nişastasına bulayın.",
+          "es": "Sazonar el pollo con jengibre y sal, luego rebozar bien en fécula de patata.",
+          "de": "Hähnchen mit Ingwer und Salz würzen, gründlich in Stärke wenden."
+        },
+        {
+          "en": "First fry at 165°C for 7-8 minutes until cooked through; rest for 5 minutes.",
+          "tr": "İlk turda 165°C yağda 7-8 dakika kızartın; 5 dakika dinlendirin.",
+          "es": "Primera fritura a 165°C durante 7-8 minutos; reposar 5 minutos.",
+          "de": "Erste Fritüre bei 165°C für 7-8 Minuten; 5 Minuten ruhen lassen."
+        },
+        {
+          "en": "Simmer gochujang, ketchup, honey, and garlic in a pan until sticky and glossy.",
+          "tr": "Gochujang, ketçap, bal ve sarımsağı tavada koyulaşana kadar kaynatın.",
+          "es": "Cocinar gochujang, kétchup, miel y ajo hasta que la salsa espese.",
+          "de": "Gochujang, Ketchup, Honig und Knoblauch zu einer glänzenden Sauce einkochen."
+        },
+        {
+          "en": "Second fry at 190°C for 2 minutes for shattering crunch; immediately toss in hot glaze.",
+          "tr": "İkinci turda 190°C kızgın yağda 2 dakika çıtırlaştırıp hemen sıcak sosla harmanlayın.",
+          "es": "Segunda fritura a 190°C durante 2 minutos; bañar de inmediato en la salsa.",
+          "de": "Zweite Fritüre bei 190°C für 2 Minuten für maximale Knusprigkeit; sofort in der Sauce wenden."
+        }
+      ]
+    },
+    {
+      "id": "kr_kimchi_jjigae",
+      "cuisineId": "korean",
+      "emoji": "🍲",
+      "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&w=800&q=80",
+      "color": "FFE74C3C",
+      "prepTime": 10,
+      "cookTime": 30,
+      "difficulty": "easy",
+      "calories": 320,
+      "servings": 4,
+      "isPremium": true,
+      "tags": [
+        "stew",
+        "pork",
+        "fermented",
+        "spicy"
+      ],
+      "name": {
+        "en": "Kimchi Jjigae",
+        "tr": "Kimçi Yahnisi (Kimchi Jjigae)",
+        "es": "Guiso de Kimchi",
+        "de": "Kimchi Jjigae"
+      },
+      "description": {
+        "en": "Deeply comforting spicy stew made with aged fermented kimchi, pork belly, tofu, and anchovy broth.",
+        "tr": "Olgunlaşmış fermente kimçi, dana/domuz eti, tofu ve acı pul biberle kaynatılan geleneksel Kore güveci.",
+        "es": "Guiso coreano reconfortante y picante con kimchi fermentado, panceta y tofu.",
+        "de": "Wärmender, würziger Eintopf aus gut gereiftem Kimchi, Schweinebauch und Tofu in Anchovis-Brühe."
+      },
+      "ingredients": [
+        {
+          "en": "300g well-aged, sour kimchi with juice",
+          "tr": "300g iyice olgunlaşmış ekşi kimçi ve suyu",
+          "es": "300g kimchi bien fermentado y su jugo",
+          "de": "300g gut gereifter, saurer Kimchi mit Saft"
+        },
+        {
+          "en": "200g pork belly slices",
+          "tr": "200g et dilimleri",
+          "es": "200g panceta de cerdo",
+          "de": "200g Schweinebauch"
+        },
+        {
+          "en": "Tofu block, sliced",
+          "tr": "Dilimlenmiş tofu",
+          "es": "Bloque de tofu en rodajas",
+          "de": "Tofu, in Scheiben"
+        },
+        {
+          "en": "Gochugaru (Korean chili flakes), garlic, scallions, anchovy broth",
+          "tr": "Gochugaru (Kore pul biberi), sarımsak, taze soğan, hamsi suyu",
+          "es": "Gochugaru, ajo, cebolleta, caldo de anchoas",
+          "de": "Gochugaru (Chiliflocken), Knoblauch, Frühlingszwiebeln, Anchovis-Fond"
+        }
+      ],
+      "steps": [
+        {
+          "en": "Sauté pork belly with chopped aged kimchi in sesame oil until pork is browned.",
+          "tr": "Eti ve doğranmış kimçiyi susam yağında hafifçe kavurun.",
+          "es": "Saltear la panceta con el kimchi picado en aceite de sésamo.",
+          "de": "Schweinebauch mit gehacktem Kimchi in Sesamöl anbraten."
+        },
+        {
+          "en": "Add anchovy-kelp broth and kimchi juice; bring to a vigorous boil.",
+          "tr": "Hamsi suyunu ve kimçi suyunu ekleyip hızlıca kaynatın.",
+          "es": "Agregar caldo de anchoas y jugo de kimchi; llevar a ebullición.",
+          "de": "Anchovis-Fond und Kimchisaft zugießen; kräftig aufkochen."
+        },
+        {
+          "en": "Add gochugaru and minced garlic; lower heat and simmer for 20 minutes.",
+          "tr": "Gochugaru ve sarımsağı ekleyin; ateşi kısıp 20 dakika demlendirin.",
+          "es": "Añadir gochugaru y ajo; cocinar a fuego lento durante 20 minutos.",
+          "de": "Gochugaru und Knoblauch zufügen; 20 Minuten sanft köcheln lassen."
+        },
+        {
+          "en": "Add tofu slices and scallions; simmer 5 more minutes and serve boiling hot with rice.",
+          "tr": "Tofu dilimlerini ve taze soğanları ekleyin; 5 dakika daha pişirip sıcak pilavla sunun.",
+          "es": "Agregar tofu y cebolleta; cocinar 5 minutos más y servir muy caliente.",
+          "de": "Tofuscheiben und Frühlingszwiebeln zugeben; 5 Minuten weiterköcheln und kochend heiß servieren."
+        }
+      ]
+    },
+    {
+      "id": "kr_bulgogi",
+      "cuisineId": "korean",
+      "emoji": "🥩",
+      "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&w=800&q=80",
+      "color": "FF8B4513",
+      "prepTime": 30,
+      "cookTime": 10,
+      "difficulty": "easy",
+      "calories": 420,
+      "servings": 4,
+      "isPremium": true,
+      "tags": [
+        "beef",
+        "bbq",
+        "sweet_savory",
+        "grilled"
+      ],
+      "name": {
+        "en": "Beef Bulgogi",
+        "tr": "Dana Bulgogi (Kore Barbekü)",
+        "es": "Bulgogi de Ternera",
+        "de": "Rindfleisch-Bulgogi"
+      },
+      "description": {
+        "en": "Thinly sliced marinated prime beef grilled to smoky caramelized perfection with sweet pear and soy marinade.",
+        "tr": "Tatlı Kore armudu, soya sosu ve sarımsakla marine edilmiş incecik ızgara dana eti.",
+        "es": "Finas láminas de ternera marinadas con pera coreana, soja y sésamo, asadas a fuego vivo.",
+        "de": "Hauchdünn geschnittenes Rindfleisch mariniert in Sojasauce, Birne und Sesam, saftig gegrillt."
+      },
+      "ingredients": [
+        {
+          "en": "600g beef sirloin or ribeye, sliced paper-thin",
+          "tr": "600g yaprak inceliğinde dana antrikot",
+          "es": "600g solomillo de ternera en láminas finísimas",
+          "de": "600g Rinderfilet oder Ribeye hauchdünn geschnitten"
+        },
+        {
+          "en": "Grated Asian pear or apple, soy sauce, brown sugar",
+          "tr": "Rendelenmiş Asya armudu veya elma, soya sosu, esmer şeker",
+          "es": "Pera asiática rallada, salsa de soja, azúcar moreno",
+          "de": "Geraspelte Nashi-Birne, Sojasauce, brauner Zucker"
+        },
+        {
+          "en": "Toasted sesame oil, minced garlic, scallions, black pepper",
+          "tr": "Kavrulmuş susam yağı, sarımsak, taze soğan, karabiber",
+          "es": "Aceite de sésamo, ajo picado, cebolletas, pimienta",
+          "de": "Geröstetes Sesamöl, Knoblauch, Frühlingszwiebeln, Pfeffer"
+        }
+      ],
+      "steps": [
+        {
+          "en": "Blend pear, soy sauce, sugar, garlic, and sesame oil into a smooth marinade.",
+          "tr": "Armut, soya sosu, şeker, sarımsak ve susam yağını blenderdan geçirip marine sosu yapın.",
+          "es": "Triturar pera, soja, azúcar, ajo y aceite de sésamo para el marinado.",
+          "de": "Birne, Sojasauce, Zucker, Knoblauch und Sesamöl zur Marinade pürieren."
+        },
+        {
+          "en": "Coat beef slices in marinade and chill for at least 1 hour.",
+          "tr": "Et dilimlerini sosa bulayın ve buzdolabında en az 1 saat bekletin.",
+          "es": "Marinar la carne en la mezcla durante al menos 1 hora.",
+          "de": "Rindfleischstreifen in der Marinade mindestens 1 Stunde ziehen lassen."
+        },
+        {
+          "en": "Sear quickly on a screaming-hot grill plate or cast iron skillet without overcrowding.",
+          "tr": "Çok sıcak ızgarada veya döküm tavada eti suyunu saldırmadan hızla mühürleyin.",
+          "es": "Cocinar rápidamente en sartén muy caliente o parrilla para caramelizar.",
+          "de": "Auf sehr heißem Grill oder in Gusseisenpfanne portionsweise scharf anbraten."
+        },
+        {
+          "en": "Serve wrapped in fresh lettuce leaves (ssam) with ssamjang and rice.",
+          "tr": "Taze marul yapraklarına (ssam) sararak ssamjang sosu ve pilavla tüketin.",
+          "es": "Servir envuelto en hojas de lechuga fresca con salsa ssamjang.",
+          "de": "In frischen Salatblättern mit Ssamjang-Sauce und Reis servieren."
+        }
+      ]
+    },
+    {
+      "id": "kr_tteokbokki",
+      "cuisineId": "korean",
+      "emoji": "🍢",
+      "image": "https://images.unsplash.com/photo-1626777552726-4a6b54c97e46?auto=format&fit=crop&w=800&q=80",
+      "color": "FFE74C3C",
+      "prepTime": 10,
+      "cookTime": 15,
+      "difficulty": "easy",
+      "calories": 360,
+      "servings": 4,
+      "isPremium": true,
+      "tags": [
+        "street_food",
+        "spicy",
+        "rice_cakes",
+        "chewy"
+      ],
+      "name": {
+        "en": "Spicy Tteokbokki",
+        "tr": "Acılı Tteokbokki",
+        "es": "Tteokbokki Picante",
+        "de": "Scharfe Tteokbokki"
+      },
+      "description": {
+        "en": "Chewy cylindrical Korean rice cakes simmered in a sweet and fiery gochujang chili broth with fish cakes.",
+        "tr": "Tatlı ve acı gochujang sosunda pişen çiğnenebilir lokum kıvamında Kore silindir pirinç kekleri.",
+        "es": "Pasteles de arroz cilíndricos coreanos en una salsa picante y dulce de gochujang con pastel de pescado.",
+        "de": "Zähe zylindrische Reiskuchen in einer feurig-süßen Gochujang-Sauce mit Fischkuchen gekocht."
+      },
+      "ingredients": [
+        {
+          "en": "400g Korean cylindrical rice cakes (garaetteok)",
+          "tr": "400g Kore silindir pirinç keki (tteok)",
+          "es": "400g pasteles de arroz cilíndricos (tteok)",
+          "de": "400g koreanische Reiskuchen (Tteok)"
+        },
+        {
+          "en": "Korean sheet fish cakes (eomuk), sliced",
+          "tr": "Dilimlenmiş Kore balık keki (eomuk)",
+          "es": "Pastel de pescado coreano en tiras",
+          "de": "Koreanische Fischkuchenblätter, geschnitten"
+        },
+        {
+          "en": "Gochujang, gochugaru, sugar, corn syrup, soy sauce",
+          "tr": "Gochujang, gochugaru pul biber, şeker, mısır şurubu, soya",
+          "es": "Gochujang, gochugaru, azúcar, jarabe de maíz, soja",
+          "de": "Gochujang, Gochugaru, Zucker, Maissirup, Sojasauce"
+        },
+        {
+          "en": "Anchovy-kelp broth, scallions, hard-boiled eggs",
+          "tr": "Hamsi suyu, taze soğan, haşlanmış yumurta",
+          "es": "Caldo de anchoas, cebolletas, huevos cocidos",
+          "de": "Anchovis-Fond, Frühlingszwiebeln, hartgekochte Eier"
+        }
+      ],
+      "steps": [
+        {
+          "en": "Soak rice cakes in warm water for 10 minutes if refrigerated.",
+          "tr": "Pirinç keklerini 10 dakika ılık suda bekletin.",
+          "es": "Remojar los pasteles de arroz en agua tibia durante 10 minutos.",
+          "de": "Reiskuchen 10 Minuten in warmem Wasser einweichen."
+        },
+        {
+          "en": "Boil anchovy broth in a shallow pan, whisk in gochujang, gochugaru, and sweeteners.",
+          "tr": "Geniş tavada hamsi suyunu kaynatıp gochujang ve şekeri çırpın.",
+          "es": "Hervir el caldo de anchoas y disolver gochujang, gochugaru y azúcar.",
+          "de": "Anchovis-Fond aufkochen, Gochujang, Gochugaru und Süßungsmittel einrühren."
+        },
+        {
+          "en": "Add rice cakes and sliced fish cakes; simmer on medium heat stirring constantly for 8-10 minutes.",
+          "tr": "Pirinç keklerini ve balık keklerini ekleyip sürekli karıştırarak 8-10 dakika pişirin.",
+          "es": "Agregar los pasteles de arroz y pescado; cocinar 8-10 minutos removiendo.",
+          "de": "Reiskuchen und Fischkuchen zugeben; 8-10 Minuten unter ständigem Rühren einköcheln."
+        },
+        {
+          "en": "When sauce is thick and glossy, fold in scallions and boiled eggs; serve steaming hot.",
+          "tr": "Sos koyulaşıp parlayınca taze soğan ve yumurtayı ekleyip sıcak servis yapın.",
+          "es": "Cuando la salsa espese, añadir cebolletas y huevos cocidos; servir caliente.",
+          "de": "Wenn die Sauce dickflüssig glänzt, Frühlingszwiebeln und Eier unterheben; heiß servieren."
+        }
+      ]
+    }
+  ]
+}

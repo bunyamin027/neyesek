@@ -1,0 +1,126 @@
+{
+  "@@locale": "es",
+  "appName": "¿Qué Comemos?",
+  "appTagline": "¡Decide qué comer con un giro de la ruleta!",
+  
+  "navWheel": "Ruleta",
+  "navCuisines": "Cocinas",
+  "navFavorites": "Favoritos",
+  "navHistory": "Historial",
+  "navSettings": "Ajustes",
+
+  "wheelSpin": "GIRAR RULETA",
+  "wheelSpinning": "Decidiendo por ti...",
+  "wheelResultTitle": "¡Sugerencia de Hoy!",
+  "wheelResultSubtitle": "Elegimos este delicioso plato para ti:",
+  "wheelSeeRecipe": "Ver Receta y Detalles",
+  "wheelSpinAgain": "Girar de Nuevo",
+  "wheelFilterCuisine": "Filtrar por Cocina",
+  "wheelAllCuisines": "Todas las Cocinas",
+
+  "cuisineTitle": "Cocinas del Mundo",
+  "cuisineSubtitle": "Explora deliciosas recetas de todo el mundo",
+  "cuisineFoodsCount": "{count} platos",
+  "@cuisineFoodsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "cuisinePremiumBadge": "PREMIUM",
+  "cuisineUnlock": "Desbloquear Cocina",
+
+  "detailIngredients": "Ingredientes",
+  "detailSteps": "Pasos de Preparación",
+  "detailPrepTime": "Preparación",
+  "detailCookTime": "Cocción",
+  "detailCalories": "Calorías",
+  "detailServings": "Porciones",
+  "detailDifficulty": "Dificultad",
+  "detailMinutes": "{min} min",
+  "@detailMinutes": {
+    "placeholders": {
+      "min": {
+        "type": "int"
+      }
+    }
+  },
+  "detailCalorieUnit": "{cal} kcal",
+  "@detailCalorieUnit": {
+    "placeholders": {
+      "cal": {
+        "type": "int"
+      }
+    }
+  },
+  "detailServingsCount": "{count} personas",
+  "@detailServingsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "difficultyEasy": "Fácil",
+  "difficultyMedium": "Medio",
+  "difficultyHard": "Difícil",
+
+  "favoritesTitle": "Mis Favoritos",
+  "favoritesEmptyTitle": "Aún no hay favoritos",
+  "favoritesEmptyDesc": "Toca el icono del corazón en cualquier receta para guardarla aquí.",
+  "favoritesRemoved": "Eliminado de favoritos",
+  "favoritesAdded": "Añadido a favoritos",
+
+  "historyTitle": "Historial de Giros",
+  "historyEmptyTitle": "Aún no hay historial",
+  "historyEmptyDesc": "Los giros que realices en la ruleta se guardarán aquí.",
+  "historyClear": "Borrar Historial",
+  "historyClearConfirm": "¿Estás seguro de que deseas borrar todo el historial?",
+  "historyCleared": "Historial borrado",
+
+  "settingsTitle": "Ajustes",
+  "settingsLanguage": "Idioma",
+  "settingsTheme": "Tema",
+  "settingsThemeDark": "Modo Oscuro",
+  "settingsSound": "Efectos de Sonido",
+  "settingsHaptic": "Vibración Háptica",
+  "settingsPremium": "Membresía Premium",
+  "settingsRestore": "Restaurar Compras",
+  "settingsAbout": "Acerca de la App",
+  "settingsVersion": "Versión {version}",
+  "@settingsVersion": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+
+  "premiumTitle": "Desbloquear Acceso Total",
+  "premiumSubtitle": "¡Consigue las 10 cocinas del mundo, giros ilimitados y experiencia sin anuncios!",
+  "premiumFeature1": "Desbloquea las 6 Cocinas Premium del Mundo",
+  "premiumFeature2": "Acceso a más de 160 recetas detalladas",
+  "premiumFeature3": "Filtros y reglas de exclusión personalizadas",
+  "premiumFeature4": "Experiencia totalmente sin anuncios",
+  "premiumBuyButton": "Obtener Premium Ahora",
+  "premiumRestore": "Restaurar Compra",
+  "premiumSuccess": "¡Bienvenido a Premium!",
+
+  "commonCancel": "Cancelar",
+  "commonConfirm": "Confirmar",
+  "commonSave": "Guardar",
+  "commonClose": "Cerrar",
+  "commonShare": "Compartir Receta",
+  "commonShareText": "¡Mira lo que encontré en la app ¿Qué Comemos?: {dishName}!",
+
+  "onboardingTitle1": "¿No Sabes Qué Comer?",
+  "onboardingSubtitle1": "¡Dile adiós a la indecisión diaria a la hora de comer!",
+  "onboardingTitle2": "¡Gira la Ruleta!",
+  "onboardingSubtitle2": "Deja la decisión en manos de la suerte con sonidos y física realista.",
+  "onboardingTitle3": "Descubre Cocinas del Mundo",
+  "onboardingSubtitle3": "Más de 160 recetas de 10 grandes tradiciones culinarias.",
+  "onboardingSkip": "Saltar",
+  "onboardingNext": "Siguiente",
+  "onboardingStart": "¡Empecemos!"
+}

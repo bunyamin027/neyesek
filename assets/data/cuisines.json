@@ -1,0 +1,234 @@
+{
+  "cuisines": [
+    {
+      "id": "turkish",
+      "emoji": "🥙",
+      "flag": "🇹🇷",
+      "primaryColor": "FFFF6B35",
+      "secondaryColor": "FFE55A2B",
+      "image": "cuisines/turkish.webp",
+      "isPremium": false,
+      "foodCount": 75,
+      "sortOrder": 1,
+      "name": {
+        "en": "Turkish",
+        "tr": "Türk",
+        "es": "Turca",
+        "de": "Türkisch"
+      },
+      "description": {
+        "en": "Rich flavors from Anatolia with centuries of culinary tradition",
+        "tr": "Yüzyıllık mutfak geleneğiyle Anadolu'nun zengin lezzetleri",
+        "es": "Ricos sabores de Anatolia con siglos de tradición culinaria",
+        "de": "Reiche Aromen aus Anatolien mit jahrhundertealter kulinarischer Tradition"
+      }
+    },
+    {
+      "id": "italian",
+      "emoji": "🍕",
+      "flag": "🇮🇹",
+      "primaryColor": "FFE84545",
+      "secondaryColor": "FFC62828",
+      "image": "cuisines/italian.webp",
+      "isPremium": false,
+      "foodCount": 30,
+      "sortOrder": 2,
+      "name": {
+        "en": "Italian",
+        "tr": "İtalyan",
+        "es": "Italiana",
+        "de": "Italienisch"
+      },
+      "description": {
+        "en": "Timeless Mediterranean classics loved around the world",
+        "tr": "Tüm dünyada sevilen zamansız Akdeniz klasikleri",
+        "es": "Clásicos mediterráneos atemporales amados en todo el mundo",
+        "de": "Zeitlose mediterrane Klassiker, die weltweit geliebt werden"
+      }
+    },
+    {
+      "id": "american",
+      "emoji": "🍔",
+      "flag": "🇺🇸",
+      "primaryColor": "FFF39C12",
+      "secondaryColor": "FFE67E22",
+      "image": "cuisines/american.webp",
+      "isPremium": false,
+      "foodCount": 30,
+      "sortOrder": 3,
+      "name": {
+        "en": "American",
+        "tr": "Amerikan",
+        "es": "Americana",
+        "de": "Amerikanisch"
+      },
+      "description": {
+        "en": "Bold, hearty comfort food from coast to coast",
+        "tr": "Kıyıdan kıyıya doyurucu ve cesur lezzetler",
+        "es": "Comida reconfortante y audaz de costa a costa",
+        "de": "Kräftiges, herzhaftes Wohlfühlessen von Küste zu Küste"
+      }
+    },
+    {
+      "id": "mexican",
+      "emoji": "🌮",
+      "flag": "🇲🇽",
+      "primaryColor": "FFE67E22",
+      "secondaryColor": "FFD35400",
+      "image": "cuisines/mexican.webp",
+      "isPremium": false,
+      "foodCount": 30,
+      "sortOrder": 4,
+      "name": {
+        "en": "Mexican",
+        "tr": "Meksika",
+        "es": "Mexicana",
+        "de": "Mexikanisch"
+      },
+      "description": {
+        "en": "Vibrant, spicy dishes with ancient Aztec and Mayan roots",
+        "tr": "Aztek ve Maya köklerinden gelen canlı ve baharatlı yemekler",
+        "es": "Platos vibrantes y picantes con raíces aztecas y mayas",
+        "de": "Lebhafte, würzige Gerichte mit aztekischen und Maya-Wurzeln"
+      }
+    },
+    {
+      "id": "japanese",
+      "emoji": "🍣",
+      "flag": "🇯🇵",
+      "primaryColor": "FF3498DB",
+      "secondaryColor": "FF2980B9",
+      "image": "cuisines/japanese.webp",
+      "isPremium": true,
+      "foodCount": 30,
+      "sortOrder": 5,
+      "name": {
+        "en": "Japanese",
+        "tr": "Japon",
+        "es": "Japonesa",
+        "de": "Japanisch"
+      },
+      "description": {
+        "en": "Elegant simplicity and umami perfection from the Land of the Rising Sun",
+        "tr": "Güneşin Doğduğu Ülke'den zarif sadelik ve umami mükemmelliği",
+        "es": "Elegante simplicidad y perfección umami de la Tierra del Sol Naciente",
+        "de": "Elegante Einfachheit und Umami-Perfektion aus dem Land der aufgehenden Sonne"
+      }
+    },
+    {
+      "id": "indian",
+      "emoji": "🍛",
+      "flag": "🇮🇳",
+      "primaryColor": "FFFFB347",
+      "secondaryColor": "FFE5983F",
+      "image": "cuisines/indian.webp",
+      "isPremium": true,
+      "foodCount": 30,
+      "sortOrder": 6,
+      "name": {
+        "en": "Indian",
+        "tr": "Hint",
+        "es": "India",
+        "de": "Indisch"
+      },
+      "description": {
+        "en": "A symphony of spices and aromas from the Indian subcontinent",
+        "tr": "Hint alt kıtasından baharatlar ve aromaların senfonisi",
+        "es": "Una sinfonía de especias y aromas del subcontinente indio",
+        "de": "Eine Symphonie aus Gewürzen und Aromen vom indischen Subkontinent"
+      }
+    },
+    {
+      "id": "thai",
+      "emoji": "🍜",
+      "flag": "🇹🇭",
+      "primaryColor": "FF2ECC71",
+      "secondaryColor": "FF27AE60",
+      "image": "cuisines/thai.webp",
+      "isPremium": true,
+      "foodCount": 30,
+      "sortOrder": 7,
+      "name": {
+        "en": "Thai",
+        "tr": "Tayland",
+        "es": "Tailandesa",
+        "de": "Thailändisch"
+      },
+      "description": {
+        "en": "Perfect balance of sweet, sour, salty, and spicy flavors",
+        "tr": "Tatlı, ekşi, tuzlu ve baharatlı tatların mükemmel dengesi",
+        "es": "Equilibrio perfecto de sabores dulces, ácidos, salados y picantes",
+        "de": "Perfekte Balance aus süßen, sauren, salzigen und würzigen Aromen"
+      }
+    },
+    {
+      "id": "french",
+      "emoji": "🥐",
+      "flag": "🇫🇷",
+      "primaryColor": "FF9B59B6",
+      "secondaryColor": "FF8E44AD",
+      "image": "cuisines/french.webp",
+      "isPremium": true,
+      "foodCount": 30,
+      "sortOrder": 8,
+      "name": {
+        "en": "French",
+        "tr": "Fransız",
+        "es": "Francesa",
+        "de": "Französisch"
+      },
+      "description": {
+        "en": "The art of fine dining and sophisticated culinary techniques",
+        "tr": "Sofistike mutfak tekniklerinin ve güzel yemeğin sanatı",
+        "es": "El arte de la alta cocina y técnicas culinarias sofisticadas",
+        "de": "Die Kunst des feinen Essens und raffinierter Kochtechniken"
+      }
+    },
+    {
+      "id": "korean",
+      "emoji": "🍚",
+      "flag": "🇰🇷",
+      "primaryColor": "FFE74C3C",
+      "secondaryColor": "FFC0392B",
+      "image": "cuisines/korean.webp",
+      "isPremium": true,
+      "foodCount": 30,
+      "sortOrder": 9,
+      "name": {
+        "en": "Korean",
+        "tr": "Kore",
+        "es": "Coreana",
+        "de": "Koreanisch"
+      },
+      "description": {
+        "en": "Bold fermented flavors and sizzling Korean BBQ traditions",
+        "tr": "Cesur fermente lezzetler ve cızırdayan Kore BBQ gelenekleri",
+        "es": "Sabores fermentados audaces y tradiciones de BBQ coreano chisporroteante",
+        "de": "Kräftige fermentierte Aromen und brutzelnde koreanische BBQ-Traditionen"
+      }
+    },
+    {
+      "id": "chinese",
+      "emoji": "🥡",
+      "flag": "🇨🇳",
+      "primaryColor": "FF1ABC9C",
+      "secondaryColor": "FF16A085",
+      "image": "cuisines/chinese.webp",
+      "isPremium": true,
+      "foodCount": 30,
+      "sortOrder": 10,
+      "name": {
+        "en": "Chinese",
+        "tr": "Çin",
+        "es": "China",
+        "de": "Chinesisch"
+      },
+      "description": {
+        "en": "Ancient culinary wisdom spanning eight great regional traditions",
+        "tr": "Sekiz büyük bölgesel geleneği kapsayan kadim mutfak bilgeliği",
+        "es": "Antigua sabiduría culinaria que abarca ocho grandes tradiciones regionales",
+        "de": "Uralte kulinarische Weisheit aus acht großen regionalen Traditionen"
+      }
+    }
+  ]
+}

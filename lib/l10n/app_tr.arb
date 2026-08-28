@@ -1,0 +1,126 @@
+{
+  "@@locale": "tr",
+  "appName": "Ne Yesek?",
+  "appTagline": "Bugün ne yiyeceğine çarkı çevirerek karar ver!",
+  
+  "navWheel": "Çark",
+  "navCuisines": "Mutfaklar",
+  "navFavorites": "Favoriler",
+  "navHistory": "Geçmiş",
+  "navSettings": "Ayarlar",
+
+  "wheelSpin": "ÇARKI ÇEVİR",
+  "wheelSpinning": "Senin için seçiliyor...",
+  "wheelResultTitle": "Günün Önerisi!",
+  "wheelResultSubtitle": "Senin için bu lezzetli yemeği seçtik:",
+  "wheelSeeRecipe": "Tarifi ve Detayları Gör",
+  "wheelSpinAgain": "Tekrar Çevir",
+  "wheelFilterCuisine": "Mutfağa Göre Filtrele",
+  "wheelAllCuisines": "Tüm Mutfaklar",
+
+  "cuisineTitle": "Dünya Mutfakları",
+  "cuisineSubtitle": "Dünyanın dört bir yanından nefis tarifleri keşfedin",
+  "cuisineFoodsCount": "{count} yemek",
+  "@cuisineFoodsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "cuisinePremiumBadge": "PREMIUM",
+  "cuisineUnlock": "Mutfağı Aç",
+
+  "detailIngredients": "Malzemeler",
+  "detailSteps": "Hazırlanış Adımları",
+  "detailPrepTime": "Hazırlık",
+  "detailCookTime": "Pişirme",
+  "detailCalories": "Kalori",
+  "detailServings": "Porsiyon",
+  "detailDifficulty": "Zorluk",
+  "detailMinutes": "{min} dk",
+  "@detailMinutes": {
+    "placeholders": {
+      "min": {
+        "type": "int"
+      }
+    }
+  },
+  "detailCalorieUnit": "{cal} kcal",
+  "@detailCalorieUnit": {
+    "placeholders": {
+      "cal": {
+        "type": "int"
+      }
+    }
+  },
+  "detailServingsCount": "{count} kişilik",
+  "@detailServingsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "difficultyEasy": "Kolay",
+  "difficultyMedium": "Orta",
+  "difficultyHard": "Zor",
+
+  "favoritesTitle": "Favorilerim",
+  "favoritesEmptyTitle": "Henüz Favori Yok",
+  "favoritesEmptyDesc": "Hızlıca erişmek istediğiniz tariflerin kalp simgesine dokunarak buraya kaydedin.",
+  "favoritesRemoved": "Favorilerden çıkarıldı",
+  "favoritesAdded": "Favorilere eklendi",
+
+  "historyTitle": "Karar Geçmişi",
+  "historyEmptyTitle": "Henüz Geçmiş Yok",
+  "historyEmptyDesc": "Çarkta yaptığınız seçimler burada listelenecektir.",
+  "historyClear": "Geçmişi Temizle",
+  "historyClearConfirm": "Tüm çark geçmişinizi silmek istediğinizden emin misiniz?",
+  "historyCleared": "Geçmiş temizlendi",
+
+  "settingsTitle": "Ayarlar",
+  "settingsLanguage": "Dil",
+  "settingsTheme": "Tema",
+  "settingsThemeDark": "Karanlık Mod",
+  "settingsSound": "Ses Efektleri",
+  "settingsHaptic": "Titreşim Geri Bildirimi",
+  "settingsPremium": "Premium Üyelik",
+  "settingsRestore": "Satın Alımları Geri Yükle",
+  "settingsAbout": "Uygulama Hakkında",
+  "settingsVersion": "Sürüm {version}",
+  "@settingsVersion": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+
+  "premiumTitle": "Tam Erişimi Aç",
+  "premiumSubtitle": "Tüm 10 dünya mutfağına, sınırsız çark hakkına ve reklamsız deneyime sahip olun!",
+  "premiumFeature1": "6 Premium Dünya Mutfağının Kilidini Açın",
+  "premiumFeature2": "160+ detaylı tarife sınırsız erişim",
+  "premiumFeature3": "Özel filtreleme ve hariç tutma kuralları",
+  "premiumFeature4": "Tamamen reklamsız deneyim",
+  "premiumBuyButton": "Hemen Premium'a Geç",
+  "premiumRestore": "Satın Alımı Geri Yükle",
+  "premiumSuccess": "Premium'a Hoş Geldiniz!",
+
+  "commonCancel": "İptal",
+  "commonConfirm": "Onayla",
+  "commonSave": "Kaydet",
+  "commonClose": "Kapat",
+  "commonShare": "Tarifi Paylaş",
+  "commonShareText": "Bugün Ne Yesek uygulamasında harika bir tarif buldum: {dishName}!",
+
+  "onboardingTitle1": "Ne Yiyeceğine Karar Veremiyor musun?",
+  "onboardingSubtitle1": "Her gün 'Bugün ne yesek?' derdine eğlenceli çarkımızla son verin!",
+  "onboardingTitle2": "Çarkı Çevir!",
+  "onboardingSubtitle2": "Kararı şansa bırak, günün lezzetini çark belirlesin.",
+  "onboardingTitle3": "Dünya Mutfaklarını Keşfet",
+  "onboardingSubtitle3": "10 farklı mutfaktan 160+ detaylı tarif parmaklarının ucunda.",
+  "onboardingSkip": "Atla",
+  "onboardingNext": "İleri",
+  "onboardingStart": "Hemen Başla"
+}

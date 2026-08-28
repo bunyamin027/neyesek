@@ -1,0 +1,1687 @@
+{
+  "cuisineId": "japanese",
+  "foods": [
+    {
+      "id": "jp_sushi",
+      "cuisineId": "japanese",
+      "emoji": "🍣",
+      "image": "https://images.unsplash.com/photo-1579871494447-9811cf80d66c?auto=format&fit=crop&w=800&q=80",
+      "color": "FFE84545",
+      "prepTime": 45,
+      "cookTime": 20,
+      "difficulty": "hard",
+      "calories": 300,
+      "servings": 4,
+      "isPremium": true,
+      "tags": [
+        "seafood",
+        "rice",
+        "classic"
+      ],
+      "name": {
+        "en": "Nigiri Sushi",
+        "tr": "Nigiri Suşi",
+        "es": "Sushi Nigiri",
+        "de": "Nigiri-Sushi"
+      },
+      "description": {
+        "en": "Hand-pressed vinegared rice topped with fresh slices of fish — the essence of Japanese cuisine.",
+        "tr": "Taze balık dilimleriyle kaplı elle şekillendirilmiş sirkeli pirinç — Japon mutfağının özü.",
+        "es": "Arroz avinagrado prensado a mano cubierto con rebanadas frescas de pescado — la esencia de la cocina japonesa.",
+        "de": "Handgepresster Essig-Reis belegt mit frischen Fischscheiben — die Essenz der japanischen Küche."
+      },
+      "ingredients": [
+        {
+          "en": "Sushi rice, rice vinegar, sugar, salt",
+          "tr": "Suşi pirinci, pirinç sirkesi, şeker, tuz",
+          "es": "Arroz para sushi, vinagre de arroz, azúcar, sal",
+          "de": "Sushi-Reis, Reisessig, Zucker, Salz"
+        },
+        {
+          "en": "Fresh sashimi-grade fish (salmon, tuna, shrimp)",
+          "tr": "Taze sashimi kalitesinde balık (somon, ton, karides)",
+          "es": "Pescado fresco grado sashimi (salmón, atún, camarón)",
+          "de": "Frischer Sashimi-Fisch (Lachs, Thunfisch, Garnele)"
+        },
+        {
+          "en": "Wasabi, soy sauce, pickled ginger",
+          "tr": "Wasabi, soya sosu, turşu zencefil",
+          "es": "Wasabi, salsa de soja, jengibre encurtido",
+          "de": "Wasabi, Sojasauce, eingelegter Ingwer"
+        }
+      ],
+      "steps": [
+        {
+          "en": "Cook sushi rice, season with vinegar mixture while hot.",
+          "tr": "Suşi pirincini pişirin, sıcakken sirke karışımı ile tatlandırın.",
+          "es": "Cocinar arroz para sushi, sazonar con mezcla de vinagre mientras está caliente.",
+          "de": "Sushi-Reis kochen, heiß mit Essigmischung würzen."
+        },
+        {
+          "en": "Slice fish into thin, elegant pieces.",
+          "tr": "Balığı ince, zarif parçalara dilimleyin.",
+          "es": "Cortar el pescado en piezas finas y elegantes.",
+          "de": "Fisch in dünne, elegante Stücke schneiden."
+        },
+        {
+          "en": "Wet hands, form a small oblong of rice, dab with wasabi.",
+          "tr": "Ellerinizi ıslatın, küçük bir oval pirinç şekli verin, wasabi sürün.",
+          "es": "Mojar manos, formar un óvalo pequeño de arroz, poner un poco de wasabi.",
+          "de": "Hände anfeuchten, einen kleinen Reisballen formen, Wasabi auftupfen."
+        },
+        {
+          "en": "Drape fish over rice, press gently. Serve with soy sauce and ginger.",
+          "tr": "Balığı pirincin üzerine yatırın, hafifçe bastırın. Soya sosu ve zencefille servis edin.",
+          "es": "Colocar el pescado sobre el arroz, presionar suavemente. Servir con soja y jengibre.",
+          "de": "Fisch über den Reis legen, sanft andrücken. Mit Sojasauce und Ingwer servieren."
+        }
+      ]
+    },
+    {
+      "id": "jp_ramen",
+      "cuisineId": "japanese",
+      "emoji": "🍜",
+      "image": "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?auto=format&fit=crop&w=800&q=80",
+      "color": "FFF1C40F",
+      "prepTime": 30,
+      "cookTime": 360,
+      "difficulty": "hard",
+      "calories": 500,
+      "servings": 4,
+      "isPremium": true,
+      "tags": [
+        "soup",
+        "noodle",
+        "umami"
+      ],
+      "name": {
+        "en": "Tonkotsu Ramen",
+        "tr": "Tonkotsu Ramen",
+        "es": "Ramen Tonkotsu",
+        "de": "Tonkotsu-Ramen"
+      },
+      "description": {
+        "en": "Rich, milky pork bone broth with springy noodles, chashu pork, soft egg, and scallions.",
+        "tr": "Esnek erişte, chashu domuz, yumuşak yumurta ve yeşil soğanla zengin domuz kemik suyu.",
+        "es": "Caldo rico y lechoso de hueso de cerdo con fideos elásticos, cerdo chashu, huevo blando y cebolletas.",
+        "de": "Reichhaltige, milchige Schweineknochenbrühe mit federnden Nudeln, Chashu-Schwein, weichem Ei und Frühlingszwiebeln."
+      },
+      "ingredients": [
+        {
+          "en": "Pork bones, trotters for broth",
+          "tr": "Domuz kemikleri, paça suyu için",
+          "es": "Huesos de cerdo, trotadores para caldo",
+          "de": "Schweineknochen, Schweinefüße für Brühe"
+        },
+        {
+          "en": "Ramen noodles (fresh)",
+          "tr": "Ramen eriştesi (taze)",
+          "es": "Fideos ramen (frescos)",
+          "de": "Ramen-Nudeln (frisch)"
+        },
+        {
+          "en": "Chashu pork belly, soft-boiled egg",
+          "tr": "Chashu domuz göğsü, yumuşak haşlanmış yumurta",
+          "es": "Panceta chashu, huevo cocido blando",
+          "de": "Chashu-Schweinebauch, wachsweiches Ei"
+        },
+        {
+          "en": "Tare (soy or miso), scallions, nori",
+          "tr": "Tare (soya veya miso), yeşil soğan, nori",
+          "es": "Tare (soja o miso), cebolletas, nori",
+          "de": "Tare (Soja oder Miso), Frühlingszwiebeln, Nori"
+        }
+      ],
+      "steps": [
+        {
+          "en": "Boil pork bones vigorously for 6-12 hours for milky broth.",
+          "tr": "Sütsü et suyu için domuz kemiklerini 6-12 saat şiddetle kaynatın.",
+          "es": "Hervir huesos vigorosamente por 6-12 horas para caldo lechoso.",
+          "de": "Schweineknochen 6-12 Stunden kräftig kochen für milchige Brühe."
+        },
+        {
+          "en": "Prepare chashu: braise pork belly in soy, mirin, and sake.",
+          "tr": "Chashu hazırlayın: domuz göğsünü soya, mirin ve sake'de pişirin.",
+          "es": "Preparar chashu: estofar panceta en soja, mirin y sake.",
+          "de": "Chashu zubereiten: Schweinebauch in Soja, Mirin und Sake schmoren."
+        },
+        {
+          "en": "Soft-boil eggs (6.5 min), marinate in tare.",
+          "tr": "Yumurtaları yumuşak haşlayın (6.5 dk), tare'de marine edin.",
+          "es": "Cocer huevos blandos (6.5 min), marinar en tare.",
+          "de": "Eier wachsweich kochen (6,5 Min.), in Tare marinieren."
+        },
+        {
+          "en": "Cook noodles, assemble: tare in bowl, broth, noodles, then toppings.",
+          "tr": "Erişteleri pişirin, birleştirin: kaseye tare, et suyu, erişte, sonra malzemeler.",
+          "es": "Cocinar fideos, armar: tare en bol, caldo, fideos, luego ingredientes.",
+          "de": "Nudeln kochen, anrichten: Tare in Schüssel, Brühe, Nudeln, dann Belag."
+        }
+      ]
+    },
+    {
+      "id": "jp_tempura",
+      "cuisineId": "japanese",
+      "emoji": "🍤",
+      "image": "https://images.unsplash.com/photo-1615361200141-f45040f367be?auto=format&fit=crop&w=800&q=80",
+      "color": "FFF1C40F",
+      "prepTime": 15,
+      "cookTime": 10,
+      "difficulty": "medium",
+      "calories": 280,
+      "servings": 4,
+      "isPremium": true,
+      "tags": [
+        "fried",
+        "seafood",
+        "vegetable"
+      ],
+      "name": {
+        "en": "Tempura",
+        "tr": "Tempura",
+        "es": "Tempura",
+        "de": "Tempura"
+      },
+      "description": {
+        "en": "Lightly battered and fried shrimp and vegetables — impossibly light and crispy.",
+        "tr": "Hafif hamura bulanmış kızarmış karides ve sebzeler — inanılmaz hafif ve çıtır.",
+        "es": "Camarones y verduras ligeramente rebozados y fritos — increíblemente ligeros y crujientes.",
+        "de": "Leicht panierte und frittierte Garnelen und Gemüse — unglaublich leicht und knusprig."
+      },
+      "ingredients": [
+        {
+          "en": "Large shrimp, assorted vegetables",
+          "tr": "Büyük karides, çeşitli sebzeler",
+          "es": "Camarones grandes, verduras variadas",
+          "de": "Große Garnelen, verschiedenes Gemüse"
+        },
+        {
+          "en": "Tempura batter: ice cold water, egg, flour",
+          "tr": "Tempura hamuru: buz gibi soğuk su, yumurta, un",
+          "es": "Masa tempura: agua helada, huevo, harina",
+          "de": "Tempura-Teig: eiskaltes Wasser, Ei, Mehl"
+        },
+        {
+          "en": "Dipping sauce: dashi, soy sauce, mirin",
+          "tr": "Dip sosu: dashi, soya sosu, mirin",
+          "es": "Salsa para mojar: dashi, soja, mirin",
+          "de": "Dip-Sauce: Dashi, Sojasauce, Mirin"
+        },
+        {
+          "en": "Oil for deep frying, grated daikon",
+          "tr": "Kızartma yağı, rendelenmiş daikon",
+          "es": "Aceite para freír, daikon rallado",
+          "de": "Öl zum Frittieren, geriebener Daikon"
+        }
+      ],
+      "steps": [
+        {
+          "en": "Mix ice-cold water, egg, and flour very briefly — lumps are essential!",
+          "tr": "Buz gibi soğuk su, yumurta ve unu çok kısa süre karıştırın — topaklar önemli!",
+          "es": "Mezclar agua helada, huevo y harina muy brevemente — ¡los grumos son esenciales!",
+          "de": "Eiskaltes Wasser, Ei und Mehl ganz kurz verrühren — Klümpchen sind wichtig!"
+        },
+        {
+          "en": "Dip shrimp and vegetables in batter.",
+          "tr": "Karides ve sebzeleri hamura batırın.",
+          "es": "Sumergir camarones y verduras en la masa.",
+          "de": "Garnelen und Gemüse in Teig tauchen."
+        },
+        {
+          "en": "Fry in 180°C oil for 2-3 minutes until pale golden.",
+          "tr": "180°C yağda 2-3 dakika soluk altın rengi olana kadar kızartın.",
+          "es": "Freír en aceite a 180°C por 2-3 minutos hasta dorar ligeramente.",
+          "de": "In 180°C heißem Öl 2-3 Minuten hellgolden frittieren."
+        },
+        {
+          "en": "Serve immediately with tentsuyu dipping sauce and grated daikon.",
+          "tr": "Tentsuyu dip sosu ve rendelenmiş daikon ile hemen servis edin.",
+          "es": "Servir inmediatamente con salsa tentsuyu y daikon rallado.",
+          "de": "Sofort mit Tentsuyu-Dip-Sauce und geriebenem Daikon servieren."
+        }
+      ]
+    },
+    {
+      "id": "jp_gyoza",
+      "cuisineId": "japanese",
+      "emoji": "🥟",
+      "image": "https://images.unsplash.com/photo-1496116218417-1a781b1c416c?auto=format&fit=crop&w=800&q=80",
+      "color": "FFF39C12",
+      "prepTime": 30,
+      "cookTime": 8,
+      "difficulty": "medium",
+      "calories": 250,
+      "servings": 4,
+      "isPremium": true,
+      "tags": [
+        "dumpling",
+        "pan_fried"
+      ],
+      "name": {
+        "en": "Gyoza",
+        "tr": "Gyoza",
+        "es": "Gyoza",
+        "de": "Gyoza"
+      },
+      "description": {
+        "en": "Pan-fried dumplings with crispy bottoms and juicy pork-cabbage filling.",
+        "tr": "Çıtır tabanlı ve sulu domuz-lahana dolgulu tavada kızarmış mantı.",
+        "es": "Empanadillas a la plancha con bases crujientes y relleno jugoso de cerdo y repollo.",
+        "de": "In der Pfanne gebratene Teigtaschen mit knuspriger Unterseite und saftiger Schweinefleisch-Kohl-Füllung."
+      },
+      "ingredients": [
+        {
+          "en": "Gyoza wrappers",
+          "tr": "Gyoza hamuru",
+          "es": "Masa para gyoza",
+          "de": "Gyoza-Teigblätter"
+        },
+        {
+          "en": "Ground pork, cabbage, garlic chives",
+          "tr": "Kıyma, lahana, sarımsak cipollino",
+          "es": "Cerdo molido, repollo, cebollino de ajo",
+          "de": "Schweinehackfleisch, Kohl, Knoblauch-Schnittlauch"
+        },
+        {
+          "en": "Ginger, soy sauce, sesame oil",
+          "tr": "Zencefil, soya sosu, susam yağı",
+          "es": "Jengibre, salsa de soja, aceite de sésamo",
+          "de": "Ingwer, Sojasauce, Sesamöl"
+        },
+        {
+          "en": "Dipping sauce: soy, vinegar, chili oil",
+          "tr": "Dip sosu: soya, sirke, acı biber yağı",
+          "es": "Salsa: soja, vinagre, aceite de chile",
+          "de": "Dip-Sauce: Soja, Essig, Chiliöl"
+        }
+      ],
+      "steps": [
+        {
+          "en": "Mix pork with finely chopped cabbage, ginger, and seasonings.",
+          "tr": "Kıymayı ince doğranmış lahana, zencefil ve baharatlarla karıştırın.",
+          "es": "Mezclar cerdo con repollo finamente picado, jengibre y condimentos.",
+          "de": "Schweinefleisch mit fein gehacktem Kohl, Ingwer und Gewürzen mischen."
+        },
+        {
+          "en": "Place filling on wrapper, fold into pleated crescent.",
+          "tr": "Harcı hamura koyun, pileli hilal şeklinde katlayın.",
+          "es": "Colocar relleno en masa, doblar en media luna plisada.",
+          "de": "Füllung auf Teigblatt setzen, zu gefalteter Halbmond-Form falten."
+        },
+        {
+          "en": "Pan-fry bottoms in oil until golden, add water, cover to steam.",
+          "tr": "Tabalarını yağda altın rengi olana kadar kızartın, su ekleyin, buharda pişirin.",
+          "es": "Freír las bases en aceite hasta dorar, agregar agua, tapar para vaporizar.",
+          "de": "Unterseiten in Öl goldbraun braten, Wasser hinzufügen, zudecken zum Dämpfen."
+        },
+        {
+          "en": "Remove lid, cook until water evaporates and bottoms re-crisp.",
+          "tr": "Kapağı kaldırın, su buharlaşana ve tabanlar tekrar çıtırlaşana kadar pişirin.",
+          "es": "Retirar tapa, cocinar hasta que el agua se evapore y las bases se recrispen.",
+          "de": "Deckel abnehmen, kochen bis Wasser verdampft und Böden wieder knusprig sind."
+        }
+      ]
+    },
+    {
+      "id": "jp_teriyaki",
+      "cuisineId": "japanese",
+      "emoji": "🍗",
+      "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=800&q=80",
+      "color": "FF8B4513",
+      "prepTime": 10,
+      "cookTime": 15,
+      "difficulty": "easy",
+      "calories": 350,
+      "servings": 4,
+      "isPremium": true,
+      "tags": [
+        "chicken",
+        "sauce",
+        "quick"
+      ],
+      "name": {
+        "en": "Chicken Teriyaki",
+        "tr": "Teriyaki Tavuk",
+        "es": "Pollo Teriyaki",
+        "de": "Hähnchen-Teriyaki"
+      },
+      "description": {
+        "en": "Glazed chicken thighs in sweet, glossy teriyaki sauce over steamed rice.",
+        "tr": "Buharda pirinç üzerinde tatlı, parlak teriyaki soslu sırlı tavuk but.",
+        "es": "Muslos de pollo glaseados en salsa teriyaki dulce y brillante sobre arroz al vapor.",
+        "de": "Glasierte Hähnchenschenkel in süßer, glänzender Teriyaki-Sauce auf gedämpftem Reis."
+      },
+      "ingredients": [
+        {
+          "en": "4 chicken thighs, boneless",
+          "tr": "4 kemiksiz tavuk but",
+          "es": "4 muslos de pollo, deshuesados",
+          "de": "4 Hähnchenschenkel, ohne Knochen"
+        },
+        {
+          "en": "Soy sauce, mirin, sake, sugar",
+          "tr": "Soya sosu, mirin, sake, şeker",
+          "es": "Salsa de soja, mirin, sake, azúcar",
+          "de": "Sojasauce, Mirin, Sake, Zucker"
+        },
+        {
+          "en": "Steamed rice",
+          "tr": "Buharda pirinç",
+          "es": "Arroz al vapor",
+          "de": "Gedämpfter Reis"
+        },
+        {
+          "en": "Sesame seeds, scallions",
+          "tr": "Susam, yeşil soğan",
+          "es": "Semillas de sésamo, cebolletas",
+          "de": "Sesamsamen, Frühlingszwiebeln"
+        }
+      ],
+      "steps": [
+        {
+          "en": "Score chicken skin, pan-fry skin-side down until crispy.",
+          "tr": "Tavuk derisini çizin, deri tarafı alta gelecek şekilde çıtır olana kadar kızartın.",
+          "es": "Marcar piel de pollo, freír con la piel hacia abajo hasta que esté crujiente.",
+          "de": "Hähnchenhaut einritzen, mit der Hautseite nach unten knusprig braten."
+        },
+        {
+          "en": "Flip, cook through. Remove from pan.",
+          "tr": "Çevirin, tamamen pişirin. Tavadan çıkarın.",
+          "es": "Voltear, cocinar completamente. Retirar de la sartén.",
+          "de": "Wenden, durchgaren. Aus der Pfanne nehmen."
+        },
+        {
+          "en": "Add soy sauce, mirin, sake, sugar to pan. Simmer to thick glaze.",
+          "tr": "Tavaya soya sosu, mirin, sake, şeker ekleyin. Koyu sır olana kadar pişirin.",
+          "es": "Agregar soja, mirin, sake, azúcar a la sartén. Cocinar hasta glaseado espeso.",
+          "de": "Sojasauce, Mirin, Sake, Zucker in die Pfanne geben. Zur dicken Glasur einkochen."
+        },
+        {
+          "en": "Return chicken, coat in glaze. Slice and serve over rice.",
+          "tr": "Tavuğu geri koyun, sırla kaplayın. Dilimleyip pirinç üzerinde servis edin.",
+          "es": "Regresar pollo, cubrir con glaseado. Cortar y servir sobre arroz.",
+          "de": "Hähnchen zurückgeben, mit Glasur überziehen. Aufschneiden und auf Reis servieren."
+        }
+      ]
+    },
+    {
+      "id": "jp_miso_soup",
+      "cuisineId": "japanese",
+      "emoji": "🥣",
+      "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&w=800&q=80",
+      "color": "FFF1C40F",
+      "prepTime": 5,
+      "cookTime": 10,
+      "difficulty": "easy",
+      "calories": 60,
+      "servings": 4,
+      "isPremium": true,
+      "tags": [
+        "soup",
+        "vegetarian",
+        "staple"
+      ],
+      "name": {
+        "en": "Miso Soup",
+        "tr": "Miso Çorbası",
+        "es": "Sopa de Miso",
+        "de": "Miso-Suppe"
+      },
+      "description": {
+        "en": "Simple, soul-warming dashi broth with miso paste, tofu, and wakame seaweed.",
+        "tr": "Miso macunu, tofu ve wakame yosunu ile basit, ruh ısıtan dashi suyu.",
+        "es": "Caldo dashi simple y reconfortante con pasta de miso, tofu y alga wakame.",
+        "de": "Einfache, wärmende Dashi-Brühe mit Miso-Paste, Tofu und Wakame-Algen."
+      },
+      "ingredients": [
+        {
+          "en": "Dashi stock (kombu and bonito flakes)",
+          "tr": "Dashi suyu (kombu ve bonito gevreği)",
+          "es": "Caldo dashi (kombu y copos de bonito)",
+          "de": "Dashi-Brühe (Kombu und Bonito-Flocken)"
+        },
+        {
+          "en": "3 tbsp miso paste",
+          "tr": "3 yemek kaşığı miso macunu",
+          "es": "3 cucharadas de pasta de miso",
+          "de": "3 EL Miso-Paste"
+        },
+        {
+          "en": "Silken tofu, wakame seaweed",
+          "tr": "İpeksi tofu, wakame yosunu",
+          "es": "Tofu sedoso, alga wakame",
+          "de": "Seiden-Tofu, Wakame-Algen"
+        },
+        {
+          "en": "Scallions",
+          "tr": "Yeşil soğan",
+          "es": "Cebolletas",
+          "de": "Frühlingszwiebeln"
+        }
+      ],
+      "steps": [
+        {
+          "en": "Make dashi: steep kombu and bonito flakes in hot water.",
+          "tr": "Dashi yapın: kombu ve bonito gevreğini sıcak suda demleyin.",
+          "es": "Hacer dashi: infusionar kombu y copos de bonito en agua caliente.",
+          "de": "Dashi herstellen: Kombu und Bonito-Flocken in heißem Wasser ziehen lassen."
+        },
+        {
+          "en": "Add cubed tofu and rehydrated wakame.",
+          "tr": "Küp tofu ve suyla açılmış wakame ekleyin.",
+          "es": "Agregar tofu en cubos y wakame rehidratado.",
+          "de": "Gewürfelten Tofu und eingeweichten Wakame hinzufügen."
+        },
+        {
+          "en": "Dissolve miso paste into broth OFF heat — never boil miso!",
+          "tr": "Miso macununu ateşten aldıktan sonra suya eritin — misoyu asla kaynatmayın!",
+          "es": "Disolver pasta de miso en caldo FUERA del fuego — ¡nunca hervir el miso!",
+          "de": "Miso-Paste VOM Herd in die Brühe auflösen — Miso niemals kochen!"
+        },
+        {
+          "en": "Serve topped with sliced scallions.",
+          "tr": "Dilimlenmiş yeşil soğan ile servis edin.",
+          "es": "Servir cubierto con cebolletas en rodajas.",
+          "de": "Mit geschnittenen Frühlingszwiebeln servieren."
+        }
+      ]
+    },
+    {
+      "id": "jp_katsu_curry",
+      "cuisineId": "japanese",
+      "emoji": "🍛",
+      "image": "https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?auto=format&fit=crop&w=800&q=80",
+      "color": "FFE67E22",
+      "prepTime": 15,
+      "cookTime": 30,
+      "difficulty": "medium",
+      "calories": 580,
+      "servings": 4,
+      "isPremium": true,
+      "tags": [
+        "fried",
+        "curry",
+        "comfort"
+      ],
+      "name": {
+        "en": "Katsu Curry",
+        "tr": "Katsu Köri",
+        "es": "Katsu Curry",
+        "de": "Katsu-Curry"
+      },
+      "description": {
+        "en": "Crispy breaded pork cutlet served with Japanese curry sauce and rice.",
+        "tr": "Çıtır panelenmiş domuz pirzolası Japon köri sosu ve pirinç ile servis edilir.",
+        "es": "Chuleta de cerdo empanizada crujiente servida con salsa curry japonesa y arroz.",
+        "de": "Knuspriges paniertes Schweineschnitzel mit japanischer Curry-Sauce und Reis."
+      },
+      "ingredients": [
+        {
+          "en": "4 pork loin cutlets",
+          "tr": "4 domuz fileto pirzolası",
+          "es": "4 chuletas de lomo de cerdo",
+          "de": "4 Schweinelendenkoteletts"
+        },
+        {
+          "en": "Flour, beaten egg, panko breadcrumbs",
+          "tr": "Un, çırpılmış yumurta, panko galeta unu",
+          "es": "Harina, huevo batido, panko",
+          "de": "Mehl, verquirltes Ei, Panko-Semmelbrösel"
+        },
+        {
+          "en": "Japanese curry roux, vegetables (potato, carrot, onion)",
+          "tr": "Japon köri bloku, sebzeler (patates, havuç, soğan)",
+          "es": "Roux de curry japonés, verduras (patata, zanahoria, cebolla)",
+          "de": "Japanische Curry-Roux, Gemüse (Kartoffel, Karotte, Zwiebel)"
+        },
+        {
+          "en": "Steamed rice",
+          "tr": "Buharda pirinç",
+          "es": "Arroz al vapor",
+          "de": "Gedämpfter Reis"
+        }
+      ],
+      "steps": [
+        {
+          "en": "Cook curry: sauté vegetables, add water, simmer, add curry roux.",
+          "tr": "Köri pişirin: sebzeleri kavurun, su ekleyin, pişirin, köri bloku ekleyin.",
+          "es": "Cocinar curry: saltear verduras, agregar agua, cocinar, agregar roux de curry.",
+          "de": "Curry kochen: Gemüse anbraten, Wasser hinzufügen, köcheln, Curry-Roux einrühren."
+        },
+        {
+          "en": "Coat cutlets: flour → egg → panko.",
+          "tr": "Pirzolalari kaplayın: un → yumurta → panko.",
+          "es": "Rebozar chuletas: harina → huevo → panko.",
+          "de": "Schnitzel panieren: Mehl → Ei → Panko."
+        },
+        {
+          "en": "Deep fry at 170°C for 5-6 minutes until golden and cooked through.",
+          "tr": "170°C yağda 5-6 dakika altın rengi olana kadar kızartın.",
+          "es": "Freír a 170°C por 5-6 minutos hasta dorar.",
+          "de": "Bei 170°C 5-6 Minuten goldbraun frittieren."
+        },
+        {
+          "en": "Slice cutlet, serve alongside rice and curry.",
+          "tr": "Pirzolayı dilimleyin, pirinç ve köri ile servis edin.",
+          "es": "Cortar chuleta, servir junto con arroz y curry.",
+          "de": "Schnitzel aufschneiden, mit Reis und Curry servieren."
+        }
+      ]
+    },
+    {
+      "id": "jp_okonomiyaki",
+      "cuisineId": "japanese",
+      "emoji": "🥞",
+      "image": "https://images.unsplash.com/photo-1565299585323-38d6b0865b47?auto=format&fit=crop&w=800&q=80",
+      "color": "FF8B4513",
+      "prepTime": 15,
+      "cookTime": 10,
+      "difficulty": "medium",
+      "calories": 380,
+      "servings": 4,
+      "isPremium": true,
+      "tags": [
+        "pancake",
+        "street_food"
+      ],
+      "name": {
+        "en": "Okonomiyaki",
+        "tr": "Okonomiyaki",
+        "es": "Okonomiyaki",
+        "de": "Okonomiyaki"
+      },
+      "description": {
+        "en": "Savory cabbage pancake loaded with toppings — Japan's beloved 'as you like it' griddle cake.",
+        "tr": "Malzemelerle dolu tuzlu lahana pankek — Japonya'nın sevilen 'istediğin gibi' sacda pişen keki.",
+        "es": "Panqueque salado de repollo cargado de ingredientes — el querido 'como quieras' de Japón.",
+        "de": "Herzhafter Kohlpfannkuchen mit vielen Belägen — Japans beliebter 'Wie-du-es-willst'-Grillkuchen."
+      },
+      "ingredients": [
+        {
+          "en": "Flour, eggs, dashi, cabbage",
+          "tr": "Un, yumurta, dashi, lahana",
+          "es": "Harina, huevos, dashi, repollo",
+          "de": "Mehl, Eier, Dashi, Kohl"
+        },
+        {
+          "en": "Pork belly slices, shrimp",
+          "tr": "Domuz göğsü dilimleri, karides",
+          "es": "Lonchas de panceta, camarones",
+          "de": "Schweinebauchscheiben, Garnelen"
+        },
+        {
+          "en": "Okonomiyaki sauce, Japanese mayo",
+          "tr": "Okonomiyaki sosu, Japon mayonezi",
+          "es": "Salsa okonomiyaki, mayonesa japonesa",
+          "de": "Okonomiyaki-Sauce, japanische Mayo"
+        },
+        {
+          "en": "Bonito flakes, aonori seaweed",
+          "tr": "Bonito gevreği, aonori yosunu",
+          "es": "Copos de bonito, alga aonori",
+          "de": "Bonito-Flocken, Aonori-Algen"
+        }
+      ],
+      "steps": [
+        {
+          "en": "Mix batter with shredded cabbage and dashi.",
+          "tr": "Hamuru rendelenmiş lahana ve dashi ile karıştırın.",
+          "es": "Mezclar masa con repollo rallado y dashi.",
+          "de": "Teig mit geraspeltem Kohl und Dashi mischen."
+        },
+        {
+          "en": "Pour on hot griddle, lay pork slices on top.",
+          "tr": "Kızgın saca dökün, üzerine domuz dilimlerini koyun.",
+          "es": "Verter en plancha caliente, colocar lonchas de cerdo encima.",
+          "de": "Auf heiße Grillplatte gießen, Schweinescheiben obenauf legen."
+        },
+        {
+          "en": "Flip when bottom is set (about 5 min), cook other side.",
+          "tr": "Alt taraf donduğunda çevirin (yaklaşık 5 dk), diğer tarafı pişirin.",
+          "es": "Voltear cuando la base esté firme (unos 5 min), cocinar el otro lado.",
+          "de": "Wenden wenn die Unterseite fest ist (ca. 5 Min.), andere Seite garen."
+        },
+        {
+          "en": "Top with sauce, mayo (zigzag), bonito flakes, and aonori.",
+          "tr": "Sos, mayonez (zikzak), bonito gevreği ve aonori ile süsleyin.",
+          "es": "Cubrir con salsa, mayonesa (zigzag), copos de bonito y aonori.",
+          "de": "Mit Sauce, Mayo (Zickzack), Bonito-Flocken und Aonori garnieren."
+        }
+      ]
+    },
+    {
+      "id": "jp_udon",
+      "cuisineId": "japanese",
+      "emoji": "🍜",
+      "image": "https://images.unsplash.com/photo-1552611052-33e04de081de?auto=format&fit=crop&w=800&q=80",
+      "color": "FFFFF5E1",
+      "prepTime": 10,
+      "cookTime": 15,
+      "difficulty": "easy",
+      "calories": 320,
+      "servings": 4,
+      "isPremium": true,
+      "tags": [
+        "noodle",
+        "soup",
+        "comfort"
+      ],
+      "name": {
+        "en": "Kitsune Udon",
+        "tr": "Kitsune Udon",
+        "es": "Udon Kitsune",
+        "de": "Kitsune-Udon"
+      },
+      "description": {
+        "en": "Thick wheat noodles in dashi broth with sweet fried tofu — simple winter comfort.",
+        "tr": "Tatlı kızarmış tofu ile dashi suyunda kalın buğday eriştesi — basit kış rahatlığı.",
+        "es": "Fideos gruesos de trigo en caldo dashi con tofu frito dulce — confort invernal simple.",
+        "de": "Dicke Weizennudeln in Dashi-Brühe mit süßem frittiertem Tofu — einfacher Wintergenuss."
+      },
+      "ingredients": [
+        {
+          "en": "Udon noodles (thick)",
+          "tr": "Udon eriştesi (kalın)",
+          "es": "Fideos udon (gruesos)",
+          "de": "Udon-Nudeln (dick)"
+        },
+        {
+          "en": "Dashi broth, soy sauce, mirin",
+          "tr": "Dashi suyu, soya sosu, mirin",
+          "es": "Caldo dashi, salsa de soja, mirin",
+          "de": "Dashi-Brühe, Sojasauce, Mirin"
+        },
+        {
+          "en": "Aburaage (sweet fried tofu)",
+          "tr": "Aburaage (tatlı kızarmış tofu)",
+          "es": "Aburaage (tofu frito dulce)",
+          "de": "Aburaage (süßer frittierter Tofu)"
+        },
+        {
+          "en": "Scallions, kamaboko fish cake",
+          "tr": "Yeşil soğan, kamaboko balık keki",
+          "es": "Cebolletas, pastel de pescado kamaboko",
+          "de": "Frühlingszwiebeln, Kamaboko-Fischkuchen"
+        }
+      ],
+      "steps": [
+        {
+          "en": "Simmer aburaage in soy, mirin and sugar until sweet and juicy.",
+          "tr": "Aburaage'yi soya, mirin ve şekerde tatlı ve sulu olana kadar pişirin.",
+          "es": "Cocinar aburaage en soja, mirin y azúcar hasta que esté dulce y jugoso.",
+          "de": "Aburaage in Soja, Mirin und Zucker süß und saftig köcheln."
+        },
+        {
+          "en": "Make broth: dashi with soy sauce and mirin.",
+          "tr": "Et suyu yapın: dashi, soya sosu ve mirin.",
+          "es": "Hacer caldo: dashi con salsa de soja y mirin.",
+          "de": "Brühe herstellen: Dashi mit Sojasauce und Mirin."
+        },
+        {
+          "en": "Cook udon noodles, divide into bowls.",
+          "tr": "Udon eriştesini pişirin, kaselere paylaştırın.",
+          "es": "Cocinar fideos udon, dividir en bols.",
+          "de": "Udon-Nudeln kochen, in Schüsseln verteilen."
+        },
+        {
+          "en": "Pour hot broth over, top with aburaage and scallions.",
+          "tr": "Sıcak et suyunu üzerine dökün, aburaage ve yeşil soğan koyun.",
+          "es": "Verter caldo caliente, cubrir con aburaage y cebolletas.",
+          "de": "Heiße Brühe darübergießen, mit Aburaage und Frühlingszwiebeln garnieren."
+        }
+      ]
+    },
+    {
+      "id": "jp_onigiri",
+      "cuisineId": "japanese",
+      "emoji": "🍙",
+      "image": "https://images.unsplash.com/photo-1583032015879-6b2c45ec598f?auto=format&fit=crop&w=800&q=80",
+      "color": "FFFFF5E1",
+      "prepTime": 15,
+      "cookTime": 0,
+      "difficulty": "easy",
+      "calories": 180,
+      "servings": 4,
+      "isPremium": true,
+      "tags": [
+        "rice",
+        "snack",
+        "portable"
+      ],
+      "name": {
+        "en": "Onigiri",
+        "tr": "Onigiri",
+        "es": "Onigiri",
+        "de": "Onigiri"
+      },
+      "description": {
+        "en": "Triangular rice balls filled with salmon, umeboshi, or tuna mayo, wrapped in nori.",
+        "tr": "Somon, umeboshi veya tonlu mayonez dolgulu, nori'ye sarılmış üçgen pirinç topları.",
+        "es": "Bolas de arroz triangulares rellenas de salmón, umeboshi o atún con mayonesa, envueltas en nori.",
+        "de": "Dreieckige Reisbällchen gefüllt mit Lachs, Umeboshi oder Thunfisch-Mayo, in Nori gewickelt."
+      },
+      "ingredients": [
+        {
+          "en": "Sushi rice, salt",
+          "tr": "Suşi pirinci, tuz",
+          "es": "Arroz para sushi, sal",
+          "de": "Sushi-Reis, Salz"
+        },
+        {
+          "en": "Fillings: salted salmon, umeboshi, tuna mayo",
+          "tr": "Dolgular: tuzlu somon, umeboshi, tonlu mayonez",
+          "es": "Rellenos: salmón salado, umeboshi, atún con mayonesa",
+          "de": "Füllungen: gesalzener Lachs, Umeboshi, Thunfisch-Mayo"
+        },
+        {
+          "en": "Nori seaweed sheets",
+          "tr": "Nori yosun yaprakları",
+          "es": "Hojas de alga nori",
+          "de": "Nori-Algenblätter"
+        }
+      ],
+      "steps": [
+        {
+          "en": "Wet hands with salted water.",
+          "tr": "Ellerinizi tuzlu su ile ıslatın.",
+          "es": "Mojar manos con agua salada.",
+          "de": "Hände mit Salzwasser anfeuchten."
+        },
+        {
+          "en": "Take a ball of rice, make indent, add filling.",
+          "tr": "Bir pirinç topunu alın, çukur açın, dolguyu ekleyin.",
+          "es": "Tomar una bola de arroz, hacer hendidura, agregar relleno.",
+          "de": "Eine Reiskugel nehmen, Vertiefung machen, Füllung hinzufügen."
+        },
+        {
+          "en": "Shape into triangle with firm but gentle pressure.",
+          "tr": "Sıkı ama nazik basınçla üçgen şekli verin.",
+          "es": "Dar forma de triángulo con presión firme pero suave.",
+          "de": "Mit festem aber sanftem Druck zu Dreieck formen."
+        },
+        {
+          "en": "Wrap with a strip of nori.",
+          "tr": "Bir şerit nori ile sarın.",
+          "es": "Envolver con una tira de nori.",
+          "de": "Mit einem Streifen Nori umwickeln."
+        }
+      ]
+    },
+    {
+      "id": "jp_tonkatsu",
+      "cuisineId": "japanese",
+      "emoji": "🍖",
+      "image": "https://images.unsplash.com/photo-1569058242253-92a9c755a0ec?auto=format&fit=crop&w=800&q=80",
+      "color": "FFF39C12",
+      "prepTime": 10,
+      "cookTime": 8,
+      "difficulty": "easy",
+      "calories": 420,
+      "servings": 4,
+      "isPremium": true,
+      "tags": [
+        "fried",
+        "pork"
+      ],
+      "name": {
+        "en": "Tonkatsu",
+        "tr": "Tonkatsu",
+        "es": "Tonkatsu",
+        "de": "Tonkatsu"
+      },
+      "description": {
+        "en": "Deep-fried breaded pork cutlet with shredded cabbage and tonkatsu sauce.",
+        "tr": "Rendelenmiş lahana ve tonkatsu sosu ile kızartılmış panelenmiş domuz pirzolası.",
+        "es": "Chuleta de cerdo empanizada frita con repollo rallado y salsa tonkatsu.",
+        "de": "Frittiertes paniertes Schweinekotelett mit geraspeltem Kohl und Tonkatsu-Sauce."
+      },
+      "ingredients": [
+        {
+          "en": "4 pork loin cutlets",
+          "tr": "4 domuz fileto pirzolası",
+          "es": "4 chuletas de lomo de cerdo",
+          "de": "4 Schweinelendenkoteletts"
+        },
+        {
+          "en": "Flour, eggs, panko",
+          "tr": "Un, yumurta, panko",
+          "es": "Harina, huevos, panko",
+          "de": "Mehl, Eier, Panko"
+        },
+        {
+          "en": "Shredded cabbage, tonkatsu sauce",
+          "tr": "Rendelenmiş lahana, tonkatsu sosu",
+          "es": "Repollo rallado, salsa tonkatsu",
+          "de": "Geraspelter Kohl, Tonkatsu-Sauce"
+        },
+        {
+          "en": "Steamed rice, pickles",
+          "tr": "Buharda pirinç, turşu",
+          "es": "Arroz al vapor, encurtidos",
+          "de": "Gedämpfter Reis, Pickles"
+        }
+      ],
+      "steps": [
+        {
+          "en": "Pound cutlets thin, season with salt and pepper.",
+          "tr": "Pirzolalari ince döğün, tuz ve biberle tatlandırın.",
+          "es": "Aplanar chuletas, sazonar con sal y pimienta.",
+          "de": "Koteletts dünn klopfen, mit Salz und Pfeffer würzen."
+        },
+        {
+          "en": "Coat in flour → egg → panko (press firmly).",
+          "tr": "Un → yumurta → panko ile kaplayın (sıkıca bastırın).",
+          "es": "Rebozar en harina → huevo → panko (presionar firmemente).",
+          "de": "In Mehl → Ei → Panko wälzen (fest andrücken)."
+        },
+        {
+          "en": "Deep fry at 170°C for 5-6 minutes until deep golden.",
+          "tr": "170°C yağda 5-6 dakika koyu altın rengi olana kadar kızartın.",
+          "es": "Freír a 170°C por 5-6 minutos hasta dorar intensamente.",
+          "de": "Bei 170°C 5-6 Minuten tiefgolden frittieren."
+        },
+        {
+          "en": "Slice, serve with shredded cabbage, rice, and tonkatsu sauce.",
+          "tr": "Dilimleyin, rendelenmiş lahana, pirinç ve tonkatsu sosu ile servis edin.",
+          "es": "Cortar, servir con repollo rallado, arroz y salsa tonkatsu.",
+          "de": "Aufschneiden, mit geraspeltem Kohl, Reis und Tonkatsu-Sauce servieren."
+        }
+      ]
+    },
+    {
+      "id": "jp_takoyaki",
+      "cuisineId": "japanese",
+      "emoji": "🐙",
+      "image": "https://images.unsplash.com/photo-1541832676-9b763b0239ab?auto=format&fit=crop&w=800&q=80",
+      "color": "FFE67E22",
+      "prepTime": 15,
+      "cookTime": 8,
+      "difficulty": "medium",
+      "calories": 200,
+      "servings": 4,
+      "isPremium": true,
+      "tags": [
+        "street_food",
+        "octopus"
+      ],
+      "name": {
+        "en": "Takoyaki",
+        "tr": "Takoyaki",
+        "es": "Takoyaki",
+        "de": "Takoyaki"
+      },
+      "description": {
+        "en": "Crispy-outside, gooey-inside octopus balls — Osaka's iconic street snack.",
+        "tr": "Dışı çıtır, içi yumuşak ahtapot topları — Osaka'nın ikonik sokak atıştırmalığı.",
+        "es": "Bolas de pulpo crujientes por fuera, cremosas por dentro — el snack callejero icónico de Osaka.",
+        "de": "Außen knusprige, innen cremige Tintenfischbällchen — Osakas ikonischer Straßensnack."
+      },
+      "ingredients": [
+        {
+          "en": "Takoyaki batter (flour, dashi, egg)",
+          "tr": "Takoyaki hamuru (un, dashi, yumurta)",
+          "es": "Masa de takoyaki (harina, dashi, huevo)",
+          "de": "Takoyaki-Teig (Mehl, Dashi, Ei)"
+        },
+        {
+          "en": "Diced octopus",
+          "tr": "Doğranmış ahtapot",
+          "es": "Pulpo en cubos",
+          "de": "Gewürfelter Oktopus"
+        },
+        {
+          "en": "Tempura flakes, green onion, pickled ginger",
+          "tr": "Tempura gevreği, yeşil soğan, turşu zencefil",
+          "es": "Trozos de tempura, cebolleta, jengibre encurtido",
+          "de": "Tempura-Flocken, Frühlingszwiebeln, eingelegter Ingwer"
+        },
+        {
+          "en": "Takoyaki sauce, mayo, bonito flakes, aonori",
+          "tr": "Takoyaki sosu, mayonez, bonito gevreği, aonori",
+          "es": "Salsa takoyaki, mayonesa, copos de bonito, aonori",
+          "de": "Takoyaki-Sauce, Mayo, Bonito-Flocken, Aonori"
+        }
+      ],
+      "steps": [
+        {
+          "en": "Heat takoyaki pan, oil the molds.",
+          "tr": "Takoyaki tavasını ısıtın, kalıpları yağlayın.",
+          "es": "Calentar sartén de takoyaki, aceitar los moldes.",
+          "de": "Takoyaki-Pfanne erhitzen, Formen einfetten."
+        },
+        {
+          "en": "Fill with batter, add octopus, tempura flakes, onion.",
+          "tr": "Hamurla doldurun, ahtapot, tempura gevreği, soğan ekleyin.",
+          "es": "Llenar con masa, agregar pulpo, trozos de tempura, cebolleta.",
+          "de": "Mit Teig füllen, Oktopus, Tempura-Flocken, Zwiebeln hinzufügen."
+        },
+        {
+          "en": "Turn with picks when edges set, forming round balls.",
+          "tr": "Kenarlar donduğunda çubuklarla çevirerek yuvarlak toplar oluşturun.",
+          "es": "Girar con palillos cuando los bordes cuajen, formando bolas redondas.",
+          "de": "Mit Stäbchen drehen wenn die Ränder fest sind, runde Bällchen formen."
+        },
+        {
+          "en": "Top with sauce, mayo, bonito flakes and aonori.",
+          "tr": "Sos, mayonez, bonito gevreği ve aonori ile süsleyin.",
+          "es": "Cubrir con salsa, mayonesa, copos de bonito y aonori.",
+          "de": "Mit Sauce, Mayo, Bonito-Flocken und Aonori garnieren."
+        }
+      ]
+    },
+    {
+      "id": "jp_edamame",
+      "cuisineId": "japanese",
+      "emoji": "🫛",
+      "image": "https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=800&q=80",
+      "color": "FF2ECC71",
+      "prepTime": 2,
+      "cookTime": 5,
+      "difficulty": "easy",
+      "calories": 120,
+      "servings": 4,
+      "isPremium": true,
+      "tags": [
+        "snack",
+        "vegetarian",
+        "healthy"
+      ],
+      "name": {
+        "en": "Edamame",
+        "tr": "Edamame",
+        "es": "Edamame",
+        "de": "Edamame"
+      },
+      "description": {
+        "en": "Steamed soybeans in the pod, sprinkled with sea salt — the perfect izakaya starter.",
+        "tr": "Kabuklu buharda soya fasulyesi, deniz tuzu serpilmiş — mükemmel izakaya başlangıcı.",
+        "es": "Habas de soja al vapor en su vaina, espolvoreadas con sal marina — el entrante perfecto de izakaya.",
+        "de": "Gedämpfte Sojabohnen in der Schote, mit Meersalz bestreut — der perfekte Izakaya-Starter."
+      },
+      "ingredients": [
+        {
+          "en": "500g frozen edamame in pods",
+          "tr": "500g dondurulmuş kabuklu edamame",
+          "es": "500g edamame congelado en vainas",
+          "de": "500g gefrorenes Edamame in Schoten"
+        },
+        {
+          "en": "Flaky sea salt",
+          "tr": "Pul deniz tuzu",
+          "es": "Sal marina en escamas",
+          "de": "Flockiges Meersalz"
+        }
+      ],
+      "steps": [
+        {
+          "en": "Boil or steam edamame for 4-5 minutes.",
+          "tr": "Edamame'yi 4-5 dakika kaynatın veya buharda pişirin.",
+          "es": "Hervir o vaporizar edamame por 4-5 minutos.",
+          "de": "Edamame 4-5 Minuten kochen oder dämpfen."
+        },
+        {
+          "en": "Drain, toss with flaky salt.",
+          "tr": "Süzün, pul tuzla karıştırın.",
+          "es": "Escurrir, mezclar con sal en escamas.",
+          "de": "Abgießen, mit Flockensalz schwenken."
+        },
+        {
+          "en": "Eat by squeezing beans from pods with your teeth!",
+          "tr": "Dişlerinizle kabuklardan fasulyeyi sıkarak yiyin!",
+          "es": "¡Comer exprimiendo las habas de las vainas con los dientes!",
+          "de": "Bohnen mit den Zähnen aus den Schoten drücken!"
+        }
+      ]
+    },
+    {
+      "id": "jp_katsudon",
+      "cuisineId": "japanese",
+      "emoji": "🍖",
+      "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&w=800&q=80",
+      "color": "FFF39C12",
+      "prepTime": 10,
+      "cookTime": 15,
+      "difficulty": "medium",
+      "calories": 620,
+      "servings": 4,
+      "isPremium": true,
+      "tags": [
+        "rice_bowl",
+        "fried",
+        "eggs"
+      ],
+      "name": {
+        "en": "Katsudon",
+        "tr": "Katsudon",
+        "es": "Katsudon",
+        "de": "Katsudon"
+      },
+      "description": {
+        "en": "Crispy pork cutlet simmered with egg in dashi broth, served over rice.",
+        "tr": "Dashi suyunda yumurta ile pişirilen çıtır domuz pirzolası, pirinç üzerinde servis edilir.",
+        "es": "Chuleta de cerdo crujiente cocida con huevo en caldo dashi, servida sobre arroz.",
+        "de": "Knuspriges Schweineschnitzel mit Ei in Dashi-Brühe gegart, auf Reis serviert."
+      },
+      "ingredients": [
+        {
+          "en": "Tonkatsu (fried pork cutlet)",
+          "tr": "Tonkatsu (kızarmış domuz pirzolası)",
+          "es": "Tonkatsu (chuleta de cerdo frita)",
+          "de": "Tonkatsu (frittiertes Schweinekotelett)"
+        },
+        {
+          "en": "2 eggs, sliced onion",
+          "tr": "2 yumurta, dilimlenmiş soğan",
+          "es": "2 huevos, cebolla en rodajas",
+          "de": "2 Eier, geschnittene Zwiebel"
+        },
+        {
+          "en": "Dashi, soy sauce, mirin",
+          "tr": "Dashi, soya sosu, mirin",
+          "es": "Dashi, salsa de soja, mirin",
+          "de": "Dashi, Sojasauce, Mirin"
+        },
+        {
+          "en": "Steamed rice",
+          "tr": "Buharda pirinç",
+          "es": "Arroz al vapor",
+          "de": "Gedämpfter Reis"
+        }
+      ],
+      "steps": [
+        {
+          "en": "Simmer sliced onion in dashi-soy-mirin broth.",
+          "tr": "Dilimlenmiş soğanı dashi-soya-mirin suyunda pişirin.",
+          "es": "Cocinar cebolla en rodajas en caldo de dashi-soja-mirin.",
+          "de": "Geschnittene Zwiebel in Dashi-Soja-Mirin-Brühe köcheln."
+        },
+        {
+          "en": "Place sliced tonkatsu over onions.",
+          "tr": "Dilimlenmiş tonkatsuyu soğanların üzerine koyun.",
+          "es": "Colocar tonkatsu en rodajas sobre las cebollas.",
+          "de": "Geschnittenes Tonkatsu auf die Zwiebeln legen."
+        },
+        {
+          "en": "Pour beaten eggs over, cover and cook until just set.",
+          "tr": "Çırpılmış yumurtaları üzerine dökün, kapatıp hafif tutana kadar pişirin.",
+          "es": "Verter huevos batidos encima, tapar y cocinar hasta que cuajen.",
+          "de": "Verquirlte Eier darüber gießen, zudecken und garen bis gerade fest."
+        },
+        {
+          "en": "Slide onto a bowl of hot rice.",
+          "tr": "Sıcak pirinç kasesinin üzerine kaydırın.",
+          "es": "Deslizar sobre un bol de arroz caliente.",
+          "de": "Auf eine Schüssel heißen Reis gleiten lassen."
+        }
+      ]
+    },
+    {
+      "id": "jp_yakitori",
+      "cuisineId": "japanese",
+      "emoji": "🍢",
+      "image": "https://images.unsplash.com/photo-1529042410759-befb1204b468?auto=format&fit=crop&w=800&q=80",
+      "color": "FFE67E22",
+      "prepTime": 20,
+      "cookTime": 10,
+      "difficulty": "easy",
+      "calories": 220,
+      "servings": 4,
+      "isPremium": true,
+      "tags": [
+        "grilled",
+        "chicken",
+        "skewer"
+      ],
+      "name": {
+        "en": "Yakitori",
+        "tr": "Yakitori",
+        "es": "Yakitori",
+        "de": "Yakitori"
+      },
+      "description": {
+        "en": "Charcoal-grilled chicken skewers glazed with tare or sprinkled with salt.",
+        "tr": "Tare ile sırlanmış veya tuzla serpilmiş kömürde ızgara tavuk şişleri.",
+        "es": "Brochetas de pollo a la parrilla de carbón glaseadas con tare o espolvoreadas con sal.",
+        "de": "Auf Holzkohle gegrillte Hähnchenspieße mit Tare-Glasur oder Salz bestreut."
+      },
+      "ingredients": [
+        {
+          "en": "Chicken thighs, cut into pieces",
+          "tr": "Tavuk but, parçalanmış",
+          "es": "Muslos de pollo, cortados en trozos",
+          "de": "Hähnchenschenkel, in Stücke geschnitten"
+        },
+        {
+          "en": "Scallion pieces",
+          "tr": "Yeşil soğan parçaları",
+          "es": "Trozos de cebolleta",
+          "de": "Frühlingszwiebelstücke"
+        },
+        {
+          "en": "Tare sauce (soy, mirin, sake, sugar)",
+          "tr": "Tare sosu (soya, mirin, sake, şeker)",
+          "es": "Salsa tare (soja, mirin, sake, azúcar)",
+          "de": "Tare-Sauce (Soja, Mirin, Sake, Zucker)"
+        },
+        {
+          "en": "Bamboo skewers",
+          "tr": "Bambu şişler",
+          "es": "Pinchos de bambú",
+          "de": "Bambusspieße"
+        }
+      ],
+      "steps": [
+        {
+          "en": "Thread chicken and scallion alternately on skewers.",
+          "tr": "Tavuk ve yeşil soğanı şişlere sırayla dizin.",
+          "es": "Ensartar pollo y cebolleta alternadamente en pinchos.",
+          "de": "Hähnchen und Frühlingszwiebeln abwechselnd auf Spieße stecken."
+        },
+        {
+          "en": "Grill over high heat, turning frequently.",
+          "tr": "Yüksek ateşte sık çevirerek ızgara yapın.",
+          "es": "Asar a fuego alto, volteando frecuentemente.",
+          "de": "Bei hoher Hitze grillen, häufig wenden."
+        },
+        {
+          "en": "Brush with tare sauce multiple times while grilling.",
+          "tr": "Izgara yaparken birçok kez tare sosu sürün.",
+          "es": "Pintar con salsa tare varias veces durante la parrilla.",
+          "de": "Während des Grillens mehrmals mit Tare-Sauce bestreichen."
+        },
+        {
+          "en": "Serve immediately — yakitori waits for no one!",
+          "tr": "Hemen servis edin — yakitori kimseyi beklemez!",
+          "es": "Servir inmediatamente — ¡el yakitori no espera a nadie!",
+          "de": "Sofort servieren — Yakitori wartet auf niemanden!"
+        }
+      ]
+    },
+    {
+      "id": "jp_matcha_cake",
+      "cuisineId": "japanese",
+      "emoji": "🍵",
+      "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=800&q=80",
+      "color": "FF2ECC71",
+      "prepTime": 20,
+      "cookTime": 30,
+      "difficulty": "medium",
+      "calories": 280,
+      "servings": 8,
+      "isPremium": true,
+      "tags": [
+        "dessert",
+        "matcha",
+        "baked"
+      ],
+      "name": {
+        "en": "Matcha Cake",
+        "tr": "Matcha Kek",
+        "es": "Pastel de Matcha",
+        "de": "Matcha-Kuchen"
+      },
+      "description": {
+        "en": "Fluffy Japanese sponge cake with vibrant matcha green tea flavor.",
+        "tr": "Canlı matcha yeşil çay aromalı kabarık Japon sünger keki.",
+        "es": "Bizcocho japonés esponjoso con vibrante sabor a té verde matcha.",
+        "de": "Fluffiger japanischer Biskuitkuchen mit lebendigem Matcha-Grüntee-Geschmack."
+      },
+      "ingredients": [
+        {
+          "en": "4 eggs, 100g sugar",
+          "tr": "4 yumurta, 100g şeker",
+          "es": "4 huevos, 100g azúcar",
+          "de": "4 Eier, 100g Zucker"
+        },
+        {
+          "en": "100g flour, 2 tbsp matcha powder",
+          "tr": "100g un, 2 yemek kaşığı matcha tozu",
+          "es": "100g harina, 2 cucharadas de polvo de matcha",
+          "de": "100g Mehl, 2 EL Matcha-Pulver"
+        },
+        {
+          "en": "Butter, milk",
+          "tr": "Tereyağı, süt",
+          "es": "Mantequilla, leche",
+          "de": "Butter, Milch"
+        },
+        {
+          "en": "Whipped cream for filling",
+          "tr": "Dolgu için kırbaçlanmış krema",
+          "es": "Crema batida para relleno",
+          "de": "Schlagsahne für die Füllung"
+        }
+      ],
+      "steps": [
+        {
+          "en": "Sift flour and matcha together.",
+          "tr": "Un ve matcha'yı birlikte eleyin.",
+          "es": "Tamizar harina y matcha juntos.",
+          "de": "Mehl und Matcha zusammen sieben."
+        },
+        {
+          "en": "Whisk eggs and sugar over warm water bath until thick and pale.",
+          "tr": "Yumurta ve şekeri sıcak su banyosu üzerinde koyu ve solgun olana kadar çırpın.",
+          "es": "Batir huevos y azúcar sobre baño de agua tibia hasta que estén espesos y pálidos.",
+          "de": "Eier und Zucker über warmem Wasserbad dick und hellgelb schlagen."
+        },
+        {
+          "en": "Fold in sifted matcha-flour mixture gently.",
+          "tr": "Elenmiş matcha-un karışımını nazikçe katın.",
+          "es": "Incorporar suavemente la mezcla de matcha y harina tamizada.",
+          "de": "Gesiebte Matcha-Mehl-Mischung vorsichtig unterheben."
+        },
+        {
+          "en": "Bake at 170°C for 25-30 minutes. Cool, layer with whipped cream.",
+          "tr": "170°C'de 25-30 dakika pişirin. Soğutun, kırbaçlanmış krema ile katmanlayın.",
+          "es": "Hornear a 170°C por 25-30 minutos. Enfriar, rellenar con crema batida.",
+          "de": "Bei 170°C 25-30 Minuten backen. Abkühlen, mit Schlagsahne füllen."
+        }
+      ]
+    },
+    {
+      "id": "jp_soba",
+      "cuisineId": "japanese",
+      "emoji": "🍜",
+      "image": "https://images.unsplash.com/photo-1512058564366-18510be2db19?auto=format&fit=crop&w=800&q=80",
+      "color": "FF8B4513",
+      "prepTime": 5,
+      "cookTime": 10,
+      "difficulty": "easy",
+      "calories": 280,
+      "servings": 4,
+      "isPremium": true,
+      "tags": [
+        "noodle",
+        "cold",
+        "healthy"
+      ],
+      "name": {
+        "en": "Zaru Soba",
+        "tr": "Zaru Soba",
+        "es": "Soba Zaru",
+        "de": "Zaru-Soba"
+      },
+      "description": {
+        "en": "Chilled buckwheat noodles served on a bamboo mat with dipping sauce.",
+        "tr": "Bambu hasır üzerinde dip sosu ile servis edilen soğuk karabuğday eriştesi.",
+        "es": "Fideos de trigo sarraceno fríos servidos en esterilla de bambú con salsa para mojar.",
+        "de": "Gekühlte Buchweizennudeln auf einer Bambusmatte mit Dip-Sauce serviert."
+      },
+      "ingredients": [
+        {
+          "en": "Soba noodles (buckwheat)",
+          "tr": "Soba eriştesi (karabuğday)",
+          "es": "Fideos soba (trigo sarraceno)",
+          "de": "Soba-Nudeln (Buchweizen)"
+        },
+        {
+          "en": "Tsuyu dipping sauce (dashi, soy, mirin)",
+          "tr": "Tsuyu dip sosu (dashi, soya, mirin)",
+          "es": "Salsa tsuyu (dashi, soja, mirin)",
+          "de": "Tsuyu-Dip-Sauce (Dashi, Soja, Mirin)"
+        },
+        {
+          "en": "Wasabi, scallions, nori",
+          "tr": "Wasabi, yeşil soğan, nori",
+          "es": "Wasabi, cebolletas, nori",
+          "de": "Wasabi, Frühlingszwiebeln, Nori"
+        }
+      ],
+      "steps": [
+        {
+          "en": "Cook soba noodles, rinse thoroughly in cold water.",
+          "tr": "Soba eriştesini pişirin, soğuk su ile iyice durulayın.",
+          "es": "Cocinar fideos soba, enjuagar bien con agua fría.",
+          "de": "Soba-Nudeln kochen, gründlich mit kaltem Wasser abspülen."
+        },
+        {
+          "en": "Drain well, place on bamboo mat or plate.",
+          "tr": "İyice süzün, bambu hasıra veya tabağa koyun.",
+          "es": "Escurrir bien, colocar en esterilla de bambú o plato.",
+          "de": "Gut abtropfen, auf Bambusmatte oder Teller anrichten."
+        },
+        {
+          "en": "Prepare chilled tsuyu sauce in small cups.",
+          "tr": "Soğuk tsuyu sosunu küçük kaselere hazırlayın.",
+          "es": "Preparar salsa tsuyu fría en tazas pequeñas.",
+          "de": "Gekühlte Tsuyu-Sauce in kleinen Schälchen vorbereiten."
+        },
+        {
+          "en": "Add wasabi and scallion to sauce, dip noodles and slurp!",
+          "tr": "Sosa wasabi ve yeşil soğan ekleyin, erişteleri batırıp höpürdeterek yiyin!",
+          "es": "Agregar wasabi y cebolleta a la salsa, ¡sumergir fideos y sorber!",
+          "de": "Wasabi und Frühlingszwiebeln zur Sauce geben, Nudeln eintunken und schlürfen!"
+        }
+      ]
+    },
+    {
+      "id": "jp_mochi",
+      "cuisineId": "japanese",
+      "emoji": "🍡",
+      "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?auto=format&fit=crop&w=800&q=80",
+      "color": "FFFFB6C1",
+      "prepTime": 20,
+      "cookTime": 10,
+      "difficulty": "medium",
+      "calories": 120,
+      "servings": 8,
+      "isPremium": true,
+      "tags": [
+        "dessert",
+        "rice",
+        "sweet"
+      ],
+      "name": {
+        "en": "Mochi",
+        "tr": "Mochi",
+        "es": "Mochi",
+        "de": "Mochi"
+      },
+      "description": {
+        "en": "Chewy rice cakes made from pounded glutinous rice, filled with sweet red bean paste.",
+        "tr": "Dövülmüş yapışkan pirinçten yapılan çiğnenebilir pirinç kekleri, tatlı kırmızı fasulye ezmesi dolgulu.",
+        "es": "Pasteles de arroz masticables hechos de arroz glutinoso machacado, rellenos de pasta dulce de frijol rojo.",
+        "de": "Zähe Reiskuchen aus gestampftem Klebreis, gefüllt mit süßer roter Bohnenpaste."
+      },
+      "ingredients": [
+        {
+          "en": "Glutinous rice flour (mochiko)",
+          "tr": "Yapışkan pirinç unu (mochiko)",
+          "es": "Harina de arroz glutinoso (mochiko)",
+          "de": "Klebreismehl (Mochiko)"
+        },
+        {
+          "en": "Sugar, water",
+          "tr": "Şeker, su",
+          "es": "Azúcar, agua",
+          "de": "Zucker, Wasser"
+        },
+        {
+          "en": "Anko (sweet red bean paste)",
+          "tr": "Anko (tatlı kırmızı fasulye ezmesi)",
+          "es": "Anko (pasta dulce de frijol rojo)",
+          "de": "Anko (süße rote Bohnenpaste)"
+        },
+        {
+          "en": "Cornstarch for dusting",
+          "tr": "Tozlandırma için mısır nişastası",
+          "es": "Maicena para espolvorear",
+          "de": "Maisstärke zum Bestäuben"
+        }
+      ],
+      "steps": [
+        {
+          "en": "Mix mochiko, sugar, and water. Steam or microwave until translucent.",
+          "tr": "Mochiko, şeker ve suyu karıştırın. Saydam olana kadar buharda veya mikrodalgada pişirin.",
+          "es": "Mezclar mochiko, azúcar y agua. Cocinar al vapor o en microondas hasta transparentar.",
+          "de": "Mochiko, Zucker und Wasser mischen. Dämpfen oder in der Mikrowelle garen bis durchscheinend."
+        },
+        {
+          "en": "Turn out onto cornstarch-dusted surface.",
+          "tr": "Mısır nişastası serpilmiş yüzeye aktarın.",
+          "es": "Voltear sobre superficie espolvoreada con maicena.",
+          "de": "Auf mit Maisstärke bestäubte Fläche stürzen."
+        },
+        {
+          "en": "Pinch off pieces, flatten, place anko ball in center.",
+          "tr": "Parçalar koparın, düzleştirin, ortasına anko topu koyun.",
+          "es": "Pellizcar trozos, aplanar, colocar bola de anko en el centro.",
+          "de": "Stücke abzwicken, flach drücken, Anko-Kugel in die Mitte setzen."
+        },
+        {
+          "en": "Seal edges and shape into smooth round balls.",
+          "tr": "Kenarları kapatıp pürüzsüz yuvarlak toplar şekli verin.",
+          "es": "Sellar bordes y dar forma de bolas redondas suaves.",
+          "de": "Ränder verschließen und zu glatten runden Kugeln formen."
+        }
+      ]
+    },
+    {
+      "id": "jp_donburi",
+      "cuisineId": "japanese",
+      "emoji": "🍚",
+      "image": "https://images.unsplash.com/photo-1534422298391-e4f8c172dddb?auto=format&fit=crop&w=800&q=80",
+      "color": "FFE84545",
+      "prepTime": 10,
+      "cookTime": 10,
+      "difficulty": "easy",
+      "calories": 450,
+      "servings": 4,
+      "isPremium": true,
+      "tags": [
+        "rice_bowl",
+        "seafood",
+        "quick"
+      ],
+      "name": {
+        "en": "Tekka Don (Tuna Bowl)",
+        "tr": "Tekka Don (Ton Kasesi)",
+        "es": "Tekka Don (Bol de Atún)",
+        "de": "Tekka Don (Thunfisch-Schüssel)"
+      },
+      "description": {
+        "en": "Sashimi-grade tuna slices over seasoned sushi rice with wasabi and soy.",
+        "tr": "Wasabi ve soya ile tatlandırılmış suşi pirincinin üzerinde sashimi kalitesinde ton dilimleri.",
+        "es": "Láminas de atún grado sashimi sobre arroz para sushi sazonado con wasabi y soja.",
+        "de": "Sashimi-Thunfisch-Scheiben auf gewürztem Sushi-Reis mit Wasabi und Soja."
+      },
+      "ingredients": [
+        {
+          "en": "300g sashimi-grade tuna",
+          "tr": "300g sashimi kalitesinde ton",
+          "es": "300g atún grado sashimi",
+          "de": "300g Sashimi-Thunfisch"
+        },
+        {
+          "en": "Sushi rice",
+          "tr": "Suşi pirinci",
+          "es": "Arroz para sushi",
+          "de": "Sushi-Reis"
+        },
+        {
+          "en": "Soy sauce, wasabi",
+          "tr": "Soya sosu, wasabi",
+          "es": "Salsa de soja, wasabi",
+          "de": "Sojasauce, Wasabi"
+        },
+        {
+          "en": "Nori strips, sesame seeds, shiso leaf",
+          "tr": "Nori şeritleri, susam, shiso yaprağı",
+          "es": "Tiras de nori, semillas de sésamo, hoja de shiso",
+          "de": "Nori-Streifen, Sesamsamen, Shiso-Blatt"
+        }
+      ],
+      "steps": [
+        {
+          "en": "Prepare and season sushi rice, fill bowls.",
+          "tr": "Suşi pirincini hazırlayıp tatlandırın, kaselere doldurun.",
+          "es": "Preparar y sazonar arroz para sushi, llenar bols.",
+          "de": "Sushi-Reis zubereiten und würzen, Schüsseln füllen."
+        },
+        {
+          "en": "Slice tuna into clean, even pieces.",
+          "tr": "Tonu temiz, eşit parçalara dilimleyin.",
+          "es": "Cortar atún en piezas limpias y uniformes.",
+          "de": "Thunfisch in saubere, gleichmäßige Stücke schneiden."
+        },
+        {
+          "en": "Arrange tuna slices beautifully over rice.",
+          "tr": "Ton dilimlerini pirincin üzerine güzelce dizin.",
+          "es": "Colocar las láminas de atún bellamente sobre el arroz.",
+          "de": "Thunfisch-Scheiben schön auf dem Reis anrichten."
+        },
+        {
+          "en": "Garnish with nori, sesame, shiso. Serve with wasabi and soy.",
+          "tr": "Nori, susam, shiso ile süsleyin. Wasabi ve soya sosu ile servis edin.",
+          "es": "Decorar con nori, sésamo, shiso. Servir con wasabi y soja.",
+          "de": "Mit Nori, Sesam, Shiso garnieren. Mit Wasabi und Soja servieren."
+        }
+      ]
+    },
+    {
+      "id": "jp_chawanmushi",
+      "cuisineId": "japanese",
+      "emoji": "🍮",
+      "image": "https://images.unsplash.com/photo-1510693206972-df098062cb71?auto=format&fit=crop&w=800&q=80",
+      "color": "FFF1C40F",
+      "prepTime": 10,
+      "cookTime": 20,
+      "difficulty": "medium",
+      "calories": 90,
+      "servings": 4,
+      "isPremium": true,
+      "tags": [
+        "steamed",
+        "egg",
+        "elegant"
+      ],
+      "name": {
+        "en": "Chawanmushi",
+        "tr": "Chawanmushi",
+        "es": "Chawanmushi",
+        "de": "Chawanmushi"
+      },
+      "description": {
+        "en": "Silky steamed egg custard with shrimp, chicken, and ginkgo nut hidden inside.",
+        "tr": "İçinde karides, tavuk ve ginkgo fıstığı gizli, ipeksi buharda yumurta muhallebisi.",
+        "es": "Flan de huevo al vapor sedoso con camarón, pollo y nuez de ginkgo escondidos dentro.",
+        "de": "Seidiger gedämpfter Eierpudding mit versteckten Garnelen, Hähnchen und Ginkgo-Nüssen."
+      },
+      "ingredients": [
+        {
+          "en": "3 eggs, 2 cups dashi",
+          "tr": "3 yumurta, 2 bardak dashi",
+          "es": "3 huevos, 2 tazas de dashi",
+          "de": "3 Eier, 2 Tassen Dashi"
+        },
+        {
+          "en": "Soy sauce, mirin",
+          "tr": "Soya sosu, mirin",
+          "es": "Salsa de soja, mirin",
+          "de": "Sojasauce, Mirin"
+        },
+        {
+          "en": "Shrimp, chicken, shiitake, ginkgo nut",
+          "tr": "Karides, tavuk, shiitake, ginkgo fıstığı",
+          "es": "Camarón, pollo, shiitake, nuez de ginkgo",
+          "de": "Garnele, Hähnchen, Shiitake, Ginkgo-Nuss"
+        },
+        {
+          "en": "Mitsuba or scallion for garnish",
+          "tr": "Süsleme için mitsuba veya yeşil soğan",
+          "es": "Mitsuba o cebolleta para decorar",
+          "de": "Mitsuba oder Frühlingszwiebeln zum Garnieren"
+        }
+      ],
+      "steps": [
+        {
+          "en": "Whisk eggs with dashi, soy, and mirin. Strain for silky texture.",
+          "tr": "Yumurtaları dashi, soya ve mirin ile çırpın. İpeksi doku için süzün.",
+          "es": "Batir huevos con dashi, soja y mirin. Colar para textura sedosa.",
+          "de": "Eier mit Dashi, Soja und Mirin verquirlen. Für seidige Textur abseihen."
+        },
+        {
+          "en": "Place shrimp, chicken, and fillings in cups.",
+          "tr": "Karides, tavuk ve dolguları fincanlarla yerleştirin.",
+          "es": "Colocar camarón, pollo y rellenos en tazas.",
+          "de": "Garnelen, Hähnchen und Füllungen in Tassen setzen."
+        },
+        {
+          "en": "Pour egg mixture over, cover with lids or foil.",
+          "tr": "Yumurta karışımını üzerine dökün, kapak veya folyoyla örtün.",
+          "es": "Verter mezcla de huevo, cubrir con tapas o aluminio.",
+          "de": "Eimischung darüber gießen, mit Deckeln oder Folie abdecken."
+        },
+        {
+          "en": "Steam gently for 15-20 minutes until just set but jiggly.",
+          "tr": "15-20 dakika hafifçe buharda pişirin, tutmuş ama titreyen kıvamda.",
+          "es": "Cocinar al vapor suavemente 15-20 minutos hasta que cuaje pero tiemble.",
+          "de": "15-20 Minuten sanft dämpfen bis gerade fest aber noch wackelig."
+        }
+      ]
+    },
+    {
+      "id": "jp_karaage",
+      "cuisineId": "japanese",
+      "emoji": "🍗",
+      "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=800&q=80",
+      "color": "FFF39C12",
+      "prepTime": 15,
+      "cookTime": 8,
+      "difficulty": "easy",
+      "calories": 320,
+      "servings": 4,
+      "isPremium": true,
+      "tags": [
+        "fried",
+        "chicken",
+        "snack"
+      ],
+      "name": {
+        "en": "Karaage",
+        "tr": "Karaage",
+        "es": "Karaage",
+        "de": "Karaage"
+      },
+      "description": {
+        "en": "Japanese fried chicken — juicy bite-sized pieces marinated in soy, ginger, and garlic.",
+        "tr": "Japon kızarmış tavuk — soya, zencefil ve sarımsakta marine edilmiş sulu küçük parçalar.",
+        "es": "Pollo frito japonés — trozos jugosos marinados en soja, jengibre y ajo.",
+        "de": "Japanisches frittiertes Hähnchen — saftige mundgerechte Stücke mariniert in Soja, Ingwer und Knoblauch."
+      },
+      "ingredients": [
+        {
+          "en": "500g chicken thigh, cut into pieces",
+          "tr": "500g tavuk but, parçalanmış",
+          "es": "500g muslo de pollo, cortado en trozos",
+          "de": "500g Hähnchenschenkel, in Stücke geschnitten"
+        },
+        {
+          "en": "Soy sauce, sake, ginger, garlic",
+          "tr": "Soya sosu, sake, zencefil, sarımsak",
+          "es": "Salsa de soja, sake, jengibre, ajo",
+          "de": "Sojasauce, Sake, Ingwer, Knoblauch"
+        },
+        {
+          "en": "Potato starch (katakuriko)",
+          "tr": "Patates nişastası (katakuriko)",
+          "es": "Almidón de patata (katakuriko)",
+          "de": "Kartoffelstärke (Katakuriko)"
+        },
+        {
+          "en": "Lemon wedges, mayo",
+          "tr": "Limon dilimleri, mayonez",
+          "es": "Gajos de limón, mayonesa",
+          "de": "Zitronenspalten, Mayo"
+        }
+      ],
+      "steps": [
+        {
+          "en": "Marinate chicken in soy, sake, ginger, and garlic for 30 minutes.",
+          "tr": "Tavuğu soya, sake, zencefil ve sarımsakta 30 dakika marine edin.",
+          "es": "Marinar pollo en soja, sake, jengibre y ajo por 30 minutos.",
+          "de": "Hähnchen 30 Minuten in Soja, Sake, Ingwer und Knoblauch marinieren."
+        },
+        {
+          "en": "Coat generously with potato starch.",
+          "tr": "Patates nişastası ile bol kaplayın.",
+          "es": "Cubrir generosamente con almidón de patata.",
+          "de": "Großzügig mit Kartoffelstärke bestäuben."
+        },
+        {
+          "en": "Deep fry at 170°C for 3 min, rest 2 min, fry again at 180°C for 1 min.",
+          "tr": "170°C'de 3 dk kızartın, 2 dk dinlendirin, 180°C'de 1 dk tekrar kızartın.",
+          "es": "Freír a 170°C por 3 min, reposar 2 min, freír de nuevo a 180°C por 1 min.",
+          "de": "Bei 170°C 3 Min. frittieren, 2 Min. ruhen, nochmal bei 180°C 1 Min. frittieren."
+        },
+        {
+          "en": "Serve with lemon wedges and Japanese mayo.",
+          "tr": "Limon dilimleri ve Japon mayonezi ile servis edin.",
+          "es": "Servir con gajos de limón y mayonesa japonesa.",
+          "de": "Mit Zitronenspalten und japanischer Mayo servieren."
+        }
+      ]
+    }
+  ]
+}
