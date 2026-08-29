@@ -186,6 +186,28 @@ class AppLocalizationsDe extends AppLocalizations {
   }
 
   @override
+  String get settingsPremiumDesc => 'Schalte alle Küchen und Rezepte frei';
+
+  @override
+  String get settingsEula => 'Nutzungsbedingungen (EULA)';
+
+  @override
+  String get settingsPrivacy => 'Datenschutzrichtlinie';
+
+  @override
+  String get settingsSupport => 'Support & Feedback';
+
+  @override
+  String get settingsDeveloper => 'Entwickler';
+
+  @override
+  String get settingsDeveloperContact =>
+      'Entwickler: kahramanapp • Kontakt: kahramandev01@gmail.com';
+
+  @override
+  String get settingsCopyright => '© 2026 Was Essen? — Alle Rechte vorbehalten';
+
+  @override
   String get premiumTitle => 'Vollzugriff freischalten';
 
   @override
@@ -193,25 +215,98 @@ class AppLocalizationsDe extends AppLocalizations {
       'Hol dir alle 10 Weltküchen, unbegrenzte Drehungen und ein werbefreies Erlebnis!';
 
   @override
-  String get premiumFeature1 => 'Alle 6 Premium-Weltküchen freischalten';
+  String get premiumHeaderTitle => 'Was Essen? Premium';
 
   @override
-  String get premiumFeature2 => 'Zugriff auf über 160 detaillierte Rezepte';
+  String get premiumHeaderSubtitle =>
+      '10 Weltküchen, 212+ Authentische Rezepte & Werbefreies Gourmet-Erlebnis';
 
   @override
-  String get premiumFeature3 => 'Eigene Filter- und Ausschlussregeln';
+  String get premiumFeature1 => 'Voller Zugriff auf alle 10 Weltküchen';
 
   @override
-  String get premiumFeature4 => 'Vollständig werbefreies Erlebnis';
+  String get premiumFeature1Desc =>
+      'Japanische, koreanische, mexikanische, französische, indische und chinesische Küche freischalten.';
+
+  @override
+  String get premiumFeature2 => '212+ Detaillierte authentische Rezepte';
+
+  @override
+  String get premiumFeature2Desc =>
+      'Zutatenlisten, Kalorien, Zeiten und Schritt-für-Schritt-Kochanleitungen.';
+
+  @override
+  String get premiumFeature3 => 'Smarte Rad-Filter';
+
+  @override
+  String get premiumFeature3Desc =>
+      'Vegetarisch, Schnellkochen, kalorienarm oder Schwierigkeitsfilter frei anwenden.';
+
+  @override
+  String get premiumFeature4 => 'Keine Werbung, Unterbrechungsfrei';
+
+  @override
+  String get premiumFeature4Desc =>
+      'Ein schnelles und angenehmes Gourmet-Erlebnis ohne Unterbrechungen.';
+
+  @override
+  String get premiumPlanMonthly => 'Monatsplan';
+
+  @override
+  String get premiumPlanYearly => 'Jahresplan';
+
+  @override
+  String get premiumPlanMonthlySubtitle =>
+      'Flexible Mitgliedschaft, jederzeit kündbar';
+
+  @override
+  String get premiumPlanYearlySubtitle =>
+      '12 Monate unbegrenzter Zugang • Bestes Angebot';
+
+  @override
+  String get premiumPlanSaveBadge => '50% SPAREN';
+
+  @override
+  String get premiumPerMonth => '/ Monat';
+
+  @override
+  String get premiumPerYear => '/ Jahr';
+
+  @override
+  String get premiumCtaYearly => 'Jahres-Premium holen';
+
+  @override
+  String get premiumCtaMonthly => 'Monats-Premium holen';
+
+  @override
+  String get premiumProcessing => 'Wird verarbeitet...';
 
   @override
   String get premiumBuyButton => 'Jetzt Premium sichern';
 
   @override
-  String get premiumRestore => 'Kauf wiederherstellen';
+  String get premiumRestore => 'Wiederherstellen';
 
   @override
-  String get premiumSuccess => 'Willkommen bei Premium!';
+  String get premiumSuccess => 'Willkommen bei Premium! 🎉';
+
+  @override
+  String get premiumRestoreSuccess =>
+      'Ihre Premium-Mitgliedschaft wurde wiederhergestellt! 🎉';
+
+  @override
+  String get premiumRestoreNone =>
+      'Käufe überprüft. Kein aktives Abonnement gefunden.';
+
+  @override
+  String get premiumDisclosure =>
+      'Die Zahlung wird bei Bestätigung Ihrem Apple-ID-Konto belastet. Das Abonnement verlängert sich automatisch, sofern es nicht mindestens 24 Stunden vor Ende des aktuellen Zeitraums gekündigt wird. Die Verlängerungsgebühr wird innerhalb von 24 Stunden vor Ende des aktuellen Zeitraums erhoben. Sie können Ihr Abonnement nach dem Kauf in den Kontoeinstellungen verwalten oder kündigen.';
+
+  @override
+  String get premiumEula => 'Nutzungsbedingungen (EULA)';
+
+  @override
+  String get premiumPrivacy => 'Datenschutzrichtlinie';
 
   @override
   String get commonCancel => 'Abbrechen';

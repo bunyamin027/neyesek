@@ -426,6 +426,48 @@ abstract class AppLocalizations {
   /// **'Version {version}'**
   String settingsVersion(String version);
 
+  /// No description provided for @settingsPremiumDesc.
+  ///
+  /// In en, this message translates to:
+  /// **'Unlock all cuisines and recipes'**
+  String get settingsPremiumDesc;
+
+  /// No description provided for @settingsEula.
+  ///
+  /// In en, this message translates to:
+  /// **'Terms of Use (EULA)'**
+  String get settingsEula;
+
+  /// No description provided for @settingsPrivacy.
+  ///
+  /// In en, this message translates to:
+  /// **'Privacy Policy'**
+  String get settingsPrivacy;
+
+  /// No description provided for @settingsSupport.
+  ///
+  /// In en, this message translates to:
+  /// **'Support & Feedback'**
+  String get settingsSupport;
+
+  /// No description provided for @settingsDeveloper.
+  ///
+  /// In en, this message translates to:
+  /// **'Developer'**
+  String get settingsDeveloper;
+
+  /// No description provided for @settingsDeveloperContact.
+  ///
+  /// In en, this message translates to:
+  /// **'Developer: kahramanapp • Contact: kahramandev01@gmail.com'**
+  String get settingsDeveloperContact;
+
+  /// No description provided for @settingsCopyright.
+  ///
+  /// In en, this message translates to:
+  /// **'© 2026 What to Eat? — All rights reserved'**
+  String get settingsCopyright;
+
   /// No description provided for @premiumTitle.
   ///
   /// In en, this message translates to:
@@ -438,29 +480,125 @@ abstract class AppLocalizations {
   /// **'Get all 10 world cuisines, unlimited spins, and ad-free experience!'**
   String get premiumSubtitle;
 
+  /// No description provided for @premiumHeaderTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'What to Eat? Premium'**
+  String get premiumHeaderTitle;
+
+  /// No description provided for @premiumHeaderSubtitle.
+  ///
+  /// In en, this message translates to:
+  /// **'10 World Cuisines, 212+ Authentic Recipes & Ad-Free Gourmet Experience'**
+  String get premiumHeaderSubtitle;
+
   /// No description provided for @premiumFeature1.
   ///
   /// In en, this message translates to:
-  /// **'Unlock all 6 Premium World Cuisines'**
+  /// **'Full Access to All 10 World Cuisines'**
   String get premiumFeature1;
+
+  /// No description provided for @premiumFeature1Desc.
+  ///
+  /// In en, this message translates to:
+  /// **'Unlock Japanese, Korean, Mexican, French, Indian and Chinese cuisines.'**
+  String get premiumFeature1Desc;
 
   /// No description provided for @premiumFeature2.
   ///
   /// In en, this message translates to:
-  /// **'Access over 160+ detailed recipes'**
+  /// **'212+ Detailed Authentic Recipes'**
   String get premiumFeature2;
+
+  /// No description provided for @premiumFeature2Desc.
+  ///
+  /// In en, this message translates to:
+  /// **'Ingredient lists, calories, timing and step-by-step cooking guides.'**
+  String get premiumFeature2Desc;
 
   /// No description provided for @premiumFeature3.
   ///
   /// In en, this message translates to:
-  /// **'Custom filter & exclusion rules'**
+  /// **'Smart Wheel Filters'**
   String get premiumFeature3;
+
+  /// No description provided for @premiumFeature3Desc.
+  ///
+  /// In en, this message translates to:
+  /// **'Apply vegetarian, quick cook, low calorie or difficulty filters freely.'**
+  String get premiumFeature3Desc;
 
   /// No description provided for @premiumFeature4.
   ///
   /// In en, this message translates to:
-  /// **'Completely ad-free experience'**
+  /// **'Zero Ads, Uninterrupted Flow'**
   String get premiumFeature4;
+
+  /// No description provided for @premiumFeature4Desc.
+  ///
+  /// In en, this message translates to:
+  /// **'A fast and enjoyable gourmet experience without any interruptions.'**
+  String get premiumFeature4Desc;
+
+  /// No description provided for @premiumPlanMonthly.
+  ///
+  /// In en, this message translates to:
+  /// **'Monthly Plan'**
+  String get premiumPlanMonthly;
+
+  /// No description provided for @premiumPlanYearly.
+  ///
+  /// In en, this message translates to:
+  /// **'Yearly Plan'**
+  String get premiumPlanYearly;
+
+  /// No description provided for @premiumPlanMonthlySubtitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Flexible membership, cancel anytime'**
+  String get premiumPlanMonthlySubtitle;
+
+  /// No description provided for @premiumPlanYearlySubtitle.
+  ///
+  /// In en, this message translates to:
+  /// **'12 months unlimited access • Best value'**
+  String get premiumPlanYearlySubtitle;
+
+  /// No description provided for @premiumPlanSaveBadge.
+  ///
+  /// In en, this message translates to:
+  /// **'SAVE 50%'**
+  String get premiumPlanSaveBadge;
+
+  /// No description provided for @premiumPerMonth.
+  ///
+  /// In en, this message translates to:
+  /// **'/ month'**
+  String get premiumPerMonth;
+
+  /// No description provided for @premiumPerYear.
+  ///
+  /// In en, this message translates to:
+  /// **'/ year'**
+  String get premiumPerYear;
+
+  /// No description provided for @premiumCtaYearly.
+  ///
+  /// In en, this message translates to:
+  /// **'Get Yearly Premium'**
+  String get premiumCtaYearly;
+
+  /// No description provided for @premiumCtaMonthly.
+  ///
+  /// In en, this message translates to:
+  /// **'Get Monthly Premium'**
+  String get premiumCtaMonthly;
+
+  /// No description provided for @premiumProcessing.
+  ///
+  /// In en, this message translates to:
+  /// **'Processing...'**
+  String get premiumProcessing;
 
   /// No description provided for @premiumBuyButton.
   ///
@@ -471,14 +609,44 @@ abstract class AppLocalizations {
   /// No description provided for @premiumRestore.
   ///
   /// In en, this message translates to:
-  /// **'Restore Purchase'**
+  /// **'Restore'**
   String get premiumRestore;
 
   /// No description provided for @premiumSuccess.
   ///
   /// In en, this message translates to:
-  /// **'Welcome to Premium!'**
+  /// **'Welcome to Premium! 🎉'**
   String get premiumSuccess;
+
+  /// No description provided for @premiumRestoreSuccess.
+  ///
+  /// In en, this message translates to:
+  /// **'Your premium membership has been restored! 🎉'**
+  String get premiumRestoreSuccess;
+
+  /// No description provided for @premiumRestoreNone.
+  ///
+  /// In en, this message translates to:
+  /// **'Purchases checked. No active subscription found.'**
+  String get premiumRestoreNone;
+
+  /// No description provided for @premiumDisclosure.
+  ///
+  /// In en, this message translates to:
+  /// **'Payment is charged to your Apple ID account upon confirmation. Subscription automatically renews unless cancelled at least 24 hours before the end of the current period. Renewal is charged within 24 hours prior to the end of the current period. You can manage or cancel your subscription in Account Settings after purchase.'**
+  String get premiumDisclosure;
+
+  /// No description provided for @premiumEula.
+  ///
+  /// In en, this message translates to:
+  /// **'Terms of Use (EULA)'**
+  String get premiumEula;
+
+  /// No description provided for @premiumPrivacy.
+  ///
+  /// In en, this message translates to:
+  /// **'Privacy Policy'**
+  String get premiumPrivacy;
 
   /// No description provided for @commonCancel.
   ///

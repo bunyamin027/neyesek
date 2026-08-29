@@ -184,6 +184,29 @@ class AppLocalizationsEs extends AppLocalizations {
   }
 
   @override
+  String get settingsPremiumDesc => 'Desbloquea todas las cocinas y recetas';
+
+  @override
+  String get settingsEula => 'Términos de Uso (EULA)';
+
+  @override
+  String get settingsPrivacy => 'Política de Privacidad';
+
+  @override
+  String get settingsSupport => 'Soporte y Comentarios';
+
+  @override
+  String get settingsDeveloper => 'Desarrollador';
+
+  @override
+  String get settingsDeveloperContact =>
+      'Desarrollador: kahramanapp • Contacto: kahramandev01@gmail.com';
+
+  @override
+  String get settingsCopyright =>
+      '© 2026 ¿Qué Comemos? — Todos los derechos reservados';
+
+  @override
   String get premiumTitle => 'Desbloquear Acceso Total';
 
   @override
@@ -191,25 +214,98 @@ class AppLocalizationsEs extends AppLocalizations {
       '¡Consigue las 10 cocinas del mundo, giros ilimitados y experiencia sin anuncios!';
 
   @override
-  String get premiumFeature1 => 'Desbloquea las 6 Cocinas Premium del Mundo';
+  String get premiumHeaderTitle => '¿Qué Comemos? Premium';
 
   @override
-  String get premiumFeature2 => 'Acceso a más de 160 recetas detalladas';
+  String get premiumHeaderSubtitle =>
+      '10 Cocinas del Mundo, 212+ Recetas Auténticas y Experiencia Gourmet Sin Anuncios';
 
   @override
-  String get premiumFeature3 => 'Filtros y reglas de exclusión personalizadas';
+  String get premiumFeature1 => 'Acceso completo a las 10 cocinas del mundo';
 
   @override
-  String get premiumFeature4 => 'Experiencia totalmente sin anuncios';
+  String get premiumFeature1Desc =>
+      'Desbloquea cocinas japonesa, coreana, mexicana, francesa, india y china.';
+
+  @override
+  String get premiumFeature2 => '212+ Recetas auténticas detalladas';
+
+  @override
+  String get premiumFeature2Desc =>
+      'Listas de ingredientes, calorías, tiempos y guías paso a paso.';
+
+  @override
+  String get premiumFeature3 => 'Filtros inteligentes de ruleta';
+
+  @override
+  String get premiumFeature3Desc =>
+      'Aplica filtros vegetarianos, cocción rápida, bajo en calorías o dificultad libremente.';
+
+  @override
+  String get premiumFeature4 => 'Sin anuncios, flujo ininterrumpido';
+
+  @override
+  String get premiumFeature4Desc =>
+      'Una experiencia gourmet rápida y agradable sin interrupciones.';
+
+  @override
+  String get premiumPlanMonthly => 'Plan Mensual';
+
+  @override
+  String get premiumPlanYearly => 'Plan Anual';
+
+  @override
+  String get premiumPlanMonthlySubtitle =>
+      'Membresía flexible, cancela cuando quieras';
+
+  @override
+  String get premiumPlanYearlySubtitle =>
+      '12 meses acceso ilimitado • Mejor oferta';
+
+  @override
+  String get premiumPlanSaveBadge => 'AHORRA 50%';
+
+  @override
+  String get premiumPerMonth => '/ mes';
+
+  @override
+  String get premiumPerYear => '/ año';
+
+  @override
+  String get premiumCtaYearly => 'Obtener Premium Anual';
+
+  @override
+  String get premiumCtaMonthly => 'Obtener Premium Mensual';
+
+  @override
+  String get premiumProcessing => 'Procesando...';
 
   @override
   String get premiumBuyButton => 'Obtener Premium Ahora';
 
   @override
-  String get premiumRestore => 'Restaurar Compra';
+  String get premiumRestore => 'Restaurar';
 
   @override
-  String get premiumSuccess => '¡Bienvenido a Premium!';
+  String get premiumSuccess => '¡Bienvenido a Premium! 🎉';
+
+  @override
+  String get premiumRestoreSuccess =>
+      '¡Tu membresía premium ha sido restaurada! 🎉';
+
+  @override
+  String get premiumRestoreNone =>
+      'Compras verificadas. No se encontró suscripción activa.';
+
+  @override
+  String get premiumDisclosure =>
+      'El pago se carga a tu cuenta de Apple ID tras la confirmación. La suscripción se renueva automáticamente a menos que se cancele al menos 24 horas antes del final del período actual. El cargo de renovación se realiza dentro de las 24 horas previas al final del período actual. Puedes gestionar o cancelar tu suscripción en Configuración de Cuenta después de la compra.';
+
+  @override
+  String get premiumEula => 'Términos de Uso (EULA)';
+
+  @override
+  String get premiumPrivacy => 'Política de Privacidad';
 
   @override
   String get commonCancel => 'Cancelar';

@@ -43,8 +43,7 @@ class _HomeScreenState extends State<HomeScreen>
   WheelFilter _currentFilter = const WheelFilter();
   List<FoodItem> _foods = [];
 
-  int _secretTitleTapCount = 0;
-  Timer? _secretTapTimer;
+
 
   late AnimationController _glowController;
   late ConfettiController _confettiController;
@@ -135,56 +134,13 @@ class _HomeScreenState extends State<HomeScreen>
 
   @override
   void dispose() {
-    _secretTapTimer?.cancel();
     _selectedController.close();
     _glowController.dispose();
     _confettiController.dispose();
     super.dispose();
   }
 
-  void _onTitleTapped() async {
-    _secretTitleTapCount++;
-    _secretTapTimer?.cancel();
-    _secretTapTimer = Timer(const Duration(seconds: 4), () {
-      _secretTitleTapCount = 0;
-    });
 
-    if (_secretTitleTapCount >= 8) {
-      _secretTitleTapCount = 0;
-      _secretTapTimer?.cancel();
-      HapticFeedback.heavyImpact();
-      await PurchaseService.instance.setDebugPremium(true);
-      if (!mounted) return;
-      _confettiController.play();
-      ScaffoldMessenger.of(context).clearSnackBars();
-      ScaffoldMessenger.of(context).showSnackBar(
-        SnackBar(
-          backgroundColor: AppColors.gold,
-          behavior: SnackBarBehavior.floating,
-          shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(14)),
-          content: const Row(
-            children: [
-              Icon(Icons.workspace_premium_rounded, color: Colors.black, size: 26),
-              SizedBox(width: 12),
-              Expanded(
-                child: Text(
-                  '👑 Tebrikler! Premium üyelik aktif edildi.',
-                  style: TextStyle(
-                    color: Colors.black,
-                    fontWeight: FontWeight.bold,
-                    fontSize: 14,
-                  ),
-                ),
-              ),
-            ],
-          ),
-          duration: const Duration(seconds: 3),
-        ),
-      );
-    } else {
-      HapticFeedback.selectionClick();
-    }
-  }
 
   void _spinWheel() {
     if (_isSpinning || _foods.isEmpty) return;
@@ -267,9 +223,7 @@ class _HomeScreenState extends State<HomeScreen>
                       child: Row(
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
-                          GestureDetector(
-                            onTap: _onTitleTapped,
-                            behavior: HitTestBehavior.opaque,
+                          Expanded(
                             child: Column(
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: [
@@ -280,6 +234,8 @@ class _HomeScreenState extends State<HomeScreen>
                                 Text(
                                   l10n?.appTagline ?? 'Bugün ne yiyeceğine çarkı çevirerek karar ver!',
                                   style: AppTextStyles.bodySmall,
+                                  maxLines: 2,
+                                  overflow: TextOverflow.ellipsis,
                                 ),
                               ],
                             ),

@@ -185,6 +185,28 @@ class AppLocalizationsEn extends AppLocalizations {
   }
 
   @override
+  String get settingsPremiumDesc => 'Unlock all cuisines and recipes';
+
+  @override
+  String get settingsEula => 'Terms of Use (EULA)';
+
+  @override
+  String get settingsPrivacy => 'Privacy Policy';
+
+  @override
+  String get settingsSupport => 'Support & Feedback';
+
+  @override
+  String get settingsDeveloper => 'Developer';
+
+  @override
+  String get settingsDeveloperContact =>
+      'Developer: kahramanapp • Contact: kahramandev01@gmail.com';
+
+  @override
+  String get settingsCopyright => '© 2026 What to Eat? — All rights reserved';
+
+  @override
   String get premiumTitle => 'Unlock Full Access';
 
   @override
@@ -192,25 +214,98 @@ class AppLocalizationsEn extends AppLocalizations {
       'Get all 10 world cuisines, unlimited spins, and ad-free experience!';
 
   @override
-  String get premiumFeature1 => 'Unlock all 6 Premium World Cuisines';
+  String get premiumHeaderTitle => 'What to Eat? Premium';
 
   @override
-  String get premiumFeature2 => 'Access over 160+ detailed recipes';
+  String get premiumHeaderSubtitle =>
+      '10 World Cuisines, 212+ Authentic Recipes & Ad-Free Gourmet Experience';
 
   @override
-  String get premiumFeature3 => 'Custom filter & exclusion rules';
+  String get premiumFeature1 => 'Full Access to All 10 World Cuisines';
 
   @override
-  String get premiumFeature4 => 'Completely ad-free experience';
+  String get premiumFeature1Desc =>
+      'Unlock Japanese, Korean, Mexican, French, Indian and Chinese cuisines.';
+
+  @override
+  String get premiumFeature2 => '212+ Detailed Authentic Recipes';
+
+  @override
+  String get premiumFeature2Desc =>
+      'Ingredient lists, calories, timing and step-by-step cooking guides.';
+
+  @override
+  String get premiumFeature3 => 'Smart Wheel Filters';
+
+  @override
+  String get premiumFeature3Desc =>
+      'Apply vegetarian, quick cook, low calorie or difficulty filters freely.';
+
+  @override
+  String get premiumFeature4 => 'Zero Ads, Uninterrupted Flow';
+
+  @override
+  String get premiumFeature4Desc =>
+      'A fast and enjoyable gourmet experience without any interruptions.';
+
+  @override
+  String get premiumPlanMonthly => 'Monthly Plan';
+
+  @override
+  String get premiumPlanYearly => 'Yearly Plan';
+
+  @override
+  String get premiumPlanMonthlySubtitle =>
+      'Flexible membership, cancel anytime';
+
+  @override
+  String get premiumPlanYearlySubtitle =>
+      '12 months unlimited access • Best value';
+
+  @override
+  String get premiumPlanSaveBadge => 'SAVE 50%';
+
+  @override
+  String get premiumPerMonth => '/ month';
+
+  @override
+  String get premiumPerYear => '/ year';
+
+  @override
+  String get premiumCtaYearly => 'Get Yearly Premium';
+
+  @override
+  String get premiumCtaMonthly => 'Get Monthly Premium';
+
+  @override
+  String get premiumProcessing => 'Processing...';
 
   @override
   String get premiumBuyButton => 'Get Premium Now';
 
   @override
-  String get premiumRestore => 'Restore Purchase';
+  String get premiumRestore => 'Restore';
 
   @override
-  String get premiumSuccess => 'Welcome to Premium!';
+  String get premiumSuccess => 'Welcome to Premium! 🎉';
+
+  @override
+  String get premiumRestoreSuccess =>
+      'Your premium membership has been restored! 🎉';
+
+  @override
+  String get premiumRestoreNone =>
+      'Purchases checked. No active subscription found.';
+
+  @override
+  String get premiumDisclosure =>
+      'Payment is charged to your Apple ID account upon confirmation. Subscription automatically renews unless cancelled at least 24 hours before the end of the current period. Renewal is charged within 24 hours prior to the end of the current period. You can manage or cancel your subscription in Account Settings after purchase.';
+
+  @override
+  String get premiumEula => 'Terms of Use (EULA)';
+
+  @override
+  String get premiumPrivacy => 'Privacy Policy';
 
   @override
   String get commonCancel => 'Cancel';

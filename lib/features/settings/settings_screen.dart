@@ -8,6 +8,7 @@ import '../../core/theme/app_text_styles.dart';
 import '../../core/widgets/frosted_glass_container.dart';
 import '../../core/widgets/gradient_background.dart';
 import '../../data/services/locale_service.dart';
+import '../../data/services/purchase_service.dart';
 import '../../data/services/sound_service.dart';
 import '../../l10n/app_localizations.dart';
 import '../premium/premium_screen.dart';
@@ -166,7 +167,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
                             ),
                             const SizedBox(height: 2),
                             Text(
-                              'Tüm mutfakları ve tarifleri açın',
+                              l10n?.settingsPremiumDesc ?? 'Tüm mutfakları ve tarifleri açın',
                               style: AppTextStyles.labelSmall.copyWith(color: AppColors.textMuted),
                             ),
                           ],
@@ -211,12 +212,21 @@ class _SettingsScreenState extends State<SettingsScreen> {
               _buildSettingTile(
                 icon: Icons.restore_rounded,
                 title: l10n?.settingsRestore ?? 'Satın Alımları Geri Yükle',
-                onTap: () {
+                onTap: () async {
                   HapticFeedback.lightImpact();
+                  await PurchaseService.instance.restorePurchases();
+                  if (!mounted) return;
                   ScaffoldMessenger.of(context).showSnackBar(
                     SnackBar(
-                      content: Text(l10n?.settingsRestore ?? 'Geri yükleme kontrol edildi'),
-                      backgroundColor: AppColors.surfaceLight,
+                      content: Text(
+                        PurchaseService.instance.isPremium
+                            ? (l10n?.premiumSuccess ?? 'Premium üyeliğiniz başarıyla geri yüklendi! 🎉')
+                            : (l10n?.settingsRestore ?? 'Satın alımlar kontrol edildi. Aktif abonelik bulunamadı.'),
+                      ),
+                      backgroundColor: PurchaseService.instance.isPremium
+                          ? AppColors.primary
+                          : AppColors.surfaceLight,
+                      behavior: SnackBarBehavior.floating,
                     ),
                   );
                 },
@@ -225,7 +235,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
               // ─── Kullanım Koşulları (EULA) ───
               _buildSettingTile(
                 icon: Icons.description_rounded,
-                title: 'Kullanım Koşulları (EULA)',
+                title: l10n?.settingsEula ?? 'Kullanım Koşulları (EULA)',
                 onTap: () async {
                   HapticFeedback.selectionClick();
                   final uri = Uri.parse('https://www.apple.com/legal/internet-services/itunes/dev/stdeula/');
@@ -238,7 +248,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
               // ─── Gizlilik Politikası ───
               _buildSettingTile(
                 icon: Icons.privacy_tip_rounded,
-                title: 'Gizlilik Politikası',
+                title: l10n?.settingsPrivacy ?? 'Gizlilik Politikası',
                 onTap: () async {
                   HapticFeedback.selectionClick();
                   final uri = Uri.parse('https://www.kahramanapp.com/privacy');
@@ -251,7 +261,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
               // ─── Destek ve Geri Bildirim ───
               _buildSettingTile(
                 icon: Icons.mail_outline_rounded,
-                title: 'Destek ve Geri Bildirim',
+                title: l10n?.settingsSupport ?? 'Destek ve Geri Bildirim',
                 trailingText: 'kahramandev01@gmail.com',
                 onTap: () async {
                   HapticFeedback.selectionClick();
@@ -265,7 +275,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
               // ─── Geliştirici ───
               _buildSettingTile(
                 icon: Icons.code_rounded,
-                title: 'Geliştirici',
+                title: l10n?.settingsDeveloper ?? 'Geliştirici',
                 trailingText: 'kahramanapp',
                 onTap: () async {
                   HapticFeedback.selectionClick();
@@ -288,12 +298,12 @@ class _SettingsScreenState extends State<SettingsScreen> {
                     ),
                     const SizedBox(height: 4),
                     Text(
-                      'Geliştirici: kahramanapp • İletişim: kahramandev01@gmail.com',
+                      l10n?.settingsDeveloperContact ?? 'Geliştirici: kahramanapp • İletişim: kahramandev01@gmail.com',
                       style: AppTextStyles.labelSmall.copyWith(color: AppColors.textMuted.withValues(alpha: 0.8), fontSize: 11),
                     ),
                     const SizedBox(height: 4),
                     Text(
-                      '© 2026 Bugün Ne Yesek? — All rights reserved',
+                      l10n?.settingsCopyright ?? '© 2026 Bugün Ne Yesek? — All rights reserved',
                       style: AppTextStyles.labelSmall.copyWith(color: AppColors.textMuted.withValues(alpha: 0.6), fontSize: 10),
                     ),
                   ],

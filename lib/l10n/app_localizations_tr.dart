@@ -185,6 +185,29 @@ class AppLocalizationsTr extends AppLocalizations {
   }
 
   @override
+  String get settingsPremiumDesc => 'Tüm mutfakları ve tarifleri açın';
+
+  @override
+  String get settingsEula => 'Kullanım Koşulları (EULA)';
+
+  @override
+  String get settingsPrivacy => 'Gizlilik Politikası';
+
+  @override
+  String get settingsSupport => 'Destek ve Geri Bildirim';
+
+  @override
+  String get settingsDeveloper => 'Geliştirici';
+
+  @override
+  String get settingsDeveloperContact =>
+      'Geliştirici: kahramanapp • İletişim: kahramandev01@gmail.com';
+
+  @override
+  String get settingsCopyright =>
+      '© 2026 Bugün Ne Yesek? — All rights reserved';
+
+  @override
   String get premiumTitle => 'Tam Erişimi Aç';
 
   @override
@@ -192,25 +215,98 @@ class AppLocalizationsTr extends AppLocalizations {
       'Tüm 10 dünya mutfağına, sınırsız çark hakkına ve reklamsız deneyime sahip olun!';
 
   @override
-  String get premiumFeature1 => '6 Premium Dünya Mutfağının Kilidini Açın';
+  String get premiumHeaderTitle => 'Ne Yesek? Premium';
 
   @override
-  String get premiumFeature2 => '160+ detaylı tarife sınırsız erişim';
+  String get premiumHeaderSubtitle =>
+      '10 Dünya Mutfağı, 212+ Otantik Tarif ve Reklamsız Gurme Deneyimi';
 
   @override
-  String get premiumFeature3 => 'Özel filtreleme ve hariç tutma kuralları';
+  String get premiumFeature1 => 'Tüm 10 Dünya Mutfağına Tam Erişim';
 
   @override
-  String get premiumFeature4 => 'Tamamen reklamsız deneyim';
+  String get premiumFeature1Desc =>
+      'Japon, Kore, Meksika, Fransız, Hint ve Çin mutfaklarının kilidini açın.';
+
+  @override
+  String get premiumFeature2 => '212+ Detaylı Otantik Yemek Tarifi';
+
+  @override
+  String get premiumFeature2Desc =>
+      'Malzeme listeleri, kalori, süreler ve adım adım pişirme rehberleri.';
+
+  @override
+  String get premiumFeature3 => 'Akıllı Çark Filtreleri';
+
+  @override
+  String get premiumFeature3Desc =>
+      'Vejetaryen, hızlı pişen, düşük kalorili veya zorluk filtrelerini dilediğince uygula.';
+
+  @override
+  String get premiumFeature4 => 'Sıfır Reklam, Kesintisiz Akış';
+
+  @override
+  String get premiumFeature4Desc =>
+      'Hiçbir kesinti olmadan hızlı ve keyifli bir gurme deneyimi.';
+
+  @override
+  String get premiumPlanMonthly => 'Aylık Plan';
+
+  @override
+  String get premiumPlanYearly => 'Yıllık Plan';
+
+  @override
+  String get premiumPlanMonthlySubtitle =>
+      'Esnek üyelik, dilediğin an iptal et';
+
+  @override
+  String get premiumPlanYearlySubtitle =>
+      '12 ay sınırsız erişim • En avantajlı paket';
+
+  @override
+  String get premiumPlanSaveBadge => '%50 TASARRUF';
+
+  @override
+  String get premiumPerMonth => '/ ay';
+
+  @override
+  String get premiumPerYear => '/ yıl';
+
+  @override
+  String get premiumCtaYearly => 'Yıllık Premium\'a Geç';
+
+  @override
+  String get premiumCtaMonthly => 'Aylık Premium\'a Geç';
+
+  @override
+  String get premiumProcessing => 'İşlem yapılıyor...';
 
   @override
   String get premiumBuyButton => 'Hemen Premium\'a Geç';
 
   @override
-  String get premiumRestore => 'Satın Alımı Geri Yükle';
+  String get premiumRestore => 'Geri Yükle';
 
   @override
-  String get premiumSuccess => 'Premium\'a Hoş Geldiniz!';
+  String get premiumSuccess => 'Tebrikler! Premium üyelik aktif edildi! 🎉';
+
+  @override
+  String get premiumRestoreSuccess =>
+      'Premium üyeliğiniz başarıyla geri yüklendi! 🎉';
+
+  @override
+  String get premiumRestoreNone =>
+      'Satın alımlar kontrol edildi. Aktif abonelik bulunamadı.';
+
+  @override
+  String get premiumDisclosure =>
+      'Ödeme, satın almayı onayladığınızda Apple ID hesabınızdan tahsil edilir. Abonelik, mevcut dönemin bitiminden en az 24 saat önce iptal edilmediği sürece otomatik olarak yenilenir. Yenileme ücreti, dönem bitiminden 24 saat önce hesabınızdan tahsil edilir. Aboneliğinizi satın aldıktan sonra Hesap Ayarları\'ndan yönetebilir veya iptal edebilirsiniz.';
+
+  @override
+  String get premiumEula => 'Kullanım Koşulları (EULA)';
+
+  @override
+  String get premiumPrivacy => 'Gizlilik Politikası';
 
   @override
   String get commonCancel => 'İptal';

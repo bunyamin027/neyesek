@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_animate/flutter_animate.dart';
+import 'package:in_app_purchase/in_app_purchase.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 import '../../core/theme/app_colors.dart';
@@ -18,46 +19,20 @@ class PremiumScreen extends StatefulWidget {
 }
 
 class _PremiumScreenState extends State<PremiumScreen> {
-  // 0: Monthly, 1: Yearly (Default selected - Best Value)
-  int _selectedPlanIndex = 1;
+  int _selectedPlanIndex = 1; // 0: Monthly, 1: Yearly (default)
   bool _isProcessing = false;
 
   static const String privacyPolicyUrl = 'https://www.kahramanapp.com/privacy';
-  static const String eulaUrl = 'https://www.apple.com/legal/internet-services/itunes/dev/stdeula/';
-
-  final List<({
-    String id,
-    String title,
-    String price,
-    String billedText,
-    String subtitle,
-    String? badge,
-    bool isPopular,
-  })> _plans = [
-    (
-      id: PurchaseService.productMonthly,
-      title: 'Aylık Plan',
-      price: '₺49.99',
-      billedText: '/ ay',
-      subtitle: 'Esnek üyelik, dilediğin an iptal et',
-      badge: null,
-      isPopular: false,
-    ),
-    (
-      id: PurchaseService.productYearly,
-      title: 'Yıllık Plan',
-      price: '₺24.99',
-      billedText: '/ ay (Yıllık ₺299.99)',
-      subtitle: '12 ay sınırsız erişim • En avantajlı paket',
-      badge: '%50 TASARRUF',
-      isPopular: true,
-    ),
-  ];
+  static const String eulaUrl =
+      'https://www.apple.com/legal/internet-services/itunes/dev/stdeula/';
 
   @override
   void initState() {
     super.initState();
     PurchaseService.instance.addListener(_onPurchaseStateChanged);
+    if (PurchaseService.instance.products.isEmpty) {
+      PurchaseService.instance.loadProducts();
+    }
   }
 
   @override
@@ -68,11 +43,13 @@ class _PremiumScreenState extends State<PremiumScreen> {
 
   void _onPurchaseStateChanged() {
     if (!mounted) return;
+    setState(() {});
+
     if (PurchaseService.instance.isPremium) {
       final l10n = AppLocalizations.of(context);
       ScaffoldMessenger.of(context).showSnackBar(
         SnackBar(
-          content: Text(l10n?.premiumSuccess ?? 'Tebrikler! Premium üyelik aktif edildi! 🎉'),
+          content: Text(l10n?.premiumSuccess ?? 'Welcome to Premium! 🎉'),
           backgroundColor: AppColors.primary,
           behavior: SnackBarBehavior.floating,
         ),
@@ -81,18 +58,31 @@ class _PremiumScreenState extends State<PremiumScreen> {
     }
   }
 
+  String _getProductId(int index) {
+    return index == 0
+        ? PurchaseService.productMonthly
+        : PurchaseService.productYearly;
+  }
+
+  String _getPlanPrice(int index) {
+    final product = PurchaseService.instance.getProduct(_getProductId(index));
+    if (product != null) return product.price;
+    return index == 0 ? '₺49.99' : '₺299.99';
+  }
+
+  String _getBilledText(int index, AppLocalizations? l10n) {
+    return index == 0
+        ? (l10n?.premiumPerMonth ?? '/ ay')
+        : (l10n?.premiumPerYear ?? '/ yıl');
+  }
+
   Future<void> _handlePurchase(String productId) async {
     if (_isProcessing) return;
     HapticFeedback.heavyImpact();
 
-    final service = PurchaseService.instance;
-
     try {
-      // Don't show full-screen overlay — Apple's StoreKit payment sheet
-      // must be visible on top. The PurchaseService listener handles
-      // loading state via purchaseStream updates.
       setState(() => _isProcessing = true);
-      await service.buyPlan(productId);
+      await PurchaseService.instance.buyPlan(productId);
     } catch (e) {
       if (!mounted) return;
       ScaffoldMessenger.of(context).showSnackBar(
@@ -103,9 +93,7 @@ class _PremiumScreenState extends State<PremiumScreen> {
         ),
       );
     } finally {
-      if (mounted) {
-        setState(() => _isProcessing = false);
-      }
+      if (mounted) setState(() => _isProcessing = false);
     }
   }
 
@@ -124,17 +112,17 @@ class _PremiumScreenState extends State<PremiumScreen> {
       SnackBar(
         content: Text(
           PurchaseService.instance.isPremium
-              ? (l10n?.premiumSuccess ?? 'Premium üyeliğiniz başarıyla geri yüklendi! 🎉')
-              : (l10n?.settingsRestore ?? 'Satın alımlar kontrol edildi.'),
+              ? (l10n?.premiumRestoreSuccess ?? 'Premium restored! 🎉')
+              : (l10n?.premiumRestoreNone ?? 'No active subscription found.'),
         ),
-        backgroundColor: AppColors.surfaceLight,
+        backgroundColor: PurchaseService.instance.isPremium
+            ? AppColors.primary
+            : AppColors.surfaceLight,
         behavior: SnackBarBehavior.floating,
       ),
     );
 
-    if (PurchaseService.instance.isPremium) {
-      Navigator.pop(context);
-    }
+    if (PurchaseService.instance.isPremium) Navigator.pop(context);
   }
 
   Future<void> _openUrl(String urlString) async {
@@ -152,7 +140,48 @@ class _PremiumScreenState extends State<PremiumScreen> {
   @override
   Widget build(BuildContext context) {
     final l10n = AppLocalizations.of(context);
-    final selectedPlan = _plans[_selectedPlanIndex];
+    final productsLoaded = PurchaseService.instance.products.isNotEmpty;
+    final selectedProductId = _getProductId(_selectedPlanIndex);
+
+    // Plan definitions using l10n
+    final plans = [
+      (
+        id: PurchaseService.productMonthly,
+        title: l10n?.premiumPlanMonthly ?? 'Monthly Plan',
+        subtitle: l10n?.premiumPlanMonthlySubtitle ?? 'Flexible membership, cancel anytime',
+        badge: null as String?,
+      ),
+      (
+        id: PurchaseService.productYearly,
+        title: l10n?.premiumPlanYearly ?? 'Yearly Plan',
+        subtitle: l10n?.premiumPlanYearlySubtitle ?? '12 months unlimited access • Best value',
+        badge: l10n?.premiumPlanSaveBadge ?? 'SAVE 50%',
+      ),
+    ];
+
+    // Feature definitions using l10n
+    final features = [
+      (
+        icon: Icons.public_rounded,
+        title: l10n?.premiumFeature1 ?? 'Full Access to All 10 World Cuisines',
+        subtitle: l10n?.premiumFeature1Desc ?? 'Unlock Japanese, Korean, Mexican, French, Indian and Chinese cuisines.',
+      ),
+      (
+        icon: Icons.menu_book_rounded,
+        title: l10n?.premiumFeature2 ?? '212+ Detailed Authentic Recipes',
+        subtitle: l10n?.premiumFeature2Desc ?? 'Ingredient lists, calories, timing and step-by-step cooking guides.',
+      ),
+      (
+        icon: Icons.tune_rounded,
+        title: l10n?.premiumFeature3 ?? 'Smart Wheel Filters',
+        subtitle: l10n?.premiumFeature3Desc ?? 'Apply vegetarian, quick cook, low calorie or difficulty filters freely.',
+      ),
+      (
+        icon: Icons.block_rounded,
+        title: l10n?.premiumFeature4 ?? 'Zero Ads, Uninterrupted Flow',
+        subtitle: l10n?.premiumFeature4Desc ?? 'A fast and enjoyable gourmet experience without any interruptions.',
+      ),
+    ];
 
     return Scaffold(
       backgroundColor: const Color(0xFF0E0E18),
@@ -170,314 +199,203 @@ class _PremiumScreenState extends State<PremiumScreen> {
               onPressed: _isProcessing ? null : _handleRestore,
               icon: _isProcessing
                   ? const SizedBox(
-                      width: 14,
-                      height: 14,
+                      width: 14, height: 14,
                       child: CircularProgressIndicator(strokeWidth: 2, color: AppColors.gold),
                     )
                   : const Icon(Icons.restore_rounded, size: 16, color: AppColors.gold),
               label: Text(
-                l10n?.premiumRestore ?? 'Geri Yükle',
+                l10n?.premiumRestore ?? 'Restore',
                 style: AppTextStyles.bodySmall.copyWith(
-                  color: AppColors.gold,
-                  fontWeight: FontWeight.bold,
+                  color: AppColors.gold, fontWeight: FontWeight.bold,
                 ),
               ),
             ),
           ),
         ],
       ),
-      body: Stack(
+      body: ListView(
+        physics: const BouncingScrollPhysics(),
+        padding: const EdgeInsets.fromLTRB(20, 4, 20, 30),
         children: [
-          ListView(
-            physics: const BouncingScrollPhysics(),
-            padding: const EdgeInsets.fromLTRB(20, 4, 20, 30),
-            children: [
-              // Golden Gourmet Crown
-              Center(
-                child: Container(
-                  width: 80,
-                  height: 80,
-                  decoration: BoxDecoration(
-                    shape: BoxShape.circle,
-                    gradient: LinearGradient(
-                      colors: [
-                        AppColors.gold.withValues(alpha: 0.35),
-                        AppColors.goldLight.withValues(alpha: 0.15),
-                      ],
-                      begin: Alignment.topLeft,
-                      end: Alignment.bottomRight,
-                    ),
-                    border: Border.all(color: AppColors.gold, width: 2),
-                    boxShadow: [
-                      BoxShadow(
-                        color: AppColors.gold.withValues(alpha: 0.35),
-                        blurRadius: 28,
-                        spreadRadius: 2,
-                      ),
-                    ],
+          // ─── Golden Crown ───
+          Center(
+            child: Container(
+              width: 80, height: 80,
+              decoration: BoxDecoration(
+                shape: BoxShape.circle,
+                gradient: LinearGradient(colors: [
+                  AppColors.gold.withValues(alpha: 0.35),
+                  AppColors.goldLight.withValues(alpha: 0.15),
+                ], begin: Alignment.topLeft, end: Alignment.bottomRight),
+                border: Border.all(color: AppColors.gold, width: 2),
+                boxShadow: [BoxShadow(color: AppColors.gold.withValues(alpha: 0.35), blurRadius: 28, spreadRadius: 2)],
+              ),
+              child: const Center(child: Icon(Icons.workspace_premium_rounded, color: AppColors.gold, size: 46)),
+            ),
+          ).animate().scale(duration: 400.ms, curve: Curves.easeOutBack),
+
+          const SizedBox(height: 14),
+
+          Text(
+            l10n?.premiumHeaderTitle ?? 'Premium',
+            style: AppTextStyles.headlineMedium.copyWith(color: Colors.white, fontWeight: FontWeight.bold, letterSpacing: -0.5),
+            textAlign: TextAlign.center,
+          ).animate().fadeIn(delay: 100.ms),
+
+          const SizedBox(height: 6),
+
+          Text(
+            l10n?.premiumHeaderSubtitle ?? '10 World Cuisines, 212+ Authentic Recipes & Ad-Free Gourmet Experience',
+            style: AppTextStyles.bodySmall.copyWith(color: AppColors.textSecondary, height: 1.4),
+            textAlign: TextAlign.center,
+          ).animate().fadeIn(delay: 150.ms),
+
+          const SizedBox(height: 20),
+
+          // ─── Features ───
+          FrostedGlassContainer(
+            padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 14),
+            borderRadius: 18,
+            backgroundColor: const Color(0x18FFFFFF),
+            child: Column(
+              children: [
+                for (int i = 0; i < features.length; i++) ...[
+                  if (i > 0) const SizedBox(height: 10),
+                  _buildFeatureRow(features[i].icon, features[i].title, features[i].subtitle),
+                ],
+              ],
+            ),
+          ).animate().fadeIn(delay: 200.ms).slideY(begin: 0.08, end: 0),
+
+          const SizedBox(height: 20),
+
+          // ─── Plan Cards ───
+          ...List.generate(plans.length, (index) {
+            final plan = plans[index];
+            final isSelected = _selectedPlanIndex == index;
+
+            return GestureDetector(
+              onTap: () {
+                if (isSelected) {
+                  _handlePurchase(plan.id);
+                } else {
+                  setState(() => _selectedPlanIndex = index);
+                }
+              },
+              child: AnimatedContainer(
+                duration: const Duration(milliseconds: 200),
+                margin: const EdgeInsets.only(bottom: 12),
+                padding: const EdgeInsets.all(16),
+                decoration: BoxDecoration(
+                  color: isSelected ? AppColors.gold.withValues(alpha: 0.16) : const Color(0x18FFFFFF),
+                  borderRadius: BorderRadius.circular(20),
+                  border: Border.all(
+                    color: isSelected ? AppColors.gold : AppColors.glassBorder,
+                    width: isSelected ? 2 : 1,
                   ),
-                  child: const Center(
-                    child: Icon(
-                      Icons.workspace_premium_rounded,
-                      color: AppColors.gold,
-                      size: 46,
-                    ),
-                  ),
+                  boxShadow: isSelected
+                      ? [BoxShadow(color: AppColors.gold.withValues(alpha: 0.25), blurRadius: 16, offset: const Offset(0, 4))]
+                      : null,
                 ),
-              ).animate().scale(duration: 400.ms, curve: Curves.easeOutBack),
-
-              const SizedBox(height: 14),
-
-              Text(
-                'Ne Yesek? Premium',
-                style: AppTextStyles.headlineMedium.copyWith(
-                  color: Colors.white,
-                  fontWeight: FontWeight.bold,
-                  letterSpacing: -0.5,
-                ),
-                textAlign: TextAlign.center,
-              ).animate().fadeIn(delay: 100.ms),
-
-              const SizedBox(height: 6),
-
-              Text(
-                '10 Dünya Mutfağı, 212+ Otantik Tarif ve Reklamsız Gurme Deneyimi',
-                style: AppTextStyles.bodySmall.copyWith(
-                  color: AppColors.textSecondary,
-                  height: 1.4,
-                ),
-                textAlign: TextAlign.center,
-              ).animate().fadeIn(delay: 150.ms),
-
-              const SizedBox(height: 20),
-
-              // ─── Features Checklist ───
-              FrostedGlassContainer(
-                padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 14),
-                borderRadius: 18,
-                backgroundColor: const Color(0x18FFFFFF),
-                child: Column(
+                child: Row(
                   children: [
-                    _buildFeatureRow(
-                      Icons.public_rounded,
-                      'Tüm 10 Dünya Mutfağına Tam Erişim',
-                      'Japon, Kore, Meksika, Fransız, Hint ve Çin mutfaklarının kilidini açın.',
+                    Container(
+                      width: 24, height: 24,
+                      decoration: BoxDecoration(
+                        shape: BoxShape.circle,
+                        color: isSelected ? AppColors.gold : Colors.transparent,
+                        border: Border.all(color: isSelected ? AppColors.gold : AppColors.textMuted, width: 2),
+                      ),
+                      child: isSelected ? const Icon(Icons.check, size: 16, color: Colors.black) : null,
                     ),
-                    const SizedBox(height: 10),
-                    _buildFeatureRow(
-                      Icons.menu_book_rounded,
-                      '212+ Detaylı Otantik Yemek Tarifi',
-                      'Malzeme listeleri, kalori, süreler ve adım adım pişirme rehberleri.',
+                    const SizedBox(width: 14),
+                    Expanded(
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Row(
+                            children: [
+                              Text(plan.title, style: AppTextStyles.titleMedium.copyWith(fontWeight: FontWeight.bold, color: Colors.white)),
+                              if (plan.badge != null) ...[
+                                const SizedBox(width: 8),
+                                Container(
+                                  padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 2),
+                                  decoration: BoxDecoration(
+                                    gradient: const LinearGradient(colors: [AppColors.gold, AppColors.goldLight]),
+                                    borderRadius: BorderRadius.circular(8),
+                                    boxShadow: [BoxShadow(color: AppColors.gold.withValues(alpha: 0.3), blurRadius: 8)],
+                                  ),
+                                  child: Text(plan.badge!, style: const TextStyle(color: Colors.black, fontWeight: FontWeight.w800, fontSize: 10)),
+                                ),
+                              ],
+                            ],
+                          ),
+                          const SizedBox(height: 3),
+                          Text(plan.subtitle, style: AppTextStyles.bodySmall.copyWith(color: AppColors.textMuted, fontSize: 12)),
+                        ],
+                      ),
                     ),
-                    const SizedBox(height: 10),
-                    _buildFeatureRow(
-                      Icons.tune_rounded,
-                      'Akıllı Çark Filtreleri',
-                      'Vejetaryen, hızlı pişen, düşük kalorili veya zorluk filtrelerini dilediğince uygula.',
-                    ),
-                    const SizedBox(height: 10),
-                    _buildFeatureRow(
-                      Icons.block_rounded,
-                      'Sıfır Reklam, Kesintisiz Akış',
-                      'Hiçbir kesinti olmadan hızlı ve keyifli bir gurme deneyimi.',
+                    Column(
+                      crossAxisAlignment: CrossAxisAlignment.end,
+                      children: [
+                        productsLoaded
+                            ? Text(_getPlanPrice(index), style: AppTextStyles.titleMedium.copyWith(color: isSelected ? AppColors.gold : Colors.white, fontWeight: FontWeight.w800, fontSize: 18))
+                            : SizedBox(
+                                width: 50, height: 18,
+                                child: LinearProgressIndicator(
+                                  backgroundColor: Colors.white.withValues(alpha: 0.1),
+                                  valueColor: AlwaysStoppedAnimation<Color>(AppColors.gold.withValues(alpha: 0.4)),
+                                  borderRadius: BorderRadius.circular(4),
+                                ),
+                              ),
+                        const SizedBox(height: 2),
+                        Text(_getBilledText(index, l10n), style: AppTextStyles.labelSmall.copyWith(color: AppColors.textMuted, fontSize: 10)),
+                      ],
                     ),
                   ],
                 ),
-              ).animate().fadeIn(delay: 200.ms).slideY(begin: 0.08, end: 0),
-
-              const SizedBox(height: 20),
-
-              // ─── Subscription Plan Cards (Monthly & Yearly) ───
-              ...List.generate(_plans.length, (index) {
-                final plan = _plans[index];
-                final isSelected = _selectedPlanIndex == index;
-
-                return GestureDetector(
-                  onTap: () {
-                    if (_selectedPlanIndex == index) {
-                      // Already selected — trigger purchase (DayZero pattern)
-                      _handlePurchase(plan.id);
-                    } else {
-                      // First tap — just select the plan
-                      setState(() => _selectedPlanIndex = index);
-                    }
-                  },
-                  child: AnimatedContainer(
-                    duration: const Duration(milliseconds: 200),
-                    margin: const EdgeInsets.only(bottom: 12),
-                    padding: const EdgeInsets.all(16),
-                    decoration: BoxDecoration(
-                      color: isSelected
-                          ? AppColors.gold.withValues(alpha: 0.16)
-                          : const Color(0x18FFFFFF),
-                      borderRadius: BorderRadius.circular(20),
-                      border: Border.all(
-                        color: isSelected ? AppColors.gold : AppColors.glassBorder,
-                        width: isSelected ? 2 : 1,
-                      ),
-                      boxShadow: isSelected
-                          ? [
-                              BoxShadow(
-                                color: AppColors.gold.withValues(alpha: 0.25),
-                                blurRadius: 16,
-                                offset: const Offset(0, 4),
-                              ),
-                            ]
-                          : null,
-                    ),
-                    child: Row(
-                      children: [
-                        // Radio Selection Circle
-                        Container(
-                          width: 24,
-                          height: 24,
-                          decoration: BoxDecoration(
-                            shape: BoxShape.circle,
-                            color: isSelected ? AppColors.gold : Colors.transparent,
-                            border: Border.all(
-                              color: isSelected ? AppColors.gold : AppColors.textMuted,
-                              width: 2,
-                            ),
-                          ),
-                          child: isSelected
-                              ? const Icon(Icons.check, size: 16, color: Colors.black)
-                              : null,
-                        ),
-                        const SizedBox(width: 14),
-
-                        // Plan Info
-                        Expanded(
-                          child: Column(
-                            crossAxisAlignment: CrossAxisAlignment.start,
-                            children: [
-                              Row(
-                                children: [
-                                  Text(
-                                    plan.title,
-                                    style: AppTextStyles.titleMedium.copyWith(
-                                      fontWeight: FontWeight.bold,
-                                      color: Colors.white,
-                                    ),
-                                  ),
-                                  if (plan.badge != null) ...[
-                                    const SizedBox(width: 8),
-                                    Container(
-                                      padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 2),
-                                      decoration: BoxDecoration(
-                                        gradient: const LinearGradient(
-                                          colors: [AppColors.gold, AppColors.goldLight],
-                                        ),
-                                        borderRadius: BorderRadius.circular(8),
-                                        boxShadow: [
-                                          BoxShadow(
-                                            color: AppColors.gold.withValues(alpha: 0.3),
-                                            blurRadius: 8,
-                                          ),
-                                        ],
-                                      ),
-                                      child: Text(
-                                        plan.badge!,
-                                        style: const TextStyle(
-                                          color: Colors.black,
-                                          fontWeight: FontWeight.w800,
-                                          fontSize: 10,
-                                        ),
-                                      ),
-                                    ),
-                                  ],
-                                ],
-                              ),
-                              const SizedBox(height: 3),
-                              Text(
-                                plan.subtitle,
-                                style: AppTextStyles.bodySmall.copyWith(
-                                  color: AppColors.textMuted,
-                                  fontSize: 12,
-                                ),
-                              ),
-                            ],
-                          ),
-                        ),
-
-                        // Price Column
-                        Column(
-                          crossAxisAlignment: CrossAxisAlignment.end,
-                          children: [
-                            Text(
-                              plan.price,
-                              style: AppTextStyles.titleMedium.copyWith(
-                                color: isSelected ? AppColors.gold : Colors.white,
-                                fontWeight: FontWeight.w800,
-                                fontSize: 18,
-                              ),
-                            ),
-                            Text(
-                              plan.billedText,
-                              style: AppTextStyles.labelSmall.copyWith(
-                                color: AppColors.textMuted,
-                                fontSize: 10,
-                              ),
-                            ),
-                          ],
-                        ),
-                      ],
-                    ),
-                  ),
-                );
-              }).animate().fadeIn(delay: 250.ms),
-
-              const SizedBox(height: 12),
-
-              // ─── Purchase Action Button ───
-              AnimatedButton(
-                text: _selectedPlanIndex == 1
-                    ? 'Yıllık Premium\'a Geç'
-                    : 'Aylık Premium\'a Geç',
-                onPressed: () => _handlePurchase(selectedPlan.id),
-                width: double.infinity,
-                height: 56,
-                icon: Icons.star_rounded,
-              ).animate().fadeIn(delay: 350.ms).slideY(begin: 0.12, end: 0),
-
-              const SizedBox(height: 16),
-
-              // ─── Auto-Renew Disclosure (App Store Required) ───
-              Text(
-                'Abonelik, cari dönemin bitiminden en az 24 saat önce iptal edilmediği sürece otomatik olarak yenilenir. Ödemeler onaylandığında iTunes / Google Play Hesabınızdan tahsil edilir. Aboneliğinizi istediğiniz zaman Hesap Ayarlarınızdan yönetebilir veya iptal edebilirsiniz.',
-                style: AppTextStyles.labelSmall.copyWith(
-                  color: AppColors.textMuted.withValues(alpha: 0.65),
-                  fontSize: 10,
-                  height: 1.45,
-                ),
-                textAlign: TextAlign.center,
               ),
+            );
+          }).animate().fadeIn(delay: 250.ms),
 
-              const SizedBox(height: 16),
+          const SizedBox(height: 12),
 
-              // ─── Legal Footer: EULA, Privacy & Restore Links ───
-              Row(
-                mainAxisAlignment: MainAxisAlignment.center,
-                children: [
-                  _buildLegalLink(
-                    'Kullanım Koşulları (EULA)',
-                    () => _openUrl(eulaUrl),
-                  ),
-                  _buildLegalDivider(),
-                  _buildLegalLink(
-                    'Gizlilik Politikası',
-                    () => _openUrl(privacyPolicyUrl),
-                  ),
-                  _buildLegalDivider(),
-                  _buildLegalLink(
-                    'Geri Yükle',
-                    _handleRestore,
-                  ),
-                ],
-              ),
-            ],
+          // ─── CTA Button ───
+          AnimatedButton(
+            text: _isProcessing
+                ? (l10n?.premiumProcessing ?? 'Processing...')
+                : (_selectedPlanIndex == 1
+                    ? (l10n?.premiumCtaYearly ?? 'Get Yearly Premium')
+                    : (l10n?.premiumCtaMonthly ?? 'Get Monthly Premium')),
+            onPressed: _isProcessing ? null : () => _handlePurchase(selectedProductId),
+            width: double.infinity,
+            height: 56,
+            icon: _isProcessing ? null : Icons.star_rounded,
+            isLoading: _isProcessing,
+          ).animate().fadeIn(delay: 350.ms).slideY(begin: 0.12, end: 0),
+
+          const SizedBox(height: 16),
+
+          // ─── Auto-Renew Disclosure ───
+          Text(
+            l10n?.premiumDisclosure ?? 'Payment is charged to your Apple ID account upon confirmation. Subscription automatically renews unless cancelled at least 24 hours before the end of the current period.',
+            style: AppTextStyles.labelSmall.copyWith(color: AppColors.textMuted.withValues(alpha: 0.65), fontSize: 10, height: 1.45),
+            textAlign: TextAlign.center,
           ),
 
+          const SizedBox(height: 16),
 
+          // ─── Legal Footer ───
+          Row(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              _buildLegalLink(l10n?.premiumEula ?? 'Terms of Use (EULA)', () => _openUrl(eulaUrl)),
+              _buildLegalDivider(),
+              _buildLegalLink(l10n?.premiumPrivacy ?? 'Privacy Policy', () => _openUrl(privacyPolicyUrl)),
+              _buildLegalDivider(),
+              _buildLegalLink(l10n?.premiumRestore ?? 'Restore', _handleRestore),
+            ],
+          ),
         ],
       ),
     );
@@ -490,10 +408,7 @@ class _PremiumScreenState extends State<PremiumScreen> {
         Container(
           margin: const EdgeInsets.only(top: 2),
           padding: const EdgeInsets.all(6),
-          decoration: BoxDecoration(
-            color: AppColors.gold.withValues(alpha: 0.15),
-            shape: BoxShape.circle,
-          ),
+          decoration: BoxDecoration(color: AppColors.gold.withValues(alpha: 0.15), shape: BoxShape.circle),
           child: Icon(icon, color: AppColors.gold, size: 16),
         ),
         const SizedBox(width: 12),
@@ -501,23 +416,9 @@ class _PremiumScreenState extends State<PremiumScreen> {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              Text(
-                title,
-                style: AppTextStyles.bodyMedium.copyWith(
-                  color: Colors.white,
-                  fontWeight: FontWeight.w600,
-                  fontSize: 13,
-                ),
-              ),
+              Text(title, style: AppTextStyles.bodyMedium.copyWith(color: Colors.white, fontWeight: FontWeight.w600, fontSize: 13)),
               const SizedBox(height: 2),
-              Text(
-                subtitle,
-                style: AppTextStyles.bodySmall.copyWith(
-                  color: AppColors.textMuted,
-                  fontSize: 11,
-                  height: 1.3,
-                ),
-              ),
+              Text(subtitle, style: AppTextStyles.bodySmall.copyWith(color: AppColors.textMuted, fontSize: 11, height: 1.3)),
             ],
           ),
         ),
@@ -530,15 +431,7 @@ class _PremiumScreenState extends State<PremiumScreen> {
       onTap: onTap,
       child: Padding(
         padding: const EdgeInsets.symmetric(horizontal: 4, vertical: 4),
-        child: Text(
-          text,
-          style: AppTextStyles.labelSmall.copyWith(
-            color: AppColors.textSecondary,
-            fontSize: 10,
-            decoration: TextDecoration.underline,
-            decorationColor: AppColors.textMuted,
-          ),
-        ),
+        child: Text(text, style: AppTextStyles.labelSmall.copyWith(color: AppColors.textSecondary, fontSize: 10, decoration: TextDecoration.underline, decorationColor: AppColors.textMuted)),
       ),
     );
   }
@@ -546,13 +439,7 @@ class _PremiumScreenState extends State<PremiumScreen> {
   Widget _buildLegalDivider() {
     return Padding(
       padding: const EdgeInsets.symmetric(horizontal: 4),
-      child: Text(
-        '•',
-        style: TextStyle(
-          color: AppColors.textMuted.withValues(alpha: 0.5),
-          fontSize: 10,
-        ),
-      ),
+      child: Text('•', style: TextStyle(color: AppColors.textMuted.withValues(alpha: 0.5), fontSize: 10)),
     );
   }
 }
