@@ -13,8 +13,8 @@ class PurchaseService extends ChangeNotifier {
   static const String _keyIsPremium = 'user_is_premium_active';
 
   // ─── Product IDs — Must match App Store Connect exactly ─────────
-  static const String productMonthly = 'com.kahramanapp.neyesek.premium.monthly';
-  static const String productYearly = 'com.kahramanapp.neyesek.premium.yearly';
+  static const String productMonthly = 'com.neyesek.app.premium.monthly';
+  static const String productYearly = 'com.neyesek.app.premium.yearly';
 
   static const Set<String> allProductIds = {
     productMonthly,
